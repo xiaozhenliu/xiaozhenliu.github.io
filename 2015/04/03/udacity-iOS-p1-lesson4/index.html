@@ -4,22 +4,31 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>启 | Live in the Future, then Build What&#39;s Missing</title>
+    <title>udacity-iOS-p1-lesson4 | Live in the Future, then Build What&#39;s Missing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Xiaozhen Liu">
     
 
     
-    <meta name="description" content="这里是我的技术笔记。其他博客内容见主站点。">
+    <meta name="description" content="Todo:Change View Controller Name
+Change the file name
+Change notes and class name in the file
+Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
 <meta property="og:type" content="article">
-<meta property="og:title" content="启">
-<meta property="og:url" content="http://tech.xiaozhenliu.com/2015/04/03/启/index.html">
+<meta property="og:title" content="udacity-iOS-p1-lesson4">
+<meta property="og:url" content="http://tech.xiaozhenliu.com/2015/04/03/udacity-iOS-p1-lesson4/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="这里是我的技术笔记。其他博客内容见主站点。">
+<meta property="og:description" content="Todo:Change View Controller Name
+Change the file name
+Change notes and class name in the file
+Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="启">
-<meta name="twitter:description" content="这里是我的技术笔记。其他博客内容见主站点。">
+<meta name="twitter:title" content="udacity-iOS-p1-lesson4">
+<meta name="twitter:description" content="Todo:Change View Controller Name
+Change the file name
+Change notes and class name in the file
+Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
 
     
     <link rel="alternative" href="/atom.xml" title="Live in the Future, then Build What&#39;s Missing" type="application/atom+xml">
@@ -78,14 +87,14 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/04/03/启/" title="启" itemprop="url">启</a>
+      <a href="/2015/04/03/udacity-iOS-p1-lesson4/" title="udacity-iOS-p1-lesson4" itemprop="url">udacity-iOS-p1-lesson4</a>
   </h1>
   <p class="article-author">By
        
 		<a href="http://tech.xiaozhenliu.com/about" title="Xiaozhen Liu" target="_blank" itemprop="author">Xiaozhen Liu</a>
 		
   <p class="article-time">
-    <time datetime="2015-04-03T09:17:05.000Z" itemprop="datePublished"> 发表于 2015-04-03</time>
+    <time datetime="2015-04-03T09:28:28.000Z" itemprop="datePublished"> 发表于 2015-04-03</time>
     
   </p>
 </header>
@@ -94,11 +103,19 @@
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Todo:"><span class="toc-number">1.</span> <span class="toc-text">Todo:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Change_View_Controller_Name"><span class="toc-number">1.1.</span> <span class="toc-text">Change View Controller Name</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Record_Audio"><span class="toc-number">1.2.</span> <span class="toc-text">Record Audio</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		<p>这里是我的技术笔记。<br>其他博客内容见主站点。</p>
+		<h1 id="Todo:">Todo:</h1><h2 id="Change_View_Controller_Name">Change View Controller Name</h2><ul>
+<li>Change the file name</li>
+<li>Change notes and class name in the file</li>
+<li>Change view controller attibutes via storyboard<h2 id="Record_Audio">Record Audio</h2>Code:<br><pre><code> import AVFoundation<br>//Declared Globally<br>var audioRecorder:AVAudioRecorder!</code></pre></li>
+</ul>
+<p>//Inside func recordAudio(sender: UIButton)<br>let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String</p>
+<p>let currentDateTime = NSDate()<br>let formatter = NSDateFormatter()<br>formatter.dateFormat = “ddMMyyyy-HHmmss”<br>let recordingName = formatter.stringFromDate(currentDateTime)+”.wav”<br>let pathArray = [dirPath, recordingName]<br>let filePath = NSURL.fileURLWithPathComponents(pathArray)<br>println(filePath)</p>
+<p>var session = AVAudioSession.sharedInstance()<br>session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)</p>
+<p>audioRecorder = AVAudioRecorder(URL: filePath, settings: nil, error: nil)<br>audioRecorder.meteringEnabled = true<br>audioRecorder.record()</p>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -111,7 +128,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://tech.xiaozhenliu.com/2015/04/03/启/" data-title="启 | Live in the Future, then Build What&#39;s Missing" data-tsina="null" class="share clearfix">
+	  <div data-url="http://tech.xiaozhenliu.com/2015/04/03/udacity-iOS-p1-lesson4/" data-title="udacity-iOS-p1-lesson4 | Live in the Future, then Build What&#39;s Missing" data-tsina="null" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -124,14 +141,14 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2015/04/03/udacity-iOS-p1-lesson1/" title="udacity-iOS-p1-lesson1">
-  <strong>上一篇：</strong><br/>
-  <span>
-  udacity-iOS-p1-lesson1</span>
+
+<div class="next">
+<a href="/2015/04/03/udacity-iOS-p1-lesson3/"  title="udacity-iOS-p1-lesson3">
+ <strong>下一篇：</strong><br/> 
+ <span>udacity-iOS-p1-lesson3
+</span>
 </a>
 </div>
-
 
 </nav>
 
@@ -143,7 +160,7 @@
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Todo:"><span class="toc-number">1.</span> <span class="toc-text">Todo:</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Change_View_Controller_Name"><span class="toc-number">1.1.</span> <span class="toc-text">Change View Controller Name</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Record_Audio"><span class="toc-number">1.2.</span> <span class="toc-text">Record Audio</span></a></li></ol></li></ol>
  
   </div>
 
