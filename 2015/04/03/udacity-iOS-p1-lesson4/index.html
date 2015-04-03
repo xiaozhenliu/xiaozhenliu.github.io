@@ -14,7 +14,10 @@
     <meta name="description" content="Todo:Change View Controller Name
 Change the file name
 Change notes and class name in the file
-Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
+Change view controller attibutes via storyboard
+Record AudioCode:
+    import AVFoundation
+  //Declared Glo">
 <meta property="og:type" content="article">
 <meta property="og:title" content="udacity-iOS-p1-lesson4">
 <meta property="og:url" content="http://tech.xiaozhenliu.com/2015/04/03/udacity-iOS-p1-lesson4/index.html">
@@ -22,13 +25,19 @@ Change view controller attibutes via storyboardRecord AudioCode: import AVFounda
 <meta property="og:description" content="Todo:Change View Controller Name
 Change the file name
 Change notes and class name in the file
-Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
+Change view controller attibutes via storyboard
+Record AudioCode:
+    import AVFoundation
+  //Declared Glo">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="udacity-iOS-p1-lesson4">
 <meta name="twitter:description" content="Todo:Change View Controller Name
 Change the file name
 Change notes and class name in the file
-Change view controller attibutes via storyboardRecord AudioCode: import AVFoundation//Declared Globallyvar">
+Change view controller attibutes via storyboard
+Record AudioCode:
+    import AVFoundation
+  //Declared Glo">
 
     
     <link rel="alternative" href="/atom.xml" title="Live in the Future, then Build What&#39;s Missing" type="application/atom+xml">
@@ -110,12 +119,30 @@ Change view controller attibutes via storyboardRecord AudioCode: import AVFounda
 		<h1 id="Todo:">Todo:</h1><h2 id="Change_View_Controller_Name">Change View Controller Name</h2><ul>
 <li>Change the file name</li>
 <li>Change notes and class name in the file</li>
-<li>Change view controller attibutes via storyboard<h2 id="Record_Audio">Record Audio</h2>Code:<br><pre><code> import AVFoundation<br>//Declared Globally<br>var audioRecorder:AVAudioRecorder!</code></pre></li>
+<li><p>Change view controller attibutes via storyboard</p>
+<h2 id="Record_Audio">Record Audio</h2><p>Code:</p>
+<pre><code>    import AVFoundation
+  //Declared Globally
+  var audioRecorder:AVAudioRecorder!
+
+  //Inside func recordAudio(sender: UIButton)
+   let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String
+
+  let currentDateTime = NSDate()
+  let formatter = NSDateFormatter()
+  formatter.dateFormat = "ddMMyyyy-HHmmss"
+  let recordingName = formatter.stringFromDate(currentDateTime)+".wav"
+  let pathArray = [dirPath, recordingName]
+  let filePath = NSURL.fileURLWithPathComponents(pathArray)
+  println(filePath)
+
+  var session = AVAudioSession.sharedInstance()
+  session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+  audioRecorder = AVAudioRecorder(URL: filePath, settings: nil, error: nil)
+  audioRecorder.meteringEnabled = true
+  audioRecorder.record()
+</code></pre></li>
 </ul>
-<p>//Inside func recordAudio(sender: UIButton)<br>let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)[0] as String</p>
-<p>let currentDateTime = NSDate()<br>let formatter = NSDateFormatter()<br>formatter.dateFormat = “ddMMyyyy-HHmmss”<br>let recordingName = formatter.stringFromDate(currentDateTime)+”.wav”<br>let pathArray = [dirPath, recordingName]<br>let filePath = NSURL.fileURLWithPathComponents(pathArray)<br>println(filePath)</p>
-<p>var session = AVAudioSession.sharedInstance()<br>session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)</p>
-<p>audioRecorder = AVAudioRecorder(URL: filePath, settings: nil, error: nil)<br>audioRecorder.meteringEnabled = true<br>audioRecorder.record()</p>
   
 	</div>
 		<footer class="article-footer clearfix">
