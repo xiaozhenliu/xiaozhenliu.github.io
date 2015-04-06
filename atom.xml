@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Live in the Future, then Build What's Missing]]></title>
+  <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://tech.liuxiaozhen.com/"/>
+  <updated>2015-04-03T09:18:02.000Z</updated>
+  <id>http://tech.liuxiaozhen.com/</id>
+  
+  <author>
+    <name><![CDATA[Liu Xiaozhen]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[启]]></title>
+    <link href="http://tech.liuxiaozhen.com/2015/04/03/%E5%90%AF/"/>
+    <id>http://tech.liuxiaozhen.com/2015/04/03/启/</id>
+    <published>2015-04-03T09:17:05.000Z</published>
+    <updated>2015-04-03T09:18:02.000Z</updated>
+    <content type="html"><![CDATA[<p>这里是我的技术笔记。<br>其他博客内容见主站点。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>这里是我的技术笔记。<br>其他博客内容见主站点。</p>
+]]>
+    </summary>
+    
+  </entry>
+  
+</feed>
