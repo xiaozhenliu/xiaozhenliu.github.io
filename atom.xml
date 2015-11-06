@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2015-04-03T09:18:02.000Z</updated>
+  <updated>2015-11-06T08:22:12.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -15,16 +15,103 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Python for Everybody by University of Michigan (1)]]></title>
+    <link href="http://tech.liuxiaozhen.com/2015/11/06/Python-for-Everybody-1/"/>
+    <id>http://tech.liuxiaozhen.com/2015/11/06/Python-for-Everybody-1/</id>
+    <published>2015-11-06T08:22:12.000Z</published>
+    <updated>2015-11-06T08:22:12.000Z</updated>
+    <content type="html"><![CDATA[<p><em>This note is for the first course of University of Michigan online series “Python for Everybody Specialization” taught by Professor Charles Severance on Coursera.org, 2015 October session.</em></p>
+<h1 id="Week_1">Week 1</h1><h2 id="Why_Program?">Why Program?</h2><h2 id="Hardware">Hardware</h2><ul>
+<li>CPU</li>
+<li>I/O</li>
+<li>Memory (RAM)</li>
+<li>Secondary Memory</li>
+</ul>
+<h2 id="Python">Python</h2><ul>
+<li>Vocabulary/Words - Variables and Reserved words</li>
+<li>Sentence structure - valid syntax patterns</li>
+<li>Story structure - constructing a program for a purpose</li>
+</ul>
+<h1 id="Week_2">Week 2</h1><h2 id="Install_Python">Install Python</h2><ul>
+<li>IDLE</li>
+<li>Python Downloads: <a href="https://www.python.org/downloads/" target="_blank" rel="external">https://www.python.org/downloads/</a></li>
+<li>Text Editor</li>
+</ul>
+<h1 id="Week_3">Week 3</h1><h2 id="Simple_program">Simple program</h2><ul>
+<li>Sequential steps</li>
+<li>Conditional steps</li>
+<li>Repeated steps</li>
+</ul>
+<h2 id="Think_like_a_program">Think like a program</h2><ul>
+<li>How to find the largest number?</li>
+</ul>
+<h1 id="Week_4">Week 4</h1><h2 id="Expressions">Expressions</h2><ul>
+<li>Variables and Constants <ul>
+<li>Constants</li>
+<li>Python variable name rules: start with letters, case sensitive</li>
+</ul>
+</li>
+<li>Sentences or lines<ul>
+<li>Assignment statement: <code>x = 2</code></li>
+<li>Assignment with expression: <code>x = x + 2</code> <ul>
+<li>Print statement: <code>print x</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Operator<ul>
+<li>Numeric expressions: +, -, <em>, /, *</em>, %</li>
+<li>Operator precedence rules: parenthesis, power, multiplication, addition, left to right<ul>
+<li>Reserved words</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Variables">Variables</h2><ul>
+<li>Type<ul>
+<li>Interger</li>
+<li>Float</li>
+<li>String</li>
+<li>…</li>
+</ul>
+</li>
+<li>Type conversions<ul>
+<li>Type of x: <code>type(x)</code></li>
+<li>Convert x to an interger <code>int(x)</code></li>
+<li>Convert x to a float<code>float(x)</code></li>
+</ul>
+</li>
+<li>User Input<ul>
+<li><code>nam = raw_input(&quot;Who are you?&quot;)</code></li>
+</ul>
+</li>
+<li>Comments in Python: anything after <code>#</code></li>
+<li>Variable naming style</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><em>This note is for the first course of University of Michigan online series “Python for Everybody Specialization” taught by Professor C]]>
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[启]]></title>
     <link href="http://tech.liuxiaozhen.com/2015/04/03/%E5%90%AF/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/启/</id>
     <published>2015-04-03T09:17:05.000Z</published>
-    <updated>2015-04-03T09:18:02.000Z</updated>
-    <content type="html"><![CDATA[<p>这里是我的技术笔记。<br>其他博客内容见主站点。</p>
+    <updated>2015-04-11T03:50:05.000Z</updated>
+    <content type="html"><![CDATA[<p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
+<p>tinyfool在去年的一篇<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">《寻找和突破心障》</a>中说：</p>
+<blockquote>
+<p>人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走的心，但是你哪里都没有去过，那就是心障。</p>
+</blockquote>
+<p>关于编程，我想我并非真的完全没有时间，而仅仅出于心障而没有做。近年来，在效率和心智方面收获许多，对于开启这样一段旅程慢慢有了信心。写笔记，更多的是希望靠输出的过程来加强学习效果。若能在比特世界，无意间给一些人帮助，则幸甚至哉。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>这里是我的技术笔记。<br>其他博客内容见主站点。</p>
-]]>
+    <![CDATA[<p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
+<p>tinyfool在去年的一篇<a href="http://www.jiansh]]>
     </summary>
     
   </entry>
