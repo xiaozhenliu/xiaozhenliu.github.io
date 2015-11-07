@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2015-11-06T08:22:12.000Z</updated>
+  <updated>2015-11-07T10:18:52.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://tech.liuxiaozhen.com/2015/11/06/Python-for-Everybody-1/"/>
     <id>http://tech.liuxiaozhen.com/2015/11/06/Python-for-Everybody-1/</id>
     <published>2015-11-06T08:22:12.000Z</published>
-    <updated>2015-11-06T08:22:12.000Z</updated>
+    <updated>2015-11-07T10:18:52.000Z</updated>
     <content type="html"><![CDATA[<p><em>This note is for the first course of University of Michigan online series “Python for Everybody Specialization” taught by Professor Charles Severance on Coursera.org, 2015 October session.</em></p>
 <h1 id="Week_1">Week 1</h1><h2 id="Why_Program?">Why Program?</h2><h2 id="Hardware">Hardware</h2><ul>
 <li>CPU</li>
 <li>I/O</li>
-<li>Memory (RAM)</li>
+<li>Main sMemory (RAM)</li>
 <li>Secondary Memory</li>
 </ul>
 <h2 id="Python">Python</h2><ul>
@@ -93,6 +93,14 @@
     <summary type="html">
     <![CDATA[<p><em>This note is for the first course of University of Michigan online series “Python for Everybody Specialization” taught by Professor C]]>
     </summary>
+    
+      <category term="Courera" scheme="http://tech.liuxiaozhen.com/tags/Courera/"/>
+    
+      <category term="Expression" scheme="http://tech.liuxiaozhen.com/tags/Expression/"/>
+    
+      <category term="Python" scheme="http://tech.liuxiaozhen.com/tags/Python/"/>
+    
+      <category term="Variable" scheme="http://tech.liuxiaozhen.com/tags/Variable/"/>
     
   </entry>
   
