@@ -1,0 +1,615 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>How to Use Git and GitHub | Live in the Future, then Build What&#39;s Missing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="Liu Xiaozhen">
+    
+
+    
+    <meta name="description" content="This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.
+Lesson 1Find differences between two large filesCommands:
+
+Windows: FC
+Mac/Linux: Diff
+
+
+Reflect: How did vi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="How to Use Git and GitHub">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/index.html">
+<meta property="og:site_name" content="Live in the Future, then Build What's Missing">
+<meta property="og:description" content="This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.
+Lesson 1Find differences between two large filesCommands:
+
+Windows: FC
+Mac/Linux: Diff
+
+
+Reflect: How did vi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="How to Use Git and GitHub">
+<meta name="twitter:description" content="This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.
+Lesson 1Find differences between two large filesCommands:
+
+Windows: FC
+Mac/Linux: Diff
+
+
+Reflect: How did vi">
+<meta name="twitter:creator" content="@xiaozhenliu">
+<link rel="publisher" href="110358754558341446765">
+
+    
+    <link rel="alternative" href="/atom.xml" title="Live in the Future, then Build What&#39;s Missing" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.png" alt="Live in the Future, then Build What&#39;s Missing" title="Live in the Future, then Build What&#39;s Missing"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="Live in the Future, then Build What&#39;s Missing">Live in the Future, then Build What&#39;s Missing</a></h1>
+				<h2 class="blog-motto">刘虓震的技术笔记</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">Home | 首页</a></li>
+					
+						<li><a href="http://blog.liuxiaozhen.com">Blog | 博客</a></li>
+					
+						<li><a href="/archives">Archives | 归档</a></li>
+					
+						<li><a href="/about">About | 关于</a></li>
+					
+					<li>
+ 					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:tech.liuxiaozhen.com">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2016/03/07/ND-FE-01-GitHub-Notes/" title="How to Use Git and GitHub" itemprop="url">How to Use Git and GitHub</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="https://plus.google.com/110358754558341446765?rel=author" title="Liu Xiaozhen" target="_blank" itemprop="author">Liu Xiaozhen</a>
+		
+  <p class="article-time">
+    <time datetime="2016-03-07T10:58:45.000Z" itemprop="datePublished"> 发表于 2016-03-07</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Lesson_1"><span class="toc-number">1.</span> <span class="toc-text">Lesson 1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Find_differences_between_two_large_files"><span class="toc-number">1.1.</span> <span class="toc-text">Find differences between two large files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Versions"><span class="toc-number">1.2.</span> <span class="toc-text">Versions</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mannual_Commits"><span class="toc-number">1.3.</span> <span class="toc-text">Mannual Commits</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Use_Git_to_View_History"><span class="toc-number">1.4.</span> <span class="toc-text">Use Git to View History</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Commits_with_Multiple_Files"><span class="toc-number">1.5.</span> <span class="toc-text">Commits with Multiple Files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git_Commands"><span class="toc-number">1.6.</span> <span class="toc-text">Git Commands</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Making_Git_configurations"><span class="toc-number">1.7.</span> <span class="toc-text">Making Git configurations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Summary"><span class="toc-number">1.8.</span> <span class="toc-text">Summary</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lesson_2"><span class="toc-number">2.</span> <span class="toc-text">Lesson 2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Initialize"><span class="toc-number">2.1.</span> <span class="toc-text">Initialize</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Choosing_what_changes_to_commit"><span class="toc-number">2.2.</span> <span class="toc-text">Choosing what changes to commit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Write_a_commit_message"><span class="toc-number">2.3.</span> <span class="toc-text">Write a commit message</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git_diff_revisited"><span class="toc-number">2.4.</span> <span class="toc-text">Git diff revisited</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_and_commit_branches"><span class="toc-number">2.5.</span> <span class="toc-text">Create and commit branches</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Branches_for_Collaboration"><span class="toc-number">2.6.</span> <span class="toc-text">Branches for Collaboration</span></a></li></ol></li></ol>
+		
+		</div>
+		
+		<p><em>This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
+<h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
+<ul>
+<li>Windows: FC</li>
+<li>Mac/Linux: Diff</li>
+</ul>
+<blockquote>
+<p>Reflect: How did viewing a diff between two versions help you spot the bug?<br>Answer: By looking at the differences between two versions, I know which changes have been made that caused the bug.</p>
+</blockquote>
+<p>Choose a text editor: Notepad++, Sublim, Atom, emacs, vim, etc. </p>
+<p><strong>I picked Atom.</strong></p>
+<h3 id="Versions">Versions</h3><ul>
+<li>Saving manual copies</li>
+<li>Dropbox (periodically save versions automatically)</li>
+<li>Google Docs (periodically save versions automatically)</li>
+<li>Wikipedia (versions by different authors)</li>
+<li>Git</li>
+<li>SVN</li>
+</ul>
+<blockquote>
+<p>Reflect: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?<br>I don’t have to remember all the changes and the reasons for making them. With all the histories stored in exact forms, I can just look back at them when needed. Also, it helps me to learn from my own mistakes and allow me to do experiments without worrying about breaking things. </p>
+</blockquote>
+<p><strong>Feature Comparison Chart</strong></p>
+<blockquote>
+<p>Quiz: When to save: as a programer, when would you want to have version of your code saved?</p>
+<ul>
+<li>At regular intervals (e.g. every hour)</li>
+<li>Whenever a large enough change is made (e.g. 50 lines)</li>
+<li>Whenever there is a long pause in editing</li>
+<li><strong>When you choose to save a version</strong></li>
+</ul>
+</blockquote>
+<h3 id="Mannual_Commits">Mannual Commits</h3><p>Git requires a message with each commit</p>
+<p>Cases that need a new commit:</p>
+<ul>
+<li>fix off-by-one bug</li>
+<li>add cool new feature</li>
+<li>improve user docs</li>
+</ul>
+<h3 id="Use_Git_to_View_History">Use Git to View History</h3><p><strong>[Offline]</strong></p>
+<ul>
+<li>Each commit has an ID, an Autor, Date/Time, and a message</li>
+<li><code>git diff ID1 ID2</code></li>
+<li><p>Judgment Call</p>
+<blockquote>
+<p>Choosing when to commit is a judgment call, and it’s not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Commits_with_Multiple_Files">Commits with Multiple Files</h3><ul>
+<li>A repository contains multiple files</li>
+<li>Make changes in different files together and track in one commit<blockquote>
+<p>Reflect: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?<br>Because Git takes a mannual and logical approach, and keeps the records in one git file for each repo. For others, they keep the records as part of the information related to one file.</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="Git_Commands">Git Commands</h3><p><strong>[Online]</strong></p>
+<ul>
+<li>Clone a repo <code>git clone _repo_url_</code><br>(<a href="https://github.com/udacity/asteroids.git" target="_blank" rel="external">https://github.com/udacity/asteroids.git</a>)</li>
+<li><code>git log</code></li>
+<li><code>git diff</code></li>
+<li>Check commit: <code>git checkout _commit ID_</code></li>
+</ul>
+<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">"atom --wait"</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
+<h3 id="Summary">Summary</h3><ul>
+<li>Why use Git</li>
+<li>Git Setup</li>
+<li>Git commands: clone, log, diff, checkout</li>
+</ul>
+<h2 id="Lesson_2">Lesson 2</h2><h3 id="Initialize">Initialize</h3><p><strong>[Offline]</strong></p>
+<ul>
+<li><code>git init</code></li>
+<li>When a git is initialized, no commit is included</li>
+<li>Check git status: <code>git status</code></li>
+</ul>
+<h3 id="Choosing_what_changes_to_commit">Choosing what changes to commit</h3><ul>
+<li>working directory -&gt; staging area -&gt; repository</li>
+<li><code>git add _file_to_update_</code> will add named files to staging area</li>
+<li>remove from staging area by using <code>git reset</code></li>
+</ul>
+<h3 id="Write_a_commit_message">Write a commit message</h3><ul>
+<li><code>git commit</code> will open the editor</li>
+<li>standard practice: write a message as if it is a command</li>
+<li><code>git commit -m &quot;Commit message&quot;</code></li>
+<li>commit message <a href="http://udacity.github.io/git-styleguide/" target="_blank" rel="external">style guide</a></li>
+</ul>
+<h3 id="Git_diff_revisited">Git diff revisited</h3><ul>
+<li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
+<li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
+<li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
+<li>Leave ‘detached HEAD’ state: <code>git checkout master</code></li>
+</ul>
+<h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
+<li>One branch is enough: fix bug, new feature, update docs</li>
+<li>More than one branch: experimental feature, Italian version</li>
+<li>Most recent commit of a branch: tip of a branch</li>
+<li>Show all the branches and the current branch is marked with * : <code>git branch</code></li>
+<li>Create a branch: <code>git branch &quot;branch_name&quot;</code></li>
+<li>Switch to a branch: <code>git checkout &quot;branch_name&quot;</code></li>
+</ul>
+<h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
+<ul>
+<li>remote branch</li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/" data-title="How to Use Git and GitHub | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/04/03/启/"  title="启">
+ <strong>下一篇：</strong><br/> 
+ <span>启
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+<section id="comments" class="comment">
+	<div class="ds-thread" data-thread-key="2016/03/07/ND-FE-01-GitHub-Notes/" data-title="How to Use Git and GitHub" data-url="http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/"></div>
+</section>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Lesson_1"><span class="toc-number">1.</span> <span class="toc-text">Lesson 1</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Find_differences_between_two_large_files"><span class="toc-number">1.1.</span> <span class="toc-text">Find differences between two large files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Versions"><span class="toc-number">1.2.</span> <span class="toc-text">Versions</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Mannual_Commits"><span class="toc-number">1.3.</span> <span class="toc-text">Mannual Commits</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Use_Git_to_View_History"><span class="toc-number">1.4.</span> <span class="toc-text">Use Git to View History</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Commits_with_Multiple_Files"><span class="toc-number">1.5.</span> <span class="toc-text">Commits with Multiple Files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git_Commands"><span class="toc-number">1.6.</span> <span class="toc-text">Git Commands</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Making_Git_configurations"><span class="toc-number">1.7.</span> <span class="toc-text">Making Git configurations</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Summary"><span class="toc-number">1.8.</span> <span class="toc-text">Summary</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Lesson_2"><span class="toc-number">2.</span> <span class="toc-text">Lesson 2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Initialize"><span class="toc-number">2.1.</span> <span class="toc-text">Initialize</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Choosing_what_changes_to_commit"><span class="toc-number">2.2.</span> <span class="toc-text">Choosing what changes to commit</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Write_a_commit_message"><span class="toc-number">2.3.</span> <span class="toc-text">Write a commit message</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Git_diff_revisited"><span class="toc-number">2.4.</span> <span class="toc-text">Git diff revisited</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Create_and_commit_branches"><span class="toc-number">2.5.</span> <span class="toc-text">Create and commit branches</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Branches_for_Collaboration"><span class="toc-number">2.6.</span> <span class="toc-text">Branches for Collaboration</span></a></li></ol></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="https://coderq.com" target="_blank" title="一个面向程序员交流分享的新一代社区">码农圈</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+<div class="doubanshow">
+<p class="asidetitle">豆瓣秀</p>
+<div>
+<script type="text/javascript" src="http://www.douban.com/service/badge/67534041/?show=collection&amp;n=12&amp;columns=3&amp;hidelogo=yes&amp;hideself=yes&amp;cat=book|movie" ></script>
+</div>
+</div>
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> Never doubt that a small group of thoughtful, committed citizens can change the world; <br/>
+			indeed, it&#39;s the only thing that ever has.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		<a href="http://weibo.com/hohcn" target="_blank" class="icon-weibo" title="微博"></a>
+		
+		
+		<a href="https://github.com/xiaozhenliu" target="_blank" class="icon-github" title="github"></a>
+		
+		
+		
+		<a href="https://twitter.com/xiaozhenliu" target="_blank" class="icon-twitter" title="twitter"></a>
+		
+		
+		
+		<a href="https://www.linkedin.com/in/xiaozhenliu" target="_blank" class="icon-linkedin" title="linkedin"></a>
+		
+		
+		<a href="https://www.douban.com/people/67534041" target="_blank" class="icon-douban" title="豆瓣"></a>
+		
+		
+		<a href="https://www.zhihu.com/people/xiaozhenliu" target="_blank" class="icon-zhihu" title="知乎"></a>
+		
+		
+		<a href="https://plus.google.com/110358754558341446765?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
+		
+		
+		<a href="mailto:zjuhoh@gmail.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+				<div class="cc-license">
+          <a href="http://creativecommons.org/licenses/by-nc/4.0" class="cc-opacity" target="_blank">
+            <img src="/img/cc-by-nc.svg" alt="Creative Commons" />
+          </a>
+        </div>
+    
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
+		
+		<a href="http://tech.liuxiaozhen.com/about" target="_blank" title="Liu Xiaozhen">Liu Xiaozhen</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#nothing"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+<script type="text/javascript">
+  var duoshuoQuery = {short_name:"techlxz## e.g. wuchong   your duoshuo short name."};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+    || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script> 
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+
+<!-- Analytics Begin -->
+
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-61561823-1', 'tech.liuxiaozhen.com');  
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
