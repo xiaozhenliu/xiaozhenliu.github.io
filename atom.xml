@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-07T11:40:21.000Z</updated>
+  <updated>2016-03-08T12:30:54.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/</id>
     <published>2016-03-07T10:58:45.000Z</published>
-    <updated>2016-03-07T11:40:21.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
+    <updated>2016-03-08T12:30:54.000Z</updated>
+    <content type="html"><![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
@@ -123,11 +123,28 @@
 <h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>remote branch</li>
+<li>branch has parents “reachability”</li>
+<li>checkout a commit as a new branch: <code>git checkout -b _new_branch_name_</code></li>
 </ul>
-]]></content>
+<h3 id="Combining_Simple_Files">Combining Simple Files</h3><ul>
+<li>merged branch has both parents</li>
+<li><code>git merge branch_1 branch_2</code></li>
+<li><code>git show</code> show the diff of a commit with its parent</li>
+<li>deleting branches: <code>git branch -d _branch_name_</code></li>
+<li>Merge conflict: when both branches modify the same part of the files</li>
+<li>Commit the conflict resolution</li>
+<li><code>git log -n 1</code> show only 1 commit log</li>
+</ul>
+<h3 id="Summary-1">Summary</h3><ul>
+<li>Initialize git</li>
+<li>Create commits</li>
+<li>Create and commit branches</li>
+<li>Merge branches</li>
+</ul>
+<h2 id="Lesson_3">Lesson 3</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the first course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
-<h2 id="Lesson_1">Lesson 1</h2><]]>
+    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
+<h2 id="Lesson_1">Lesson 1</h2>]]>
     </summary>
     
   </entry>
