@@ -4,31 +4,25 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>启 | Live in the Future, then Build What&#39;s Missing</title>
+    <title>Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Liu Xiaozhen">
     
 
     
-    <meta name="description" content="从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。
-tinyfool在去年的一篇《寻找和突破心障》中说：
-
-人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走">
+    <meta name="description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.
+Week 1Environment SetupOctave and MATLAB are preferred in machine">
 <meta property="og:type" content="article">
-<meta property="og:title" content="启">
-<meta property="og:url" content="http://tech.liuxiaozhen.com/2015/04/03/启/index.html">
+<meta property="og:title" content="Machine Learning by Stanford University Week 1">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。
-tinyfool在去年的一篇《寻找和突破心障》中说：
-
-人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走">
+<meta property="og:description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.
+Week 1Environment SetupOctave and MATLAB are preferred in machine">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="启">
-<meta name="twitter:description" content="从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。
-tinyfool在去年的一篇《寻找和突破心障》中说：
-
-人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走">
+<meta name="twitter:title" content="Machine Learning by Stanford University Week 1">
+<meta name="twitter:description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.
+Week 1Environment SetupOctave and MATLAB are preferred in machine">
 <meta name="twitter:creator" content="@xiaozhenliu">
 <link rel="publisher" href="110358754558341446765">
 
@@ -91,14 +85,14 @@ tinyfool在去年的一篇《寻找和突破心障》中说：
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/04/03/启/" title="启" itemprop="url">启</a>
+      <a href="/2016/03/10/Machine-learning-W1/" title="Machine Learning by Stanford University Week 1" itemprop="url">Machine Learning by Stanford University Week 1</a>
   </h1>
   <p class="article-author">By
        
 		<a href="https://plus.google.com/110358754558341446765?rel=author" title="Liu Xiaozhen" target="_blank" itemprop="author">Liu Xiaozhen</a>
 		
   <p class="article-time">
-    <time datetime="2015-04-03T09:17:05.000Z" itemprop="datePublished"> 发表于 2015-04-03</time>
+    <time datetime="2016-03-10T12:41:19.000Z" itemprop="datePublished"> 发表于 2016-03-10</time>
     
   </p>
 </header>
@@ -107,21 +101,34 @@ tinyfool在去年的一篇《寻找和突破心障》中说：
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Week_1"><span class="toc-number">1.</span> <span class="toc-text">Week 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Environment_Setup"><span class="toc-number">1.1.</span> <span class="toc-text">Environment Setup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">1.2.</span> <span class="toc-text">Introduction</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Supervised_Learning"><span class="toc-number">1.2.1.</span> <span class="toc-text">Supervised Learning</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unsupervised_Learning"><span class="toc-number">1.2.2.</span> <span class="toc-text">Unsupervised Learning</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linear_Regression_with_One_Variable"><span class="toc-number">1.3.</span> <span class="toc-text">Linear Regression with One Variable</span></a></li></ol></li></ol>
 		
 		</div>
 		
-		<p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
-<p>tinyfool在去年的一篇<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">《寻找和突破心障》</a>中说：</p>
-<blockquote>
-<p>人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走的心，但是你哪里都没有去过，那就是心障。</p>
-</blockquote>
-<p>关于编程，我想我并非真的完全没有时间，而仅仅出于心障而没有做。近年来，在效率和心智方面收获许多，对于开启这样一段旅程慢慢有了信心。写笔记，更多的是希望靠输出的过程来加强学习效果。若能在比特世界，无意间给一些人帮助，则幸甚至哉。</p>
-  
+		<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.</em></p>
+<h1 id="Week_1">Week 1</h1><h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
+<p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
+<h2 id="Introduction">Introduction</h2><h3 id="Supervised_Learning">Supervised Learning</h3><ul>
+<li>Correct output are known. </li>
+<li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
+<li>Regression problem: predict results within a continuous output</li>
+<li>Classification problem: predict results in a discrete output</li>
+</ul>
+<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
+<li>No known correct output (feedback)</li>
+<li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
+<li>Examples: google story collection; cocktail party (two voice)</li>
+</ul>
+<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Coursera/">Coursera</a><a href="/tags/Machine-Learning/">Machine Learning</a>
+  </div>
 
 </div>
 
@@ -129,7 +136,7 @@ tinyfool在去年的一篇《寻找和突破心障》中说：
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://tech.liuxiaozhen.com/2015/04/03/启/" data-title="启 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
+	  <div data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -142,20 +149,20 @@ tinyfool在去年的一篇《寻找和突破心障》中说：
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/03/07/ND-FE-01-GitHub-Notes/" title="How to Use Git and GitHub">
-  <strong>上一篇：</strong><br/>
-  <span>
-  How to Use Git and GitHub</span>
+
+<div class="next">
+<a href="/2016/03/07/ND-FE-01-GitHub-Notes/"  title="How to Use Git and GitHub">
+ <strong>下一篇：</strong><br/> 
+ <span>How to Use Git and GitHub
+</span>
 </a>
 </div>
-
 
 </nav>
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2015/04/03/启/" data-title="启" data-url="http://tech.liuxiaozhen.com/2015/04/03/启/"></div>
+	<div class="ds-thread" data-thread-key="2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1" data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"></div>
 </section>
 
 
@@ -165,7 +172,7 @@ tinyfool在去年的一篇《寻找和突破心障》中说：
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- 
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Week_1"><span class="toc-number">1.</span> <span class="toc-text">Week 1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Environment_Setup"><span class="toc-number">1.1.</span> <span class="toc-text">Environment Setup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">1.2.</span> <span class="toc-text">Introduction</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Supervised_Learning"><span class="toc-number">1.2.1.</span> <span class="toc-text">Supervised Learning</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unsupervised_Learning"><span class="toc-number">1.2.2.</span> <span class="toc-text">Unsupervised Learning</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linear_Regression_with_One_Variable"><span class="toc-number">1.3.</span> <span class="toc-text">Linear Regression with One Variable</span></a></li></ol></li></ol>
  
   </div>
 

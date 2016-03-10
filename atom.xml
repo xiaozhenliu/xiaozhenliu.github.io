@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-08T12:30:54.000Z</updated>
+  <updated>2016-03-10T12:42:01.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -13,6 +13,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Machine Learning by Stanford University Week 1]]></title>
+    <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
+    <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
+    <published>2016-03-10T12:41:19.000Z</published>
+    <updated>2016-03-10T12:42:01.000Z</updated>
+    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.</em></p>
+<h1 id="Week_1">Week 1</h1><h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
+<p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
+<h2 id="Introduction">Introduction</h2><h3 id="Supervised_Learning">Supervised Learning</h3><ul>
+<li>Correct output are known. </li>
+<li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
+<li>Regression problem: predict results within a continuous output</li>
+<li>Classification problem: predict results in a discrete output</li>
+</ul>
+<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
+<li>No known correct output (feedback)</li>
+<li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
+<li>Examples: google story collection; cocktail party (two voice)</li>
+</ul>
+<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>]]></content>
+    <summary type="html">
+    <![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.]]>
+    </summary>
+    
+      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[How to Use Git and GitHub]]></title>
