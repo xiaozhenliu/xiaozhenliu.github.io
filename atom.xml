@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T05:09:09.000Z</updated>
+  <updated>2016-03-12T05:09:57.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T05:09:09.000Z</updated>
+    <updated>2016-03-12T05:09:57.000Z</updated>
     <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
@@ -46,9 +46,7 @@
 <li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
 <li>Examples: google story collection; cocktail party (distiguish two voices)</li>
 </ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><p>test of Mathjax<br>Simple inline $a = b + c$.</p>
-<p>$$\frac{\partial u}{\partial t}<br>= h^2 \left( \frac{\partial^2 u}{\partial x^2} +<br>\frac{\partial^2 u}{\partial y^2} +<br>\frac{\partial^2 u}{\partial z^2}\right)$$</p>
-]]></content>
+<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>]]></content>
     <summary type="html">
     <![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</e]]>
     </summary>
