@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T04:30:24.000Z</updated>
+  <updated>2016-03-12T04:31:46.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -13,27 +13,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title><![CDATA[周志华《机器学习》笔记第一章]]></title>
-    <link href="http://tech.liuxiaozhen.com/2016/03/12/Machine-Learning-Zhou-Chap01/"/>
-    <id>http://tech.liuxiaozhen.com/2016/03/12/Machine-Learning-Zhou-Chap01/</id>
-    <published>2016-03-12T05:00:00.000Z</published>
-    <updated>2016-03-12T04:30:24.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="1-1_引言">1.1 引言</h2><p>机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。</p>
-<h2 id="1-2_基本术语">1.2 基本术语</h2>]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="1-1_引言">1.1 引言</h2><p>机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。</p>
-<h2 id="1-2_基本术语">1.2 基本术语</h2>]]>
-    </summary>
-    
-      <category term="Book" scheme="http://tech.liuxiaozhen.com/tags/Book/"/>
-    
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
-      <category term="中文" scheme="http://tech.liuxiaozhen.com/tags/%E4%B8%AD%E6%96%87/"/>
-    
-  </entry>
   
   <entry>
     <title><![CDATA[Machine Learning by Stanford University Week 1]]></title>
