@@ -273,9 +273,9 @@ Refl">
 
 
 <div class="next">
-<a href="/2015/04/03/start/"  title="启">
+<a href="/2015/04/03/start/"  title="&amp;#x542F;">
  <strong>下一篇：</strong><br/> 
- <span>启
+ <span>&amp;#x542F;
 </span>
 </a>
 </div>
@@ -466,6 +466,11 @@ $(document).ready(function(){
   $(window).scroll(function(){
     o.css("top",Math.max(80,260-$(this).scrollTop()));
   });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
   
   $(window).resize(function(){
     getSize(); 
