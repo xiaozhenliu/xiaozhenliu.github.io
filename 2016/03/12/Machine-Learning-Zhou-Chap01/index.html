@@ -4,25 +4,25 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing</title>
+    <title>周志华《机器学习》笔记第一章 | Live in the Future, then Build What&#39;s Missing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Liu Xiaozhen">
     
 
     
-    <meta name="description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.
-Environment SetupOctave and MATLAB are preferred in machine learning.">
+    <meta name="description" content="1.1 引言机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。
+1.2 基本术语">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Machine Learning by Stanford University Week 1">
-<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/index.html">
+<meta property="og:title" content="周志华《机器学习》笔记第一章">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/12/Machine-Learning-Zhou-Chap01/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.
-Environment SetupOctave and MATLAB are preferred in machine learning.">
+<meta property="og:description" content="1.1 引言机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。
+1.2 基本术语">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Machine Learning by Stanford University Week 1">
-<meta name="twitter:description" content="This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.
-Environment SetupOctave and MATLAB are preferred in machine learning.">
+<meta name="twitter:title" content="周志华《机器学习》笔记第一章">
+<meta name="twitter:description" content="1.1 引言机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。
+1.2 基本术语">
 <meta name="twitter:creator" content="@xiaozhenliu">
 <link rel="publisher" href="110358754558341446765">
 
@@ -85,14 +85,14 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/03/10/Machine-learning-W1/" title="Machine Learning by Stanford University Week 1" itemprop="url">Machine Learning by Stanford University Week 1</a>
+      <a href="/2016/03/12/Machine-Learning-Zhou-Chap01/" title="周志华《机器学习》笔记第一章" itemprop="url">周志华《机器学习》笔记第一章</a>
   </h1>
   <p class="article-author">By
        
 		<a href="https://plus.google.com/110358754558341446765?rel=author" title="Liu Xiaozhen" target="_blank" itemprop="author">Liu Xiaozhen</a>
 		
   <p class="article-time">
-    <time datetime="2016-03-10T12:41:19.000Z" itemprop="datePublished"> 发表于 2016-03-10</time>
+    <time datetime="2016-03-12T05:00:00.000Z" itemprop="datePublished"> 发表于 2016-03-12</time>
     
   </p>
 </header>
@@ -101,37 +101,12 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Environment_Setup"><span class="toc-number">1.</span> <span class="toc-text">Environment Setup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">2.</span> <span class="toc-text">Introduction</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Supervised_Learning"><span class="toc-number">2.1.</span> <span class="toc-text">Supervised Learning</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unsupervised_Learning"><span class="toc-number">2.2.</span> <span class="toc-text">Unsupervised Learning</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linear_Regression_with_One_Variable"><span class="toc-number">3.</span> <span class="toc-text">Linear Regression with One Variable</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1_引言"><span class="toc-number">1.</span> <span class="toc-text">1.1 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2_基本术语"><span class="toc-number">2.</span> <span class="toc-text">1.2 基本术语</span></a></li></ol>
 		
 		</div>
 		
-		<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
-<h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
-<p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
-<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
-<blockquote>
-<p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
-</blockquote>
-<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
-<li>Correct outputs are known. </li>
-<li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
-<li>Regression problem: predict results within a continuous output</li>
-<li>Classification problem: predict results in a discrete output (0 or 1)</li>
-</ul>
-<p>Example: </p>
-<ul>
-<li>Boston Housing price vs size (regression)</li>
-<li>Breast cancer malignant vs benign (classification)<ul>
-<li>more than one attribute</li>
-</ul>
-</li>
-</ul>
-<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
-<li>No known correct output (feedback)</li>
-<li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
-<li>Examples: google story collection; cocktail party (distiguish two voices)</li>
-</ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>  
+		<h2 id="1-1_引言">1.1 引言</h2><p>机器学习所研究的主要内容，是关于在计算机上从数据中产生“模型”的算法，即“学习算法”（learning algorithm）。</p>
+<h2 id="1-2_基本术语">1.2 基本术语</h2>  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
@@ -139,7 +114,7 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Coursera/">Coursera</a><a href="/tags/Machine-Learning/">Machine Learning</a>
+  <span></span> <a href="/tags/Book/">Book</a><a href="/tags/Machine-Learning/">Machine Learning</a><a href="/tags/中文/">中文</a>
   </div>
 
 </div>
@@ -148,7 +123,7 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
+	  <div data-url="http://tech.liuxiaozhen.com/2016/03/12/Machine-Learning-Zhou-Chap01/" data-title="周志华《机器学习》笔记第一章 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -161,19 +136,11 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/03/12/Machine-Learning-Zhou-Chap01/" title="周志华《机器学习》笔记第一章">
-  <strong>上一篇：</strong><br/>
-  <span>
-  周志华《机器学习》笔记第一章</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2016/03/07/ND-FE-01-GitHub-Notes/"  title="How to Use Git and GitHub">
+<a href="/2016/03/10/Machine-learning-W1/"  title="Machine Learning by Stanford University Week 1">
  <strong>下一篇：</strong><br/> 
- <span>How to Use Git and GitHub
+ <span>Machine Learning by Stanford University Week 1
 </span>
 </a>
 </div>
@@ -182,7 +149,7 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1" data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"></div>
+	<div class="ds-thread" data-thread-key="2016/03/12/Machine-Learning-Zhou-Chap01/" data-title="周志华《机器学习》笔记第一章" data-url="http://tech.liuxiaozhen.com/2016/03/12/Machine-Learning-Zhou-Chap01/"></div>
 </section>
 
 
@@ -192,7 +159,7 @@ Environment SetupOctave and MATLAB are preferred in machine learning.">
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Environment_Setup"><span class="toc-number">1.</span> <span class="toc-text">Environment Setup</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Introduction"><span class="toc-number">2.</span> <span class="toc-text">Introduction</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Supervised_Learning"><span class="toc-number">2.1.</span> <span class="toc-text">Supervised Learning</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unsupervised_Learning"><span class="toc-number">2.2.</span> <span class="toc-text">Unsupervised Learning</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Linear_Regression_with_One_Variable"><span class="toc-number">3.</span> <span class="toc-text">Linear Regression with One Variable</span></a></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1_引言"><span class="toc-number">1.</span> <span class="toc-text">1.1 引言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2_基本术语"><span class="toc-number">2.</span> <span class="toc-text">1.2 基本术语</span></a></li></ol>
  
   </div>
 
