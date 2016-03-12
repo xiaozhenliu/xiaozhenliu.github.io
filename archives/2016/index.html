@@ -38,7 +38,8 @@
 
     <body>
       <header>
-        <div>
+        
+<div>
 		
 			<div id="imglogo">
 				<a href="/"><img src="/img/logo.png" alt="Live in the Future, then Build What&#39;s Missing" title="Live in the Future, then Build What&#39;s Missing"/></a>
@@ -56,7 +57,7 @@
 					 
 						<li><a href="/">Home | 首页</a></li>
 					
-						<li><a href="http://blog.liuxiaozhen.com">Blog | 博客</a></li>
+						<li><a href="/http://blog.liuxiaozhen.com">Blog | 博客</a></li>
 					
 						<li><a href="/archives">Archives | 归档</a></li>
 					
@@ -152,7 +153,7 @@
 		<a href="https://www.douban.com/people/67534041" target="_blank" class="icon-douban" title="豆瓣"></a>
 		
 		
-		<a href="https://www.zhihu.com/people/xiaozhenliu" target="_blank" class="icon-zhihu" title="知乎"></a>
+		<a href="http://www.zhihu.com/people/xiaozhenliu" target="_blank" class="icon-zhihu" title="知乎"></a>
 		
 		
 		<a href="https://plus.google.com/110358754558341446765?rel=author" target="_blank" class="icon-google_plus" title="Google+"></a>
@@ -173,7 +174,7 @@
 		<p class="copyright">
 		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2016 
 		
-		<a href="http://tech.liuxiaozhen.com/about" target="_blank" title="Liu Xiaozhen">Liu Xiaozhen</a>
+		<a href="/about" target="_blank" title="Liu Xiaozhen">Liu Xiaozhen</a>
 		
 		
 		</p>
@@ -182,6 +183,7 @@
       <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
 
 <script type="text/javascript">
 $(document).ready(function(){ 
@@ -231,23 +233,32 @@ $(document).ready(function(){
 
 
 
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
 <script type="text/javascript">
-  var duoshuoQuery = {short_name:"techlxz## e.g. wuchong   your duoshuo short name."};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = '//static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-    || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();
-</script> 
-
-
-
-
-
-
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
 
 
 
