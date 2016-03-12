@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T12:21:06.000Z</updated>
+  <updated>2016-03-12T12:23:55.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T12:21:06.000Z</updated>
+    <updated>2016-03-12T12:23:55.000Z</updated>
     <content type="html"><![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
@@ -51,11 +51,8 @@
 <p>$(x,y)$ - one training example</p>
 <p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
-<ul>
-<li><p>How do we represent $h$?</p>
-<p>$$h_{\theta}(x) = \theta_0+\theta_1x$$<br>(shorthand:$h(x)$)</p>
-</li>
-</ul>
+<p>How do we represent $h$?</p>
+<p>  $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
 <h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
 <p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
 <h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $h_{\theta}(x) = \theta_0+\theta_1x$</p>
