@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T11:40:52.000Z</updated>
+  <updated>2016-03-12T12:19:42.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T11:40:52.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
+    <updated>2016-03-12T12:19:42.000Z</updated>
+    <content type="html"><![CDATA[<p>_This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._</p>
 <a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
@@ -53,21 +53,20 @@
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
 <ul>
 <li><p>How do we represent $h$?</p>
-<p>$h_{\theta}(x) = \theta_0+\theta_1x$<br>(shorthand:$h(x)$)</p>
+<p>$$h_{\theta}(x) = \theta_0+\theta_1x$$<br>(shorthand:$h(x)$)</p>
 </li>
 </ul>
 <h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
-<p>Choose ${\theta_0}$, ${\theta_1}$</p>
-<p>so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
+<p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
 <h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $h_{\theta}(x) = \theta_0+\theta_1x$</p>
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
-<p>$$J ({\theta}<em>0 , {\theta}_1 ) = \frac 1{2m}{\sum</em>{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2}$$</p>
+<p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
 <p>Goal:<br> $minimize\  J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
 <h1 id="Gradient_Descent">Gradient Descent</h1>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>]]>
+    <![CDATA[<p>_This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._</p>]]>
     
     </summary>
     
@@ -83,7 +82,7 @@
     <id>http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/</id>
     <published>2016-03-07T10:58:45.000Z</published>
     <updated>2016-03-12T07:13:40.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
+    <content type="html"><![CDATA[<p>_This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;._</p>
 <a id="more"></a>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
@@ -173,7 +172,7 @@
 <h3 id="Git_diff_revisited">Git diff revisited</h3><ul>
 <li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
 <li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
-<li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
+<li>_Be careful! <code>git reset --hard</code> is not reversable_</li>
 <li>Leave &#x2018;detached HEAD&#x2019; state: <code>git checkout master</code></li>
 </ul>
 <h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
@@ -207,7 +206,7 @@
 </ul>
 <h2 id="Lesson_3">Lesson 3</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>]]>
+    <![CDATA[<p>_This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;._</p>]]>
     
     </summary>
     

@@ -11,17 +11,17 @@
     
 
     
-    <meta name="description" content="This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.">
+    <meta name="description" content="_This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Machine Learning by Stanford University Week 1">
 <meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.">
+<meta property="og:description" content="_This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._">
 <meta property="og:image" content="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png">
 <meta property="og:image" content="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning by Stanford University Week 1">
-<meta name="twitter:description" content="This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.">
+<meta name="twitter:description" content="_This note is for the Stanford University online course &amp;#x201C;Machine Learning&amp;#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._">
 <meta name="twitter:creator" content="@xiaozhenliu">
 <link rel="publisher" href="110358754558341446765">
 
@@ -98,7 +98,7 @@
 </header>
 	<div class="article-content">
 		
-		<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
+		<p>_This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session._</p>
 <a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
@@ -131,16 +131,15 @@
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
 <ul>
 <li><p>How do we represent $h$?</p>
-<p>$h_{\theta}(x) = \theta_0+\theta_1x$<br>(shorthand:$h(x)$)</p>
+<p>$$h_{\theta}(x) = \theta_0+\theta_1x$$<br>(shorthand:$h(x)$)</p>
 </li>
 </ul>
 <h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
-<p>Choose ${\theta_0}$, ${\theta_1}$</p>
-<p>so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
+<p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
 <h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $h_{\theta}(x) = \theta_0+\theta_1x$</p>
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
-<p>$$J ({\theta}<em>0 , {\theta}_1 ) = \frac 1{2m}{\sum</em>{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2}$$</p>
+<p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
 <p>Goal:<br> $minimize\  J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
 <h1 id="Gradient_Descent">Gradient Descent</h1>  
