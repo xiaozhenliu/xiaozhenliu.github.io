@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T08:46:20.000Z</updated>
+  <updated>2016-03-12T09:13:43.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T08:46:20.000Z</updated>
+    <updated>2016-03-12T09:13:43.000Z</updated>
     <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
 <a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
@@ -47,10 +47,16 @@
 <li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
 <li>Examples: google story collection; cocktail party (distiguish two voices)</li>
 </ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
+<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><h3 id="Model_Representation">Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
 <p>$(x,y)$ - one training example</p>
 <p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
+<ul>
+<li><p>How do we represent $h$?</p>
+<p>$h_{\theta}(x) = \theta_0+\theta_1x$<br>(shorthand:$h(x)$)</p>
+</li>
+</ul>
+<h3 id="Cost_Function">Cost Function</h3><p>Idea: Choose $\theta<em>0,\theta_1$ so that $h</em>{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>]]>
