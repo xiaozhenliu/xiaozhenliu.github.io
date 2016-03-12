@@ -20,7 +20,7 @@
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
     <updated>2016-03-12T05:09:57.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
+    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
 <h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
@@ -48,7 +48,7 @@
 </ul>
 <h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</e]]>
+    <![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 Mar]]>
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
@@ -63,7 +63,7 @@
     <id>http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/</id>
     <published>2016-03-07T10:58:45.000Z</published>
     <updated>2016-03-08T12:30:54.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
+    <content type="html"><![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
@@ -83,7 +83,7 @@
 <li>SVN</li>
 </ul>
 <blockquote>
-<p>Reflect: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?<br>I don’t have to remember all the changes and the reasons for making them. With all the histories stored in exact forms, I can just look back at them when needed. Also, it helps me to learn from my own mistakes and allow me to do experiments without worrying about breaking things. </p>
+<p>Reflect: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?<br>I don&#x2019;t have to remember all the changes and the reasons for making them. With all the histories stored in exact forms, I can just look back at them when needed. Also, it helps me to learn from my own mistakes and allow me to do experiments without worrying about breaking things. </p>
 </blockquote>
 <p><strong>Feature Comparison Chart</strong></p>
 <blockquote>
@@ -108,7 +108,7 @@
 <li><code>git diff ID1 ID2</code></li>
 <li><p>Judgment Call</p>
 <blockquote>
-<p>Choosing when to commit is a judgment call, and it’s not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.</p>
+<p>Choosing when to commit is a judgment call, and it&#x2019;s not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.</p>
 </blockquote>
 </li>
 </ul>
@@ -126,7 +126,7 @@
 <li><code>git diff</code></li>
 <li>Check commit: <code>git checkout _commit ID_</code></li>
 </ul>
-<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">"atom --wait"</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
+<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
 <h3 id="Summary">Summary</h3><ul>
 <li>Why use Git</li>
 <li>Git Setup</li>
@@ -153,7 +153,7 @@
 <li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
 <li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
 <li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
-<li>Leave ‘detached HEAD’ state: <code>git checkout master</code></li>
+<li>Leave &#x2018;detached HEAD&#x2019; state: <code>git checkout master</code></li>
 </ul>
 <h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
 <li>One branch is enough: fix bug, new feature, update docs</li>
@@ -166,7 +166,7 @@
 <h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>remote branch</li>
-<li>branch has parents “reachability”</li>
+<li>branch has parents &#x201C;reachability&#x201D;</li>
 <li>checkout a commit as a new branch: <code>git checkout -b _new_branch_name_</code></li>
 </ul>
 <h3 id="Combining_Simple_Files">Combining Simple Files</h3><ul>
@@ -186,8 +186,8 @@
 </ul>
 <h2 id="Lesson_3">Lesson 3</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series “How to Use Git and Github”.</em></p>
-<h2 id="Lesson_1">Lesson 1</h2>]]>
+    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
+<h2 id="Lesson_1"]]>
     </summary>
     
   </entry>
@@ -198,16 +198,15 @@
     <id>http://tech.liuxiaozhen.com/2015/04/03/启/</id>
     <published>2015-04-03T09:17:05.000Z</published>
     <updated>2015-04-11T03:50:05.000Z</updated>
-    <content type="html"><![CDATA[<p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
-<p>tinyfool在去年的一篇<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">《寻找和突破心障》</a>中说：</p>
+    <content type="html"><![CDATA[<p>&#x4ECE;&#x5C0F;&#x5B66;&#x5C31;&#x5F00;&#x59CB;&#x7F16;&#x7A0B;&#xFF0C;&#x4F46;&#x662F;&#x4EC5;&#x9650;&#x4E8E;&#x597D;&#x73A9;&#xFF1B;&#x5728;&#x5B66;&#x4E60;&#x79D1;&#x7814;&#x4E2D;&#x5076;&#x5C14;&#x6D89;&#x53CA;&#x7F16;&#x7A0B;&#xFF0C;&#x4E5F;&#x4E0D;&#x8FC7;&#x662F;&#x7B80;&#x77ED;&#x7684;&#x51E0;&#x5341;&#x884C;&#x3002;&#x4ECE;2009&#x5E74;&#x5165;&#x624B;iPod Touch&#x81F3;&#x4ECA;&#xFF0C;&#x5173;&#x4E8E;App&#x7684;&#x60F3;&#x6CD5;&#x65E0;&#x6570;&#xFF0C;&#x5374;&#x59CB;&#x7EC8;&#x6CA1;&#x6709;&#x6210;&#x4E3A;&#x4E00;&#x4E2A;&#x771F;&#x6B63;&#x7684;&#x521B;&#x9020;&#x8005;&#x3002;</p>
+<p>tinyfool&#x5728;&#x53BB;&#x5E74;&#x7684;&#x4E00;&#x7BC7;<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">&#x300A;&#x5BFB;&#x627E;&#x548C;&#x7A81;&#x7834;&#x5FC3;&#x969C;&#x300B;</a>&#x4E2D;&#x8BF4;&#xFF1A;</p>
 <blockquote>
-<p>人生中总有些障碍阻挡着你去做你想做的事情，但是这些障碍里面有一些是物理障碍，如果你真的没有时间和金钱，不去旅游也就不去旅游了。如果你有时间、有金钱，也有一个说走就走的心，但是你哪里都没有去过，那就是心障。</p>
+<p>&#x4EBA;&#x751F;&#x4E2D;&#x603B;&#x6709;&#x4E9B;&#x969C;&#x788D;&#x963B;&#x6321;&#x7740;&#x4F60;&#x53BB;&#x505A;&#x4F60;&#x60F3;&#x505A;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4E9B;&#x969C;&#x788D;&#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E9B;&#x662F;&#x7269;&#x7406;&#x969C;&#x788D;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x771F;&#x7684;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#x548C;&#x91D1;&#x94B1;&#xFF0C;&#x4E0D;&#x53BB;&#x65C5;&#x6E38;&#x4E5F;&#x5C31;&#x4E0D;&#x53BB;&#x65C5;&#x6E38;&#x4E86;&#x3002;&#x5982;&#x679C;&#x4F60;&#x6709;&#x65F6;&#x95F4;&#x3001;&#x6709;&#x91D1;&#x94B1;&#xFF0C;&#x4E5F;&#x6709;&#x4E00;&#x4E2A;&#x8BF4;&#x8D70;&#x5C31;&#x8D70;&#x7684;&#x5FC3;&#xFF0C;&#x4F46;&#x662F;&#x4F60;&#x54EA;&#x91CC;&#x90FD;&#x6CA1;&#x6709;&#x53BB;&#x8FC7;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x5FC3;&#x969C;&#x3002;</p>
 </blockquote>
-<p>关于编程，我想我并非真的完全没有时间，而仅仅出于心障而没有做。近年来，在效率和心智方面收获许多，对于开启这样一段旅程慢慢有了信心。写笔记，更多的是希望靠输出的过程来加强学习效果。若能在比特世界，无意间给一些人帮助，则幸甚至哉。</p>
+<p>&#x5173;&#x4E8E;&#x7F16;&#x7A0B;&#xFF0C;&#x6211;&#x60F3;&#x6211;&#x5E76;&#x975E;&#x771F;&#x7684;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#xFF0C;&#x800C;&#x4EC5;&#x4EC5;&#x51FA;&#x4E8E;&#x5FC3;&#x969C;&#x800C;&#x6CA1;&#x6709;&#x505A;&#x3002;&#x8FD1;&#x5E74;&#x6765;&#xFF0C;&#x5728;&#x6548;&#x7387;&#x548C;&#x5FC3;&#x667A;&#x65B9;&#x9762;&#x6536;&#x83B7;&#x8BB8;&#x591A;&#xFF0C;&#x5BF9;&#x4E8E;&#x5F00;&#x542F;&#x8FD9;&#x6837;&#x4E00;&#x6BB5;&#x65C5;&#x7A0B;&#x6162;&#x6162;&#x6709;&#x4E86;&#x4FE1;&#x5FC3;&#x3002;&#x5199;&#x7B14;&#x8BB0;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x662F;&#x5E0C;&#x671B;&#x9760;&#x8F93;&#x51FA;&#x7684;&#x8FC7;&#x7A0B;&#x6765;&#x52A0;&#x5F3A;&#x5B66;&#x4E60;&#x6548;&#x679C;&#x3002;&#x82E5;&#x80FD;&#x5728;&#x6BD4;&#x7279;&#x4E16;&#x754C;&#xFF0C;&#x65E0;&#x610F;&#x95F4;&#x7ED9;&#x4E00;&#x4E9B;&#x4EBA;&#x5E2E;&#x52A9;&#xFF0C;&#x5219;&#x5E78;&#x751A;&#x81F3;&#x54C9;&#x3002;</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
-<p>tinyfool在去年的一篇<a href="http://www.jiansh]]>
+    <![CDATA[<p>&#x4ECE;&#x5C0F;&#x5B66;&#x5C31;&#x5F00;&#x59CB;&#x7F16;&#x7A0B;&#xFF0C;&#x4F46;&#x662F;&#x4EC5;&#x9650;&#x4E8E;&#x597D;&#x73A9;&#xFF1B;&]]>
     </summary>
     
   </entry>
