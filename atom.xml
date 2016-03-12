@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T05:09:57.000Z</updated>
+  <updated>2016-03-12T07:13:03.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,8 +19,9 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T05:09:57.000Z</updated>
+    <updated>2016-03-12T07:13:03.000Z</updated>
     <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
+<a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
 <h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
@@ -48,7 +49,8 @@
 </ul>
 <h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 Mar]]>
+    <![CDATA[<p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>]]>
+    
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
@@ -62,8 +64,9 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/07/ND-FE-01-GitHub-Notes/</id>
     <published>2016-03-07T10:58:45.000Z</published>
-    <updated>2016-03-08T12:30:54.000Z</updated>
+    <updated>2016-03-12T07:13:40.000Z</updated>
     <content type="html"><![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
+<a id="more"></a>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
@@ -186,8 +189,8 @@
 </ul>
 <h2 id="Lesson_3">Lesson 3</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
-<h2 id="Lesson_1"]]>
+    <![CDATA[<p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>]]>
+    
     </summary>
     
   </entry>

@@ -99,35 +99,11 @@
     <div class="article-content">
         
         <p><em>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
-<h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
-<p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
-<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
-<blockquote>
-<p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
-</blockquote>
-<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
-<li>Correct outputs are known. </li>
-<li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
-<li>Regression problem: predict results within a continuous output</li>
-<li>Classification problem: predict results in a discrete output (0 or 1)</li>
-</ul>
-<p>Example: </p>
-<ul>
-<li>Boston Housing price vs size (regression)</li>
-<li>Breast cancer malignant vs benign (classification)<ul>
-<li>more than one attribute</li>
-</ul>
-</li>
-</ul>
-<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
-<li>No known correct output (feedback)</li>
-<li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
-<li>Examples: google story collection; cocktail party (distiguish two voices)</li>
-</ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>
         
         
         <p class="article-more-link">
+          
+            <a href="/2016/03/10/Machine-learning-W1/#more">Read More</a>
           
        </p>
     </div>
@@ -182,130 +158,11 @@
     <div class="article-content">
         
         <p><em>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</em></p>
-<h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
-<ul>
-<li>Windows: FC</li>
-<li>Mac/Linux: Diff</li>
-</ul>
-<blockquote>
-<p>Reflect: How did viewing a diff between two versions help you spot the bug?<br>Answer: By looking at the differences between two versions, I know which changes have been made that caused the bug.</p>
-</blockquote>
-<p>Choose a text editor: Notepad++, Sublim, Atom, emacs, vim, etc. </p>
-<p><strong>I picked Atom.</strong></p>
-<h3 id="Versions">Versions</h3><ul>
-<li>Saving manual copies</li>
-<li>Dropbox (periodically save versions automatically)</li>
-<li>Google Docs (periodically save versions automatically)</li>
-<li>Wikipedia (versions by different authors)</li>
-<li>Git</li>
-<li>SVN</li>
-</ul>
-<blockquote>
-<p>Reflect: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?<br>I don&#x2019;t have to remember all the changes and the reasons for making them. With all the histories stored in exact forms, I can just look back at them when needed. Also, it helps me to learn from my own mistakes and allow me to do experiments without worrying about breaking things. </p>
-</blockquote>
-<p><strong>Feature Comparison Chart</strong></p>
-<blockquote>
-<p>Quiz: When to save: as a programer, when would you want to have version of your code saved?</p>
-<ul>
-<li>At regular intervals (e.g. every hour)</li>
-<li>Whenever a large enough change is made (e.g. 50 lines)</li>
-<li>Whenever there is a long pause in editing</li>
-<li><strong>When you choose to save a version</strong></li>
-</ul>
-</blockquote>
-<h3 id="Mannual_Commits">Mannual Commits</h3><p>Git requires a message with each commit</p>
-<p>Cases that need a new commit:</p>
-<ul>
-<li>fix off-by-one bug</li>
-<li>add cool new feature</li>
-<li>improve user docs</li>
-</ul>
-<h3 id="Use_Git_to_View_History">Use Git to View History</h3><p><strong>[Offline]</strong></p>
-<ul>
-<li>Each commit has an ID, an Autor, Date/Time, and a message</li>
-<li><code>git diff ID1 ID2</code></li>
-<li><p>Judgment Call</p>
-<blockquote>
-<p>Choosing when to commit is a judgment call, and it&#x2019;s not always cut-and-dried. When choosing whether to commit, just keep in mind that each commit should have one clear, logical purpose, and you should never do too much work without committing.</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="Commits_with_Multiple_Files">Commits with Multiple Files</h3><ul>
-<li>A repository contains multiple files</li>
-<li>Make changes in different files together and track in one commit<blockquote>
-<p>Reflect: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?<br>Because Git takes a mannual and logical approach, and keeps the records in one git file for each repo. For others, they keep the records as part of the information related to one file.</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="Git_Commands">Git Commands</h3><p><strong>[Online]</strong></p>
-<ul>
-<li>Clone a repo <code>git clone _repo_url_</code><br>(<a href="https://github.com/udacity/asteroids.git" target="_blank" rel="external">https://github.com/udacity/asteroids.git</a>)</li>
-<li><code>git log</code></li>
-<li><code>git diff</code></li>
-<li>Check commit: <code>git checkout _commit ID_</code></li>
-</ul>
-<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
-<h3 id="Summary">Summary</h3><ul>
-<li>Why use Git</li>
-<li>Git Setup</li>
-<li>Git commands: clone, log, diff, checkout</li>
-</ul>
-<h2 id="Lesson_2">Lesson 2</h2><h3 id="Initialize">Initialize</h3><p><strong>[Offline]</strong></p>
-<ul>
-<li><code>git init</code></li>
-<li>When a git is initialized, no commit is included</li>
-<li>Check git status: <code>git status</code></li>
-</ul>
-<h3 id="Choosing_what_changes_to_commit">Choosing what changes to commit</h3><ul>
-<li>working directory -&gt; staging area -&gt; repository</li>
-<li><code>git add _file_to_update_</code> will add named files to staging area</li>
-<li>remove from staging area by using <code>git reset</code></li>
-</ul>
-<h3 id="Write_a_commit_message">Write a commit message</h3><ul>
-<li><code>git commit</code> will open the editor</li>
-<li>standard practice: write a message as if it is a command</li>
-<li><code>git commit -m &quot;Commit message&quot;</code></li>
-<li>commit message <a href="http://udacity.github.io/git-styleguide/" target="_blank" rel="external">style guide</a></li>
-</ul>
-<h3 id="Git_diff_revisited">Git diff revisited</h3><ul>
-<li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
-<li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
-<li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
-<li>Leave &#x2018;detached HEAD&#x2019; state: <code>git checkout master</code></li>
-</ul>
-<h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
-<li>One branch is enough: fix bug, new feature, update docs</li>
-<li>More than one branch: experimental feature, Italian version</li>
-<li>Most recent commit of a branch: tip of a branch</li>
-<li>Show all the branches and the current branch is marked with * : <code>git branch</code></li>
-<li>Create a branch: <code>git branch &quot;branch_name&quot;</code></li>
-<li>Switch to a branch: <code>git checkout &quot;branch_name&quot;</code></li>
-</ul>
-<h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
-<ul>
-<li>remote branch</li>
-<li>branch has parents &#x201C;reachability&#x201D;</li>
-<li>checkout a commit as a new branch: <code>git checkout -b _new_branch_name_</code></li>
-</ul>
-<h3 id="Combining_Simple_Files">Combining Simple Files</h3><ul>
-<li>merged branch has both parents</li>
-<li><code>git merge branch_1 branch_2</code></li>
-<li><code>git show</code> show the diff of a commit with its parent</li>
-<li>deleting branches: <code>git branch -d _branch_name_</code></li>
-<li>Merge conflict: when both branches modify the same part of the files</li>
-<li>Commit the conflict resolution</li>
-<li><code>git log -n 1</code> show only 1 commit log</li>
-</ul>
-<h3 id="Summary-1">Summary</h3><ul>
-<li>Initialize git</li>
-<li>Create commits</li>
-<li>Create and commit branches</li>
-<li>Merge branches</li>
-</ul>
-<h2 id="Lesson_3">Lesson 3</h2>
         
         
         <p class="article-more-link">
+          
+            <a href="/2016/03/07/ND-FE-01-GitHub-Notes/#more">Read More</a>
           
        </p>
     </div>
