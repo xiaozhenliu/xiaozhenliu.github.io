@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-10T12:42:01.000Z</updated>
+  <updated>2016-03-12T01:04:54.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,24 +19,36 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-10T12:42:01.000Z</updated>
-    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.</em></p>
+    <updated>2016-03-12T01:04:54.000Z</updated>
+    <content type="html"><![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</em></p>
 <h1 id="Week_1">Week 1</h1><h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
-<h2 id="Introduction">Introduction</h2><h3 id="Supervised_Learning">Supervised Learning</h3><ul>
-<li>Correct output are known. </li>
+<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
+<blockquote>
+<p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
+</blockquote>
+<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
+<li>Correct outputs are known. </li>
 <li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
 <li>Regression problem: predict results within a continuous output</li>
-<li>Classification problem: predict results in a discrete output</li>
+<li>Classification problem: predict results in a discrete output (0 or 1)</li>
+</ul>
+<p>Example: </p>
+<ul>
+<li>Boston Housing price vs size (regression)</li>
+<li>Breast cancer malignant vs benign (classification)<ul>
+<li>more than one attribute</li>
+</ul>
+</li>
 </ul>
 <h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
 <li>No known correct output (feedback)</li>
 <li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
-<li>Examples: google story collection; cocktail party (two voice)</li>
+<li>Examples: google story collection; cocktail party (distiguish two voices)</li>
 </ul>
 <h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2>]]></content>
     <summary type="html">
-    <![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2015 November session.]]>
+    <![CDATA[<p><em>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</e]]>
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
