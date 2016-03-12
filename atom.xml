@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-03-12T12:23:55.000Z</updated>
+  <updated>2016-03-12T13:23:10.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T12:23:55.000Z</updated>
+    <updated>2016-03-12T13:23:10.000Z</updated>
     <content type="html"><![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <a id="more"></a>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
@@ -61,7 +61,29 @@
 <p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
 <p>Goal:<br> $minimize\  J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
-<h1 id="Gradient_Descent">Gradient Descent</h1>]]></content>
+<h3 id="Gradient_Descent">Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
+<p>want $min \ J(\theta_0,\theta_1)$</p>
+<p>Outline:</p>
+<ul>
+<li>start with some $\theta_0,\theta_1$</li>
+<li>keep changing $\theta_0,\theta_1$ to reduce $J(\theta_0,\theta_1)$ until we hopefully end up at a minimum</li>
+</ul>
+<h3 id="Gradient_descent_algorithm">Gradient descent algorithm</h3><p>repeat until convergence {</p>
+<p>$$\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)</p>
+<p>}</p>
+<p><strong>Correct: simultaneous update $\theta_0$ and $\theta_1$</strong></p>
+<p>$\alpha$ is the learning rate. </p>
+<ul>
+<li><p>if $\alpha$ is too small, gradient descent can be slow. </p>
+</li>
+<li><p>if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. </p>
+</li>
+</ul>
+<p>Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. </p>
+<h3 id="Gradient_Descent_for_Linear_Regression">Gradient Descent for Linear Regression</h3><p>repeat until convergence {</p>
+<p>$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right) $$</p>
+<p>$$\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)} $$<br>}</p>
+]]></content>
     <summary type="html">
     <![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>]]>
     
