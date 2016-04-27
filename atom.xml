@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-04-27T09:20:59.000Z</updated>
+  <updated>2016-04-27T09:35:14.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
     <published>2016-04-27T09:17:30.000Z</published>
-    <updated>2016-04-27T09:20:59.000Z</updated>
+    <updated>2016-04-27T09:35:14.000Z</updated>
     <content type="html"><![CDATA[<p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
 <p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
 <a id="more"></a>
@@ -31,11 +31,11 @@
 <h1 id="&#x8BFE;&#x524D;&#x51C6;&#x5907;">&#x8BFE;&#x524D;&#x51C6;&#x5907;</h1><p>&#x6211;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x57FA;&#x7840;&#x8FD8;&#x4E0D;&#x9519;&#xFF0C;&#x6240;&#x4EE5;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x8FD9;&#x4E2A;&#x4E00;&#x534A;&#x8BFE;&#x7A0B;&#x770B;&#x8D77;&#x6765;&#x90FD;&#x773C;&#x719F;&#x7684;ND&#x5C31;&#x6210;&#x4E86;&#x6211;&#x7684;&#x4E0A;&#x624B;&#x730E;&#x7269;&#x2026;&#x2026;</p>
 <p>Udacity&#x6539;&#x7248;&#x4E4B;&#x540E;&#xFF0C;&#x589E;&#x52A0;&#x4E86;&#x4E0D;&#x5C11;&#x8D34;&#x5FC3;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6BD4;&#x5982;&#x628A;&#x67D0;&#x4E2A;Nanodegree&#x9700;&#x8981;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#x5B8C;&#x6210;&#x90FD;&#x8BA1;&#x7B97;&#x597D;&#xFF0C;&#x751A;&#x81F3;&#x8FDE;&#x6BCF;&#x4E00;&#x8282;&#x8BFE;&#x7684;&#x65F6;&#x95F4;&#x90FD;&#x663E;&#x793A;&#x5728;&#x5B66;&#x4E60;&#x8BA1;&#x5212;&#x4E2D;&#xFF1B;&#x786E;&#x5B9E;&#x4E3A;&#x4E1A;&#x4F59;&#x5B66;&#x4E60;&#x63D0;&#x4F9B;&#x4E86;&#x4E0D;&#x5C11;&#x4FBF;&#x5229;&#x3002;</p>
 <p>&#x7136;&#x540E;&#x6211;&#x5C31;&#x5728;&#x9996;&#x6708;&#x514D;&#x8D39;&#x7684;&#x86CA;&#x60D1;&#x4E0B;&#x8BA2;&#x9605;&#x4E86;&#x8FD9;&#x4E2A;&#x5B66;&#x4F4D;&#x5566;&#x3002;&#x63A5;&#x7740;&#x5C31;&#x4E0D;&#x77E5;&#x4E0D;&#x89C9;&#x5730;&#x770B;&#x5B8C;&#x4E86;&#x7B2C;&#x4E00;&#x8BFE;&#x3002;&#x55EF;&#xFF0C;&#x8FD9;&#x4E0D;&#x662F;&#x7EDF;&#x8BA1;&#x5B66;101&#x7684;&#x5185;&#x5BB9;&#x561B;&#xFF0C;&#x771F;&#x7684;&#x5B8C;&#x5168;&#x65E0;&#x538B;&#x529B;&#x597D;&#x5417;&#xFF1F;</p>
-<p>&#x5728;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6B22;&#x8FCE;&#x89C6;&#x9891;&#x4E2D;&#xFF0C;&#x4E00;&#x4F4D;&#x77E5;&#x5FC3;&#x5927;&#x59D0;&#x544A;&#x8BC9;&#x6211;&#x4EEC;&#xFF1A;&#x65F6;&#x95F4;&#x6295;&#x5165;&#x662F;&#x6210;&#x529F;&#x5B8C;&#x6210;&#x5B66;&#x4F4D;&#x7684;&#x6700;&#x91CD;&#x8981;&#x56E0;&#x7D20;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x65E5;&#x7A0B;&#x4E2D;&#x9884;&#x7559;&#x51FA;&#x5B66;&#x4E60;&#x65F6;&#x95F4;&#x3002;Udacity&#x63A8;&#x8350;&#x6BCF;&#x5468;&#x81F3;&#x5C11;&#x82B1;10&#x5C0F;&#x65F6;&#x5B66;&#x4E60;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF0C;&#x4E14;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x4E00;&#x6B21;&#x6027;&#x5B66;&#x4E60;10&#x5C0F;&#x65F6;&#x3002;</p>
+<p>&#x5728;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6B22;&#x8FCE;&#x89C6;&#x9891;&#x4E2D;&#xFF0C;&#x4E00;&#x4F4D;&#x77E5;&#x5FC3;&#x5927;&#x59D0;&#x544A;&#x8BC9;&#x6211;&#x4EEC;&#xFF1A;&#x65F6;&#x95F4;&#x6295;&#x5165;&#x662F;&#x6210;&#x529F;&#x5B8C;&#x6210;&#x5B66;&#x4F4D;&#x7684;&#x6700;&#x91CD;&#x8981;&#x56E0;&#x7D20;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x65E5;&#x7A0B;&#x4E2D;&#x9884;&#x7559;&#x51FA;&#x5B66;&#x4E60;&#x65F6;&#x95F4;&#x3002;Udacity&#x63A8;&#x8350;&#x6BCF;&#x5468;&#x81F3;&#x5C11;&#x82B1;10&#x5C0F;&#x65F6;&#x5B66;&#x4E60;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF0C;&#x4E14;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x4E00;&#x6B21;&#x6027;&#x5B66;&#x4E60;10&#x5C0F;&#x65F6;&#xFF0C;&#x5206;&#x6563;&#x5230;&#x6BCF;&#x5929;&#x8F83;&#x597D;&#x3002;</p>
 <p>&#x6211;&#x7B97;&#x4E86;&#x7B97;&#xFF0C;&#x6BCF;&#x5929;&#x5B66;&#x4E60;3-4&#x5C0F;&#x65F6;&#x662F;&#x80FD;&#x4FDD;&#x8BC1;&#x7684;&#x3002;&#x8FD9;&#x6837;&#x4E00;&#x5468;20&#x5C0F;&#x65F6;&#x90FD;&#x6709;&#x4F59;&#x4E86;&#x3002;&#x4E8E;&#x662F;&#x624B;&#x4E00;&#x6296;&#xFF0C;&#x53C8;&#x8BA2;&#x9605;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x3002;&#x82B1;&#x5F00;&#x4E24;&#x6735;&#xFF0C;&#x5404;&#x8868;&#x4E00;&#x679D;&#xFF0C;&#x5173;&#x4E8E;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;ND&#x53E6;&#x6587;&#x9610;&#x8FF0;&#x3002;</p>
 <p>&#x4E0B;&#x9762;&#x5C31;&#x662F;&#x5B66;&#x4E60;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x8BB0;&#x5F55;&#x3002;</p>
 <h1 id="Project_0">Project 0</h1><p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x9009;&#x505A;&#x9879;&#x76EE;&#xFF0C;&#x901A;&#x8FC7;&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x4E0A;&#x624B;&#x672A;&#x6765;&#x672C;&#x8BFE;&#x7A0B;&#x6240;&#x9700;&#x7684;&#x5DE5;&#x5177;&#x3002;</p>
-<h2 id="Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda">Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda</h2><p>&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x9996;&#x5148;&#x8981;&#x5B89;&#x88C5;<a href="https://www.continuum.io/downloads" target="_blank" rel="external">Anaconda</a>&#xFF0C;&#x4EE5;&#x4FBF;&#x6109;&#x5FEB;&#x5730;&#x4F7F;&#x7528;Python&#x3002;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x81EA;&#x4E0D;&#x7528;&#x63D0;&#x3002;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;<a href="http://conda.pydata.org/docs/test-drive.html#managing-conda" target="_blank" rel="external">Test Drive</a>&#x4F1A;&#x6559;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;&#x3002;</p>
+<h2 id="Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda">Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda</h2><p>&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x9996;&#x5148;&#x8981;&#x5B89;&#x88C5;<a href="https://www.continuum.io/downloads" target="_blank" rel="external"> Anaconda </a>&#xFF0C;&#x4EE5;&#x4FBF;&#x6109;&#x5FEB;&#x5730;&#x4F7F;&#x7528;Python&#x3002;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x81EA;&#x4E0D;&#x7528;&#x63D0;&#x3002;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;<a href="http://conda.pydata.org/docs/test-drive.html#managing-conda" target="_blank" rel="external"> Test Drive </a>&#x4F1A;&#x6559;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;&#x3002;</p>
 <h2 id="Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython_Notebook">Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython Notebook</h2><p>&#x672C;&#x9879;&#x76EE;&#x7528;&#x5230;&#x4E86;IPython Notebook&#x3002;</p>
 <p>&#x8FD9;&#x91CC;<a href="http://mindonmind.github.io/2013/02/08/ipython-notebook-interactive-computing-new-era/" target="_blank" rel="external">&#x5F15;&#x7528;&#x4E00;&#x6BB5;</a>&#x5BF9;IPython Notebook&#x7684;&#x4ECB;&#x7ECD;&#xFF1A;</p>
 <blockquote>
@@ -79,11 +79,11 @@
   
   <entry>
     <title><![CDATA[How to Use Git and GitHub]]></title>
-    <link href="http://tech.liuxiaozhen.com/2016/04/06/ND-FE-01-GitHub-Notes/"/>
-    <id>http://tech.liuxiaozhen.com/2016/04/06/ND-FE-01-GitHub-Notes/</id>
+    <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
+    <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
-    <updated>2016-04-05T17:13:46.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</strong></p>
+    <updated>2016-04-27T09:39:15.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
 <a id="more"></a>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
@@ -232,7 +232,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><strong>This note is for the prereq course of Udacity NanoDegree series &#x201C;How to Use Git and Github&#x201D;.</strong></p>]]>
+    <![CDATA[<p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>]]>
     
     </summary>
     
@@ -399,8 +399,9 @@
     <link href="http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
     <id>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
     <published>2015-12-06T03:51:47.000Z</published>
-    <updated>2016-04-27T03:52:33.000Z</updated>
-    <content type="html"><![CDATA[<p>_This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session._</p>
+    <updated>2016-04-27T09:24:56.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session.</strong></p>
+<a id="more"></a>
 <h1 id="Week_1">Week 1</h1><h2 id="Why_Program?">Why Program?</h2><h2 id="Hardware">Hardware</h2><ul>
 <li>CPU</li>
 <li>I/O</li>
@@ -471,7 +472,8 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>_This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by ]]>
+    <![CDATA[<p><strong>This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session.</strong></p>]]>
+    
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
