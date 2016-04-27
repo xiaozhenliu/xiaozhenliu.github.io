@@ -332,6 +332,92 @@
   </entry>
   
   <entry>
+    <title><![CDATA[Python for Everybody by University of Michigan (1)]]></title>
+    <link href="http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
+    <id>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
+    <published>2015-12-06T03:51:47.000Z</published>
+    <updated>2016-04-27T03:52:33.000Z</updated>
+    <content type="html"><![CDATA[<p>_This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session._</p>
+<h1 id="Week_1">Week 1</h1><h2 id="Why_Program?">Why Program?</h2><h2 id="Hardware">Hardware</h2><ul>
+<li>CPU</li>
+<li>I/O</li>
+<li>Main sMemory (RAM)</li>
+<li>Secondary Memory</li>
+</ul>
+<h2 id="Python">Python</h2><ul>
+<li>Vocabulary/Words - Variables and Reserved words</li>
+<li>Sentence structure - valid syntax patterns</li>
+<li>Story structure - constructing a program for a purpose</li>
+</ul>
+<h1 id="Week_2">Week 2</h1><h2 id="Install_Python">Install Python</h2><ul>
+<li>IDLE</li>
+<li>Python Downloads: <a href="https://www.python.org/downloads/" target="_blank" rel="external">https://www.python.org/downloads/</a></li>
+<li>Text Editor</li>
+</ul>
+<h1 id="Week_3">Week 3</h1><h2 id="Simple_program">Simple program</h2><ul>
+<li>Sequential steps</li>
+<li>Conditional steps</li>
+<li>Repeated steps</li>
+</ul>
+<h2 id="Think_like_a_program">Think like a program</h2><ul>
+<li>How to find the largest number?</li>
+</ul>
+<h1 id="Week_4">Week 4</h1><h2 id="Expressions">Expressions</h2><ul>
+<li>Variables and Constants <ul>
+<li>Constants</li>
+<li>Python variable name rules: start with letters, case sensitive</li>
+</ul>
+</li>
+<li>Sentences or lines<ul>
+<li>Assignment statement: <code>x = 2</code></li>
+<li>Assignment with expression: <code>x = x + 2</code> <ul>
+<li>Print statement: <code>print x</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Operator<ul>
+<li>Numeric expressions: +, -, _, /, *_, %</li>
+<li>Operator precedence rules: parenthesis, power, multiplication, addition, left to right<ul>
+<li>Reserved words</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="Variables">Variables</h2><ul>
+<li>Type<ul>
+<li>Interger</li>
+<li>Float</li>
+<li>String</li>
+<li>&#x2026;</li>
+</ul>
+</li>
+<li>Type conversions<ul>
+<li>Type of x: <code>type(x)</code></li>
+<li>Convert x to an interger <code>int(x)</code></li>
+<li>Convert x to a float<code>float(x)</code></li>
+</ul>
+</li>
+<li>User Input<ul>
+<li><code>nam = raw_input(&quot;Who are you?&quot;)</code></li>
+</ul>
+</li>
+<li>Comments in Python: anything after <code>#</code></li>
+<li>Variable naming style</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>_This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by ]]>
+    </summary>
+    
+      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Python" scheme="http://tech.liuxiaozhen.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[启]]></title>
     <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
