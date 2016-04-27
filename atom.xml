@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-04-27T09:17:30.000Z</updated>
+  <updated>2016-04-27T09:20:06.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,9 +19,9 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
     <published>2016-04-27T09:17:30.000Z</published>
-    <updated>2016-04-27T09:17:30.000Z</updated>
+    <updated>2016-04-27T09:20:06.000Z</updated>
     <content type="html"><![CDATA[<p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="#">Tag: Data Analyst</a> &#x3002;</strong></p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Udacity/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
 <a id="more"></a>
 <h1 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h1><p>&#x5728;&#x7EBF;&#x5B66;&#x4E60;&#x5E73;&#x53F0;Udacity&#x53BB;&#x5E74;&#x521A;&#x521A;&#x5B8C;&#x6210;D&#x8F6E;&#x878D;&#x8D44;&#xFF0C;&#x4F30;&#x503C;&#x8D85;&#x8FC7;10&#x4EBF;&#x7F8E;&#x5143;&#xFF0C;&#x6210;&#x4E3A;&#x5728;&#x7EBF;&#x6559;&#x80B2;&#x7B2C;&#x4E00;&#x5BB6;&#x72EC;&#x89D2;&#x517D;&#x3002;&#x6211;&#x4ECE;2012&#x5E74;&#x5C31;&#x5F00;&#x59CB;&#x5173;&#x6CE8;&#x548C;&#x5B66;&#x4E60;Udacity&#x7684;&#x8BFE;&#x7A0B;&#x3002;&#x4ECA;&#x5E74;4&#x6708;&#xFF0C;Udacity&#x4EE5;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#x4E3A;&#x540D;&#x5165;&#x534E;&#xFF0C;&#x4E00;&#x8FDB;&#x5165;&#x5C31;&#x8DDF;&#x6EF4;&#x6EF4;&#x3001;&#x4EAC;&#x4E1C;&#x3001;&#x65B0;&#x6D6A;&#x8FBE;&#x6210;&#x5408;&#x4F5C;&#x610F;&#x5411;&#xFF0C;&#x4E3A;&#x8FD9;&#x4E9B;&#x4F01;&#x4E1A;&#x5BFB;&#x627E;&#x548C;&#x57F9;&#x517B;&#x4EBA;&#x624D;&#x3002;</p>
 <p>&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#xFF08;Nanodegreee, ND&#xFF09;&#x662F;Udacity&#x76EE;&#x524D;&#x7684;&#x4E3B;&#x6253;&#x4EA7;&#x54C1;&#xFF0C;&#x610F;&#x56FE;&#x8BA9;&#x5B66;&#x5458;&#x901A;&#x8FC7;9-12&#x4E2A;&#x6708;&#x7684;&#x4E1A;&#x4F59;&#x5B66;&#x4E60;&#xFF08;&#x6BCF;&#x6708;&#x81F3;&#x5C11;10&#x5C0F;&#x65F6;&#x6295;&#x5165;&#xFF09;&#x6210;&#x4E3A;&#x80FD;&#x591F;&#x80DC;&#x4EFB;&#x67D0;&#x4E2A;IT&#x6280;&#x672F;&#x5C97;&#x4F4D;&#x7684;&#x4EBA;&#x624D;&#xFF08;&#x521D;&#x7EA7;&#x4E3A;&#x4E3B;&#xFF09;&#x3002;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6536;&#x8D39;&#x4EE5;&#x6708;&#x4E3A;&#x5355;&#x4F4D;&#xFF0C;&#x82F1;&#x6587;&#x7F51;&#x7AD9;&#x4E00;&#x822C;&#x662F;$199/&#x6708;&#xFF0C;&#x5728;&#x534E;&#x4EF7;&#x683C;&#x662F;&#xFFE5;980/&#x6708;&#xFF0C;&#x8FD9;&#x4E2A;&#x4EF7;&#x683C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x652F;&#x4ED8;&#x4E00;&#x5BF9;&#x4E00;&#x8F85;&#x5BFC;&#xFF0C;&#x56E0;&#x4E3A;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#x662F;&#x514D;&#x8D39;&#x7684;&#x3002;</p>
@@ -63,9 +63,17 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="#">Tag: Data Analyst</a> &#x3002;</strong></p>]]>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Udacity/">Tag: Data Analyst</a> &#x3002;</strong></p>]]>
     
     </summary>
+    
+      <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
+    
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
+    
+      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
   </entry>
   
