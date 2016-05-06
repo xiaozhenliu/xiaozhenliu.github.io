@@ -289,9 +289,10 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
     <published>2016-04-05T07:00:00.000Z</published>
-    <updated>2016-04-05T07:12:55.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+    <updated>2016-05-06T08:15:43.000Z</updated>
+    <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
 <h2 id="Multivariate_Linear_Regression">Multivariate Linear Regression</h2><h3 id="Multiple_Features">Multiple Features</h3><p>&#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;multiple features? &#x5BF9;&#x4E8E;&#x8BB8;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x5F71;&#x54CD;&#x9884;&#x6D4B;&#x7ED3;&#x679C;&#x7684;&#x5E76;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;&#x56E0;&#x7D20;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#x6765;&#x53CD;&#x6620;&#x4E0D;&#x540C;&#x7684;&#x5F71;&#x54CD;&#x56E0;&#x7D20;&#x3002;</p>
@@ -350,11 +351,13 @@
 <p>Therefore, if n is less than 1000, use normal equation. Otherwise, use gradient descent.</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>]]>
+    <![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>]]>
     
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
@@ -365,9 +368,10 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-03-12T13:32:59.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+    <updated>2016-05-06T08:16:05.000Z</updated>
+    <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
 <blockquote>
 <p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
@@ -430,11 +434,13 @@
 <h4 id="&#x201C;Batch&#x201D;_Gradient_Descent">&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>]]>
+    <![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>]]>
     
     </summary>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
