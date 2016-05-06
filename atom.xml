@@ -128,9 +128,10 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
-    <updated>2016-04-27T09:39:15.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
+    <updated>2016-05-06T08:18:55.000Z</updated>
+    <content type="html"><![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
+<p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
 <h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
@@ -278,7 +279,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>]]>
+    <![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>]]>
     
     </summary>
     
