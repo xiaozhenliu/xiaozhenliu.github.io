@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-05-09T07:13:37.000Z</updated>
+  <updated>2016-05-10T12:01:15.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,12 +19,12 @@
     <link href="http://tech.liuxiaozhen.com/2016/05/06/mid-2016/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/06/mid-2016/</id>
     <published>2016-05-06T08:57:56.000Z</published>
-    <updated>2016-05-09T07:13:37.000Z</updated>
+    <updated>2016-05-10T12:01:15.000Z</updated>
     <content type="html"><![CDATA[<p>2016&#x5E74;&#x8FC7;&#x53BB;&#x4E09;&#x5206;&#x4E4B;&#x4E00;&#x4E86;&#x3002;&#x4EFF;&#x4F5B;&#x6628;&#x65E5;&#x8FD8;&#x6709;&#x7740;&#x51AC;&#x7684;&#x9634;&#x973E;&#xFF0C;&#x4ECA;&#x65E5;&#x5374;&#x5DF2;&#x590F;&#x610F;&#x5C3D;&#x663E;&#x3002;&#x5B58;&#x5728;&#x8349;&#x7A3F;&#x91CC;&#x7684;&#x6587;&#x7AE0;&#x4E5F;&#x8D8A;&#x79EF;&#x8D8A;&#x591A;&#xFF0C;&#x7B49;&#x5F85;&#x5728;&#x9002;&#x5B9C;&#x7684;&#x6C14;&#x5019;&#x91CC;&#x7834;&#x571F;&#x800C;&#x51FA;&#x3002;&#x6709;&#x611F;&#x4E8E;&#x201C;Deadline&#x662F;&#x7B2C;&#x4E00;&#x751F;&#x4EA7;&#x529B;&#x201D;&#xFF0C;&#x51B3;&#x5B9A;&#x518D;push&#x81EA;&#x5DF1;&#x4E00;&#x628A;&#xFF0C;&#x6BCF;&#x5468;&#x4E09;&#x53CA;&#x5468;&#x65E5;&#x5B9A;&#x65F6;&#x53D1;&#x5E03;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;&#x3002;</p>
 <a id="more"></a>
-<p>&#x672C;&#x5468;&#x65E5;&#xFF08;5&#x6708;8&#x65E5;&#xFF09;&#x5373;&#x5C06;&#x53D1;&#x5E03;&#x7684;&#x662F;Coursera&#x4E0A;Machine Learning&#x7684;&#x7B2C;3&#x5468;&#x7B14;&#x8BB0;&#x3002;&#x4E0A;&#x534A;&#x5E74;&#x5269;&#x4F59;&#x7684;&#x53D1;&#x5E03;&#x9884;&#x5B9A;&#x5982;&#x4E0B;&#xFF1A;</p>
-<p>5/11 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;2&#xFF09;&#x4E4B;&#x66F4;&#x65B0;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x7684;&#x5168;&#x90E8;11&#x8BFE;&#x5185;&#x5BB9;&#xFF09;<br>5/15 Coursera Machine Learning Week 4 &amp; 5<br>5/18 Python&#x5B9E;&#x6218;&#xFF08;1&#xFF09;&#xFF08;&#x57FA;&#x4E8E;&#x7F51;&#x6613;&#x4E91;&#x8BFE;&#x5802;&#x77ED;&#x671F;&#x8BFE;&#x7A0B;&#xFF09;<br>5/22 Coursera Machine Learning Week 6 &amp; 7<br>5/25 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;3&#xFF09;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#xFF09;<br>5/29 Coursera Machine Learning Week 8 &amp; 9</p>
-<p>6/1 Python&#x5B9E;&#x6218;&#xFF08;2&#xFF09;<br>6/5 Coursera Machine Learning Week 10 &amp; 11<br>6/8 Python&#x5B9E;&#x6218;&#xFF08;3&#xFF09;<br>6/12 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;4&#xFF09;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#xFF09;<br>6/15 Python&#x5B9E;&#x6218;&#xFF08;4&#xFF09;<br>6/19 &#x5F85;&#x5B9A;<br>6/22 &#x5F85;&#x5B9A;<br>6/26 &#x5F85;&#x5B9A;<br>6/29 &#x5F85;&#x5B9A;</p>
+<p>&#x4E0A;&#x534A;&#x5E74;&#x53D1;&#x5E03;&#x9884;&#x5B9A;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>5/13 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;2&#xFF09;&#x4E4B;&#x66F4;&#x65B0;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x7684;&#x5168;&#x90E8;11&#x8BFE;&#x5185;&#x5BB9;&#xFF09;<br>5/15 Coursera Machine Learning Week 3 &amp; 4<br>5/18 Python&#x5B9E;&#x6218;&#xFF08;1&#xFF09;&#xFF08;&#x57FA;&#x4E8E;&#x7F51;&#x6613;&#x4E91;&#x8BFE;&#x5802;&#x77ED;&#x671F;&#x8BFE;&#x7A0B;&#xFF09;<br>5/22 Coursera Machine Learning Week 5 &amp; 6<br>5/25 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;3&#xFF09;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E8C;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#xFF09;<br>5/29 Coursera Machine Learning Week 7 &amp; 8</p>
+<p>6/1 Python&#x5B9E;&#x6218;&#xFF08;2&#xFF09;<br>6/5 Coursera Machine Learning Week 9 &amp; 10<br>6/8 Python&#x5B9E;&#x6218;&#xFF08;3&#xFF09;<br>6/12 &#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;4&#xFF09;&#xFF08;&#x6DB5;&#x76D6;&#x7B2C;&#x4E09;&#x90E8;&#x5206;&#x5185;&#x5BB9;&#xFF09;<br>6/15 Python&#x5B9E;&#x6218;&#xFF08;4&#xFF09;<br>6/19 &#x5F85;&#x5B9A;<br>6/22 &#x5F85;&#x5B9A;<br>6/26 &#x5F85;&#x5B9A;<br>6/29 &#x5F85;&#x5B9A;</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>2016&#x5E74;&#x8FC7;&#x53BB;&#x4E09;&#x5206;&#x4E4B;&#x4E00;&#x4E86;&#x3002;&#x4EFF;&#x4F5B;&#x6628;&#x65E5;&#x8FD8;&#x6709;&#x7740;&#x51AC;&#x7684;&#x9634;&#x973E;&#xFF0C;&#x4ECA;&#x65E5;&#x5374;&#x5DF2;&#x590F;&#x610F;&#x5C3D;&#x663E;&#x3002;&#x5B58;&#x5728;&#x8349;&#x7A3F;&#x91CC;&#x7684;&#x6587;&#x7AE0;&#x4E5F;&#x8D8A;&#x79EF;&#x8D8A;&#x591A;&#xFF0C;&#x7B49;&#x5F85;&#x5728;&#x9002;&#x5B9C;&#x7684;&#x6C14;&#x5019;&#x91CC;&#x7834;&#x571F;&#x800C;&#x51FA;&#x3002;&#x6709;&#x611F;&#x4E8E;&#x201C;Deadline&#x662F;&#x7B2C;&#x4E00;&#x751F;&#x4EA7;&#x529B;&#x201D;&#xFF0C;&#x51B3;&#x5B9A;&#x518D;push&#x81EA;&#x5DF1;&#x4E00;&#x628A;&#xFF0C;&#x6BCF;&#x5468;&#x4E09;&#x53CA;&#x5468;&#x65E5;&#x5B9A;&#x65F6;&#x53D1;&#x5E03;&#x5B66;&#x4E60;&#x7B14;&#x8BB0;&#x3002;</p>]]>
