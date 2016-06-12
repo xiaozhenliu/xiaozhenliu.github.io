@@ -4,22 +4,28 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>数据分析师养成计划（2） | Live in the Future, then Build What&#39;s Missing</title>
+    <title>Machine Learning By Stanford University Week 5 | Live in the Future, then Build What&#39;s Missing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Liu Xiaozhen">
     
 
     
-    <meta name="description" content="&amp;#x8BB0;&amp;#x5F55;Udacity&amp;#x4E0A;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x5E08;Nanodegree&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206;&amp;#x8BFE;&amp;#x7A0B;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x6700;&amp;#x57FA">
+    <meta name="description" content="Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#x7F">
 <meta property="og:type" content="article">
-<meta property="og:title" content="数据分析师养成计划（2）">
-<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/index.html">
+<meta property="og:title" content="Machine Learning By Stanford University Week 5">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="&amp;#x8BB0;&amp;#x5F55;Udacity&amp;#x4E0A;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x5E08;Nanodegree&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206;&amp;#x8BFE;&amp;#x7A0B;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x6700;&amp;#x57FA">
+<meta property="og:description" content="Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#x7F">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png">
+<meta property="og:image" content="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-06.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="数据分析师养成计划（2）">
-<meta name="twitter:description" content="&amp;#x8BB0;&amp;#x5F55;Udacity&amp;#x4E0A;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x5E08;Nanodegree&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206;&amp;#x8BFE;&amp;#x7A0B;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x6700;&amp;#x57FA">
+<meta name="twitter:title" content="Machine Learning By Stanford University Week 5">
+<meta name="twitter:description" content="Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#x7F">
 <meta name="twitter:creator" content="@xiaozhenliu">
 <link rel="publisher" href="110358754558341446765">
 
@@ -83,51 +89,149 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/04/28/udacity-data-analyst-nanodegree-1/" title="数据分析师养成计划（2）" itemprop="url">数据分析师养成计划（2）</a>
+      <a href="/2016/06/12/Machine-Learning-W5/" title="Machine Learning By Stanford University Week 5" itemprop="url">Machine Learning By Stanford University Week 5</a>
   </h1>
   <p class="article-author">By
        
 		<a href="https://plus.google.com/110358754558341446765?rel=author" title="Liu Xiaozhen" target="_blank" itemprop="author">Liu Xiaozhen</a>
 		
   <p class="article-time">
-    <time datetime="2016-04-28T08:59:53.000Z" itemprop="datePublished"> 发表于 2016-04-28</time>
+    <time datetime="2016-06-12T14:49:53.000Z" itemprop="datePublished"> 发表于 2016-06-12</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<p>&#x8BB0;&#x5F55;Udacity&#x4E0A;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;Nanodegree&#x7684;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6700;&#x57FA;&#x672C;&#x7684;&#x7EDF;&#x8BA1;&#x5B66;&#x77E5;&#x8BC6;&#x3002;</p>
+		<h1 id="Neural_Networks:_Learning">Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
-<p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
-<h1 id="Project_1">Project 1</h1><h2 id="Lesson_1_Intro_to_Research_Methods">Lesson 1 Intro to Research Methods</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x600E;&#x4E48;&#x505A;&#x8C03;&#x67E5;&#x7814;&#x7A76;&#x3002;&#x5B9A;&#x6027;&#x5730;&#x8BB2;&#x4E86;&#x91C7;&#x6837;&#xFF0C;&#x968F;&#x673A;&#x6027;&#x3001;&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;&#x3001;&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;&#xFF0C;&#x6570;&#x636E;&#x9610;&#x91CA;&#x7B49;&#x3002;</p>
-<p>&#x5173;&#x952E;&#x6982;&#x5FF5;&#xFF1A;</p>
-<ul>
-<li>Population &amp; Sample</li>
-<li>Parameters &amp; Statistics</li>
-<li>Sampling Error</li>
-<li>Independent Variables, Dependent Variables, and Lurking Variables</li>
-<li>Observations v.s. Experiments</li>
-<li>&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;</li>
-<li>&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;</li>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<h2 id="Neural_Networks_(Classification)">Neural Networks (Classification)</h2><p>Training set $\{(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})\}$</p>
+<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
+<p>L = total no. of layers in network. (Here L = 4)</p>
+<p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
+<p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
+<p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
+<h3 id="Cost_functions">Cost functions</h3><h4 id="Logistic_regression">Logistic regression</h4><p>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<h4 id="Neural_network">Neural network</h4><p>$$h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}$$</p>
+<p>$$<br>J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2<br>$$</p>
+<h3 id="Backpropagation_Algorithm">Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
+<h4 id="Gradient_Computation">Gradient Computation</h4><p>&#x8003;&#x8651;&#x6700;&#x7B80;&#x5355;&#x60C5;&#x51B5;&#xFF0C;&#x4EC5;&#x6709;&#x4E00;&#x4E2A;&#x8BAD;&#x7EC3;&#x6837;&#x672C;&#xFF1A;<br>Given one training example ($x,y$):</p>
+<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png" alt=""></p>
+<h4 id="Forward_propagation&#x8BA1;&#x7B97;&#x6B65;&#x9AA4;">Forward propagation&#x8BA1;&#x7B97;&#x6B65;&#x9AA4;</h4><ul>
+<li>$a^{(1)} = x$</li>
+<li>$z^{(2)} = \Theta^{(1)}a^{(1)}$</li>
+<li>$a^{(2)}=g(z^{(2)})\quad(\mathrm{add}\space a_0^{(2)})$</li>
+<li>$z^{(3)} = \Theta^{(2)}a^{(2)}$</li>
+<li>$a^{(3)}=g(z^{(3)})\quad(\mathrm{add}\space a_0^{(3)})$</li>
+<li>$z^{(4)} = \Theta^{(3)}a^{(3)}$</li>
+<li>$a^{(4)}=h_\Theta(x)=g(z^{(4)})$</li>
 </ul>
-<h2 id="Lesson_2:_Visualizing_Data">Lesson 2: Visualizing Data</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x5982;&#x4F55;&#x7528;&#x76F4;&#x65B9;&#x56FE;&#x6765;&#x5448;&#x73B0;&#x6570;&#x636E;&#x3002;</p>
-<p>&#x5173;&#x952E;&#x6982;&#x5FF5;&#xFF1A;</p>
+<h4 id="Backpropagation_algorithm">Backpropagation algorithm</h4><p>Intuition: $\delta_j^{(l)} = $ &#x201C;error&#x201D; of node $j$ in layer $l$.</p>
+<p>&#x8BBE; $\delta_j^{(l)}$ &#x4E3A;&#x7B2C; $l$ &#x5C42;&#x7B2C; $j$ &#x4E2A;&#x795E;&#x7ECF;&#x5143;&#x7684;&#x8BEF;&#x5DEE;&#x503C;&#x3002;</p>
+<p>For each output unit (layer L = 4)</p>
 <ul>
-<li>Frequency, Relative Frequency, Proportions and Percentages</li>
-<li>Histogram: numerical values</li>
-<li>Bar Graph: categories</li>
-<li>Bin size</li>
-<li>Skewed Distribution<ul>
-<li>Positively skewed distribution: scores with the lowest frequencies are on the right side of the distribution</li>
-<li>Negatively skewed distribution: scores with the highest frequencies are on the left side of the distribution</li>
+<li>$\delta_j^{(4)}=a_j^{(4)}-y_j=(h_\Theta(x))_j-y_j$</li>
+</ul>
+<p>Vector form:</p>
+<ul>
+<li><p>$\delta^{(4)}=a^{(4)}-y$</p>
+</li>
+<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}._g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}._(1-a^{(3)})$</p>
+</li>
+<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}._g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}._(1-a^{(2)})$</p>
+</li>
+<li><p>(There is No $\delta^{(1)}$!)</p>
+</li>
+</ul>
+<h4 id="Backpropagation_implementation">Backpropagation implementation</h4><ul>
+<li><p>Set $\Delta_{ij}^{(l)}=0$ (for all $l,i,j$).</p>
+</li>
+<li><p>For $i = 1$ to $m$</p>
+<ul>
+<li>&#x8BBE;&#x7F6E;&#x521D;&#x59CB;&#x6FC0;&#x6D3B;&#x503C; Set $a^{(1)}=x^{(i)}$</li>
+<li>&#x6B63;&#x5411;&#x8BA1;&#x7B97;&#x5404;&#x5C42;&#x6FC0;&#x6D3B;&#x503C; Perform forward propagation to compute $a^{(l)}$ for $l=2,3,&#x2026;,L$</li>
+<li>&#x7528;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#xFF0C;&#x8BA1;&#x7B97;&#x6700;&#x7EC8;&#x5C42;&#x8BEF;&#x5DEE; Using $y^{(i)}$, compute $\delta^{(L)}=a^{(L)}-y^{(i)}$</li>
+<li>&#x53CD;&#x5411;&#x8BA1;&#x7B97;&#x5176;&#x4ED6;&#x5C42;&#x7684;&#x8BEF;&#x5DEE; Compute $\delta^{(L-1)}, \delta^{(L-2)},\delta^{(2)}$</li>
+<li><p>$\Delta_{ij}^{(l)}:=\Delta_{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
+<p> Here, vector form: </p>
+<p> $\Delta^{(l)}:=\Delta^{(l)}+\delta^{(l+1)}(a^{(l)})^T$  </p>
+</li>
 </ul>
 </li>
-<li>Uniform, bimode and normal distrubution</li>
 </ul>
-<h2 id="Lesson_3:_Central_Tendancy">Lesson 3: Central Tendancy</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x4E3B;&#x8981;&#x8BB2;mode, mean, median&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4EE5;&#x53CA;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x5E03;&#xFF0C;&#x8FD9;&#x4E9B;&#x7279;&#x5F81;&#x503C;&#x6709;&#x4F55;&#x7279;&#x70B9;&#xFF0C;&#x53CD;&#x6620;&#x4E86;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x6027;&#x8D28;&#x3002;</p>
-<h2 id="Lesson_4:_Variability">Lesson 4: Variability</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x4E86;variance&#x548C;standard deviation&#x5982;&#x4F55;&#x8BA1;&#x7B97;&#xFF0C;&#x4EE5;&#x53CA;normal distribution&#x7684;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x3002;</p>
-<p>&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x8BFE;&#x7A0B;&#x90FD;&#x8FD8;&#x5F88;&#x57FA;&#x7840;&#xFF0C;&#x6682;&#x65F6;&#x4E0D;&#x4F1A;&#x6709;&#x4EC0;&#x4E48;&#x5927;&#x620F;&#x3002;&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x6765;&#x770B;&#x770B;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5427;~<br>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>
+<p>  $$\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}$$</p>
+<ul>
+<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D_{ij}^{(l)}:=\frac1m\Delta_{ij}^{(l)}+\lambda\Delta_{ij}^{(l)}$ if $j\neq0$<br>$D_{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
+</ul>
+<h3 id="Backpropagation_Intuition">Backpropagation Intuition</h3><h4 id="Forward_Propagation">Forward Propagation</h4><p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png" alt=""></p>
+<h4 id="What_is_backpropagation_doing">What is backpropagation doing</h4><p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),<br>$$<br>cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})<br>$$</p>
+<p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
+<p>i.e. how well is the network doing on example i?</p>
+<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png" alt=""></p>
+<h3 id="Backpropagation_Implementation_Note:_Unrolling_Parameters">Backpropagation Implementation Note: Unrolling Parameters</h3><h4 id="Advanced_Optimization">Advanced Optimization</h4><p><code>function [jVal, gradient] = costFunction(theta)</code><br>&#x2026;<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
+<p>Neutal Network(L=4):<br>$\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$ - matrices(<code>Theta1, Theta2, Theta3</code>)<br>$D^{(1)},D^{(2)},D^{(3)}$ - matrices (<code>D1, D2, D3</code>)</p>
+<p>&#x201C;Unroll&#x201D; into vectors</p>
+<h4 id="Example">Example</h4><p>$s_1 = 10,s_2 = 10, s_3=1$</p>
+<p>$\Theta^{(1)}\in \mathbb{R}^{10\times11}, \Theta^{(2)}\in \mathbb{R}^{10\times11},\Theta^{(3)}\in \mathbb{R}^{1\times11}$</p>
+<p>$D^{(1)}\in \mathbb{R}^{10\times11}, D^{(2)}\in \mathbb{R}^{10\times11},D^{(3)}\in \mathbb{R}^{1\times11}$</p>
+<p><code>thetaVec = [ Theta1(:); THeta2(:); Theta3(:)];</code><br><code>DVec = [D1(:); D2(:); D3(:)];</code></p>
+<p><code>Theta1 = reshape(thetaVec(1:110),10,11);</code><br><code>Theta2 = reshape(thetaVec(111:220),10,11);</code><br><code>Theta3 = reshape(thetaVec(221:231),1,11);</code></p>
+<h4 id="Learning_Algorithm">Learning Algorithm</h4><ul>
+<li><p>Have initial parameters $\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$.</p>
+</li>
+<li><p>Unroll to get <code>initialTheta</code> to pass to <code>fminunc(@costFunction, initialTheta, options)</code></p>
+</li>
+<li><p><code>function [jval, gradientVec] = costFunction(thetaVec)</code></p>
+</li>
+<li><p>From <code>thetaVec</code>, get $\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$.</p>
+</li>
+<li><p>Use forward prop/back prop to compute $D^{(1)},D^{(2)},D^{(3)}$ and $J(\Theta)$.</p>
+</li>
+<li>Unroll $D^{(1)},D^{(2)},D^{(3)}$ to get <code>gradientVec</code>.</li>
+</ul>
+<h3 id="Gradient_Checking">Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
+<h4 id="Numerial_estimation_of_gradients">Numerial estimation of gradients</h4><p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png" alt=""></p>
+<p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
+<h4 id="Parameter_vector_$\theta$">Parameter vector $\theta$</h4><p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-06.png" alt=""></p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> <span class="built_in">i</span> = <span class="number">1</span>:n,</span><br><span class="line">	thetaPlus = theta;</span><br><span class="line">	thetaPlus(<span class="built_in">i</span>) = thetaPlus(<span class="built_in">i</span>) + EPSILON;</span><br><span class="line">	thetaMinus = theta;</span><br><span class="line">	thetaMinus(<span class="built_in">i</span>) = thetaMinus(<span class="built_in">i</span>) - EPSILON;</span><br><span class="line">	gradApprox(<span class="built_in">i</span>) = (J(thetaPlus) - J(thetaMinus))/(<span class="number">2</span>*EPSILON);</span><br><span class="line"><span class="keyword">end</span>;</span><br></pre></td></tr></table></figure>
+<p>Check that <code>gradApprox</code> $\approx$ <code>DVec</code> </p>
+<h4 id="Implementation_Note:">Implementation Note:</h4><ul>
+<li>Implement backprop to compute <code>DVec</code> (unrolled $D^{(1)},D^{(2)},D^{(3)}$).</li>
+<li>Implement numerial gradient check to compute <code>gradApprox</code>.</li>
+<li>Make sure they give similar values.</li>
+<li>Turn off gradient checking. Using backprop code for learning.</li>
+</ul>
+<p><strong>Important:</strong></p>
+<ul>
+<li>Be sure to disable your gradient cheking code before training your classifier. If you run numeiral gradient computation on every iteration of gradient descent (or in the inner loop of <code>costFunction(...)</code>) your code will be very slow.</li>
+</ul>
+<h3 id="Random_Initialization">Random Initialization</h3><p>Need initial value for $\Theta\$</p>
+<ul>
+<li>Zero initialization. <ul>
+<li>$\Theta_{ij}^{(l)} = 0$ for all $i,j,l$</li>
+<li>will cause the problem of symmetric ways: </li>
+</ul>
+</li>
+<li>Random initialization: Symmetry breaking. <ul>
+<li>initialize each $\Theta_{ij}^{(l)}$ to a random value in $[-\epsilon,\epsilon]$</li>
+<li>E.g.<br><code>Theta1 = rand(10,11) * (2*INIT_EPSILON) - INIT_EPSILON;</code><br><code>Theta2 = rand(1,11) * (2*INIT_EPSILON) - INIT_EPSILON;</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="Putting_It_Together">Putting It Together</h2><h3 id="Training_a_neural_network">Training a neural network</h3><ul>
+<li>pick a network architecture (connectivity pattern between neurons)</li>
+<li>No. of input units: Dimension of features </li>
+<li>No. output units: Number of classes</li>
+<li>Reasonable default: 1 hidden layer, or if &gt;1 hidden layer, have same no. of hidden uints in every layer (usually the more the better, but will be more computational expensive). </li>
+</ul>
+<h3 id="Steps_of_training_a_neural_network">Steps of training a neural network</h3><ol>
+<li>Randomly initialize weights</li>
+<li>Implement forward propagation to get $h_\Theta(x^{(i)})$ for any $x^{(i)}$</li>
+<li>Implement code to compute cost function $J(\Theta)$</li>
+<li>Implement backprop to compute partial derivatives $\frac{\partial}{\partial\Theta_{jk}^{(l)}}J(\Theta)$</li>
+<li>Use gradient checking to compare $\frac{\partial}{\partial\Theta_{jk}^{(l)}}J(\Theta)$ computed using backpropagation v.s. using numerical estimate of gradient of $J(\Theta)$. Then disable gradient checking code.</li>
+<li>Use gradient descent or advanced optimization method with backpropagation to try to minimize $J(\theta)$ as a function of parameters $\Theta$</li>
+</ol>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -140,7 +244,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/" data-title="数据分析师养成计划（2） | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
+	  <div data-url="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/" data-title="Machine Learning By Stanford University Week 5 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -153,19 +257,11 @@
 	
 <nav class="article-nav clearfix">
  
- <div class="prev" >
- <a href="/2016/06/12/Machine-Learning-W5/" title="Machine Learning By Stanford University Week 5">
-  <strong>上一篇：</strong><br/>
-  <span>
-  Machine Learning By Stanford University Week 5</span>
-</a>
-</div>
-
 
 <div class="next">
-<a href="/2016/04/27/udacity-data-analyst-nanodegree-0/"  title="数据分析师养成计划（1）">
+<a href="/2016/04/28/udacity-data-analyst-nanodegree-1/"  title="数据分析师养成计划（2）">
  <strong>下一篇：</strong><br/> 
- <span>数据分析师养成计划（1）
+ <span>数据分析师养成计划（2）
 </span>
 </a>
 </div>
@@ -174,7 +270,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2016/04/28/udacity-data-analyst-nanodegree-1/" data-title="数据分析师养成计划（2）" data-url="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/"></div>
+	<div class="ds-thread" data-thread-key="2016/06/12/Machine-Learning-W5/" data-title="Machine Learning By Stanford University Week 5" data-url="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"></div>
 </section>
 
 
