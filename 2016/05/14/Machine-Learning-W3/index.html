@@ -4,24 +4,24 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing</title>
+    <title>Machine Learning By Stanford University Week 3 | Live in the Future, then Build What&#39;s Missing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="Liu Xiaozhen">
     
 
     
-    <meta name="description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E00;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x673A;&amp;#x5668">
+    <meta name="description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Machine Learning by Stanford University Week 1">
-<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/index.html">
+<meta property="og:title" content="Machine Learning By Stanford University Week 3">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/index.html">
 <meta property="og:site_name" content="Live in the Future, then Build What's Missing">
-<meta property="og:description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E00;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x673A;&amp;#x5668">
-<meta property="og:image" content="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png">
-<meta property="og:image" content="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png">
+<meta property="og:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
+<meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png">
+<meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Machine Learning by Stanford University Week 1">
-<meta name="twitter:description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E00;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x673A;&amp;#x5668">
+<meta name="twitter:title" content="Machine Learning By Stanford University Week 3">
+<meta name="twitter:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
 <meta name="twitter:creator" content="@xiaozhenliu">
 <link rel="publisher" href="110358754558341446765">
 
@@ -85,92 +85,95 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2016/03/10/Machine-learning-W1/" title="Machine Learning by Stanford University Week 1" itemprop="url">Machine Learning by Stanford University Week 1</a>
+      <a href="/2016/05/14/Machine-Learning-W3/" title="Machine Learning By Stanford University Week 3" itemprop="url">Machine Learning By Stanford University Week 3</a>
   </h1>
   <p class="article-author">By
        
 		<a href="https://plus.google.com/110358754558341446765?rel=author" title="Liu Xiaozhen" target="_blank" itemprop="author">Liu Xiaozhen</a>
 		
   <p class="article-time">
-    <time datetime="2016-03-10T12:41:19.000Z" itemprop="datePublished"> 发表于 2016-03-10</time>
+    <time datetime="2016-05-14T15:22:21.000Z" itemprop="datePublished"> 发表于 2016-05-14</time>
     
   </p>
 </header>
 	<div class="article-content">
 		
-		<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
+		<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
-<blockquote>
-<p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
-</blockquote>
-<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
-<li>Correct outputs are known. </li>
-<li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
-<li>Regression problem: predict results within a continuous output</li>
-<li>Classification problem: predict results in a discrete output (0 or 1)</li>
+<h2 id="3-1_Logistic_Regression">3.1 Logistic Regression</h2><h3 id="3-1-1_Classification_Problems_and_Logistic_Regression_Model">3.1.1 Classification Problems and Logistic Regression Model</h3><h4 id="a)_Classification_Problems">a) Classification Problems</h4><ul>
+<li>Email&#xFF1A; spam/not spam</li>
+<li>Online transactions: froudulent or not</li>
+<li>Tumor: malignant/benign</li>
 </ul>
-<p>Example: </p>
+<p>$y\in{0,1}$</p>
 <ul>
-<li>Boston Housing price vs size (regression)</li>
-<li>Breast cancer malignant vs benign (classification)<ul>
-<li>more than one attribute</li>
+<li>0: &#x201C;Negative Class&#x201D;</li>
+<li>1: &#x201C;Positive Class&#x201D;</li>
 </ul>
-</li>
-</ul>
-<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
-<li>No known correct output (feedback)</li>
-<li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
-<li>Examples: google story collection; cocktail party (distiguish two voices)</li>
-</ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><h3 id="Model_Representation">Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
-<p>$(x,y)$ - one training example</p>
-<p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
-<p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
-<p>How do we represent $h$?</p>
-<p>  $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
-<h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
-<p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
-<h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
-<p>Parameters: $\theta_0, \theta_1$</p>
-<p>Cost Function:</p>
-<p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
-<p>Goal:<br> $minimize\  J(\theta_0,\theta_1)$</p>
-<p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
-<h3 id="Gradient_Descent">Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
-<p>want $min \ J(\theta_0,\theta_1)$</p>
-<p>Outline:</p>
+<p>Use threshold classifier output $h_\theta(x)$ at 0.5</p>
 <ul>
-<li>start with some $\theta_0,\theta_1$</li>
-<li>keep changing $\theta_0,\theta_1$ to reduce $J(\theta_0,\theta_1)$ until we hopefully end up at a minimum</li>
+<li>If $h_\theta(x) \geq 0.5$, predict &#x201C;y=1&#x201D;</li>
+<li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
 </ul>
-<h3 id="Gradient_descent_algorithm">Gradient descent algorithm</h3><p>repeat until convergence {</p>
-<p>$$\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)</p>
+<h4 id="b)_Logistic_Regression_Model">b) Logistic Regression Model</h4><p>Want $0\leq h_\theta(x) \leq 1$</p>
+<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$</p>
+<p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
+<h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><h4 id="a)_Decision_Boundary">a) Decision Boundary</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
+<h4 id="b)_Non-linear_decision_boundaries">b) Non-linear decision boundaries</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
+<p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
+<h2 id="3-1-3_Cost_Function">3.1.3 Cost Function</h2><p>Logistic regression:</p>
+<p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
+<p>Cost() = </p>
+<p>Cost = 0 if y=1, $h_\theta(x)=1$<br>But as $h_\theta(x)\rightarrow 0$, Cost $\rightarrow \infty$</p>
+<p>More compact way:</p>
+<p>$Cost(h_\theta(x),y)=-ylog\left(h_\theta(x)\right)-(1-y)log\left(1-h_\theta(x)\right)<br>$</p>
+<p>$J(\theta)= - \frac 1m[]$</p>
+<p>To fit parameters $\theta$:<br>$min_\theta J (\theta)$</p>
+<p>Repeat{</p>
+<p>$\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}$</p>
 <p>}</p>
-<p><strong>Correct: simultaneous update $\theta_0$ and $\theta_1$</strong></p>
-<p>$\alpha$ is the learning rate. </p>
+<p>Algorithm looks identical to linear regression!</p>
+<h3 id="3-1-4_Optimization_algorithm">3.1.4 Optimization algorithm</h3><ul>
+<li>Gradient descent</li>
+<li>Conjugate gradient</li>
+<li>BFGS</li>
+<li>L-BFGS</li>
+</ul>
+<p>Advantages:</p>
 <ul>
-<li><p>if $\alpha$ is too small, gradient descent can be slow. </p>
+<li><p>No need to manually pick $\alpha$</p>
 </li>
-<li><p>if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. </p>
+<li><p>Often faster than gradient descent</p>
 </li>
 </ul>
-<p>Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. </p>
-<h3 id="Gradient_Descent_for_Linear_Regression">Gradient Descent for Linear Regression</h3><p>repeat until convergence {</p>
-<p>$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right) $$</p>
-<p>$$\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)} $$<br>}</p>
-<h4 id="&#x201C;Batch&#x201D;_Gradient_Descent">&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
-  
+<p>Disadvantages:</p>
+<ul>
+<li>More complex</li>
+</ul>
+<h3 id="3-1-5_Multiclass_Classification">3.1.5 Multiclass Classification</h3><h4 id="a)_Problem_examples">a) Problem examples</h4><ul>
+<li>Email foldering/tagging: work, friends, family, hobby</li>
+<li>Medical diagrams: not ill, cold, flu</li>
+<li>Weather: sunny, cloudy, rain, snow</li>
+</ul>
+<h4 id="b)_One-vs-all_(one-vs-rest)">b) One-vs-all (one-vs-rest)</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
+<p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
+<p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
+<p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
+<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p>Example: Linear Regression (housing prices)</p>
+<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
+<p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
+<ul>
+<li>&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;underfit, high bias</li>
+<li>&#x4E00;&#x5143;&#x4E8C;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;just right</li>
+<li>&#x4E00;&#x5143;&#x56DB;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;overfit, high variance</li>
+</ul>
+<p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
+<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3>  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
-
-  <div class="article-tags">
-  
-  <span></span> <a href="/tags/Coursera/">Coursera</a><a href="/tags/Linear-Regression/">Linear Regression</a><a href="/tags/Machine-Learning/">Machine Learning</a>
-  </div>
 
 </div>
 
@@ -178,7 +181,7 @@
 
 	<div class="article-share" id="share">
 	
-	  <div data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
+	  <div data-url="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/" data-title="Machine Learning By Stanford University Week 3 | Live in the Future, then Build What&#39;s Missing" data-tsina="hohcn" class="share clearfix">
 	  </div>
 	
 	</div>
@@ -192,18 +195,18 @@
 <nav class="article-nav clearfix">
  
  <div class="prev" >
- <a href="/2016/04/05/Machine-learning-W2/" title="Machine Learning by Stanford University Week 2">
+ <a href="/2016/06/12/Machine-Learning-W5/" title="Machine Learning By Stanford University Week 5">
   <strong>上一篇：</strong><br/>
   <span>
-  Machine Learning by Stanford University Week 2</span>
+  Machine Learning By Stanford University Week 5</span>
 </a>
 </div>
 
 
 <div class="next">
-<a href="/2015/12/06/Python-for-Everybody-1/"  title="Python for Everybody by University of Michigan (1)">
+<a href="/2016/04/28/udacity-data-analyst-nanodegree-1/"  title="数据分析师养成计划（2）">
  <strong>下一篇：</strong><br/> 
- <span>Python for Everybody by University of Michigan (1)
+ <span>数据分析师养成计划（2）
 </span>
 </a>
 </div>
@@ -212,7 +215,7 @@
 
 	
 <section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="2016/03/10/Machine-learning-W1/" data-title="Machine Learning by Stanford University Week 1" data-url="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"></div>
+	<div class="ds-thread" data-thread-key="2016/05/14/Machine-Learning-W3/" data-title="Machine Learning By Stanford University Week 3" data-url="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"></div>
 </section>
 
 

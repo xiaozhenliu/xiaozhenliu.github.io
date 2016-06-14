@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-06-12T14:58:41.000Z</updated>
+  <updated>2016-06-14T14:38:35.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
-    <updated>2016-06-12T14:58:41.000Z</updated>
+    <updated>2016-06-14T14:38:35.000Z</updated>
     <content type="html"><![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -153,6 +153,91 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Machine Learning By Stanford University Week 3]]></title>
+    <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
+    <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
+    <published>2016-05-14T15:22:21.000Z</published>
+    <updated>2016-06-14T15:22:57.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
+<a id="more"></a>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<h2 id="3-1_Logistic_Regression">3.1 Logistic Regression</h2><h3 id="3-1-1_Classification_Problems_and_Logistic_Regression_Model">3.1.1 Classification Problems and Logistic Regression Model</h3><h4 id="a)_Classification_Problems">a) Classification Problems</h4><ul>
+<li>Email&#xFF1A; spam/not spam</li>
+<li>Online transactions: froudulent or not</li>
+<li>Tumor: malignant/benign</li>
+</ul>
+<p>$y\in{0,1}$</p>
+<ul>
+<li>0: &#x201C;Negative Class&#x201D;</li>
+<li>1: &#x201C;Positive Class&#x201D;</li>
+</ul>
+<p>Use threshold classifier output $h_\theta(x)$ at 0.5</p>
+<ul>
+<li>If $h_\theta(x) \geq 0.5$, predict &#x201C;y=1&#x201D;</li>
+<li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
+</ul>
+<h4 id="b)_Logistic_Regression_Model">b) Logistic Regression Model</h4><p>Want $0\leq h_\theta(x) \leq 1$</p>
+<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$</p>
+<p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
+<h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><h4 id="a)_Decision_Boundary">a) Decision Boundary</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
+<h4 id="b)_Non-linear_decision_boundaries">b) Non-linear decision boundaries</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
+<p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
+<h2 id="3-1-3_Cost_Function">3.1.3 Cost Function</h2><p>Logistic regression:</p>
+<p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
+<p>Cost() = </p>
+<p>Cost = 0 if y=1, $h_\theta(x)=1$<br>But as $h_\theta(x)\rightarrow 0$, Cost $\rightarrow \infty$</p>
+<p>More compact way:</p>
+<p>$Cost(h_\theta(x),y)=-ylog\left(h_\theta(x)\right)-(1-y)log\left(1-h_\theta(x)\right)<br>$</p>
+<p>$J(\theta)= - \frac 1m[]$</p>
+<p>To fit parameters $\theta$:<br>$min_\theta J (\theta)$</p>
+<p>Repeat{</p>
+<p>$\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}$</p>
+<p>}</p>
+<p>Algorithm looks identical to linear regression!</p>
+<h3 id="3-1-4_Optimization_algorithm">3.1.4 Optimization algorithm</h3><ul>
+<li>Gradient descent</li>
+<li>Conjugate gradient</li>
+<li>BFGS</li>
+<li>L-BFGS</li>
+</ul>
+<p>Advantages:</p>
+<ul>
+<li><p>No need to manually pick $\alpha$</p>
+</li>
+<li><p>Often faster than gradient descent</p>
+</li>
+</ul>
+<p>Disadvantages:</p>
+<ul>
+<li>More complex</li>
+</ul>
+<h3 id="3-1-5_Multiclass_Classification">3.1.5 Multiclass Classification</h3><h4 id="a)_Problem_examples">a) Problem examples</h4><ul>
+<li>Email foldering/tagging: work, friends, family, hobby</li>
+<li>Medical diagrams: not ill, cold, flu</li>
+<li>Weather: sunny, cloudy, rain, snow</li>
+</ul>
+<h4 id="b)_One-vs-all_(one-vs-rest)">b) One-vs-all (one-vs-rest)</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
+<p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
+<p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
+<p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
+<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p>Example: Linear Regression (housing prices)</p>
+<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
+<p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
+<ul>
+<li>&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;underfit, high bias</li>
+<li>&#x4E00;&#x5143;&#x4E8C;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;just right</li>
+<li>&#x4E00;&#x5143;&#x56DB;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;overfit, high variance</li>
+</ul>
+<p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
+<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3>]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>]]>
     
     </summary>
     
