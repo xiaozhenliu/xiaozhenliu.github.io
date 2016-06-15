@@ -19,6 +19,8 @@
 <meta property="og:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
 <meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png">
 <meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png">
+<meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png">
+<meta property="og:image" content="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning By Stanford University Week 3">
 <meta name="twitter:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
@@ -123,15 +125,16 @@
 <h4 id="b)_Non-linear_decision_boundaries">b) Non-linear decision boundaries</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
 <p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
 <h2 id="3-1-3_Cost_Function">3.1.3 Cost Function</h2><p>Logistic regression:</p>
+<p>$$\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2$$</p>
 <p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
-<p>Cost() = </p>
+<p>$$\text{Cost}(h_\theta(x),y)=\begin{cases}\quad-\log(h_\theta(x))<br>\quad\text{if } y = 1\<br>-\log(1-h_\theta(x))\quad\text{if }y =0<br>\end{cases}$$</p>
 <p>Cost = 0 if y=1, $h_\theta(x)=1$<br>But as $h_\theta(x)\rightarrow 0$, Cost $\rightarrow \infty$</p>
 <p>More compact way:</p>
-<p>$Cost(h_\theta(x),y)=-ylog\left(h_\theta(x)\right)-(1-y)log\left(1-h_\theta(x)\right)<br>$</p>
-<p>$J(\theta)= - \frac 1m[]$</p>
-<p>To fit parameters $\theta$:<br>$min_\theta J (\theta)$</p>
-<p>Repeat{</p>
-<p>$\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}$</p>
+<p>$\text{Cost}(h_\theta(x),y)=-y\log\left(h_\theta(x)\right)-(1-y)\log\left(1-h_\theta(x)\right)<br>$</p>
+<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]$$</p>
+<p>To fit parameters $\theta$:<br>$\min_\theta J (\theta)$</p>
+<p>Repeat {</p>
+<p>$$\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}$$</p>
 <p>}</p>
 <p>Algorithm looks identical to linear regression!</p>
 <h3 id="3-1-4_Optimization_algorithm">3.1.4 Optimization algorithm</h3><ul>
@@ -160,8 +163,7 @@
 <p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
-<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p>Example: Linear Regression (housing prices)</p>
-<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
+<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><h4 id="a)_Example:_Linear_Regression_(housing_prices)">a) Example: Linear Regression (housing prices)</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
 <p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
 <ul>
 <li>&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;underfit, high bias</li>
@@ -169,11 +171,69 @@
 <li>&#x4E00;&#x5143;&#x56DB;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;overfit, high variance</li>
 </ul>
 <p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
-<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3>  
+<h4 id="b)_Example:_Logistic_Regression">b) Example: Logistic Regression</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png" alt=""></p>
+<h4 id="Addressing_overfitting:">Addressing overfitting:</h4><ul>
+<li>Reduce number of features:<ul>
+<li>Manually select which features to keep</li>
+<li>Model selection algorithm (later in course)</li>
+</ul>
+</li>
+<li>Regularization:<ul>
+<li>Keep all the features, but reduce magnitude/values of parameters $\theta_j$.</li>
+<li>Works well when we have a lot of features, each of which contributes a bit to predicting $y$.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><h4 id="a)_Intuition">a) Intuition</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
+<p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
+<p>$$\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2$$</p>
+<p>$\theta_3,\theta_4$ will be very small.</p>
+<h4 id="b)_Regularization">b) Regularization</h4><p>Small values for parameters $\theta_0, \theta_1, &#x2026;, \theta_n$</p>
+<ul>
+<li>&#x201C;Simpler&#x201D; hypothesis</li>
+<li>Less prone to overfitting</li>
+</ul>
+<p><strong>Cost Function</strong><br>$$<br>J(\theta) = \frac1{2m}\left[\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2+\lambda\sum_{j=1}^n\theta_j^2\right]<br>$$</p>
+<p>$\theta_0$ is excluded as a convention.</p>
+<p>If $\lambda$ is too large, we might have underfitting problems. </p>
+<h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><h4 id="a)_Gradient_descent">a) Gradient descent</h4><p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
+<p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
+<p>}</p>
+<p>$$<br>\theta_j := \theta_j(1-\alpha\frac{\lambda}m)-\alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}<br>$$</p>
+<p>$1-\alpha\frac{\lambda}m&lt;1$. Therefore, use $\theta_j^2$ as an approximation</p>
+<h4 id="b)_Normal_equation">b) Normal equation</h4><p>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
+<p>$$<br>y = \begin{bmatrix}<br>(y^{(1)})^T\<br>&#x2026;\<br>(y^{(m)})^T\<br>\end{bmatrix}$$</p>
+<p>To minimize $J(\theta)$</p>
+<p>$$\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty$$</p>
+<h4 id="c)_Non-invertibility_(optional/advanced)">c) Non-invertibility (optional/advanced)</h4><p>Suppose $m\leq n$,<br>(where m: number of examples; n: number of features)</p>
+<p>$$\theta = (X^TX)^{-1}X^Ty$$</p>
+<p>$X^TX$ is non-invertible/singular. In Octave/MATLAB, use <code>pinv</code> instead of <code>inv</code>.</p>
+<p>If $\lambda \gt 0,$<br>$$<br>\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty<br>$$</p>
+<h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3><h4 id="a)_Cost_function:">a) Cost function:</h4><p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<h4 id="b)_Gradient_descent">b) Gradient descent</h4><p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
+<p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
+<p>}</p>
+<p>where $h_\theta(x)=\frac1{1+e^{-\theta^TX}}$</p>
+<h4 id="c)_Advaced_optimization">c) Advaced optimization</h4><p><code>function [jVal, gradient] = costFunction(theta)</code></p>
+<p><code>jVal =</code>[code to compute $J(\theta)$];</p>
+<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<p><code>gradient(1)</code> = [code to compute $\frac\partial{\partial\theta_0}J(\theta)$];</p>
+<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_0^{(i)}$$</p>
+<p><code>gradient(2)</code> = [code to compute $\frac\partial{\partial\theta_1}J(\theta)$];</p>
+<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_1^{(i)}&#xFF0B;\frac\lambda m\theta_1$$</p>
+<p><code>gradient(3)</code> = [code to compute $\frac\partial{\partial\theta_2}J(\theta)$];</p>
+<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}&#xFF0B;\frac\lambda m\theta_2$$<br>&#x2026;</p>
+<p><code>gradient(n+1)</code> = [code to compute $\frac\partial{\partial\theta_n}J(\theta)$];</p>
+  
 	</div>
 		<footer class="article-footer clearfix">
 <div class="article-catetags">
 
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Coursera/">Coursera</a><a href="/tags/Logistic-Regression/">Logistic Regression</a><a href="/tags/Machine-Learning/">Machine Learning</a><a href="/tags/Regularization/">Regularization</a>
+  </div>
 
 </div>
 
@@ -234,7 +294,11 @@
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/Coursera/" title="Coursera">Coursera<sup>3</sup></a></li>
+				<li><a href="/tags/Coursera/" title="Coursera">Coursera<sup>5</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Machine-Learning/" title="Machine Learning">Machine Learning<sup>4</sup></a></li>
 			
 		
 			
@@ -242,11 +306,7 @@
 			
 		
 			
-				<li><a href="/tags/Machine-Learning/" title="Machine Learning">Machine Learning<sup>2</sup></a></li>
-			
-		
-			
-				<li><a href="/tags/Nanodegree/" title="Nanodegree">Nanodegree<sup>1</sup></a></li>
+				<li><a href="/tags/Neural-Networks/" title="Neural Networks">Neural Networks<sup>1</sup></a></li>
 			
 		
 			
@@ -262,7 +322,19 @@
 			
 		
 			
+				<li><a href="/tags/Nanodegree/" title="Nanodegree">Nanodegree<sup>1</sup></a></li>
+			
+		
+			
 				<li><a href="/tags/Data-Analyst/" title="Data Analyst">Data Analyst<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Logistic-Regression/" title="Logistic Regression">Logistic Regression<sup>1</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/Regularization/" title="Regularization">Regularization<sup>1</sup></a></li>
 			
 		
 			
