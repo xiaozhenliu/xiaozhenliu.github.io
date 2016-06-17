@@ -169,11 +169,12 @@
     <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
-    <updated>2016-06-16T09:31:56.000Z</updated>
+    <updated>2016-06-17T02:42:09.000Z</updated>
     <content type="html"><![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="3-1_Logistic_Regression">3.1 Logistic Regression</h2><h3 id="3-1-1_Classification_Problems_and_Logistic_Regression_Model">3.1.1 Classification Problems and Logistic Regression Model</h3><h4 id="a)_Classification_Problems">a) Classification Problems</h4><ul>
+<h2 id="3-1_Logistic_Regression">3.1 Logistic Regression</h2><h3 id="3-1-1_Classification_Problems_and_Logistic_Regression_Model">3.1.1 Classification Problems and Logistic Regression Model</h3><p><strong>a) Classification Problems</strong></p>
+<ul>
 <li>Email&#xFF1A; spam/not spam</li>
 <li>Online transactions: froudulent or not</li>
 <li>Tumor: malignant/benign</li>
@@ -188,11 +189,13 @@
 <li>If $h_\theta(x) \geq 0.5$, predict &#x201C;y=1&#x201D;</li>
 <li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
 </ul>
-<h4 id="b)_Logistic_Regression_Model">b) Logistic Regression Model</h4><p>Want $0\leq h_\theta(x) \leq 1$</p>
+<p><strong>b) Logistic Regression Model</strong><br>Want $0\leq h_\theta(x) \leq 1$</p>
 <p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$$</p>
 <p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
-<h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><h4 id="a)_Decision_Boundary">a) Decision Boundary</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
-<h4 id="b)_Non-linear_decision_boundaries">b) Non-linear decision boundaries</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
+<h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><p><strong>a) Decision Boundary</strong></p>
+<p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
+<p><strong>b) Non-linear decision boundaries</strong></p>
+<p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
 <p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
 <h2 id="3-1-3_Cost_Function">3.1.3 Cost Function</h2><p>Logistic regression:</p>
 <p>$$\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2$$</p>
@@ -224,16 +227,18 @@
 <ul>
 <li>More complex</li>
 </ul>
-<h3 id="3-1-5_Multiclass_Classification">3.1.5 Multiclass Classification</h3><h4 id="a)_Problem_examples">a) Problem examples</h4><ul>
+<h3 id="3-1-5_Multiclass_Classification">3.1.5 Multiclass Classification</h3><p><strong>a) Problem examples</strong></p>
+<ul>
 <li>Email foldering/tagging: work, friends, family, hobby</li>
 <li>Medical diagrams: not ill, cold, flu</li>
 <li>Weather: sunny, cloudy, rain, snow</li>
 </ul>
-<h4 id="b)_One-vs-all_(one-vs-rest)">b) One-vs-all (one-vs-rest)</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
+<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
 <p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
-<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><h4 id="a)_Example:_Linear_Regression_(housing_prices)">a) Example: Linear Regression (housing prices)</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
+<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
+<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
 <p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
 <ul>
 <li>&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;underfit, high bias</li>
@@ -241,8 +246,9 @@
 <li>&#x4E00;&#x5143;&#x56DB;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;overfit, high variance</li>
 </ul>
 <p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
-<h4 id="b)_Example:_Logistic_Regression">b) Example: Logistic Regression</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png" alt=""></p>
-<h4 id="Addressing_overfitting:">Addressing overfitting:</h4><ul>
+<p><strong>b) Example: Logistic Regression</strong><br><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png" alt=""></p>
+<p>**Addressing overfitting:</p>
+<ul>
 <li>Reduce number of features:<ul>
 <li>Manually select which features to keep</li>
 <li>Model selection algorithm (later in course)</li>
@@ -254,11 +260,13 @@
 </ul>
 </li>
 </ul>
-<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><h4 id="a)_Intuition">a) Intuition</h4><p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
+<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
+<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
 <p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
 <p>$$\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2$$</p>
 <p>$\theta_3,\theta_4$ will be very small.</p>
-<h4 id="b)_Regularization">b) Regularization</h4><p>Small values for parameters $\theta_0, \theta_1, &#x2026;, \theta_n$</p>
+<p><strong>b) Regularization</strong></p>
+<p>Small values for parameters $\theta_0, \theta_1, &#x2026;, \theta_n$</p>
 <ul>
 <li>&#x201C;Simpler&#x201D; hypothesis</li>
 <li>Less prone to overfitting</li>
@@ -266,25 +274,30 @@
 <p><strong>Cost Function</strong><br>$$<br>J(\theta) = \frac1{2m}\left[\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2+\lambda\sum_{j=1}^n\theta_j^2\right]<br>$$</p>
 <p>$\theta_0$ is excluded as a convention.</p>
 <p>If $\lambda$ is too large, we might have underfitting problems. </p>
-<h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><h4 id="a)_Gradient_descent">a) Gradient descent</h4><p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
+<h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><p><strong>a) Gradient descent</strong></p>
+<p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
 <p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
 <p>}</p>
 <p>$$<br>\theta_j := \theta_j(1-\alpha\frac{\lambda}m)-\alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}<br>$$</p>
 <p>$1-\alpha\frac{\lambda}m&lt;1$. Therefore, use $\theta_j^2$ as an approximation</p>
-<h4 id="b)_Normal_equation">b) Normal equation</h4><p>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
+<p>**b) Normal equation<br>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
 <p>$$<br>y = \begin{bmatrix}<br>(y^{(1)})^T\<br>&#x2026;\<br>(y^{(m)})^T\<br>\end{bmatrix}$$</p>
 <p>To minimize $J(\theta)$</p>
 <p>$$\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty$$</p>
-<h4 id="c)_Non-invertibility_(optional/advanced)">c) Non-invertibility (optional/advanced)</h4><p>Suppose $m\leq n$,<br>(where m: number of examples; n: number of features)</p>
+<p>**c) Non-invertibility (optional/advanced)</p>
+<p>Suppose $m\leq n$,<br>(where m: number of examples; n: number of features)</p>
 <p>$$\theta = (X^TX)^{-1}X^Ty$$</p>
 <p>$X^TX$ is non-invertible/singular. In Octave/MATLAB, use <code>pinv</code> instead of <code>inv</code>.</p>
 <p>If $\lambda \gt 0,$<br>$$<br>\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty<br>$$</p>
-<h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3><h4 id="a)_Cost_function:">a) Cost function:</h4><p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
-<h4 id="b)_Gradient_descent">b) Gradient descent</h4><p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
+<h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3><p><strong>a) Cost function:</strong></p>
+<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<p><strong>b) Gradient descent</strong></p>
+<p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
 <p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
 <p>}</p>
 <p>where $h_\theta(x)=\frac1{1+e^{-\theta^TX}}$</p>
-<h4 id="c)_Advaced_optimization">c) Advaced optimization</h4><p><code>function [jVal, gradient] = costFunction(theta)</code></p>
+<p>**c) Advaced optimization</p>
+<p><code>function [jVal, gradient] = costFunction(theta)</code></p>
 <p><code>jVal =</code>[code to compute $J(\theta)$];</p>
 <p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
 <p><code>gradient(1)</code> = [code to compute $\frac\partial{\partial\theta_0}J(\theta)$];</p>
