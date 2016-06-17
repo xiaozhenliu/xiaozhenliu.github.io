@@ -210,11 +210,11 @@
 <p>}</p>
 <p>$$<br>\theta_j := \theta_j(1-\alpha\frac{\lambda}m)-\alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}<br>$$</p>
 <p>$1-\alpha\frac{\lambda}m&lt;1$. Therefore, use $\theta_j^2$ as an approximation</p>
-<p>**b) Normal equation<br>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
+<p><strong>b) Normal equation</strong><br>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
 <p>$$<br>y = \begin{bmatrix}<br>(y^{(1)})^T\<br>&#x2026;\<br>(y^{(m)})^T\<br>\end{bmatrix}$$</p>
 <p>To minimize $J(\theta)$</p>
 <p>$$\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty$$</p>
-<p>**c) Non-invertibility (optional/advanced)</p>
+<p><strong>c) Non-invertibility (optional/advanced)</strong></p>
 <p>Suppose $m\leq n$,<br>(where m: number of examples; n: number of features)</p>
 <p>$$\theta = (X^TX)^{-1}X^Ty$$</p>
 <p>$X^TX$ is non-invertible/singular. In Octave/MATLAB, use <code>pinv</code> instead of <code>inv</code>.</p>
