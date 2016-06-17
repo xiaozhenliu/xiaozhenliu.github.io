@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-06-15T09:21:37.000Z</updated>
+  <updated>2016-06-17T02:39:03.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,17 +19,17 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
-    <updated>2016-06-15T09:21:37.000Z</updated>
+    <updated>2016-06-17T02:39:03.000Z</updated>
     <content type="html"><![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
-<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
 <h2 id="5-1_Neural_Networks_(Classification)">5.1 Neural Networks (Classification)</h2><p>Training set $\{(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})\}$</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
 <p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
-<h3 id="5-1-1_Cost_functions">5.1.1 Cost functions</h3><h4 id="a)_Logistic_regression">a) Logistic regression</h4><p>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<h3 id="5-1-1_Cost_functions_&#x4EE3;&#x4EF7;&#x51FD;&#x6570;">5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><h4 id="a)_Logistic_regression">a) Logistic regression</h4><p>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
 <h4 id="b)_Neural_network">b) Neural network</h4><p>$$h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}$$</p>
 <p>$$<br>J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2<br>$$</p>
 <h3 id="5-1-2_Backpropagation_Algorithm">5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
@@ -169,7 +169,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
-    <updated>2016-06-15T09:22:00.000Z</updated>
+    <updated>2016-06-16T09:31:56.000Z</updated>
     <content type="html"><![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -189,7 +189,7 @@
 <li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
 </ul>
 <h4 id="b)_Logistic_Regression_Model">b) Logistic Regression Model</h4><p>Want $0\leq h_\theta(x) \leq 1$</p>
-<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$</p>
+<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$$</p>
 <p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
 <h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><h4 id="a)_Decision_Boundary">a) Decision Boundary</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
 <h4 id="b)_Non-linear_decision_boundaries">b) Non-linear decision boundaries</h4><p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
@@ -586,7 +586,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
     <published>2016-04-05T07:00:00.000Z</published>
-    <updated>2016-06-15T09:22:02.000Z</updated>
+    <updated>2016-06-16T08:56:09.000Z</updated>
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -596,9 +596,9 @@
 <p>Multiple Features&#x5982;&#x4F55;&#x7528;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x5F0F;&#x6765;&#x8868;&#x793A;&#xFF1F;</p>
 <p>$h_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2+&#x2026;+\theta_nx_n = \theta^TX$</p>
 <h3 id="Cost_Function_for_Multiple_Variables">Cost Function for Multiple Variables</h3><p>$\theta$ is an $n+1$ -dimention vector</p>
-<p>$J(\theta_0,\theta_1,&#x2026;,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2$</p>
+<p>$$ J(\theta_0,\theta_1,&#x2026;,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2 $$</p>
 <h3 id="Gradient_Descent_for_Multiple_Variables">Gradient Descent for Multiple Variables</h3><p>Repeat{</p>
-<p>$\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}$</p>
+<p>$$\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}$$</p>
 <p>(simutaneously update $\theta_j$ for $j = 0,&#x2026;,n$</p>
 <p>notice that $x_0 = 1$)</p>
 <p>}</p>
@@ -665,7 +665,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-05-06T08:16:05.000Z</updated>
+    <updated>2016-06-16T08:45:53.000Z</updated>
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -704,10 +704,10 @@
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
 <p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
-<p>Goal:<br> $minimize\  J(\theta_0,\theta_1)$</p>
+<p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
 <h3 id="Gradient_Descent">Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
-<p>want $min \ J(\theta_0,\theta_1)$</p>
+<p>want $\min \ J(\theta_0,\theta_1)$</p>
 <p>Outline:</p>
 <ul>
 <li>start with some $\theta_0,\theta_1$</li>

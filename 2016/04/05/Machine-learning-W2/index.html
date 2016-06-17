@@ -105,9 +105,9 @@
 <p>Multiple Features&#x5982;&#x4F55;&#x7528;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x5F0F;&#x6765;&#x8868;&#x793A;&#xFF1F;</p>
 <p>$h_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2+&#x2026;+\theta_nx_n = \theta^TX$</p>
 <h3 id="Cost_Function_for_Multiple_Variables">Cost Function for Multiple Variables</h3><p>$\theta$ is an $n+1$ -dimention vector</p>
-<p>$J(\theta_0,\theta_1,&#x2026;,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2$</p>
+<p>$$ J(\theta_0,\theta_1,&#x2026;,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2 $$</p>
 <h3 id="Gradient_Descent_for_Multiple_Variables">Gradient Descent for Multiple Variables</h3><p>Repeat{</p>
-<p>$\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}$</p>
+<p>$$\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}$$</p>
 <p>(simutaneously update $\theta_j$ for $j = 0,&#x2026;,n$</p>
 <p>notice that $x_0 = 1$)</p>
 <p>}</p>

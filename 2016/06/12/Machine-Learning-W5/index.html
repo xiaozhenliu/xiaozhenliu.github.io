@@ -104,14 +104,14 @@
 		
 		<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
-<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
 <h2 id="5-1_Neural_Networks_(Classification)">5.1 Neural Networks (Classification)</h2><p>Training set $\{(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})\}$</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
 <p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
-<h3 id="5-1-1_Cost_functions">5.1.1 Cost functions</h3><h4 id="a)_Logistic_regression">a) Logistic regression</h4><p>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
+<h3 id="5-1-1_Cost_functions_&#x4EE3;&#x4EF7;&#x51FD;&#x6570;">5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><h4 id="a)_Logistic_regression">a) Logistic regression</h4><p>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
 <h4 id="b)_Neural_network">b) Neural network</h4><p>$$h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}$$</p>
 <p>$$<br>J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2<br>$$</p>
 <h3 id="5-1-2_Backpropagation_Algorithm">5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
