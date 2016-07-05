@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-06-17T02:46:35.000Z</updated>
+  <updated>2016-07-05T14:24:49.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -13,6 +13,130 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Machine-Learning-W6]]></title>
+    <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
+    <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
+    <published>2016-06-25T14:24:12.000Z</published>
+    <updated>2016-07-05T14:24:49.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
+<a id="more"></a>
+<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
+<h2 id="6-1_Evaluating_a_Learning_Algorithm">6.1 Evaluating a Learning Algorithm</h2><p>Goal: Learn How to choose one of the most promising avenues to spend your time pursuing. </p>
+<h3 id="6-1-1_Deciding_what_to_try_next">6.1.1 Deciding what to try next</h3><p><strong>Debugging a learning algorithm</strong></p>
+<p>Suppose you have implemented regularized linear regression to predict housing prices. </p>
+<p>However, when you test your hypothesis on a new set of hourses, you find that it makes unacceptably large errors in its predictions. What should you try next?</p>
+<ul>
+<li>Get more training examples</li>
+<li>Try smaller sets of features </li>
+<li>Try getting additional features</li>
+<li>Try adding polynomial features $(x_1^2, x_2^2, x_1x_2, \text{etc})$</li>
+<li>Try decreasing $\lambda$</li>
+<li>Try increasing $\lambda$  </li>
+</ul>
+<p>WRONG: Randomly pick one of these options</p>
+<p>CORRECT: Machine Learning Diagnostic</p>
+<p>A test that you can run to gain insight what is/isn&#x2019;t working with a learning algorithm, and gain guidance as to how best to improve its performance. </p>
+<h3 id="6-1-2_Evaluating_a_Hypothesis">6.1.2 Evaluating a Hypothesis</h3><p>Example: Using housing sizes to predict prices.</p>
+<p>Method: (randomly) choose 70% of the dataset (samples) as the training set, the other 30% as the test set. </p>
+<p>Training set: $m$ number of samples; $x^{(1)},y^{(1)}&#x2026;x^{(m)},y^{(m)}$</p>
+<p>Test set: $m_test$ number of samples<br>$x_{test}^{(1)},y_{test}^{(1)}&#x2026;x_{test}^{(m)},y_{text}^{(m)}$</p>
+<p><strong>Training/testing procedure for linear regression</strong></p>
+<ul>
+<li>Learn parameter $\theta$ from training data (minimizing training error $J(\theta)$)</li>
+<li>Compute test set error: </li>
+</ul>
+<p>$$J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}\left(h_\theta(x_{test}^{(i)})-y_{test}^{(i)}\right)^2$$</p>
+<p>$$J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}y_{test}^{(i)}\log h_\theta(x_{test}^{(i)})+(1-y_{test}^{(i)})\log h_\theta(x_{test}^{(i)})$$</p>
+<ul>
+<li>Misclassification error (0/1 misclassification error);</li>
+</ul>
+<p>$$err(h_\theta(x),y)=\begin{cases}1\quad\text{if }h_\theta(x)\geq0.5, y=0\text{ or if } h_\theta(x)\leq0.5, y=1\0\quad\text{otherwise}\end{cases}$$</p>
+<p>$$\text{Test error} = \frac1{m_{test}}\sum_{i=1}^{m_{test}}err\left(h_\theta(x_{test}^{(i)}),y_{test}^{(i)}\right)\<br>$$</p>
+<h3 id="6-1-3_Model_Selection_and_Train/Validation/Test_Sets">6.1.3 Model Selection and Train/Validation/Test Sets</h3><p><strong>Overfitting example</strong></p>
+<p>Once parameters $\theta_0,\theta_1,&#x2026;,\theta_4$ were fit to some set of data (traning set), the error of the parameters as measured on that data (the traing error $J(\theta)$) is likely to be lower than the actual generalization error.</p>
+<p><strong>Model selection</strong></p>
+<ol>
+<li>$h_\theta(x) = \theta_0+\theta_1x$</li>
+<li>$h_\theta(x) = \theta_0+\theta_1x+\theta_2x^2$</li>
+<li>$h_\theta(x) = \theta_0+\theta_1x+&#x2026;+\theta_3x^2$<br>&#x2026;</li>
+<li>$h_\theta(x) = \theta_0+\theta_1x+&#x2026;+\theta_10x^10$</li>
+</ol>
+<p>Assume a new parameter $d$ = degree of polynomial. </p>
+<p>Test dataset cost functions: $J_{test}(\theta_j)$ ($j$ is from 1 to $d$)</p>
+<p>Problem: degree of polynomial is chosen based on the test dataset, therefore cannot guarantee the generalization ability to further data. </p>
+<p><strong>Solution</strong>: divide the original dataset to a training set, a cross validation set (CV), and a test set. </p>
+<p><strong>Train/validation/test error</strong></p>
+<p>Use the CV set to select the model. Then estimate generalization error $J_{test}(\theta)$</p>
+<h2 id="6-2_Bias_vs-_Variance">6.2 Bias vs. Variance</h2><h3 id="6-2-1_Diagnosing_Bias_vs-_Variance">6.2.1 Diagnosing Bias vs. Variance</h3><p>High bias - Underfit<br>High variance - Overfit</p>
+<p>Training error: </p>
+<p>$$J_{train}(\theta)=\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2$$</p>
+<p>Cross validation error:<br>$$J_{cv}(\theta)=\frac1{2m_{cv}}\sum_{i=1}^{m_{cv}}\left(h_\theta(x_{cv}^{(i)})-y_{cv}^{(i)}\right)^2$$</p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-01.png" alt=""></p>
+<h3 id="6-2-2_Regularization_and_Bias/Variance">6.2.2 Regularization and Bias/Variance</h3><p><strong>Linear regression with regularization</strong></p>
+<p>Large $\lambda$: high bias, underfit</p>
+<p>Small $\lambda$: high variance, overfit</p>
+<p><strong>Choosing the regularization parameter $\lambda$</strong></p>
+<ul>
+<li><p>have some range of $\lambda$ values: e.g. [0,0.01,0.02,0.04,0.08&#x2026;10]</p>
+</li>
+<li><p>calculate $\min J(\theta)$ for each $\lambda$ -&gt; $J_{cv}(\theta^{(?)})$</p>
+</li>
+<li><p>pick the lowest $J_{cv}(\theta^{(?)})$ $\theta^{(5)}$. Test error: $J_{test}(\theta^{(5)})$</p>
+</li>
+<li><p>Plot $J_{train}(\theta)$ and $J_{cv}(\theta)$ v.s. $\lambda$</p>
+</li>
+</ul>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-02.png" alt=""></p>
+<h3 id="6-2-3_Learning_Curves">6.2.3 Learning Curves</h3><p>&#x589E;&#x52A0;&#x6837;&#x672C;&#x6570;&#x662F;&#x5426;&#x80FD;&#x51CF;&#x5C11;&#x8BEF;&#x5DEE;&#xFF1F;</p>
+<p>Learning curves: plot error v.s. m (training set size)</p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-03.png" alt=""></p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-04.png" alt=""></p>
+<p>High bias:</p>
+<p>If a learning algorithm is suffering from high bias, getting more training data will not (by itself) help much.</p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-05.png" alt=""></p>
+<p>High variance:</p>
+<p>If a learning algorithm is suffering from high variance, getting more traning data is likely to help.</p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-06.png" alt=""></p>
+<h3 id="6-2-4_Deciding_What_to_Do_Next_Revisited">6.2.4 Deciding What to Do Next Revisited</h3><p><strong>Debugging a learning algorithm</strong></p>
+<p>Suppose you have implemented regularized linear regression to predict housing prices. </p>
+<p>However, when you test your hypothesis on a new set of hourses, you find that it makes unacceptably large errors in its predictions. What should you try next?</p>
+<ul>
+<li>Get more training examples -&gt; _fixes high variance_</li>
+<li>Try smaller sets of features -&gt; _fixes high variance_</li>
+<li>Try getting additional features -&gt; _fixes high bias_</li>
+<li>Try adding polynomial features $(x_1^2, x_2^2, x_1x_2, \text{etc})$ -&gt; _fixes high bias_</li>
+<li>Try decreasing $\lambda$ -&gt; _fixes high bias_</li>
+<li>Try increasing $\lambda$ -&gt; _fixes high variance_</li>
+</ul>
+<p><strong>Neural networks and overfitting</strong></p>
+<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-06.png" alt=""></p>
+<p>Using a single hidden layer is a reasonable default. But if you want to choose the number of hidden layers, one other thing you can try is find yourself a training cross-validation, and test set split and try training neural networks with one hidden layer or two hidden layers or three hidden layers and see which of those neural networks performs best on the cross-validation sets. </p>
+<h2 id="6-3_Building_a_Spam_Classifier">6.3 Building a Spam Classifier</h2><h3 id="6-3-1_Prioritizing_What_to_Work_on">6.3.1 Prioritizing What to Work on</h3><h3 id="6-3-2_Error_Analysis">6.3.2 Error Analysis</h3><h2 id="6-4_Handling_Skewed_Data">6.4 Handling Skewed Data</h2><p>Cancer classification example<br>1% error on test set (99% correct)</p>
+<h3 id="Error_Metrics_for_Skewed_Classes">Error Metrics for Skewed Classes</h3><h3 id="Trading_Off_Precision_and_Recall">Trading Off Precision and Recall</h3><p>Logistic regression:<br>Predict 1 if<br>Predict 0 if<br>Suppose we want to predict y = 1 only if very confident</p>
+<p>-&gt; Higher precision, lower recall.</p>
+<p>Suppose we want to avoid missing too many cases of cancer (avoid false negatives).</p>
+<p>-&gt; higher recall, lower precision</p>
+<p><strong>$F_1$ Score (F score)</strong></p>
+<p>How to compare precision/recall numbers?</p>
+<p>The average of P and R is not a good indicator</p>
+<p>$F_1$ score: $2\frac{PR}{P+R}$</p>
+<h2 id="6-5_Using_Large_Data_Sets">6.5 Using Large Data Sets</h2><h3 id="Designing_a_high_accuracy_learning_system">Designing a high accuracy learning system</h3><p>e.g. Classify between confusable words. {to,two,too},{then,than}</p>
+<p>Algorithms:</p>
+<ul>
+<li>Perceptron (Logistic regression)</li>
+<li>Winnow</li>
+<li>Memory-based</li>
+<li>Naive Bayes</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>]]>
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Machine Learning By Stanford University Week 5]]></title>
