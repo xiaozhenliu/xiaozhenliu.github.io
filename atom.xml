@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-07-05T14:24:49.000Z</updated>
+  <updated>2016-07-05T14:31:46.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Machine-Learning-W6]]></title>
+    <title><![CDATA[Machine Learning By Stanford University Week 6]]></title>
     <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
-    <updated>2016-07-05T14:24:49.000Z</updated>
+    <updated>2016-07-05T14:31:46.000Z</updated>
     <content type="html"><![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
@@ -135,6 +135,20 @@
     <![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>]]>
     
     </summary>
+    
+      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Learning Curves" scheme="http://tech.liuxiaozhen.com/tags/Learning-Curves/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+    
+      <category term="Model Selection" scheme="http://tech.liuxiaozhen.com/tags/Model-Selection/"/>
+    
+      <category term="Overfitting" scheme="http://tech.liuxiaozhen.com/tags/Overfitting/"/>
+    
+      <category term="Precision" scheme="http://tech.liuxiaozhen.com/tags/Precision/"/>
+    
+      <category term="Recall" scheme="http://tech.liuxiaozhen.com/tags/Recall/"/>
     
   </entry>
   
