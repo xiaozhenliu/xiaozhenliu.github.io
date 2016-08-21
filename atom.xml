@@ -4,7 +4,7 @@
   <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-07-25T05:57:13.000Z</updated>
+  <updated>2016-08-21T10:39:23.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
-    <updated>2016-07-25T05:57:13.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
@@ -157,7 +157,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
-    <updated>2016-06-17T02:46:35.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
@@ -319,7 +319,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
-    <updated>2016-06-17T02:44:29.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -478,7 +478,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</id>
     <published>2016-04-28T08:59:53.000Z</published>
-    <updated>2016-05-06T08:05:34.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>&#x8BB0;&#x5F55;Udacity&#x4E0A;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;Nanodegree&#x7684;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6700;&#x57FA;&#x672C;&#x7684;&#x7EDF;&#x8BA1;&#x5B66;&#x77E5;&#x8BC6;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
@@ -524,7 +524,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
     <published>2016-04-27T09:17:30.000Z</published>
-    <updated>2016-07-06T02:47:16.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>&#x4ECB;&#x7ECD;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#xFF0C;&#x53CA;&#x5176;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x9879;&#x76EE;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
@@ -587,7 +587,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
-    <updated>2016-05-06T08:18:55.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
 <p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
@@ -749,7 +749,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
     <published>2016-04-05T07:00:00.000Z</published>
-    <updated>2016-06-16T08:56:09.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -828,7 +828,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2016-06-16T08:45:53.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -911,7 +911,7 @@
     <link href="http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
     <id>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
     <published>2015-12-06T03:51:47.000Z</published>
-    <updated>2016-05-06T08:09:53.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>&#x4ECB;&#x7ECD;&#x4E86;&#x7F16;&#x7A0B;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#xFF0C;Python&#x5B89;&#x88C5;&#xFF0C;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53D8;&#x91CF;&#x7B49;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session.</strong></p>
@@ -1000,7 +1000,7 @@
     <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
     <published>2015-04-03T09:17:05.000Z</published>
-    <updated>2016-03-12T07:08:19.000Z</updated>
+    <updated>2016-08-21T10:39:23.000Z</updated>
     <content type="html"><![CDATA[<p>&#x4ECE;&#x5C0F;&#x5B66;&#x5C31;&#x5F00;&#x59CB;&#x7F16;&#x7A0B;&#xFF0C;&#x4F46;&#x662F;&#x4EC5;&#x9650;&#x4E8E;&#x597D;&#x73A9;&#xFF1B;&#x5728;&#x5B66;&#x4E60;&#x79D1;&#x7814;&#x4E2D;&#x5076;&#x5C14;&#x6D89;&#x53CA;&#x7F16;&#x7A0B;&#xFF0C;&#x4E5F;&#x4E0D;&#x8FC7;&#x662F;&#x7B80;&#x77ED;&#x7684;&#x51E0;&#x5341;&#x884C;&#x3002;&#x4ECE;2009&#x5E74;&#x5165;&#x624B;iPod Touch&#x81F3;&#x4ECA;&#xFF0C;&#x5173;&#x4E8E;App&#x7684;&#x60F3;&#x6CD5;&#x65E0;&#x6570;&#xFF0C;&#x5374;&#x59CB;&#x7EC8;&#x6CA1;&#x6709;&#x6210;&#x4E3A;&#x4E00;&#x4E2A;&#x771F;&#x6B63;&#x7684;&#x521B;&#x9020;&#x8005;&#x3002;</p>
 <p>tinyfool&#x5728;&#x53BB;&#x5E74;&#x7684;&#x4E00;&#x7BC7;<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">&#x300A;&#x5BFB;&#x627E;&#x548C;&#x7A81;&#x7834;&#x5FC3;&#x969C;&#x300B;</a>&#x4E2D;&#x8BF4;&#xFF1A;</p>
 <blockquote>
