@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Live in the Future, then Build What's Missing]]></title>
-  <subtitle><![CDATA[刘虓震的技术笔记]]></subtitle>
+  <title><![CDATA[刘虓震的技术笔记]]></title>
+  <subtitle><![CDATA[Live in the Future, then Build What's Missing]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
   <updated>2016-08-21T10:39:23.000Z</updated>
