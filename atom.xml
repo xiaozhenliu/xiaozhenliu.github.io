@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Live in the Future, then Build What's Missing]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-08-21T10:39:23.000Z</updated>
+  <updated>2016-08-28T08:17:43.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -13,6 +13,135 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[机器学习工程师之路（1）]]></title>
+    <link href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
+    <id>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
+    <published>2016-07-06T02:48:30.000Z</published>
+    <updated>2016-08-28T08:17:43.000Z</updated>
+    <content type="html"><![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>
+<a id="more"></a>
+<p><strong>&#x672C;&#x6587;&#x662F;&#x7EAA;&#x5F55;&#x53C2;&#x4E0E;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x7BC7;&#x3002;</strong></p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/MLND/" target="_blank" rel="external">Tag: MLND</a> &#x3002;</strong></p>
+<p>&#x5173;&#x4E8E;Udacity&#x548C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF08;&#x7B80;&#x79F0;MLND&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x591A;&#x505A;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x524D;&#x7BC7;&#xFF1A;<a href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/" target="_blank" rel="external">&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;1&#xFF09;</a>&#x3002;</p>
+<h1 id="Welcome_to_the_Nanodegree">Welcome to the Nanodegree</h1><ul>
+<li>Readiness Questions: statistics, calculus, linear algebra</li>
+<li>Quiz</li>
+</ul>
+<h2 id="What_is_Machine_Learning">What is Machine Learning</h2><ul>
+<li>Methods to Processing data</li>
+<li>Don&#x2019;t have to explicitly tell the computer what to do to get a solution</li>
+<li>Large amount of data makes Machine Learning useful</li>
+</ul>
+<h2 id="Program_Outline">Program Outline</h2><ul>
+<li>How to use the ML techniques and when to use them</li>
+</ul>
+<h2 id="What_ML_can_do">What ML can do</h2><h3 id="Conundrums_in_AI">Conundrums in AI</h3><ul>
+<li>Intelligent agents have limited resources</li>
+<li>Computation is local, but problems have global constraints.</li>
+<li>Logic is deductive, but many problems are not</li>
+<li>The world is dynamic, but knowledge is limited</li>
+<li>Problem solving, reasoning, and learning are complex, but explanation and justification are even more complex.</li>
+</ul>
+<h3 id="Characteristics_of_AI_Problems">Characteristics of AI Problems</h3><ul>
+<li>incrementally</li>
+<li>recurring</li>
+<li>multiple levels of granularity</li>
+<li>computationally intractable</li>
+<li>dynamic world vs. static knowledge</li>
+<li>open-ended world vs. limited knowledge</li>
+</ul>
+<h3 id="AI_and_Uncertainty">AI and Uncertainty</h3><p>AI as uncertainty Management<br>AI = what to do when you don&#x2019;t know what to do </p>
+<p>Reasons for uncertainty: sensor limits, adversaries, stochastic environments, laziness, ignorance</p>
+<h3 id="Knowledge-based_AI">Knowledge-based AI</h3><p>Watson (the IBM program that plays Jeopardy)</p>
+<ul>
+<li>Reasoning</li>
+<li>Learning</li>
+<li>Memory</li>
+</ul>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic01.png" alt="pic01"></p>
+<h3 id="The_Four_School_of_AI">The Four School of AI</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic02.png" alt="pic02"></p>
+<h3 id="Bayes_Rule">Bayes Rule</h3><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
+<p>Posterior = likelihood times prior / probability of the evidence (marginal likelihood)</p>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic03.png" alt="pic03"></p>
+<h3 id="What_is_a_data_scientist?">What is a data scientist?</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic04.png" alt="pic04"></p>
+<h3 id="What_does_a_data_scientist_do?">What does a data scientist do?</h3><ul>
+<li><p>Collect raw data and Process data -&gt; dataset</p>
+</li>
+<li><p>Make statistical models/analysis<br>or make machine learning predictions</p>
+</li>
+<li><p>Build data-driven products or publish reports, visualization, or blogs</p>
+</li>
+</ul>
+<h3 id="Basic_Data_Scientist_Skills">Basic Data Scientist Skills</h3><ul>
+<li>knows which questions to ask</li>
+<li>can interpret the data well</li>
+<li>understands structure of the data</li>
+<li>data scientists often work in teams</li>
+</ul>
+<h3 id="Problems_solved_by_data_science">Problems solved by data science</h3><ul>
+<li>Netflix</li>
+<li>social media</li>
+<li>web apps</li>
+<li>Bioinformatics</li>
+<li>Urban planning</li>
+<li>Astrophysics</li>
+<li>Public health</li>
+<li>Sports</li>
+</ul>
+<h3 id="Definition_of_ML">Definition of ML</h3><p>Theoretical vs. Practical</p>
+<h3 id="Supervised_learning">Supervised learning</h3><p>data are not labeled</p>
+<p>assumptions<br>generalizaton<br>induction bias</p>
+<p>-&gt;function approximation</p>
+<h3 id="Induction,_Deduction_and_Abduction">Induction, Deduction and Abduction</h3><p>Fundamental forms of Inferences: Induction, Deduction and Abduction</p>
+<ul>
+<li><p>Deduction: given the rule and the cause, deduce the effect</p>
+</li>
+<li><p>Induction: given a cause and an effect, induce a rule.</p>
+</li>
+<li><p>Abduction: given a rule and an effect, abduce a cause</p>
+</li>
+</ul>
+<h3 id="Unsupervised_learning">Unsupervised learning</h3><p>Description<br><img src="/2016/07/06/Udacity-MLND-01/pic05.png" alt="pic05"></p>
+<h3 id="Reinforcement_learning">Reinforcement learning</h3><p>delayed feedback</p>
+<h3 id="Applications">Applications</h3><ul>
+<li>auto-driving cars</li>
+<li>healthcare</li>
+<li>internet of things</li>
+<li>new drug discovery</li>
+<li>trading</li>
+</ul>
+<h3 id="Nuts_and_Bolts">Nuts and Bolts</h3><ul>
+<li><p>Taxonomy</p>
+<ul>
+<li><p>what is being learned: prameters, structure, hidden concepts,</p>
+</li>
+<li><p>what from: supervised /unsupervised/ reinforcement</p>
+</li>
+<li><p>what for: prediction diagnostics summarization</p>
+</li>
+<li><p>How: passive, active, online, offline</p>
+</li>
+<li>outputs: classification, regression, </li>
+<li>details: generative, discriminative</li>
+</ul>
+</li>
+</ul>
+<h3 id="Supervised_Learning">Supervised Learning</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic06.png" alt="pic06"></p>
+<p>Occam&#x2019;s razor: everything else equal, choose the less complex hypothesis.</p>
+<p>Bayes variance methods: mathematically calculate overfitting error.</p>
+<p>In practice, we will be only given training error.</p>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic07.png" alt="pic07"></p>
+<p><strong>Spam detection</strong><br>Bag of words: represents count of words</p>
+<p>classification/regression</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>]]>
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Machine Learning By Stanford University Week 6]]></title>

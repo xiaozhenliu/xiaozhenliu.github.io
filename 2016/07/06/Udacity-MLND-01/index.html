@@ -1,0 +1,784 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="刘虓震的技术笔记" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="&amp;#x9879;&amp;#x76EE;&amp;#x7B80;&amp;#x4ECB;&amp;#x548C;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x5165;&amp;#x95E8;&amp;#x3002;&amp;#x5305;&amp;#x62EC;&amp;#xFF1A;&amp;#x4EBA;&amp;#x5DE5;&amp;#x667A;&amp;#x80FD;&amp;#x9700;&amp;#x89E3;&amp;#x51B3;&amp;#x7684;&amp;#x4E3B;&amp;#x8981;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="机器学习工程师之路（1）">
+<meta property="og:url" content="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/index.html">
+<meta property="og:site_name" content="刘虓震的技术笔记">
+<meta property="og:description" content="&amp;#x9879;&amp;#x76EE;&amp;#x7B80;&amp;#x4ECB;&amp;#x548C;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x5165;&amp;#x95E8;&amp;#x3002;&amp;#x5305;&amp;#x62EC;&amp;#xFF1A;&amp;#x4EBA;&amp;#x5DE5;&amp;#x667A;&amp;#x80FD;&amp;#x9700;&amp;#x89E3;&amp;#x51B3;&amp;#x7684;&amp;#x4E3B;&amp;#x8981;">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic01.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic02.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic03.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic04.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic05.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic06.png">
+<meta property="og:image" content="/2016/07/06/Udacity-MLND-01/pic07.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="机器学习工程师之路（1）">
+<meta name="twitter:description" content="&amp;#x9879;&amp;#x76EE;&amp;#x7B80;&amp;#x4ECB;&amp;#x548C;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x5165;&amp;#x95E8;&amp;#x3002;&amp;#x5305;&amp;#x62EC;&amp;#xFF1A;&amp;#x4EBA;&amp;#x5DE5;&amp;#x667A;&amp;#x80FD;&amp;#x9700;&amp;#x89E3;&amp;#x51B3;&amp;#x7684;&amp;#x4E3B;&amp;#x8981;">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+
+
+
+  <link rel="canonical" href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
+
+  <title> 机器学习工程师之路（1） | 刘虓震的技术笔记 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-61561823-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">刘虓震的技术笔记</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle">Live in the Future, then Build What's Missing</p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-blog">
+          <a href="http://liuxiaozhen.com" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-question-circle"></i> <br />
+            
+            主博客
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archive" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                机器学习工程师之路（1）
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-07-06T10:48:30+08:00" content="2016-07-06">
+              2016-07-06
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/07/06/Udacity-MLND-01/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/07/06/Udacity-MLND-01/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>
+<a id="more"></a>
+<p><strong>&#x672C;&#x6587;&#x662F;&#x7EAA;&#x5F55;&#x53C2;&#x4E0E;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x7BC7;&#x3002;</strong></p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/MLND/" target="_blank" rel="external">Tag: MLND</a> &#x3002;</strong></p>
+<p>&#x5173;&#x4E8E;Udacity&#x548C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF08;&#x7B80;&#x79F0;MLND&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x591A;&#x505A;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x524D;&#x7BC7;&#xFF1A;<a href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/" target="_blank" rel="external">&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;1&#xFF09;</a>&#x3002;</p>
+<h1 id="Welcome_to_the_Nanodegree">Welcome to the Nanodegree</h1><ul>
+<li>Readiness Questions: statistics, calculus, linear algebra</li>
+<li>Quiz</li>
+</ul>
+<h2 id="What_is_Machine_Learning">What is Machine Learning</h2><ul>
+<li>Methods to Processing data</li>
+<li>Don&#x2019;t have to explicitly tell the computer what to do to get a solution</li>
+<li>Large amount of data makes Machine Learning useful</li>
+</ul>
+<h2 id="Program_Outline">Program Outline</h2><ul>
+<li>How to use the ML techniques and when to use them</li>
+</ul>
+<h2 id="What_ML_can_do">What ML can do</h2><h3 id="Conundrums_in_AI">Conundrums in AI</h3><ul>
+<li>Intelligent agents have limited resources</li>
+<li>Computation is local, but problems have global constraints.</li>
+<li>Logic is deductive, but many problems are not</li>
+<li>The world is dynamic, but knowledge is limited</li>
+<li>Problem solving, reasoning, and learning are complex, but explanation and justification are even more complex.</li>
+</ul>
+<h3 id="Characteristics_of_AI_Problems">Characteristics of AI Problems</h3><ul>
+<li>incrementally</li>
+<li>recurring</li>
+<li>multiple levels of granularity</li>
+<li>computationally intractable</li>
+<li>dynamic world vs. static knowledge</li>
+<li>open-ended world vs. limited knowledge</li>
+</ul>
+<h3 id="AI_and_Uncertainty">AI and Uncertainty</h3><p>AI as uncertainty Management<br>AI = what to do when you don&#x2019;t know what to do </p>
+<p>Reasons for uncertainty: sensor limits, adversaries, stochastic environments, laziness, ignorance</p>
+<h3 id="Knowledge-based_AI">Knowledge-based AI</h3><p>Watson (the IBM program that plays Jeopardy)</p>
+<ul>
+<li>Reasoning</li>
+<li>Learning</li>
+<li>Memory</li>
+</ul>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic01.png" alt="pic01"></p>
+<h3 id="The_Four_School_of_AI">The Four School of AI</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic02.png" alt="pic02"></p>
+<h3 id="Bayes_Rule">Bayes Rule</h3><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
+<p>Posterior = likelihood times prior / probability of the evidence (marginal likelihood)</p>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic03.png" alt="pic03"></p>
+<h3 id="What_is_a_data_scientist?">What is a data scientist?</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic04.png" alt="pic04"></p>
+<h3 id="What_does_a_data_scientist_do?">What does a data scientist do?</h3><ul>
+<li><p>Collect raw data and Process data -&gt; dataset</p>
+</li>
+<li><p>Make statistical models/analysis<br>or make machine learning predictions</p>
+</li>
+<li><p>Build data-driven products or publish reports, visualization, or blogs</p>
+</li>
+</ul>
+<h3 id="Basic_Data_Scientist_Skills">Basic Data Scientist Skills</h3><ul>
+<li>knows which questions to ask</li>
+<li>can interpret the data well</li>
+<li>understands structure of the data</li>
+<li>data scientists often work in teams</li>
+</ul>
+<h3 id="Problems_solved_by_data_science">Problems solved by data science</h3><ul>
+<li>Netflix</li>
+<li>social media</li>
+<li>web apps</li>
+<li>Bioinformatics</li>
+<li>Urban planning</li>
+<li>Astrophysics</li>
+<li>Public health</li>
+<li>Sports</li>
+</ul>
+<h3 id="Definition_of_ML">Definition of ML</h3><p>Theoretical vs. Practical</p>
+<h3 id="Supervised_learning">Supervised learning</h3><p>data are not labeled</p>
+<p>assumptions<br>generalizaton<br>induction bias</p>
+<p>-&gt;function approximation</p>
+<h3 id="Induction,_Deduction_and_Abduction">Induction, Deduction and Abduction</h3><p>Fundamental forms of Inferences: Induction, Deduction and Abduction</p>
+<ul>
+<li><p>Deduction: given the rule and the cause, deduce the effect</p>
+</li>
+<li><p>Induction: given a cause and an effect, induce a rule.</p>
+</li>
+<li><p>Abduction: given a rule and an effect, abduce a cause</p>
+</li>
+</ul>
+<h3 id="Unsupervised_learning">Unsupervised learning</h3><p>Description<br><img src="/2016/07/06/Udacity-MLND-01/pic05.png" alt="pic05"></p>
+<h3 id="Reinforcement_learning">Reinforcement learning</h3><p>delayed feedback</p>
+<h3 id="Applications">Applications</h3><ul>
+<li>auto-driving cars</li>
+<li>healthcare</li>
+<li>internet of things</li>
+<li>new drug discovery</li>
+<li>trading</li>
+</ul>
+<h3 id="Nuts_and_Bolts">Nuts and Bolts</h3><ul>
+<li><p>Taxonomy</p>
+<ul>
+<li><p>what is being learned: prameters, structure, hidden concepts,</p>
+</li>
+<li><p>what from: supervised /unsupervised/ reinforcement</p>
+</li>
+<li><p>what for: prediction diagnostics summarization</p>
+</li>
+<li><p>How: passive, active, online, offline</p>
+</li>
+<li>outputs: classification, regression, </li>
+<li>details: generative, discriminative</li>
+</ul>
+</li>
+</ul>
+<h3 id="Supervised_Learning">Supervised Learning</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic06.png" alt="pic06"></p>
+<p>Occam&#x2019;s razor: everything else equal, choose the less complex hypothesis.</p>
+<p>Bayes variance methods: mathematically calculate overfitting error.</p>
+<p>In practice, we will be only given training error.</p>
+<p><img src="/2016/07/06/Udacity-MLND-01/pic07.png" alt="pic07"></p>
+<p><strong>Spam detection</strong><br>Bag of words: represents count of words</p>
+<p>classification/regression</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/06/25/Machine-Learning-W6/" rel="next" title="Machine Learning By Stanford University Week 6">
+                <i class="fa fa-chevron-left"></i> Machine Learning By Stanford University Week 6
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/07/06/Udacity-MLND-01/"
+           data-title="机器学习工程师之路（1）" data-url="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/">
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.jpg"
+               alt="Liu Xiaozhen" />
+          <p class="site-author-name" itemprop="name">Liu Xiaozhen</p>
+          <p class="site-description motion-element" itemprop="description"></p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archive">
+              <span class="site-state-item-count">11</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">27</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Welcome_to_the_Nanodegree"><span class="nav-number">1.</span> <span class="nav-text">Welcome to the Nanodegree</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#What_is_Machine_Learning"><span class="nav-number">1.1.</span> <span class="nav-text">What is Machine Learning</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Program_Outline"><span class="nav-number">1.2.</span> <span class="nav-text">Program Outline</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#What_ML_can_do"><span class="nav-number">1.3.</span> <span class="nav-text">What ML can do</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Conundrums_in_AI"><span class="nav-number">1.3.1.</span> <span class="nav-text">Conundrums in AI</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Characteristics_of_AI_Problems"><span class="nav-number">1.3.2.</span> <span class="nav-text">Characteristics of AI Problems</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#AI_and_Uncertainty"><span class="nav-number">1.3.3.</span> <span class="nav-text">AI and Uncertainty</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Knowledge-based_AI"><span class="nav-number">1.3.4.</span> <span class="nav-text">Knowledge-based AI</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#The_Four_School_of_AI"><span class="nav-number">1.3.5.</span> <span class="nav-text">The Four School of AI</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Bayes_Rule"><span class="nav-number">1.3.6.</span> <span class="nav-text">Bayes Rule</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#What_is_a_data_scientist?"><span class="nav-number">1.3.7.</span> <span class="nav-text">What is a data scientist?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#What_does_a_data_scientist_do?"><span class="nav-number">1.3.8.</span> <span class="nav-text">What does a data scientist do?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Basic_Data_Scientist_Skills"><span class="nav-number">1.3.9.</span> <span class="nav-text">Basic Data Scientist Skills</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Problems_solved_by_data_science"><span class="nav-number">1.3.10.</span> <span class="nav-text">Problems solved by data science</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Definition_of_ML"><span class="nav-number">1.3.11.</span> <span class="nav-text">Definition of ML</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised_learning"><span class="nav-number">1.3.12.</span> <span class="nav-text">Supervised learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Induction,_Deduction_and_Abduction"><span class="nav-number">1.3.13.</span> <span class="nav-text">Induction, Deduction and Abduction</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unsupervised_learning"><span class="nav-number">1.3.14.</span> <span class="nav-text">Unsupervised learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Reinforcement_learning"><span class="nav-number">1.3.15.</span> <span class="nav-text">Reinforcement learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Applications"><span class="nav-number">1.3.16.</span> <span class="nav-text">Applications</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Nuts_and_Bolts"><span class="nav-number">1.3.17.</span> <span class="nav-text">Nuts and Bolts</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised_Learning"><span class="nav-number">1.3.18.</span> <span class="nav-text">Supervised Learning</span></a></li></ol></li></ol></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2015 - 
+  <span itemprop="copyrightYear">2016</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Liu Xiaozhen</span>
+</div>
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+  
+    
+  
+
+  <script type="text/javascript">
+    var duoshuoQuery = {short_name:"techlxz2016"};
+    (function() {
+      var ds = document.createElement('script');
+      ds.type = 'text/javascript';ds.async = true;
+      ds.id = 'duoshuo-script';
+      ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+      ds.charset = 'UTF-8';
+      (document.getElementsByTagName('head')[0]
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+  </script>
+
+  
+    
+    <script src="/vendors/ua-parser-js/dist/ua-parser.min.js?v=0.7.9"></script>
+    <script src="/js/src/hook-duoshuo.js"></script>
+  
+
+
+
+
+
+
+  
+  
+
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      }
+    });
+  </script>
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+      for (i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+      }
+    });
+  </script>
+  <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+  
+
+  
+
+
+<!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config(null);
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for(i=0; i < all.length; i += 1) {
+            all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+
+<script type="text/javascript" src="custom_mathjax_source">
+</script>
+<!-- End: Injected MathJax -->
+</body>
+</html>
