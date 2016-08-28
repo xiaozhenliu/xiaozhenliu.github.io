@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Live in the Future, then Build What's Missing]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-08-28T08:17:43.000Z</updated>
+  <updated>2016-08-28T08:22:49.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
     <id>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
     <published>2016-07-06T02:48:30.000Z</published>
-    <updated>2016-08-28T08:17:43.000Z</updated>
+    <updated>2016-08-28T08:22:49.000Z</updated>
     <content type="html"><![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x7EAA;&#x5F55;&#x53C2;&#x4E0E;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x7BC7;&#x3002;</strong></p>
@@ -140,6 +140,16 @@
     <![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>]]>
     
     </summary>
+    
+      <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+    
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
+    
+      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
   </entry>
   
