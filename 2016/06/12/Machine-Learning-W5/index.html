@@ -319,19 +319,19 @@
       
 
       
-        <h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
+        <h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
-<h2 id="5-1_Neural_Networks_(Classification)">5.1 Neural Networks (Classification)</h2><p>Training set $\{(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})\}$</p>
+<h2 id="5-1-Neural-Networks-Classification"><a href="#5-1-Neural-Networks-Classification" class="headerlink" title="5.1 Neural Networks (Classification)"></a>5.1 Neural Networks (Classification)</h2><p>Training set ${(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})}$</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
 <p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
-<h3 id="5-1-1_Cost_functions_&#x4EE3;&#x4EF7;&#x51FD;&#x6570;">5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><p><strong>a) Logistic regression</strong><br>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
-<p><strong>b) Neural network</strong><br>$$h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}$$</p>
-<p>$$<br>J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2<br>$$</p>
-<h3 id="5-1-2_Backpropagation_Algorithm">5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
+<h3 id="5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;"><a href="#5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;" class="headerlink" title="5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;"></a>5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><p><strong>a) Logistic regression</strong></p>
+<script type="math/tex; mode=display">J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2</script><p><strong>b) Neural network</strong></p>
+<script type="math/tex; mode=display">h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}</script><script type="math/tex; mode=display">
+J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2</script><h3 id="5-1-2-Backpropagation-Algorithm"><a href="#5-1-2-Backpropagation-Algorithm" class="headerlink" title="5.1.2 Backpropagation Algorithm"></a>5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
 <p><strong>a) Gradient Computation</strong></p>
 <p>&#x8003;&#x8651;&#x6700;&#x7B80;&#x5355;&#x60C5;&#x51B5;&#xFF0C;&#x4EC5;&#x6709;&#x4E00;&#x4E2A;&#x8BAD;&#x7EC3;&#x6837;&#x672C;&#xFF1A;<br>Given one training example ($x,y$):</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png" alt=""></p>
@@ -350,15 +350,15 @@
 <p>&#x8BBE; $\delta_j^{(l)}$ &#x4E3A;&#x7B2C; $l$ &#x5C42;&#x7B2C; $j$ &#x4E2A;&#x795E;&#x7ECF;&#x5143;&#x7684;&#x8BEF;&#x5DEE;&#x503C;&#x3002;</p>
 <p>For each output unit (layer L = 4)</p>
 <ul>
-<li>$\delta_j^{(4)}=a_j^{(4)}-y_j=(h_\Theta(x))_j-y_j$</li>
+<li>$\delta<em>j^{(4)}=a_j^{(4)}-y_j=(h</em>\Theta(x))_j-y_j$</li>
 </ul>
 <p>Vector form:</p>
 <ul>
 <li><p>$\delta^{(4)}=a^{(4)}-y$</p>
 </li>
-<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}._g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}._(1-a^{(3)})$</p>
+<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}.<em>g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}.</em>(1-a^{(3)})$</p>
 </li>
-<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}._g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}._(1-a^{(2)})$</p>
+<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}.<em>g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}.</em>(1-a^{(2)})$</p>
 </li>
 <li><p>(There is No $\delta^{(1)}$!)</p>
 </li>
@@ -373,25 +373,25 @@
 <li>&#x6B63;&#x5411;&#x8BA1;&#x7B97;&#x5404;&#x5C42;&#x6FC0;&#x6D3B;&#x503C; Perform forward propagation to compute $a^{(l)}$ for $l=2,3,&#x2026;,L$</li>
 <li>&#x7528;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#xFF0C;&#x8BA1;&#x7B97;&#x6700;&#x7EC8;&#x5C42;&#x8BEF;&#x5DEE; Using $y^{(i)}$, compute $\delta^{(L)}=a^{(L)}-y^{(i)}$</li>
 <li>&#x53CD;&#x5411;&#x8BA1;&#x7B97;&#x5176;&#x4ED6;&#x5C42;&#x7684;&#x8BEF;&#x5DEE; Compute $\delta^{(L-1)}, \delta^{(L-2)},\delta^{(2)}$</li>
-<li><p>$\Delta_{ij}^{(l)}:=\Delta_{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
+<li><p>$\Delta<em>{ij}^{(l)}:=\Delta</em>{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
 <p> Here, vector form: </p>
 <p> $\Delta^{(l)}:=\Delta^{(l)}+\delta^{(l+1)}(a^{(l)})^T$  </p>
 </li>
 </ul>
 </li>
 </ul>
-<p>  $$\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}$$</p>
-<ul>
-<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D_{ij}^{(l)}:=\frac1m\Delta_{ij}^{(l)}+\lambda\Delta_{ij}^{(l)}$ if $j\neq0$<br>$D_{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
+<script type="math/tex; mode=display">\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}</script><ul>
+<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D<em>{ij}^{(l)}:=\frac1m\Delta</em>{ij}^{(l)}+\lambda\Delta<em>{ij}^{(l)}$ if $j\neq0$<br>$D</em>{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
 </ul>
-<h3 id="5-1-3_Backpropagation_Intuition">5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
+<h3 id="5-1-3-Backpropagation-Intuition"><a href="#5-1-3-Backpropagation-Intuition" class="headerlink" title="5.1.3 Backpropagation Intuition"></a>5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png" alt=""></p>
 <p><strong>b) What is backpropagation doing</strong></p>
-<p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),<br>$$<br>cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})<br>$$</p>
-<p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
+<p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),</p>
+<script type="math/tex; mode=display">
+cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script><p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
 <p>i.e. how well is the network doing on example i?</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png" alt=""></p>
-<h2 id="5-2_Backpropagation_Implementation_Notes">5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1_Unrolling_Parameters">5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
+<h2 id="5-2-Backpropagation-Implementation-Notes"><a href="#5-2-Backpropagation-Implementation-Notes" class="headerlink" title="5.2 Backpropagation Implementation Notes"></a>5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1-Unrolling-Parameters"><a href="#5-2-1-Unrolling-Parameters" class="headerlink" title="5.2.1 Unrolling Parameters"></a>5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
 <p><code>function [jVal, gradient] = costFunction(theta)</code><br>&#x2026;<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
 <p>Neutal Network(L=4):<br>$\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$ - matrices(<code>Theta1, Theta2, Theta3</code>)<br>$D^{(1)},D^{(2)},D^{(3)}$ - matrices (<code>D1, D2, D3</code>)</p>
 <p>&#x201C;Unroll&#x201D; into vectors</p>
@@ -415,7 +415,7 @@
 </li>
 <li>Unroll $D^{(1)},D^{(2)},D^{(3)}$ to get <code>gradientVec</code>.</li>
 </ul>
-<h3 id="5-2-2_Gradient_Checking">5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
+<h3 id="5-2-2-Gradient-Checking"><a href="#5-2-2-Gradient-Checking" class="headerlink" title="5.2.2 Gradient Checking"></a>5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
 <p><strong>a) Numerial estimation of gradients</strong></p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png" alt=""></p>
 <p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
@@ -434,7 +434,7 @@
 <ul>
 <li>Be sure to disable your gradient cheking code before training your classifier. If you run numeiral gradient computation on every iteration of gradient descent (or in the inner loop of <code>costFunction(...)</code>) your code will be very slow.</li>
 </ul>
-<h3 id="5-2-3_Random_Initialization">5.2.3 Random Initialization</h3><p>Need initial value for $\Theta\$</p>
+<h3 id="5-2-3-Random-Initialization"><a href="#5-2-3-Random-Initialization" class="headerlink" title="5.2.3 Random Initialization"></a>5.2.3 Random Initialization</h3><p>Need initial value for $\Theta$</p>
 <ul>
 <li>Zero initialization. <ul>
 <li>$\Theta_{ij}^{(l)} = 0$ for all $i,j,l$</li>
@@ -447,13 +447,13 @@
 </ul>
 </li>
 </ul>
-<h2 id="5-3_Putting_It_Together">5.3 Putting It Together</h2><h3 id="5-3-1_Training_a_neural_network">5.3.1 Training a neural network</h3><ul>
+<h2 id="5-3-Putting-It-Together"><a href="#5-3-Putting-It-Together" class="headerlink" title="5.3 Putting It Together"></a>5.3 Putting It Together</h2><h3 id="5-3-1-Training-a-neural-network"><a href="#5-3-1-Training-a-neural-network" class="headerlink" title="5.3.1 Training a neural network"></a>5.3.1 Training a neural network</h3><ul>
 <li>pick a network architecture (connectivity pattern between neurons)</li>
 <li>No. of input units: Dimension of features </li>
 <li>No. output units: Number of classes</li>
 <li>Reasonable default: 1 hidden layer, or if &gt;1 hidden layer, have same no. of hidden uints in every layer (usually the more the better, but will be more computational expensive). </li>
 </ul>
-<h3 id="5-3-2_Steps_of_training_a_neural_network">5.3.2 Steps of training a neural network</h3><ol>
+<h3 id="5-3-2-Steps-of-training-a-neural-network"><a href="#5-3-2-Steps-of-training-a-neural-network" class="headerlink" title="5.3.2 Steps of training a neural network"></a>5.3.2 Steps of training a neural network</h3><ol>
 <li>Randomly initialize weights</li>
 <li>Implement forward propagation to get $h_\Theta(x^{(i)})$ for any $x^{(i)}$</li>
 <li>Implement code to compute cost function $J(\Theta)$</li>
@@ -624,7 +624,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#5-_Neural_Networks:_Learning"><span class="nav-number">1.</span> <span class="nav-text">5. Neural Networks: Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#5-1_Neural_Networks_(Classification)"><span class="nav-number">1.1.</span> <span class="nav-text">5.1 Neural Networks (Classification)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-1_Cost_functions_代价函数"><span class="nav-number">1.1.1.</span> <span class="nav-text">5.1.1 Cost functions 代价函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-2_Backpropagation_Algorithm"><span class="nav-number">1.1.2.</span> <span class="nav-text">5.1.2 Backpropagation Algorithm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-3_Backpropagation_Intuition"><span class="nav-number">1.1.3.</span> <span class="nav-text">5.1.3 Backpropagation Intuition</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-2_Backpropagation_Implementation_Notes"><span class="nav-number">1.2.</span> <span class="nav-text">5.2 Backpropagation Implementation Notes</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-1_Unrolling_Parameters"><span class="nav-number">1.2.1.</span> <span class="nav-text">5.2.1 Unrolling Parameters</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-2_Gradient_Checking"><span class="nav-number">1.2.2.</span> <span class="nav-text">5.2.2 Gradient Checking</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-3_Random_Initialization"><span class="nav-number">1.2.3.</span> <span class="nav-text">5.2.3 Random Initialization</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-3_Putting_It_Together"><span class="nav-number">1.3.</span> <span class="nav-text">5.3 Putting It Together</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-1_Training_a_neural_network"><span class="nav-number">1.3.1.</span> <span class="nav-text">5.3.1 Training a neural network</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-2_Steps_of_training_a_neural_network"><span class="nav-number">1.3.2.</span> <span class="nav-text">5.3.2 Steps of training a neural network</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#5-Neural-Networks-Learning"><span class="nav-number">1.</span> <span class="nav-text">5. Neural Networks: Learning</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#5-1-Neural-Networks-Classification"><span class="nav-number">1.1.</span> <span class="nav-text">5.1 Neural Networks (Classification)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-1-Cost-functions-代价函数"><span class="nav-number">1.1.1.</span> <span class="nav-text">5.1.1 Cost functions 代价函数</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-2-Backpropagation-Algorithm"><span class="nav-number">1.1.2.</span> <span class="nav-text">5.1.2 Backpropagation Algorithm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-3-Backpropagation-Intuition"><span class="nav-number">1.1.3.</span> <span class="nav-text">5.1.3 Backpropagation Intuition</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-2-Backpropagation-Implementation-Notes"><span class="nav-number">1.2.</span> <span class="nav-text">5.2 Backpropagation Implementation Notes</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-1-Unrolling-Parameters"><span class="nav-number">1.2.1.</span> <span class="nav-text">5.2.1 Unrolling Parameters</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-2-Gradient-Checking"><span class="nav-number">1.2.2.</span> <span class="nav-text">5.2.2 Gradient Checking</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-3-Random-Initialization"><span class="nav-number">1.2.3.</span> <span class="nav-text">5.2.3 Random Initialization</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-3-Putting-It-Together"><span class="nav-number">1.3.</span> <span class="nav-text">5.3 Putting It Together</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-1-Training-a-neural-network"><span class="nav-number">1.3.1.</span> <span class="nav-text">5.3.1 Training a neural network</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-3-2-Steps-of-training-a-neural-network"><span class="nav-number">1.3.2.</span> <span class="nav-text">5.3.2 Steps of training a neural network</span></a></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>

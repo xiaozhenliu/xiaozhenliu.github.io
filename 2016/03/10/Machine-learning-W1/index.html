@@ -318,11 +318,11 @@
         <p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
 <blockquote>
 <p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
 </blockquote>
-<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
+<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><ul>
 <li>Correct outputs are known. </li>
 <li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
 <li>Regression problem: predict results within a continuous output</li>
@@ -336,48 +336,51 @@
 </ul>
 </li>
 </ul>
-<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
+<h3 id="Unsupervised-Learning"><a href="#Unsupervised-Learning" class="headerlink" title="Unsupervised Learning"></a>Unsupervised Learning</h3><ul>
 <li>No known correct output (feedback)</li>
 <li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
 <li>Examples: google story collection; cocktail party (distiguish two voices)</li>
 </ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><h3 id="Model_Representation">Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
+<h2 id="Linear-Regression-with-One-Variable"><a href="#Linear-Regression-with-One-Variable" class="headerlink" title="Linear Regression with One Variable"></a>Linear Regression with One Variable</h2><h3 id="Model-Representation"><a href="#Model-Representation" class="headerlink" title="Model Representation"></a>Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
 <p>$(x,y)$ - one training example</p>
 <p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
 <p>How do we represent $h$?</p>
-<p>  $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
-<h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
-<p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
-<h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
+<script type="math/tex; mode=display">h_{\theta}(x) = \theta_0+\theta_1x</script><h3 id="Cost-Function"><a href="#Cost-Function" class="headerlink" title="Cost Function"></a>Cost Function</h3><p><strong>Idea</strong>: </p>
+<p>Choose ${\theta<em>0}$, ${\theta_1}$ so that $h</em>{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
+<h3 id="Cost-Function-Intuition"><a href="#Cost-Function-Intuition" class="headerlink" title="Cost Function - Intuition"></a>Cost Function - Intuition</h3><p>Hypothesis: <script type="math/tex">h_{\theta}(x) = \theta_0+\theta_1x</script></p>
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
-<p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
-<p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
+<script type="math/tex; mode=display">J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2}</script><p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
-<h3 id="Gradient_Descent">Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
+<h3 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
 <p>want $\min \ J(\theta_0,\theta_1)$</p>
 <p>Outline:</p>
 <ul>
 <li>start with some $\theta_0,\theta_1$</li>
 <li>keep changing $\theta_0,\theta_1$ to reduce $J(\theta_0,\theta_1)$ until we hopefully end up at a minimum</li>
 </ul>
-<h3 id="Gradient_descent_algorithm">Gradient descent algorithm</h3><p>repeat until convergence {</p>
-<p>$$\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)</p>
-<p>}</p>
-<p><strong>Correct: simultaneous update $\theta_0$ and $\theta_1$</strong></p>
-<p>$\alpha$ is the learning rate. </p>
-<ul>
-<li><p>if $\alpha$ is too small, gradient descent can be slow. </p>
-</li>
-<li><p>if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. </p>
-</li>
-</ul>
-<p>Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. </p>
-<h3 id="Gradient_Descent_for_Linear_Regression">Gradient Descent for Linear Regression</h3><p>repeat until convergence {</p>
-<p>$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right) $$</p>
-<p>$$\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)} $$<br>}</p>
-<h4 id="&#x201C;Batch&#x201D;_Gradient_Descent">&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
+<h3 id="Gradient-descent-algorithm"><a href="#Gradient-descent-algorithm" class="headerlink" title="Gradient descent algorithm"></a>Gradient descent algorithm</h3><p>repeat until convergence {</p>
+<script type="math/tex; mode=display">\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)
+
+}
+
+**Correct: simultaneous update $\theta_0$ and $\theta_1$**
+
+$\alpha$ is the learning rate. 
+
+- if $\alpha$ is too small, gradient descent can be slow. 
+
+- if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. 
+
+Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. 
+
+###Gradient Descent for Linear Regression
+
+repeat until convergence {
+
+$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right)</script><script type="math/tex; mode=display">\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)}</script><p>}</p>
+<h4 id="&#x201C;Batch&#x201D;-Gradient-Descent"><a href="#&#x201C;Batch&#x201D;-Gradient-Descent" class="headerlink" title="&#x201C;Batch&#x201D; Gradient Descent"></a>&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
 
       
     </div>
@@ -541,7 +544,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised_Learning"><span class="nav-number">1.1.</span> <span class="nav-text">Supervised Learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unsupervised_Learning"><span class="nav-number">1.2.</span> <span class="nav-text">Unsupervised Learning</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Linear_Regression_with_One_Variable"><span class="nav-number">2.</span> <span class="nav-text">Linear Regression with One Variable</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Model_Representation"><span class="nav-number">2.1.</span> <span class="nav-text">Model Representation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cost_Function"><span class="nav-number">2.2.</span> <span class="nav-text">Cost Function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cost_Function_-_Intuition"><span class="nav-number">2.3.</span> <span class="nav-text">Cost Function - Intuition</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gradient_Descent"><span class="nav-number">2.4.</span> <span class="nav-text">Gradient Descent</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gradient_descent_algorithm"><span class="nav-number">2.5.</span> <span class="nav-text">Gradient descent algorithm</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gradient_Descent_for_Linear_Regression"><span class="nav-number">2.6.</span> <span class="nav-text">Gradient Descent for Linear Regression</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#“Batch”_Gradient_Descent"><span class="nav-number">2.6.1.</span> <span class="nav-text">“Batch” Gradient Descent</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Introduction"><span class="nav-number">1.</span> <span class="nav-text">Introduction</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Supervised-Learning"><span class="nav-number">1.1.</span> <span class="nav-text">Supervised Learning</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Unsupervised-Learning"><span class="nav-number">1.2.</span> <span class="nav-text">Unsupervised Learning</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Linear-Regression-with-One-Variable"><span class="nav-number">2.</span> <span class="nav-text">Linear Regression with One Variable</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Model-Representation"><span class="nav-number">2.1.</span> <span class="nav-text">Model Representation</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cost-Function"><span class="nav-number">2.2.</span> <span class="nav-text">Cost Function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Cost-Function-Intuition"><span class="nav-number">2.3.</span> <span class="nav-text">Cost Function - Intuition</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gradient-Descent"><span class="nav-number">2.4.</span> <span class="nav-text">Gradient Descent</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Gradient-descent-algorithm"><span class="nav-number">2.5.</span> <span class="nav-text">Gradient descent algorithm</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#“Batch”-Gradient-Descent"><span class="nav-number">2.5.1.</span> <span class="nav-text">“Batch” Gradient Descent</span></a></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>

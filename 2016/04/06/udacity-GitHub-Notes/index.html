@@ -316,7 +316,7 @@
         <p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
 <p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
-<h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
+<h2 id="Lesson-1"><a href="#Lesson-1" class="headerlink" title="Lesson 1"></a>Lesson 1</h2><h3 id="Find-differences-between-two-large-files"><a href="#Find-differences-between-two-large-files" class="headerlink" title="Find differences between two large files"></a>Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
 <li>Mac/Linux: Diff</li>
@@ -325,7 +325,7 @@
 <p>Reflect: How did viewing a diff between two versions help you spot the bug?<br>Answer: By looking at the differences between two versions, I know which changes have been made that caused the bug.</p>
 </blockquote>
 <p>Choose a text editor: Notepad++, Sublime, Atom, emacs, vim, etc. </p>
-<h3 id="Versions">Versions</h3><ul>
+<h3 id="Versions"><a href="#Versions" class="headerlink" title="Versions"></a>Versions</h3><ul>
 <li>Saving manual copies</li>
 <li>Dropbox (periodically save versions automatically)</li>
 <li>Google Docs (periodically save versions automatically)</li>
@@ -346,14 +346,14 @@
 <li><strong>When you choose to save a version</strong></li>
 </ul>
 </blockquote>
-<h3 id="Mannual_Commits">Mannual Commits</h3><p>Git requires a message with each commit</p>
+<h3 id="Mannual-Commits"><a href="#Mannual-Commits" class="headerlink" title="Mannual Commits"></a>Mannual Commits</h3><p>Git requires a message with each commit</p>
 <p>Cases that need a new commit:</p>
 <ul>
 <li>fix off-by-one bug</li>
 <li>add cool new feature</li>
 <li>improve user docs</li>
 </ul>
-<h3 id="Use_Git_to_View_History">Use Git to View History</h3><p><strong>[Offline]</strong></p>
+<h3 id="Use-Git-to-View-History"><a href="#Use-Git-to-View-History" class="headerlink" title="Use Git to View History"></a>Use Git to View History</h3><p><strong>[Offline]</strong></p>
 <ul>
 <li>Each commit has an ID, an Autor, Date/Time, and a message</li>
 <li><code>git diff ID1 ID2</code></li>
@@ -363,50 +363,50 @@
 </blockquote>
 </li>
 </ul>
-<h3 id="Commits_with_Multiple_Files">Commits with Multiple Files</h3><ul>
+<h3 id="Commits-with-Multiple-Files"><a href="#Commits-with-Multiple-Files" class="headerlink" title="Commits with Multiple Files"></a>Commits with Multiple Files</h3><ul>
 <li>A repository contains multiple files</li>
 <li>Make changes in different files together and track in one commit<blockquote>
 <p>Reflect: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?<br>Because Git takes a mannual and logical approach, and keeps the records in one git file for each repo. For others, they keep the records as part of the information related to one file.</p>
 </blockquote>
 </li>
 </ul>
-<h3 id="Git_Commands">Git Commands</h3><p><strong>[Online]</strong></p>
+<h3 id="Git-Commands"><a href="#Git-Commands" class="headerlink" title="Git Commands"></a>Git Commands</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>Clone a repo <code>git clone _repo_url_</code><br>(<a href="https://github.com/udacity/asteroids.git" target="_blank" rel="external">https://github.com/udacity/asteroids.git</a>)</li>
 <li><code>git log</code></li>
 <li><code>git diff</code></li>
 <li>Check commit: <code>git checkout _commit ID_</code></li>
 </ul>
-<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
-<h3 id="Summary">Summary</h3><ul>
+<h3 id="Making-Git-configurations"><a href="#Making-Git-configurations" class="headerlink" title="Making Git configurations"></a>Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
+<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Why use Git</li>
 <li>Git Setup</li>
 <li>Git commands: clone, log, diff, checkout</li>
 </ul>
-<h2 id="Lesson_2">Lesson 2</h2><h3 id="Initialize">Initialize</h3><p><strong>[Offline]</strong></p>
+<h2 id="Lesson-2"><a href="#Lesson-2" class="headerlink" title="Lesson 2"></a>Lesson 2</h2><h3 id="Initialize"><a href="#Initialize" class="headerlink" title="Initialize"></a>Initialize</h3><p><strong>[Offline]</strong></p>
 <ul>
 <li><code>git init</code></li>
 <li>When a git is initialized, no commit is included</li>
 <li>Check git status: <code>git status</code></li>
 </ul>
-<h3 id="Choosing_what_changes_to_commit">Choosing what changes to commit</h3><ul>
+<h3 id="Choosing-what-changes-to-commit"><a href="#Choosing-what-changes-to-commit" class="headerlink" title="Choosing what changes to commit"></a>Choosing what changes to commit</h3><ul>
 <li>working directory -&gt; staging area -&gt; repository</li>
 <li><code>git add _file_to_update_</code> will add named files to staging area</li>
 <li>remove from staging area by using <code>git reset</code></li>
 </ul>
-<h3 id="Write_a_commit_message">Write a commit message</h3><ul>
+<h3 id="Write-a-commit-message"><a href="#Write-a-commit-message" class="headerlink" title="Write a commit message"></a>Write a commit message</h3><ul>
 <li><code>git commit</code> will open the editor</li>
 <li>standard practice: write a message as if it is a command</li>
 <li><code>git commit -m &quot;Commit message&quot;</code></li>
 <li>commit message <a href="http://udacity.github.io/git-styleguide/" target="_blank" rel="external">style guide</a></li>
 </ul>
-<h3 id="Git_diff_revisited">Git diff revisited</h3><ul>
+<h3 id="Git-diff-revisited"><a href="#Git-diff-revisited" class="headerlink" title="Git diff revisited"></a>Git diff revisited</h3><ul>
 <li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
 <li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
-<li>_Be careful! <code>git reset --hard</code> is not reversable_</li>
+<li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
 <li>Leave &#x2018;detached HEAD&#x2019; state: <code>git checkout master</code></li>
 </ul>
-<h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
+<h3 id="Create-and-commit-branches"><a href="#Create-and-commit-branches" class="headerlink" title="Create and commit branches"></a>Create and commit branches</h3><ul>
 <li>One branch is enough: fix bug, new feature, update docs</li>
 <li>More than one branch: experimental feature, Italian version</li>
 <li>Most recent commit of a branch: tip of a branch</li>
@@ -414,13 +414,13 @@
 <li>Create a branch: <code>git branch &quot;branch_name&quot;</code></li>
 <li>Switch to a branch: <code>git checkout &quot;branch_name&quot;</code></li>
 </ul>
-<h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
+<h3 id="Branches-for-Collaboration"><a href="#Branches-for-Collaboration" class="headerlink" title="Branches for Collaboration"></a>Branches for Collaboration</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>remote branch</li>
 <li>branch has parents &#x201C;reachability&#x201D;</li>
 <li>checkout a commit as a new branch: <code>git checkout -b _new_branch_name_</code></li>
 </ul>
-<h3 id="Combining_Simple_Files">Combining Simple Files</h3><ul>
+<h3 id="Combining-Simple-Files"><a href="#Combining-Simple-Files" class="headerlink" title="Combining Simple Files"></a>Combining Simple Files</h3><ul>
 <li>merged branch has both parents</li>
 <li><code>git merge branch_1 branch_2</code></li>
 <li><code>git show</code> show the diff of a commit with its parent</li>
@@ -429,34 +429,34 @@
 <li>Commit the conflict resolution</li>
 <li><code>git log -n 1</code> show only 1 commit log</li>
 </ul>
-<h3 id="Summary-1">Summary</h3><ul>
+<h3 id="Summary-1"><a href="#Summary-1" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Initialize git</li>
 <li>Create commits</li>
 <li>Create and commit branches</li>
 <li>Merge branches</li>
 </ul>
-<h2 id="Lesson_3">Lesson 3</h2><h3 id="Sync_with_repositories_on_GitHub">Sync with repositories on GitHub</h3><ul>
+<h2 id="Lesson-3"><a href="#Lesson-3" class="headerlink" title="Lesson 3"></a>Lesson 3</h2><h3 id="Sync-with-repositories-on-GitHub"><a href="#Sync-with-repositories-on-GitHub" class="headerlink" title="Sync with repositories on GitHub"></a>Sync with repositories on GitHub</h3><ul>
 <li>Remote repo</li>
 <li>push and pull</li>
 <li>no working directory or staging area on GitHub side</li>
 </ul>
-<h3 id="Forking_a_Repository">Forking a Repository</h3><ul>
+<h3 id="Forking-a-Repository"><a href="#Forking-a-Repository" class="headerlink" title="Forking a Repository"></a>Forking a Repository</h3><ul>
 <li>click fork button</li>
 <li>= create a clone on GitHub instead of on your local computer.</li>
 <li>Can add collaborators</li>
 <li><code>git remote -v</code></li>
 <li>push</li>
 </ul>
-<h3 id="Merge_the_Changes_Together">Merge the Changes Together</h3><ul>
+<h3 id="Merge-the-Changes-Together"><a href="#Merge-the-Changes-Together" class="headerlink" title="Merge the Changes Together"></a>Merge the Changes Together</h3><ul>
 <li>Fast-forward merge</li>
 <li><code>git merge master origin/master</code></li>
 <li>resolve conflict</li>
 </ul>
-<h3 id="Pull_request">Pull request</h3><ul>
+<h3 id="Pull-request"><a href="#Pull-request" class="headerlink" title="Pull request"></a>Pull request</h3><ul>
 <li>Ask for your pull request to be merged</li>
 <li>after merging, delete branch</li>
 </ul>
-<h3 id="Summary-2">Summary</h3><ul>
+<h3 id="Summary-2"><a href="#Summary-2" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Clone and Fork</li>
 <li>Merge and Pull request</li>
 </ul>
@@ -613,7 +613,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson_1"><span class="nav-number">1.</span> <span class="nav-text">Lesson 1</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Find_differences_between_two_large_files"><span class="nav-number">1.1.</span> <span class="nav-text">Find differences between two large files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Versions"><span class="nav-number">1.2.</span> <span class="nav-text">Versions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mannual_Commits"><span class="nav-number">1.3.</span> <span class="nav-text">Mannual Commits</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Use_Git_to_View_History"><span class="nav-number">1.4.</span> <span class="nav-text">Use Git to View History</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Commits_with_Multiple_Files"><span class="nav-number">1.5.</span> <span class="nav-text">Commits with Multiple Files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git_Commands"><span class="nav-number">1.6.</span> <span class="nav-text">Git Commands</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Making_Git_configurations"><span class="nav-number">1.7.</span> <span class="nav-text">Making Git configurations</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary"><span class="nav-number">1.8.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson_2"><span class="nav-number">2.</span> <span class="nav-text">Lesson 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Initialize"><span class="nav-number">2.1.</span> <span class="nav-text">Initialize</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Choosing_what_changes_to_commit"><span class="nav-number">2.2.</span> <span class="nav-text">Choosing what changes to commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Write_a_commit_message"><span class="nav-number">2.3.</span> <span class="nav-text">Write a commit message</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git_diff_revisited"><span class="nav-number">2.4.</span> <span class="nav-text">Git diff revisited</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create_and_commit_branches"><span class="nav-number">2.5.</span> <span class="nav-text">Create and commit branches</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Branches_for_Collaboration"><span class="nav-number">2.6.</span> <span class="nav-text">Branches for Collaboration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Combining_Simple_Files"><span class="nav-number">2.7.</span> <span class="nav-text">Combining Simple Files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary-1"><span class="nav-number">2.8.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson_3"><span class="nav-number">3.</span> <span class="nav-text">Lesson 3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Sync_with_repositories_on_GitHub"><span class="nav-number">3.1.</span> <span class="nav-text">Sync with repositories on GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Forking_a_Repository"><span class="nav-number">3.2.</span> <span class="nav-text">Forking a Repository</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Merge_the_Changes_Together"><span class="nav-number">3.3.</span> <span class="nav-text">Merge the Changes Together</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pull_request"><span class="nav-number">3.4.</span> <span class="nav-text">Pull request</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary-2"><span class="nav-number">3.5.</span> <span class="nav-text">Summary</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson-1"><span class="nav-number">1.</span> <span class="nav-text">Lesson 1</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Find-differences-between-two-large-files"><span class="nav-number">1.1.</span> <span class="nav-text">Find differences between two large files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Versions"><span class="nav-number">1.2.</span> <span class="nav-text">Versions</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Mannual-Commits"><span class="nav-number">1.3.</span> <span class="nav-text">Mannual Commits</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Use-Git-to-View-History"><span class="nav-number">1.4.</span> <span class="nav-text">Use Git to View History</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Commits-with-Multiple-Files"><span class="nav-number">1.5.</span> <span class="nav-text">Commits with Multiple Files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-Commands"><span class="nav-number">1.6.</span> <span class="nav-text">Git Commands</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Making-Git-configurations"><span class="nav-number">1.7.</span> <span class="nav-text">Making Git configurations</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary"><span class="nav-number">1.8.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson-2"><span class="nav-number">2.</span> <span class="nav-text">Lesson 2</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Initialize"><span class="nav-number">2.1.</span> <span class="nav-text">Initialize</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Choosing-what-changes-to-commit"><span class="nav-number">2.2.</span> <span class="nav-text">Choosing what changes to commit</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Write-a-commit-message"><span class="nav-number">2.3.</span> <span class="nav-text">Write a commit message</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Git-diff-revisited"><span class="nav-number">2.4.</span> <span class="nav-text">Git diff revisited</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-and-commit-branches"><span class="nav-number">2.5.</span> <span class="nav-text">Create and commit branches</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Branches-for-Collaboration"><span class="nav-number">2.6.</span> <span class="nav-text">Branches for Collaboration</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Combining-Simple-Files"><span class="nav-number">2.7.</span> <span class="nav-text">Combining Simple Files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary-1"><span class="nav-number">2.8.</span> <span class="nav-text">Summary</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Lesson-3"><span class="nav-number">3.</span> <span class="nav-text">Lesson 3</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Sync-with-repositories-on-GitHub"><span class="nav-number">3.1.</span> <span class="nav-text">Sync with repositories on GitHub</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Forking-a-Repository"><span class="nav-number">3.2.</span> <span class="nav-text">Forking a Repository</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Merge-the-Changes-Together"><span class="nav-number">3.3.</span> <span class="nav-text">Merge the Changes Together</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pull-request"><span class="nav-number">3.4.</span> <span class="nav-text">Pull request</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Summary-2"><span class="nav-number">3.5.</span> <span class="nav-text">Summary</span></a></li></ol></li></ol></div>
             
           </div>
         </section>

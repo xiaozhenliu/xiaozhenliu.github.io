@@ -25,26 +25,26 @@
 <p><strong>&#x672C;&#x6587;&#x662F;&#x7EAA;&#x5F55;&#x53C2;&#x4E0E;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x7BC7;&#x3002;</strong></p>
 <p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/MLND/" target="_blank" rel="external">Tag: MLND</a> &#x3002;</strong></p>
 <p>&#x5173;&#x4E8E;Udacity&#x548C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF08;&#x7B80;&#x79F0;MLND&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x591A;&#x505A;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x524D;&#x7BC7;&#xFF1A;<a href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/" target="_blank" rel="external">&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;1&#xFF09;</a>&#x3002;</p>
-<h1 id="Welcome_to_the_Nanodegree">Welcome to the Nanodegree</h1><ul>
+<h1 id="Welcome-to-the-Nanodegree"><a href="#Welcome-to-the-Nanodegree" class="headerlink" title="Welcome to the Nanodegree"></a>Welcome to the Nanodegree</h1><ul>
 <li>Readiness Questions: statistics, calculus, linear algebra</li>
 <li>Quiz</li>
 </ul>
-<h2 id="What_is_Machine_Learning">What is Machine Learning</h2><ul>
+<h2 id="What-is-Machine-Learning"><a href="#What-is-Machine-Learning" class="headerlink" title="What is Machine Learning"></a>What is Machine Learning</h2><ul>
 <li>Methods to Processing data</li>
 <li>Don&#x2019;t have to explicitly tell the computer what to do to get a solution</li>
 <li>Large amount of data makes Machine Learning useful</li>
 </ul>
-<h2 id="Program_Outline">Program Outline</h2><ul>
+<h2 id="Program-Outline"><a href="#Program-Outline" class="headerlink" title="Program Outline"></a>Program Outline</h2><ul>
 <li>How to use the ML techniques and when to use them</li>
 </ul>
-<h2 id="What_ML_can_do">What ML can do</h2><h3 id="Conundrums_in_AI">Conundrums in AI</h3><ul>
+<h2 id="What-ML-can-do"><a href="#What-ML-can-do" class="headerlink" title="What ML can do"></a>What ML can do</h2><h3 id="Conundrums-in-AI"><a href="#Conundrums-in-AI" class="headerlink" title="Conundrums in AI"></a>Conundrums in AI</h3><ul>
 <li>Intelligent agents have limited resources</li>
 <li>Computation is local, but problems have global constraints.</li>
 <li>Logic is deductive, but many problems are not</li>
 <li>The world is dynamic, but knowledge is limited</li>
 <li>Problem solving, reasoning, and learning are complex, but explanation and justification are even more complex.</li>
 </ul>
-<h3 id="Characteristics_of_AI_Problems">Characteristics of AI Problems</h3><ul>
+<h3 id="Characteristics-of-AI-Problems"><a href="#Characteristics-of-AI-Problems" class="headerlink" title="Characteristics of AI Problems"></a>Characteristics of AI Problems</h3><ul>
 <li>incrementally</li>
 <li>recurring</li>
 <li>multiple levels of granularity</li>
@@ -52,21 +52,20 @@
 <li>dynamic world vs. static knowledge</li>
 <li>open-ended world vs. limited knowledge</li>
 </ul>
-<h3 id="AI_and_Uncertainty">AI and Uncertainty</h3><p>AI as uncertainty Management<br>AI = what to do when you don&#x2019;t know what to do </p>
+<h3 id="AI-and-Uncertainty"><a href="#AI-and-Uncertainty" class="headerlink" title="AI and Uncertainty"></a>AI and Uncertainty</h3><p>AI as uncertainty Management<br>AI = what to do when you don&#x2019;t know what to do </p>
 <p>Reasons for uncertainty: sensor limits, adversaries, stochastic environments, laziness, ignorance</p>
-<h3 id="Knowledge-based_AI">Knowledge-based AI</h3><p>Watson (the IBM program that plays Jeopardy)</p>
+<h3 id="Knowledge-based-AI"><a href="#Knowledge-based-AI" class="headerlink" title="Knowledge-based AI"></a>Knowledge-based AI</h3><p>Watson (the IBM program that plays Jeopardy)</p>
 <ul>
 <li>Reasoning</li>
 <li>Learning</li>
 <li>Memory</li>
 </ul>
 <p><img src="/2016/07/06/Udacity-MLND-01/pic01.png" alt="pic01"></p>
-<h3 id="The_Four_School_of_AI">The Four School of AI</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic02.png" alt="pic02"></p>
-<h3 id="Bayes_Rule">Bayes Rule</h3><p>$$P(A|B) = \frac{P(B|A)*P(A)}{P(B)}$$</p>
-<p>Posterior = likelihood times prior / probability of the evidence (marginal likelihood)</p>
+<h3 id="The-Four-School-of-AI"><a href="#The-Four-School-of-AI" class="headerlink" title="The Four School of AI"></a>The Four School of AI</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic02.png" alt="pic02"></p>
+<h3 id="Bayes-Rule"><a href="#Bayes-Rule" class="headerlink" title="Bayes Rule"></a>Bayes Rule</h3><script type="math/tex; mode=display">P(A|B) = \frac{P(B|A)*P(A)}{P(B)}</script><p>Posterior = likelihood times prior / probability of the evidence (marginal likelihood)</p>
 <p><img src="/2016/07/06/Udacity-MLND-01/pic03.png" alt="pic03"></p>
-<h3 id="What_is_a_data_scientist?">What is a data scientist?</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic04.png" alt="pic04"></p>
-<h3 id="What_does_a_data_scientist_do?">What does a data scientist do?</h3><ul>
+<h3 id="What-is-a-data-scientist"><a href="#What-is-a-data-scientist" class="headerlink" title="What is a data scientist?"></a>What is a data scientist?</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic04.png" alt="pic04"></p>
+<h3 id="What-does-a-data-scientist-do"><a href="#What-does-a-data-scientist-do" class="headerlink" title="What does a data scientist do?"></a>What does a data scientist do?</h3><ul>
 <li><p>Collect raw data and Process data -&gt; dataset</p>
 </li>
 <li><p>Make statistical models/analysis<br>or make machine learning predictions</p>
@@ -74,13 +73,13 @@
 <li><p>Build data-driven products or publish reports, visualization, or blogs</p>
 </li>
 </ul>
-<h3 id="Basic_Data_Scientist_Skills">Basic Data Scientist Skills</h3><ul>
+<h3 id="Basic-Data-Scientist-Skills"><a href="#Basic-Data-Scientist-Skills" class="headerlink" title="Basic Data Scientist Skills"></a>Basic Data Scientist Skills</h3><ul>
 <li>knows which questions to ask</li>
 <li>can interpret the data well</li>
 <li>understands structure of the data</li>
 <li>data scientists often work in teams</li>
 </ul>
-<h3 id="Problems_solved_by_data_science">Problems solved by data science</h3><ul>
+<h3 id="Problems-solved-by-data-science"><a href="#Problems-solved-by-data-science" class="headerlink" title="Problems solved by data science"></a>Problems solved by data science</h3><ul>
 <li>Netflix</li>
 <li>social media</li>
 <li>web apps</li>
@@ -90,11 +89,11 @@
 <li>Public health</li>
 <li>Sports</li>
 </ul>
-<h3 id="Definition_of_ML">Definition of ML</h3><p>Theoretical vs. Practical</p>
-<h3 id="Supervised_learning">Supervised learning</h3><p>data are not labeled</p>
+<h3 id="Definition-of-ML"><a href="#Definition-of-ML" class="headerlink" title="Definition of ML"></a>Definition of ML</h3><p>Theoretical vs. Practical</p>
+<h3 id="Supervised-learning"><a href="#Supervised-learning" class="headerlink" title="Supervised learning"></a>Supervised learning</h3><p>data are not labeled</p>
 <p>assumptions<br>generalizaton<br>induction bias</p>
 <p>-&gt;function approximation</p>
-<h3 id="Induction,_Deduction_and_Abduction">Induction, Deduction and Abduction</h3><p>Fundamental forms of Inferences: Induction, Deduction and Abduction</p>
+<h3 id="Induction-Deduction-and-Abduction"><a href="#Induction-Deduction-and-Abduction" class="headerlink" title="Induction, Deduction and Abduction"></a>Induction, Deduction and Abduction</h3><p>Fundamental forms of Inferences: Induction, Deduction and Abduction</p>
 <ul>
 <li><p>Deduction: given the rule and the cause, deduce the effect</p>
 </li>
@@ -103,16 +102,16 @@
 <li><p>Abduction: given a rule and an effect, abduce a cause</p>
 </li>
 </ul>
-<h3 id="Unsupervised_learning">Unsupervised learning</h3><p>Description<br><img src="/2016/07/06/Udacity-MLND-01/pic05.png" alt="pic05"></p>
-<h3 id="Reinforcement_learning">Reinforcement learning</h3><p>delayed feedback</p>
-<h3 id="Applications">Applications</h3><ul>
+<h3 id="Unsupervised-learning"><a href="#Unsupervised-learning" class="headerlink" title="Unsupervised learning"></a>Unsupervised learning</h3><p>Description<br><img src="/2016/07/06/Udacity-MLND-01/pic05.png" alt="pic05"></p>
+<h3 id="Reinforcement-learning"><a href="#Reinforcement-learning" class="headerlink" title="Reinforcement learning"></a>Reinforcement learning</h3><p>delayed feedback</p>
+<h3 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h3><ul>
 <li>auto-driving cars</li>
 <li>healthcare</li>
 <li>internet of things</li>
 <li>new drug discovery</li>
 <li>trading</li>
 </ul>
-<h3 id="Nuts_and_Bolts">Nuts and Bolts</h3><ul>
+<h3 id="Nuts-and-Bolts"><a href="#Nuts-and-Bolts" class="headerlink" title="Nuts and Bolts"></a>Nuts and Bolts</h3><ul>
 <li><p>Taxonomy</p>
 <ul>
 <li><p>what is being learned: prameters, structure, hidden concepts,</p>
@@ -128,7 +127,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="Supervised_Learning">Supervised Learning</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic06.png" alt="pic06"></p>
+<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><p><img src="/2016/07/06/Udacity-MLND-01/pic06.png" alt="pic06"></p>
 <p>Occam&#x2019;s razor: everything else equal, choose the less complex hypothesis.</p>
 <p>Bayes variance methods: mathematically calculate overfitting error.</p>
 <p>In practice, we will be only given training error.</p>
@@ -159,11 +158,11 @@
     <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
+    <content type="html"><![CDATA[<h1 id="6-Machine-Learning-Application-Advice-and-System-Design"><a href="#6-Machine-Learning-Application-Advice-and-System-Design" class="headerlink" title="6. Machine Learning Application Advice and System Design"></a>6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
-<h2 id="6-1_Evaluating_a_Learning_Algorithm">6.1 Evaluating a Learning Algorithm</h2><p>Goal: Learn How to choose one of the most promising avenues to spend your time pursuing. </p>
-<h3 id="6-1-1_Deciding_what_to_try_next">6.1.1 Deciding what to try next</h3><p><strong>Debugging a learning algorithm</strong></p>
+<h2 id="6-1-Evaluating-a-Learning-Algorithm"><a href="#6-1-Evaluating-a-Learning-Algorithm" class="headerlink" title="6.1 Evaluating a Learning Algorithm"></a>6.1 Evaluating a Learning Algorithm</h2><p>Goal: Learn How to choose one of the most promising avenues to spend your time pursuing. </p>
+<h3 id="6-1-1-Deciding-what-to-try-next"><a href="#6-1-1-Deciding-what-to-try-next" class="headerlink" title="6.1.1 Deciding what to try next"></a>6.1.1 Deciding what to try next</h3><p><strong>Debugging a learning algorithm</strong></p>
 <p>Suppose you have implemented regularized linear regression to predict housing prices. </p>
 <p>However, when you test your hypothesis on a new set of hourses, you find that it makes unacceptably large errors in its predictions. What should you try next?</p>
 <ul>
@@ -177,23 +176,19 @@
 <p>WRONG: Randomly pick one of these options</p>
 <p>CORRECT: Machine Learning Diagnostic</p>
 <p>A test that you can run to gain insight what is/isn&#x2019;t working with a learning algorithm, and gain guidance as to how best to improve its performance. </p>
-<h3 id="6-1-2_Evaluating_a_Hypothesis">6.1.2 Evaluating a Hypothesis</h3><p>Example: Using housing sizes to predict prices.</p>
+<h3 id="6-1-2-Evaluating-a-Hypothesis"><a href="#6-1-2-Evaluating-a-Hypothesis" class="headerlink" title="6.1.2 Evaluating a Hypothesis"></a>6.1.2 Evaluating a Hypothesis</h3><p>Example: Using housing sizes to predict prices.</p>
 <p>Method: (randomly) choose 70% of the dataset (samples) as the training set, the other 30% as the test set. </p>
 <p>Training set: $m$ number of samples; $x^{(1)},y^{(1)}&#x2026;x^{(m)},y^{(m)}$</p>
-<p>Test set: $m_test$ number of samples<br>$x_{test}^{(1)},y_{test}^{(1)}&#x2026;x_{test}^{(m)},y_{text}^{(m)}$</p>
+<p>Test set: $m<em>test$ number of samples<br>$x</em>{test}^{(1)},y<em>{test}^{(1)}&#x2026;x</em>{test}^{(m)},y_{text}^{(m)}$</p>
 <p><strong>Training/testing procedure for linear regression</strong></p>
 <ul>
 <li>Learn parameter $\theta$ from training data (minimizing training error $J(\theta)$)</li>
 <li>Compute test set error: </li>
 </ul>
-<p>$$J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}\left(h_\theta(x_{test}^{(i)})-y_{test}^{(i)}\right)^2$$</p>
-<p>$$J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}y_{test}^{(i)}\log h_\theta(x_{test}^{(i)})+(1-y_{test}^{(i)})\log h_\theta(x_{test}^{(i)})$$</p>
-<ul>
+<script type="math/tex; mode=display">J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}\left(h_\theta(x_{test}^{(i)})-y_{test}^{(i)}\right)^2</script><script type="math/tex; mode=display">J_{test}(\theta)=\frac1{2m_{test}}\sum_{i=1}^{m_{test}}y_{test}^{(i)}\log h_\theta(x_{test}^{(i)})+(1-y_{test}^{(i)})\log h_\theta(x_{test}^{(i)})</script><ul>
 <li>Misclassification error (0/1 misclassification error);</li>
 </ul>
-<p>$$err(h_\theta(x),y)=\begin{cases}1\quad\text{if }h_\theta(x)\geq0.5, y=0\text{ or if } h_\theta(x)\leq0.5, y=1\0\quad\text{otherwise}\end{cases}$$</p>
-<p>$$\text{Test error} = \frac1{m_{test}}\sum_{i=1}^{m_{test}}err\left(h_\theta(x_{test}^{(i)}),y_{test}^{(i)}\right)\<br>$$</p>
-<h3 id="6-1-3_Model_Selection_and_Train/Validation/Test_Sets">6.1.3 Model Selection and Train/Validation/Test Sets</h3><p><strong>Overfitting example</strong></p>
+<script type="math/tex; mode=display">err(h_\theta(x),y)=\begin{cases}1\quad\text{if }h_\theta(x)\geq0.5, y=0\text{ or if } h_\theta(x)\leq0.5, y=1\\0\quad\text{otherwise}\end{cases}</script><script type="math/tex; mode=display">\text{Test error} = \frac1{m_{test}}\sum_{i=1}^{m_{test}}err\left(h_\theta(x_{test}^{(i)}),y_{test}^{(i)}\right)\</script><h3 id="6-1-3-Model-Selection-and-Train-Validation-Test-Sets"><a href="#6-1-3-Model-Selection-and-Train-Validation-Test-Sets" class="headerlink" title="6.1.3 Model Selection and Train/Validation/Test Sets"></a>6.1.3 Model Selection and Train/Validation/Test Sets</h3><p><strong>Overfitting example</strong></p>
 <p>Once parameters $\theta_0,\theta_1,&#x2026;,\theta_4$ were fit to some set of data (traning set), the error of the parameters as measured on that data (the traing error $J(\theta)$) is likely to be lower than the actual generalization error.</p>
 <p><strong>Model selection</strong></p>
 <ol>
@@ -208,12 +203,11 @@
 <p><strong>Solution</strong>: divide the original dataset to a training set, a cross validation set (CV), and a test set. </p>
 <p><strong>Train/validation/test error</strong></p>
 <p>Use the CV set to select the model. Then estimate generalization error $J_{test}(\theta)$</p>
-<h2 id="6-2_Bias_vs-_Variance">6.2 Bias vs. Variance</h2><h3 id="6-2-1_Diagnosing_Bias_vs-_Variance">6.2.1 Diagnosing Bias vs. Variance</h3><p>High bias - Underfit<br>High variance - Overfit</p>
+<h2 id="6-2-Bias-vs-Variance"><a href="#6-2-Bias-vs-Variance" class="headerlink" title="6.2 Bias vs. Variance"></a>6.2 Bias vs. Variance</h2><h3 id="6-2-1-Diagnosing-Bias-vs-Variance"><a href="#6-2-1-Diagnosing-Bias-vs-Variance" class="headerlink" title="6.2.1 Diagnosing Bias vs. Variance"></a>6.2.1 Diagnosing Bias vs. Variance</h3><p>High bias - Underfit<br>High variance - Overfit</p>
 <p>Training error: </p>
-<p>$$J_{train}(\theta)=\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2$$</p>
-<p>Cross validation error:<br>$$J_{cv}(\theta)=\frac1{2m_{cv}}\sum_{i=1}^{m_{cv}}\left(h_\theta(x_{cv}^{(i)})-y_{cv}^{(i)}\right)^2$$</p>
-<p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-01.png" alt=""></p>
-<h3 id="6-2-2_Regularization_and_Bias/Variance">6.2.2 Regularization and Bias/Variance</h3><p><strong>Linear regression with regularization</strong></p>
+<script type="math/tex; mode=display">J_{train}(\theta)=\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2</script><p>Cross validation error: </p>
+<script type="math/tex; mode=display">J_{cv}(\theta)=\frac1{2m_{cv}}\sum_{i=1}^{m_{cv}}\left(h_\theta(x_{cv}^{(i)})-y_{cv}^{(i)}\right)^2</script><p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-01.png" alt=""></p>
+<h3 id="6-2-2-Regularization-and-Bias-Variance"><a href="#6-2-2-Regularization-and-Bias-Variance" class="headerlink" title="6.2.2 Regularization and Bias/Variance"></a>6.2.2 Regularization and Bias/Variance</h3><p><strong>Linear regression with regularization</strong></p>
 <p>Large $\lambda$: high bias, underfit</p>
 <p>Small $\lambda$: high variance, overfit</p>
 <p><strong>Choosing the regularization parameter $\lambda$</strong></p>
@@ -222,13 +216,13 @@
 </li>
 <li><p>calculate $\min J(\theta)$ for each $\lambda$ -&gt; $J_{cv}(\theta^{(?)})$</p>
 </li>
-<li><p>pick the lowest $J_{cv}(\theta^{(?)})$ $\theta^{(5)}$. Test error: $J_{test}(\theta^{(5)})$</p>
+<li><p>pick the lowest $J<em>{cv}(\theta^{(?)})$ $\theta^{(5)}$. Test error: $J</em>{test}(\theta^{(5)})$</p>
 </li>
-<li><p>Plot $J_{train}(\theta)$ and $J_{cv}(\theta)$ v.s. $\lambda$</p>
+<li><p>Plot $J<em>{train}(\theta)$ and $J</em>{cv}(\theta)$ v.s. $\lambda$</p>
 </li>
 </ul>
 <p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-02.png" alt=""></p>
-<h3 id="6-2-3_Learning_Curves">6.2.3 Learning Curves</h3><p>&#x589E;&#x52A0;&#x6837;&#x672C;&#x6570;&#x662F;&#x5426;&#x80FD;&#x51CF;&#x5C11;&#x8BEF;&#x5DEE;&#xFF1F;</p>
+<h3 id="6-2-3-Learning-Curves"><a href="#6-2-3-Learning-Curves" class="headerlink" title="6.2.3 Learning Curves"></a>6.2.3 Learning Curves</h3><p>&#x589E;&#x52A0;&#x6837;&#x672C;&#x6570;&#x662F;&#x5426;&#x80FD;&#x51CF;&#x5C11;&#x8BEF;&#x5DEE;&#xFF1F;</p>
 <p>Learning curves: plot error v.s. m (training set size)</p>
 <p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-03.png" alt=""></p>
 <p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-04.png" alt=""></p>
@@ -238,22 +232,22 @@
 <p>High variance:</p>
 <p>If a learning algorithm is suffering from high variance, getting more traning data is likely to help.</p>
 <p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-06.png" alt=""></p>
-<h3 id="6-2-4_Deciding_What_to_Do_Next_Revisited">6.2.4 Deciding What to Do Next Revisited</h3><p><strong>Debugging a learning algorithm</strong></p>
+<h3 id="6-2-4-Deciding-What-to-Do-Next-Revisited"><a href="#6-2-4-Deciding-What-to-Do-Next-Revisited" class="headerlink" title="6.2.4 Deciding What to Do Next Revisited"></a>6.2.4 Deciding What to Do Next Revisited</h3><p><strong>Debugging a learning algorithm</strong></p>
 <p>Suppose you have implemented regularized linear regression to predict housing prices. </p>
 <p>However, when you test your hypothesis on a new set of hourses, you find that it makes unacceptably large errors in its predictions. What should you try next?</p>
 <ul>
-<li>Get more training examples -&gt; _fixes high variance_</li>
-<li>Try smaller sets of features -&gt; _fixes high variance_</li>
-<li>Try getting additional features -&gt; _fixes high bias_</li>
-<li>Try adding polynomial features $(x_1^2, x_2^2, x_1x_2, \text{etc})$ -&gt; _fixes high bias_</li>
-<li>Try decreasing $\lambda$ -&gt; _fixes high bias_</li>
-<li>Try increasing $\lambda$ -&gt; _fixes high variance_</li>
+<li>Get more training examples -&gt; <em>fixes high variance</em></li>
+<li>Try smaller sets of features -&gt; <em>fixes high variance</em></li>
+<li>Try getting additional features -&gt; <em>fixes high bias</em></li>
+<li>Try adding polynomial features $(x_1^2, x_2^2, x_1x_2, \text{etc})$ -&gt; <em>fixes high bias</em></li>
+<li>Try decreasing $\lambda$ -&gt; <em>fixes high bias</em></li>
+<li>Try increasing $\lambda$ -&gt; <em>fixes high variance</em></li>
 </ul>
 <p><strong>Neural networks and overfitting</strong></p>
 <p><img src="/2016/06/25/Machine-Learning-W6/Coursera-ml-w6-06.png" alt=""></p>
 <p>Using a single hidden layer is a reasonable default. But if you want to choose the number of hidden layers, one other thing you can try is find yourself a training cross-validation, and test set split and try training neural networks with one hidden layer or two hidden layers or three hidden layers and see which of those neural networks performs best on the cross-validation sets. </p>
-<h2 id="6-3_Building_a_Spam_Classifier">6.3 Building a Spam Classifier</h2><h3 id="6-3-1_Prioritizing_What_to_Work_on">6.3.1 Prioritizing What to Work on</h3><h3 id="6-3-2_Error_Analysis">6.3.2 Error Analysis</h3><h2 id="6-4_Handling_Skewed_Data">6.4 Handling Skewed Data</h2><p>Cancer classification example<br>1% error on test set (99% correct)</p>
-<h3 id="Error_Metrics_for_Skewed_Classes">Error Metrics for Skewed Classes</h3><h3 id="Trading_Off_Precision_and_Recall">Trading Off Precision and Recall</h3><p>Logistic regression:<br>Predict 1 if<br>Predict 0 if<br>Suppose we want to predict y = 1 only if very confident</p>
+<h2 id="6-3-Building-a-Spam-Classifier"><a href="#6-3-Building-a-Spam-Classifier" class="headerlink" title="6.3 Building a Spam Classifier"></a>6.3 Building a Spam Classifier</h2><h3 id="6-3-1-Prioritizing-What-to-Work-on"><a href="#6-3-1-Prioritizing-What-to-Work-on" class="headerlink" title="6.3.1 Prioritizing What to Work on"></a>6.3.1 Prioritizing What to Work on</h3><h3 id="6-3-2-Error-Analysis"><a href="#6-3-2-Error-Analysis" class="headerlink" title="6.3.2 Error Analysis"></a>6.3.2 Error Analysis</h3><h2 id="6-4-Handling-Skewed-Data"><a href="#6-4-Handling-Skewed-Data" class="headerlink" title="6.4 Handling Skewed Data"></a>6.4 Handling Skewed Data</h2><p>Cancer classification example<br>1% error on test set (99% correct)</p>
+<h3 id="Error-Metrics-for-Skewed-Classes"><a href="#Error-Metrics-for-Skewed-Classes" class="headerlink" title="Error Metrics for Skewed Classes"></a>Error Metrics for Skewed Classes</h3><h3 id="Trading-Off-Precision-and-Recall"><a href="#Trading-Off-Precision-and-Recall" class="headerlink" title="Trading Off Precision and Recall"></a>Trading Off Precision and Recall</h3><p>Logistic regression:<br>Predict 1 if<br>Predict 0 if<br>Suppose we want to predict y = 1 only if very confident</p>
 <p>-&gt; Higher precision, lower recall.</p>
 <p>Suppose we want to avoid missing too many cases of cancer (avoid false negatives).</p>
 <p>-&gt; higher recall, lower precision</p>
@@ -261,7 +255,7 @@
 <p>How to compare precision/recall numbers?</p>
 <p>The average of P and R is not a good indicator</p>
 <p>$F_1$ score: $2\frac{PR}{P+R}$</p>
-<h2 id="6-5_Using_Large_Data_Sets">6.5 Using Large Data Sets</h2><h3 id="Designing_a_high_accuracy_learning_system">Designing a high accuracy learning system</h3><p>e.g. Classify between confusable words. {to,two,too},{then,than}</p>
+<h2 id="6-5-Using-Large-Data-Sets"><a href="#6-5-Using-Large-Data-Sets" class="headerlink" title="6.5 Using Large Data Sets"></a>6.5 Using Large Data Sets</h2><h3 id="Designing-a-high-accuracy-learning-system"><a href="#Designing-a-high-accuracy-learning-system" class="headerlink" title="Designing a high accuracy learning system"></a>Designing a high accuracy learning system</h3><p>e.g. Classify between confusable words. {to,two,too},{then,than}</p>
 <p>Algorithms:</p>
 <ul>
 <li>Perceptron (Logistic regression)</li>
@@ -271,7 +265,7 @@
 </ul>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="6-_Machine_Learning_Application_Advice_and_System_Design">6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>]]>
+    <![CDATA[<h1 id="6-Machine-Learning-Application-Advice-and-System-Design"><a href="#6-Machine-Learning-Application-Advice-and-System-Design" class="headerlink" title="6. Machine Learning Application Advice and System Design"></a>6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>]]>
     
     </summary>
     
@@ -297,19 +291,19 @@
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
+    <content type="html"><![CDATA[<h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
-<h2 id="5-1_Neural_Networks_(Classification)">5.1 Neural Networks (Classification)</h2><p>Training set $\{(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})\}$</p>
+<h2 id="5-1-Neural-Networks-Classification"><a href="#5-1-Neural-Networks-Classification" class="headerlink" title="5.1 Neural Networks (Classification)"></a>5.1 Neural Networks (Classification)</h2><p>Training set ${(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})}$</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
 <p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
-<h3 id="5-1-1_Cost_functions_&#x4EE3;&#x4EF7;&#x51FD;&#x6570;">5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><p><strong>a) Logistic regression</strong><br>$$J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2$$</p>
-<p><strong>b) Neural network</strong><br>$$h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}$$</p>
-<p>$$<br>J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2<br>$$</p>
-<h3 id="5-1-2_Backpropagation_Algorithm">5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
+<h3 id="5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;"><a href="#5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;" class="headerlink" title="5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;"></a>5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><p><strong>a) Logistic regression</strong></p>
+<script type="math/tex; mode=display">J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2</script><p><strong>b) Neural network</strong></p>
+<script type="math/tex; mode=display">h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}</script><script type="math/tex; mode=display">
+J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2</script><h3 id="5-1-2-Backpropagation-Algorithm"><a href="#5-1-2-Backpropagation-Algorithm" class="headerlink" title="5.1.2 Backpropagation Algorithm"></a>5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
 <p><strong>a) Gradient Computation</strong></p>
 <p>&#x8003;&#x8651;&#x6700;&#x7B80;&#x5355;&#x60C5;&#x51B5;&#xFF0C;&#x4EC5;&#x6709;&#x4E00;&#x4E2A;&#x8BAD;&#x7EC3;&#x6837;&#x672C;&#xFF1A;<br>Given one training example ($x,y$):</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png" alt=""></p>
@@ -328,15 +322,15 @@
 <p>&#x8BBE; $\delta_j^{(l)}$ &#x4E3A;&#x7B2C; $l$ &#x5C42;&#x7B2C; $j$ &#x4E2A;&#x795E;&#x7ECF;&#x5143;&#x7684;&#x8BEF;&#x5DEE;&#x503C;&#x3002;</p>
 <p>For each output unit (layer L = 4)</p>
 <ul>
-<li>$\delta_j^{(4)}=a_j^{(4)}-y_j=(h_\Theta(x))_j-y_j$</li>
+<li>$\delta<em>j^{(4)}=a_j^{(4)}-y_j=(h</em>\Theta(x))_j-y_j$</li>
 </ul>
 <p>Vector form:</p>
 <ul>
 <li><p>$\delta^{(4)}=a^{(4)}-y$</p>
 </li>
-<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}._g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}._(1-a^{(3)})$</p>
+<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}.<em>g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}.</em>(1-a^{(3)})$</p>
 </li>
-<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}._g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}._(1-a^{(2)})$</p>
+<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}.<em>g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}.</em>(1-a^{(2)})$</p>
 </li>
 <li><p>(There is No $\delta^{(1)}$!)</p>
 </li>
@@ -351,25 +345,25 @@
 <li>&#x6B63;&#x5411;&#x8BA1;&#x7B97;&#x5404;&#x5C42;&#x6FC0;&#x6D3B;&#x503C; Perform forward propagation to compute $a^{(l)}$ for $l=2,3,&#x2026;,L$</li>
 <li>&#x7528;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#xFF0C;&#x8BA1;&#x7B97;&#x6700;&#x7EC8;&#x5C42;&#x8BEF;&#x5DEE; Using $y^{(i)}$, compute $\delta^{(L)}=a^{(L)}-y^{(i)}$</li>
 <li>&#x53CD;&#x5411;&#x8BA1;&#x7B97;&#x5176;&#x4ED6;&#x5C42;&#x7684;&#x8BEF;&#x5DEE; Compute $\delta^{(L-1)}, \delta^{(L-2)},\delta^{(2)}$</li>
-<li><p>$\Delta_{ij}^{(l)}:=\Delta_{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
+<li><p>$\Delta<em>{ij}^{(l)}:=\Delta</em>{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
 <p> Here, vector form: </p>
 <p> $\Delta^{(l)}:=\Delta^{(l)}+\delta^{(l+1)}(a^{(l)})^T$  </p>
 </li>
 </ul>
 </li>
 </ul>
-<p>  $$\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}$$</p>
-<ul>
-<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D_{ij}^{(l)}:=\frac1m\Delta_{ij}^{(l)}+\lambda\Delta_{ij}^{(l)}$ if $j\neq0$<br>$D_{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
+<script type="math/tex; mode=display">\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}</script><ul>
+<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D<em>{ij}^{(l)}:=\frac1m\Delta</em>{ij}^{(l)}+\lambda\Delta<em>{ij}^{(l)}$ if $j\neq0$<br>$D</em>{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
 </ul>
-<h3 id="5-1-3_Backpropagation_Intuition">5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
+<h3 id="5-1-3-Backpropagation-Intuition"><a href="#5-1-3-Backpropagation-Intuition" class="headerlink" title="5.1.3 Backpropagation Intuition"></a>5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png" alt=""></p>
 <p><strong>b) What is backpropagation doing</strong></p>
-<p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),<br>$$<br>cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})<br>$$</p>
-<p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
+<p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),</p>
+<script type="math/tex; mode=display">
+cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script><p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
 <p>i.e. how well is the network doing on example i?</p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png" alt=""></p>
-<h2 id="5-2_Backpropagation_Implementation_Notes">5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1_Unrolling_Parameters">5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
+<h2 id="5-2-Backpropagation-Implementation-Notes"><a href="#5-2-Backpropagation-Implementation-Notes" class="headerlink" title="5.2 Backpropagation Implementation Notes"></a>5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1-Unrolling-Parameters"><a href="#5-2-1-Unrolling-Parameters" class="headerlink" title="5.2.1 Unrolling Parameters"></a>5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
 <p><code>function [jVal, gradient] = costFunction(theta)</code><br>&#x2026;<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
 <p>Neutal Network(L=4):<br>$\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$ - matrices(<code>Theta1, Theta2, Theta3</code>)<br>$D^{(1)},D^{(2)},D^{(3)}$ - matrices (<code>D1, D2, D3</code>)</p>
 <p>&#x201C;Unroll&#x201D; into vectors</p>
@@ -393,7 +387,7 @@
 </li>
 <li>Unroll $D^{(1)},D^{(2)},D^{(3)}$ to get <code>gradientVec</code>.</li>
 </ul>
-<h3 id="5-2-2_Gradient_Checking">5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
+<h3 id="5-2-2-Gradient-Checking"><a href="#5-2-2-Gradient-Checking" class="headerlink" title="5.2.2 Gradient Checking"></a>5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
 <p><strong>a) Numerial estimation of gradients</strong></p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png" alt=""></p>
 <p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
@@ -412,7 +406,7 @@
 <ul>
 <li>Be sure to disable your gradient cheking code before training your classifier. If you run numeiral gradient computation on every iteration of gradient descent (or in the inner loop of <code>costFunction(...)</code>) your code will be very slow.</li>
 </ul>
-<h3 id="5-2-3_Random_Initialization">5.2.3 Random Initialization</h3><p>Need initial value for $\Theta\$</p>
+<h3 id="5-2-3-Random-Initialization"><a href="#5-2-3-Random-Initialization" class="headerlink" title="5.2.3 Random Initialization"></a>5.2.3 Random Initialization</h3><p>Need initial value for $\Theta$</p>
 <ul>
 <li>Zero initialization. <ul>
 <li>$\Theta_{ij}^{(l)} = 0$ for all $i,j,l$</li>
@@ -425,13 +419,13 @@
 </ul>
 </li>
 </ul>
-<h2 id="5-3_Putting_It_Together">5.3 Putting It Together</h2><h3 id="5-3-1_Training_a_neural_network">5.3.1 Training a neural network</h3><ul>
+<h2 id="5-3-Putting-It-Together"><a href="#5-3-Putting-It-Together" class="headerlink" title="5.3 Putting It Together"></a>5.3 Putting It Together</h2><h3 id="5-3-1-Training-a-neural-network"><a href="#5-3-1-Training-a-neural-network" class="headerlink" title="5.3.1 Training a neural network"></a>5.3.1 Training a neural network</h3><ul>
 <li>pick a network architecture (connectivity pattern between neurons)</li>
 <li>No. of input units: Dimension of features </li>
 <li>No. output units: Number of classes</li>
 <li>Reasonable default: 1 hidden layer, or if &gt;1 hidden layer, have same no. of hidden uints in every layer (usually the more the better, but will be more computational expensive). </li>
 </ul>
-<h3 id="5-3-2_Steps_of_training_a_neural_network">5.3.2 Steps of training a neural network</h3><ol>
+<h3 id="5-3-2-Steps-of-training-a-neural-network"><a href="#5-3-2-Steps-of-training-a-neural-network" class="headerlink" title="5.3.2 Steps of training a neural network"></a>5.3.2 Steps of training a neural network</h3><ol>
 <li>Randomly initialize weights</li>
 <li>Implement forward propagation to get $h_\Theta(x^{(i)})$ for any $x^{(i)}$</li>
 <li>Implement code to compute cost function $J(\Theta)$</li>
@@ -441,7 +435,7 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="5-_Neural_Networks:_Learning">5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>]]>
+    <![CDATA[<h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>]]>
     
     </summary>
     
@@ -459,10 +453,10 @@
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
+    <content type="html"><![CDATA[<h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="3-1_Logistic_Regression">3.1 Logistic Regression</h2><h3 id="3-1-1_Classification_Problems_and_Logistic_Regression_Model">3.1.1 Classification Problems and Logistic Regression Model</h3><p><strong>a) Classification Problems</strong></p>
+<h2 id="3-1-Logistic-Regression"><a href="#3-1-Logistic-Regression" class="headerlink" title="3.1 Logistic Regression"></a>3.1 Logistic Regression</h2><h3 id="3-1-1-Classification-Problems-and-Logistic-Regression-Model"><a href="#3-1-1-Classification-Problems-and-Logistic-Regression-Model" class="headerlink" title="3.1.1 Classification Problems and Logistic Regression Model"></a>3.1.1 Classification Problems and Logistic Regression Model</h3><p><strong>a) Classification Problems</strong></p>
 <ul>
 <li>Email&#xFF1A; spam/not spam</li>
 <li>Online transactions: froudulent or not</li>
@@ -479,27 +473,26 @@
 <li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
 </ul>
 <p><strong>b) Logistic Regression Model</strong><br>Want $0\leq h_\theta(x) \leq 1$</p>
-<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$<br>$$h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}$$</p>
-<p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
-<h3 id="3-1-2_Decision_Boundary">3.1.2 Decision Boundary</h3><p><strong>a) Decision Boundary</strong></p>
+<p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$</p>
+<script type="math/tex; mode=display">h_\theta(x) =\frac 1{1+e^{-\theta^Tx}}</script><p>whenever $z \geq 0$, or $\theta^Tx \geq 0$,y =1</p>
+<h3 id="3-1-2-Decision-Boundary"><a href="#3-1-2-Decision-Boundary" class="headerlink" title="3.1.2 Decision Boundary"></a>3.1.2 Decision Boundary</h3><p><strong>a) Decision Boundary</strong></p>
 <p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
 <p><strong>b) Non-linear decision boundaries</strong></p>
 <p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
 <p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
-<h2 id="3-1-3_Cost_Function">3.1.3 Cost Function</h2><p>Logistic regression:</p>
-<p>$$\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2$$</p>
-<p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
-<p>$$\text{Cost}(h_\theta(x),y)=\begin{cases}\quad-\log(h_\theta(x))<br>\quad\text{if } y = 1\<br>-\log(1-h_\theta(x))\quad\text{if }y =0<br>\end{cases}$$</p>
-<p>Cost = 0 if y=1, $h_\theta(x)=1$<br>But as $h_\theta(x)\rightarrow 0$, Cost $\rightarrow \infty$</p>
+<h2 id="3-1-3-Cost-Function"><a href="#3-1-3-Cost-Function" class="headerlink" title="3.1.3 Cost Function"></a>3.1.3 Cost Function</h2><p>Logistic regression:</p>
+<script type="math/tex; mode=display">\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2</script><p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
+<script type="math/tex; mode=display">\text{Cost}(h_\theta(x),y)=\begin{cases}\quad-\log(h_\theta(x)) 
+\quad\text{if } y = 1\\
+-\log(1-h_\theta(x))\quad\text{if }y =0
+\end{cases}</script><p>Cost = 0 if y=1, $h<em>\theta(x)=1$<br>But as $h</em>\theta(x)\rightarrow 0$, Cost $\rightarrow \infty$</p>
 <p>More compact way:</p>
-<p>$\text{Cost}(h_\theta(x),y)=-y\log\left(h_\theta(x)\right)-(1-y)\log\left(1-h_\theta(x)\right)<br>$</p>
-<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]$$</p>
-<p>To fit parameters $\theta$:<br>$\min_\theta J (\theta)$</p>
+<p>$\text{Cost}(h<em>\theta(x),y)=-y\log\left(h</em>\theta(x)\right)-(1-y)\log\left(1-h_\theta(x)\right)<br>$</p>
+<script type="math/tex; mode=display">J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]</script><p>To fit parameters $\theta$:<br>$\min_\theta J (\theta)$</p>
 <p>Repeat {</p>
-<p>$$\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}$$</p>
-<p>}</p>
+<script type="math/tex; mode=display">\theta_j:=\theta_j-\alpha\sum_{i=1}^m \left( h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(j)}</script><p>}</p>
 <p>Algorithm looks identical to linear regression!</p>
-<h3 id="3-1-4_Optimization_algorithm">3.1.4 Optimization algorithm</h3><ul>
+<h3 id="3-1-4-Optimization-algorithm"><a href="#3-1-4-Optimization-algorithm" class="headerlink" title="3.1.4 Optimization algorithm"></a>3.1.4 Optimization algorithm</h3><ul>
 <li>Gradient descent</li>
 <li>Conjugate gradient</li>
 <li>BFGS</li>
@@ -516,7 +509,7 @@
 <ul>
 <li>More complex</li>
 </ul>
-<h3 id="3-1-5_Multiclass_Classification">3.1.5 Multiclass Classification</h3><p><strong>a) Problem examples</strong></p>
+<h3 id="3-1-5-Multiclass-Classification"><a href="#3-1-5-Multiclass-Classification" class="headerlink" title="3.1.5 Multiclass Classification"></a>3.1.5 Multiclass Classification</h3><p><strong>a) Problem examples</strong></p>
 <ul>
 <li>Email foldering/tagging: work, friends, family, hobby</li>
 <li>Medical diagrams: not ill, cold, flu</li>
@@ -526,7 +519,7 @@
 <p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
-<h2 id="3-2_Regularization_&#x6B63;&#x5219;&#x5316;">3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1_Overfitting_Problems_&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;">3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
+<h2 id="3-2-Regularization-&#x6B63;&#x5219;&#x5316;"><a href="#3-2-Regularization-&#x6B63;&#x5219;&#x5316;" class="headerlink" title="3.2 Regularization &#x6B63;&#x5219;&#x5316;"></a>3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1-Overfitting-Problems-&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;"><a href="#3-2-1-Overfitting-Problems-&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;" class="headerlink" title="3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;"></a>3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
 <p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
 <p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
 <ul>
@@ -549,56 +542,70 @@
 </ul>
 </li>
 </ul>
-<h3 id="3-2-2_Cost_Function">3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
+<h3 id="3-2-2-Cost-Function"><a href="#3-2-2-Cost-Function" class="headerlink" title="3.2.2 Cost Function"></a>3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
 <p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
 <p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
-<p>$$\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2$$</p>
-<p>$\theta_3,\theta_4$ will be very small.</p>
+<script type="math/tex; mode=display">\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2</script><p>$\theta_3,\theta_4$ will be very small.</p>
 <p><strong>b) Regularization</strong></p>
 <p>Small values for parameters $\theta_0, \theta_1, &#x2026;, \theta_n$</p>
 <ul>
 <li>&#x201C;Simpler&#x201D; hypothesis</li>
 <li>Less prone to overfitting</li>
 </ul>
-<p><strong>Cost Function</strong><br>$$<br>J(\theta) = \frac1{2m}\left[\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2+\lambda\sum_{j=1}^n\theta_j^2\right]<br>$$</p>
-<p>$\theta_0$ is excluded as a convention.</p>
+<p><strong>Cost Function</strong></p>
+<script type="math/tex; mode=display">
+J(\theta) = \frac1{2m}\left[\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2+\lambda\sum_{j=1}^n\theta_j^2\right]</script><p>$\theta_0$ is excluded as a convention.</p>
 <p>If $\lambda$ is too large, we might have underfitting problems. </p>
-<h3 id="3-2-3_Regularized_Linear_Regression">3.2.3 Regularized Linear Regression</h3><p><strong>a) Gradient descent</strong></p>
-<p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
-<p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
-<p>}</p>
-<p>$$<br>\theta_j := \theta_j(1-\alpha\frac{\lambda}m)-\alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}<br>$$</p>
-<p>$1-\alpha\frac{\lambda}m&lt;1$. Therefore, use $\theta_j^2$ as an approximation</p>
-<p><strong>b) Normal equation</strong><br>$$<br>X = \begin{bmatrix}<br>(x^{(1)})^T\<br>&#x2026;\<br>(x^{(m)})^T\<br>\end{bmatrix}$$</p>
-<p>$$<br>y = \begin{bmatrix}<br>(y^{(1)})^T\<br>&#x2026;\<br>(y^{(m)})^T\<br>\end{bmatrix}$$</p>
-<p>To minimize $J(\theta)$</p>
-<p>$$\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty$$</p>
-<p><strong>c) Non-invertibility (optional/advanced)</strong></p>
+<h3 id="3-2-3-Regularized-Linear-Regression"><a href="#3-2-3-Regularized-Linear-Regression" class="headerlink" title="3.2.3 Regularized Linear Regression"></a>3.2.3 Regularized Linear Regression</h3><p><strong>a) Gradient descent</strong></p>
+<p>Repeat {</p>
+<script type="math/tex; mode=display">\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}</script><script type="math/tex; mode=display">\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]</script><p>}</p>
+<script type="math/tex; mode=display">
+\theta_j := \theta_j(1-\alpha\frac{\lambda}m)-\alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}</script><p>$1-\alpha\frac{\lambda}m&lt;1$. Therefore, use $\theta_j^2$ as an approximation</p>
+<p><strong>b) Normal equation</strong></p>
+<script type="math/tex; mode=display">
+X = \begin{bmatrix}
+(x^{(1)})^T\\
+...\\
+(x^{(m)})^T\\
+\end{bmatrix}</script><script type="math/tex; mode=display">
+y = \begin{bmatrix}
+(y^{(1)})^T\\
+...\\
+(y^{(m)})^T\\
+\end{bmatrix}</script><p>To minimize $J(\theta)$</p>
+<script type="math/tex; mode=display">\theta = \left(X^TX+\lambda \begin{bmatrix}
+0&0&0&...&0\\
+0&1&0&...&0\\
+0&0&1&...&0\\
+...&...&...&1&...\\
+0&0&0&...&1\\
+\end{bmatrix}\right)^{-1}X^Ty</script><p><strong>c) Non-invertibility (optional/advanced)</strong></p>
 <p>Suppose $m\leq n$,<br>(where m: number of examples; n: number of features)</p>
-<p>$$\theta = (X^TX)^{-1}X^Ty$$</p>
-<p>$X^TX$ is non-invertible/singular. In Octave/MATLAB, use <code>pinv</code> instead of <code>inv</code>.</p>
-<p>If $\lambda \gt 0,$<br>$$<br>\theta = \left(X^TX+\lambda \begin{bmatrix}<br>0&amp;0&amp;0&amp;&#x2026;&amp;0\<br>0&amp;1&amp;0&amp;&#x2026;&amp;0\<br>0&amp;0&amp;1&amp;&#x2026;&amp;0\<br>&#x2026;&amp;&#x2026;&amp;&#x2026;&amp;1&amp;&#x2026;\<br>0&amp;0&amp;0&amp;&#x2026;&amp;1\<br>\end{bmatrix}\right)^{-1}X^Ty<br>$$</p>
-<h3 id="3-2-4_Regularized_Logistic_Regression">3.2.4 Regularized Logistic Regression</h3><p><strong>a) Cost function:</strong></p>
-<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
-<p><strong>b) Gradient descent</strong></p>
-<p>Repeat {<br>$$\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}$$</p>
-<p>$$\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]$$</p>
-<p>}</p>
+<script type="math/tex; mode=display">\theta = (X^TX)^{-1}X^Ty</script><p>$X^TX$ is non-invertible/singular. In Octave/MATLAB, use <code>pinv</code> instead of <code>inv</code>.</p>
+<p>If $\lambda \gt 0,$</p>
+<script type="math/tex; mode=display">
+\theta = \left(X^TX+\lambda \begin{bmatrix}
+0&0&0&...&0\\
+0&1&0&...&0\\
+0&0&1&...&0\\
+...&...&...&1&...\\
+0&0&0&...&1\\
+\end{bmatrix}\right)^{-1}X^Ty</script><h3 id="3-2-4-Regularized-Logistic-Regression"><a href="#3-2-4-Regularized-Logistic-Regression" class="headerlink" title="3.2.4 Regularized Logistic Regression"></a>3.2.4 Regularized Logistic Regression</h3><p><strong>a) Cost function:</strong></p>
+<script type="math/tex; mode=display">J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2</script><p><strong>b) Gradient descent</strong></p>
+<p>Repeat {</p>
+<script type="math/tex; mode=display">\theta_0:=\theta_0-\alpha\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_0^{(i)}</script><script type="math/tex; mode=display">\theta_j:=\theta_j-\alpha\left[\frac1m \sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}+\frac{\lambda}m\theta_j\right]</script><p>}</p>
 <p>where $h_\theta(x)=\frac1{1+e^{-\theta^TX}}$</p>
 <p>**c) Advaced optimization</p>
 <p><code>function [jVal, gradient] = costFunction(theta)</code></p>
 <p><code>jVal =</code>[code to compute $J(\theta)$];</p>
-<p>$$J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2$$</p>
-<p><code>gradient(1)</code> = [code to compute $\frac\partial{\partial\theta_0}J(\theta)$];</p>
-<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_0^{(i)}$$</p>
-<p><code>gradient(2)</code> = [code to compute $\frac\partial{\partial\theta_1}J(\theta)$];</p>
-<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_1^{(i)}&#xFF0B;\frac\lambda m\theta_1$$</p>
-<p><code>gradient(3)</code> = [code to compute $\frac\partial{\partial\theta_2}J(\theta)$];</p>
-<p>$$\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}&#xFF0B;\frac\lambda m\theta_2$$<br>&#x2026;</p>
+<script type="math/tex; mode=display">J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2</script><p><code>gradient(1)</code> = [code to compute $\frac\partial{\partial\theta_0}J(\theta)$];</p>
+<script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_0^{(i)}</script><p><code>gradient(2)</code> = [code to compute $\frac\partial{\partial\theta_1}J(\theta)$];</p>
+<script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_1^{(i)}＋\frac\lambda m\theta_1</script><p><code>gradient(3)</code> = [code to compute $\frac\partial{\partial\theta_2}J(\theta)$];</p>
+<script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}＋\frac\lambda m\theta_2</script><p>&#x2026;</p>
 <p><code>gradient(n+1)</code> = [code to compute $\frac\partial{\partial\theta_n}J(\theta)$];</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="3-_Logistic_Regression_and_Regularization">3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>]]>
+    <![CDATA[<h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>]]>
     
     </summary>
     
@@ -622,7 +629,7 @@
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
 <p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
-<h1 id="Project_1">Project 1</h1><h2 id="Lesson_1_Intro_to_Research_Methods">Lesson 1 Intro to Research Methods</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x600E;&#x4E48;&#x505A;&#x8C03;&#x67E5;&#x7814;&#x7A76;&#x3002;&#x5B9A;&#x6027;&#x5730;&#x8BB2;&#x4E86;&#x91C7;&#x6837;&#xFF0C;&#x968F;&#x673A;&#x6027;&#x3001;&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;&#x3001;&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;&#xFF0C;&#x6570;&#x636E;&#x9610;&#x91CA;&#x7B49;&#x3002;</p>
+<h1 id="Project-1"><a href="#Project-1" class="headerlink" title="Project 1"></a>Project 1</h1><h2 id="Lesson-1-Intro-to-Research-Methods"><a href="#Lesson-1-Intro-to-Research-Methods" class="headerlink" title="Lesson 1 Intro to Research Methods"></a>Lesson 1 Intro to Research Methods</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x600E;&#x4E48;&#x505A;&#x8C03;&#x67E5;&#x7814;&#x7A76;&#x3002;&#x5B9A;&#x6027;&#x5730;&#x8BB2;&#x4E86;&#x91C7;&#x6837;&#xFF0C;&#x968F;&#x673A;&#x6027;&#x3001;&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;&#x3001;&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;&#xFF0C;&#x6570;&#x636E;&#x9610;&#x91CA;&#x7B49;&#x3002;</p>
 <p>&#x5173;&#x952E;&#x6982;&#x5FF5;&#xFF1A;</p>
 <ul>
 <li>Population &amp; Sample</li>
@@ -633,7 +640,7 @@
 <li>&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;</li>
 <li>&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;</li>
 </ul>
-<h2 id="Lesson_2:_Visualizing_Data">Lesson 2: Visualizing Data</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x5982;&#x4F55;&#x7528;&#x76F4;&#x65B9;&#x56FE;&#x6765;&#x5448;&#x73B0;&#x6570;&#x636E;&#x3002;</p>
+<h2 id="Lesson-2-Visualizing-Data"><a href="#Lesson-2-Visualizing-Data" class="headerlink" title="Lesson 2: Visualizing Data"></a>Lesson 2: Visualizing Data</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x5982;&#x4F55;&#x7528;&#x76F4;&#x65B9;&#x56FE;&#x6765;&#x5448;&#x73B0;&#x6570;&#x636E;&#x3002;</p>
 <p>&#x5173;&#x952E;&#x6982;&#x5FF5;&#xFF1A;</p>
 <ul>
 <li>Frequency, Relative Frequency, Proportions and Percentages</li>
@@ -647,8 +654,8 @@
 </li>
 <li>Uniform, bimode and normal distrubution</li>
 </ul>
-<h2 id="Lesson_3:_Central_Tendancy">Lesson 3: Central Tendancy</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x4E3B;&#x8981;&#x8BB2;mode, mean, median&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4EE5;&#x53CA;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x5E03;&#xFF0C;&#x8FD9;&#x4E9B;&#x7279;&#x5F81;&#x503C;&#x6709;&#x4F55;&#x7279;&#x70B9;&#xFF0C;&#x53CD;&#x6620;&#x4E86;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x6027;&#x8D28;&#x3002;</p>
-<h2 id="Lesson_4:_Variability">Lesson 4: Variability</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x4E86;variance&#x548C;standard deviation&#x5982;&#x4F55;&#x8BA1;&#x7B97;&#xFF0C;&#x4EE5;&#x53CA;normal distribution&#x7684;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x3002;</p>
+<h2 id="Lesson-3-Central-Tendancy"><a href="#Lesson-3-Central-Tendancy" class="headerlink" title="Lesson 3: Central Tendancy"></a>Lesson 3: Central Tendancy</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x4E3B;&#x8981;&#x8BB2;mode, mean, median&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4EE5;&#x53CA;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x5E03;&#xFF0C;&#x8FD9;&#x4E9B;&#x7279;&#x5F81;&#x503C;&#x6709;&#x4F55;&#x7279;&#x70B9;&#xFF0C;&#x53CD;&#x6620;&#x4E86;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x6027;&#x8D28;&#x3002;</p>
+<h2 id="Lesson-4-Variability"><a href="#Lesson-4-Variability" class="headerlink" title="Lesson 4: Variability"></a>Lesson 4: Variability</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x4E86;variance&#x548C;standard deviation&#x5982;&#x4F55;&#x8BA1;&#x7B97;&#xFF0C;&#x4EE5;&#x53CA;normal distribution&#x7684;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x3002;</p>
 <p>&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x8BFE;&#x7A0B;&#x90FD;&#x8FD8;&#x5F88;&#x57FA;&#x7840;&#xFF0C;&#x6682;&#x65F6;&#x4E0D;&#x4F1A;&#x6709;&#x4EC0;&#x4E48;&#x5927;&#x620F;&#x3002;&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x6765;&#x770B;&#x770B;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5427;~<br>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>
 ]]></content>
     <summary type="html">
@@ -668,20 +675,20 @@
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
 <p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
-<h1 id="&#x7B80;&#x4ECB;">&#x7B80;&#x4ECB;</h1><p>&#x5728;&#x7EBF;&#x5B66;&#x4E60;&#x5E73;&#x53F0;Udacity&#x53BB;&#x5E74;&#x521A;&#x521A;&#x5B8C;&#x6210;D&#x8F6E;&#x878D;&#x8D44;&#xFF0C;&#x4F30;&#x503C;&#x8D85;&#x8FC7;10&#x4EBF;&#x7F8E;&#x5143;&#xFF0C;&#x6210;&#x4E3A;&#x5728;&#x7EBF;&#x6559;&#x80B2;&#x7B2C;&#x4E00;&#x5BB6;&#x72EC;&#x89D2;&#x517D;&#x3002;&#x6211;&#x4ECE;2012&#x5E74;&#x5C31;&#x5F00;&#x59CB;&#x5173;&#x6CE8;&#x548C;&#x5B66;&#x4E60;Udacity&#x7684;&#x8BFE;&#x7A0B;&#x3002;&#x4ECA;&#x5E74;4&#x6708;&#xFF0C;Udacity&#x4EE5;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#x4E3A;&#x540D;&#x5165;&#x534E;&#xFF0C;&#x4E00;&#x8FDB;&#x5165;&#x5C31;&#x8DDF;&#x6EF4;&#x6EF4;&#x3001;&#x4EAC;&#x4E1C;&#x3001;&#x65B0;&#x6D6A;&#x8FBE;&#x6210;&#x5408;&#x4F5C;&#x610F;&#x5411;&#xFF0C;&#x4E3A;&#x8FD9;&#x4E9B;&#x4F01;&#x4E1A;&#x5BFB;&#x627E;&#x548C;&#x57F9;&#x517B;&#x4EBA;&#x624D;&#x3002;</p>
+<h1 id="&#x7B80;&#x4ECB;"><a href="#&#x7B80;&#x4ECB;" class="headerlink" title="&#x7B80;&#x4ECB;"></a>&#x7B80;&#x4ECB;</h1><p>&#x5728;&#x7EBF;&#x5B66;&#x4E60;&#x5E73;&#x53F0;Udacity&#x53BB;&#x5E74;&#x521A;&#x521A;&#x5B8C;&#x6210;D&#x8F6E;&#x878D;&#x8D44;&#xFF0C;&#x4F30;&#x503C;&#x8D85;&#x8FC7;10&#x4EBF;&#x7F8E;&#x5143;&#xFF0C;&#x6210;&#x4E3A;&#x5728;&#x7EBF;&#x6559;&#x80B2;&#x7B2C;&#x4E00;&#x5BB6;&#x72EC;&#x89D2;&#x517D;&#x3002;&#x6211;&#x4ECE;2012&#x5E74;&#x5C31;&#x5F00;&#x59CB;&#x5173;&#x6CE8;&#x548C;&#x5B66;&#x4E60;Udacity&#x7684;&#x8BFE;&#x7A0B;&#x3002;&#x4ECA;&#x5E74;4&#x6708;&#xFF0C;Udacity&#x4EE5;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#x4E3A;&#x540D;&#x5165;&#x534E;&#xFF0C;&#x4E00;&#x8FDB;&#x5165;&#x5C31;&#x8DDF;&#x6EF4;&#x6EF4;&#x3001;&#x4EAC;&#x4E1C;&#x3001;&#x65B0;&#x6D6A;&#x8FBE;&#x6210;&#x5408;&#x4F5C;&#x610F;&#x5411;&#xFF0C;&#x4E3A;&#x8FD9;&#x4E9B;&#x4F01;&#x4E1A;&#x5BFB;&#x627E;&#x548C;&#x57F9;&#x517B;&#x4EBA;&#x624D;&#x3002;</p>
 <p>&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#xFF08;Nanodegreee, ND&#xFF09;&#x662F;Udacity&#x76EE;&#x524D;&#x7684;&#x4E3B;&#x6253;&#x4EA7;&#x54C1;&#xFF0C;&#x610F;&#x56FE;&#x8BA9;&#x5B66;&#x5458;&#x901A;&#x8FC7;9-12&#x4E2A;&#x6708;&#x7684;&#x4E1A;&#x4F59;&#x5B66;&#x4E60;&#xFF08;&#x6BCF;&#x6708;&#x81F3;&#x5C11;10&#x5C0F;&#x65F6;&#x6295;&#x5165;&#xFF09;&#x6210;&#x4E3A;&#x80FD;&#x591F;&#x80DC;&#x4EFB;&#x67D0;&#x4E2A;IT&#x6280;&#x672F;&#x5C97;&#x4F4D;&#x7684;&#x4EBA;&#x624D;&#xFF08;&#x521D;&#x7EA7;&#x4E3A;&#x4E3B;&#xFF09;&#x3002;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6536;&#x8D39;&#x4EE5;&#x6708;&#x4E3A;&#x5355;&#x4F4D;&#xFF0C;&#x82F1;&#x6587;&#x7F51;&#x7AD9;&#x4E00;&#x822C;&#x662F;$199/&#x6708;&#xFF0C;&#x5728;&#x534E;&#x4EF7;&#x683C;&#x662F;&#xFFE5;980/&#x6708;&#xFF0C;&#x8FD9;&#x4E2A;&#x4EF7;&#x683C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x652F;&#x4ED8;&#x4E00;&#x5BF9;&#x4E00;&#x8F85;&#x5BFC;&#xFF0C;&#x56E0;&#x4E3A;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#x662F;&#x514D;&#x8D39;&#x7684;&#x3002;</p>
 <p>&#x4E0D;&#x8FC7;&#xFF0C;&#x4F60;&#x5E76;&#x4E0D;&#x9700;&#x8981;&#x4E00;&#x4E07;&#x591A;&#x5143;&#x624D;&#x80FD;&#x83B7;&#x5F97;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF0C;&#x56E0;&#x4E3A;Udacity&#x7684;&#x8003;&#x6838;&#x662F;&#x901A;&#x8FC7;&#x8BC4;&#x4F30;&#x4F60;&#x63D0;&#x4EA4;&#x7684;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x6765;&#x5B8C;&#x6210;&#x3002;&#x4F60;&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x5148;&#x81EA;&#x5B66;&#x6240;&#x6709;&#x5185;&#x5BB9;&#xFF0C;&#x505A;&#x597D;&#x9879;&#x76EE;&#xFF0C;&#x518D;&#x4ED8;&#x8D39;&#x5B66;&#x4E60;&#x3002;&#x5229;&#x7528;&#x201C;&#x4E00;&#x5E74;&#x5185;&#x5B8C;&#x6210;&#x8FD4;&#x8FD8;&#x4E00;&#x534A;&#x5B66;&#x8D39;&#x201D;&#x7684;&#x653F;&#x7B56;&#xFF0C;&#x6700;&#x4F4E;&#x53EA;&#x9700;&#x4E00;&#x4E2A;&#x6708;&#x7684;&#x4EF7;&#x683C;&#x5C31;&#x53EF;&#x4EE5;&#x83B7;&#x5F97;&#x201C;&#x5B66;&#x4F4D;&#x8BC1;&#x201D;&#xFF08;&#x8FD4;&#x8FD8;&#x653F;&#x7B56;&#x8981;&#x6C42;&#x81F3;&#x5C11;&#x8BA2;&#x9605;&#x4E24;&#x4E2A;&#x6708;&#xFF09;&#x3002;</p>
 <p><strong>&#x552F;&#x4E00;&#x7684;&#x95EE;&#x9898;&#x662F;&#xFF1A;&#x4F60;&#x80FD;&#x575A;&#x6301;&#x5B66;&#x4E60;&#x5417;&#xFF1F;</strong></p>
 <p>Udacity&#x73B0;&#x6709;&#x5341;&#x4F59;&#x4E2A;&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#xFF0C;&#x5305;&#x62EC;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x3001;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x3001;&#x524D;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#x3001;&#x540E;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#x3001;iOS&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x3001;&#x5B89;&#x5353;&#x5E94;&#x7528;&#x5F00;&#x53D1;&#x5DE5;&#x7A0B;&#x5E08;&#x7B49;&#x3002;&#x90E8;&#x5206;&#x8BFE;&#x7A0B;&#x5DF2;&#x7ECF;&#x88AB;&#x8BD1;&#x6210;&#x4E2D;&#x6587;&#x3002;</p>
-<h1 id="&#x8BFE;&#x524D;&#x51C6;&#x5907;">&#x8BFE;&#x524D;&#x51C6;&#x5907;</h1><p>&#x6211;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x57FA;&#x7840;&#x8FD8;&#x4E0D;&#x9519;&#xFF0C;&#x6240;&#x4EE5;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x8FD9;&#x4E2A;&#x4E00;&#x534A;&#x8BFE;&#x7A0B;&#x770B;&#x8D77;&#x6765;&#x90FD;&#x773C;&#x719F;&#x7684;ND&#x5C31;&#x6210;&#x4E86;&#x6211;&#x7684;&#x4E0A;&#x624B;&#x730E;&#x7269;&#x2026;&#x2026;</p>
+<h1 id="&#x8BFE;&#x524D;&#x51C6;&#x5907;"><a href="#&#x8BFE;&#x524D;&#x51C6;&#x5907;" class="headerlink" title="&#x8BFE;&#x524D;&#x51C6;&#x5907;"></a>&#x8BFE;&#x524D;&#x51C6;&#x5907;</h1><p>&#x6211;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x57FA;&#x7840;&#x8FD8;&#x4E0D;&#x9519;&#xFF0C;&#x6240;&#x4EE5;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x8FD9;&#x4E2A;&#x4E00;&#x534A;&#x8BFE;&#x7A0B;&#x770B;&#x8D77;&#x6765;&#x90FD;&#x773C;&#x719F;&#x7684;ND&#x5C31;&#x6210;&#x4E86;&#x6211;&#x7684;&#x4E0A;&#x624B;&#x730E;&#x7269;&#x2026;&#x2026;</p>
 <p>Udacity&#x6539;&#x7248;&#x4E4B;&#x540E;&#xFF0C;&#x589E;&#x52A0;&#x4E86;&#x4E0D;&#x5C11;&#x8D34;&#x5FC3;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6BD4;&#x5982;&#x628A;&#x67D0;&#x4E2A;Nanodegree&#x9700;&#x8981;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#x5B8C;&#x6210;&#x90FD;&#x8BA1;&#x7B97;&#x597D;&#xFF0C;&#x751A;&#x81F3;&#x8FDE;&#x6BCF;&#x4E00;&#x8282;&#x8BFE;&#x7684;&#x65F6;&#x95F4;&#x90FD;&#x663E;&#x793A;&#x5728;&#x5B66;&#x4E60;&#x8BA1;&#x5212;&#x4E2D;&#xFF1B;&#x786E;&#x5B9E;&#x4E3A;&#x4E1A;&#x4F59;&#x5B66;&#x4E60;&#x63D0;&#x4F9B;&#x4E86;&#x4E0D;&#x5C11;&#x4FBF;&#x5229;&#x3002;</p>
 <p>&#x7136;&#x540E;&#x6211;&#x5C31;&#x5728;&#x9996;&#x6708;&#x514D;&#x8D39;&#x7684;&#x86CA;&#x60D1;&#x4E0B;&#x8BA2;&#x9605;&#x4E86;&#x8FD9;&#x4E2A;&#x5B66;&#x4F4D;&#x5566;&#x3002;&#x63A5;&#x7740;&#x5C31;&#x4E0D;&#x77E5;&#x4E0D;&#x89C9;&#x5730;&#x770B;&#x5B8C;&#x4E86;&#x7B2C;&#x4E00;&#x8BFE;&#x3002;&#x55EF;&#xFF0C;&#x8FD9;&#x4E0D;&#x662F;&#x7EDF;&#x8BA1;&#x5B66;101&#x7684;&#x5185;&#x5BB9;&#x561B;&#xFF0C;&#x771F;&#x7684;&#x5B8C;&#x5168;&#x65E0;&#x538B;&#x529B;&#x597D;&#x5417;&#xFF1F;</p>
 <p>&#x5728;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6B22;&#x8FCE;&#x89C6;&#x9891;&#x4E2D;&#xFF0C;&#x4E00;&#x4F4D;&#x77E5;&#x5FC3;&#x5927;&#x59D0;&#x544A;&#x8BC9;&#x6211;&#x4EEC;&#xFF1A;&#x65F6;&#x95F4;&#x6295;&#x5165;&#x662F;&#x6210;&#x529F;&#x5B8C;&#x6210;&#x5B66;&#x4F4D;&#x7684;&#x6700;&#x91CD;&#x8981;&#x56E0;&#x7D20;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x65E5;&#x7A0B;&#x4E2D;&#x9884;&#x7559;&#x51FA;&#x5B66;&#x4E60;&#x65F6;&#x95F4;&#x3002;Udacity&#x63A8;&#x8350;&#x6BCF;&#x5468;&#x81F3;&#x5C11;&#x82B1;10&#x5C0F;&#x65F6;&#x5B66;&#x4E60;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF0C;&#x4E14;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x4E00;&#x6B21;&#x6027;&#x5B66;&#x4E60;10&#x5C0F;&#x65F6;&#xFF0C;&#x5206;&#x6563;&#x5230;&#x6BCF;&#x5929;&#x8F83;&#x597D;&#x3002;</p>
 <p>&#x6211;&#x7B97;&#x4E86;&#x7B97;&#xFF0C;&#x6BCF;&#x5929;&#x5B66;&#x4E60;3-4&#x5C0F;&#x65F6;&#x662F;&#x80FD;&#x4FDD;&#x8BC1;&#x7684;&#x3002;&#x8FD9;&#x6837;&#x4E00;&#x5468;20&#x5C0F;&#x65F6;&#x90FD;&#x6709;&#x4F59;&#x4E86;&#x3002;&#x4E8E;&#x662F;&#x624B;&#x4E00;&#x6296;&#xFF0C;&#x53C8;&#x8BA2;&#x9605;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x3002;&#x82B1;&#x5F00;&#x4E24;&#x6735;&#xFF0C;&#x5404;&#x8868;&#x4E00;&#x679D;&#xFF0C;&#x5173;&#x4E8E;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;ND&#x53E6;&#x6587;&#x9610;&#x8FF0;&#x3002;</p>
 <p>&#x4E0B;&#x9762;&#x5C31;&#x662F;&#x5B66;&#x4E60;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x8BB0;&#x5F55;&#x3002;</p>
-<h1 id="Project_0">Project 0</h1><p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x9009;&#x505A;&#x9879;&#x76EE;&#xFF0C;&#x901A;&#x8FC7;&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x4E0A;&#x624B;&#x672A;&#x6765;&#x672C;&#x8BFE;&#x7A0B;&#x6240;&#x9700;&#x7684;&#x5DE5;&#x5177;&#x3002;</p>
-<h2 id="Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda">Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda</h2><p>&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x9996;&#x5148;&#x8981;&#x5B89;&#x88C5;<a href="https://www.continuum.io/downloads" target="_blank" rel="external"> Anaconda </a>&#xFF0C;&#x4EE5;&#x4FBF;&#x6109;&#x5FEB;&#x5730;&#x4F7F;&#x7528;Python&#x3002;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x81EA;&#x4E0D;&#x7528;&#x63D0;&#x3002;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;<a href="http://conda.pydata.org/docs/test-drive.html#managing-conda" target="_blank" rel="external"> Test Drive </a>&#x4F1A;&#x6559;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;&#x3002;</p>
-<h2 id="Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython_Notebook">Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython Notebook</h2><p>&#x672C;&#x9879;&#x76EE;&#x7528;&#x5230;&#x4E86;IPython Notebook&#x3002;</p>
+<h1 id="Project-0"><a href="#Project-0" class="headerlink" title="Project 0"></a>Project 0</h1><p>&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x9009;&#x505A;&#x9879;&#x76EE;&#xFF0C;&#x901A;&#x8FC7;&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x4E0A;&#x624B;&#x672A;&#x6765;&#x672C;&#x8BFE;&#x7A0B;&#x6240;&#x9700;&#x7684;&#x5DE5;&#x5177;&#x3002;</p>
+<h2 id="Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda"><a href="#Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda" class="headerlink" title="Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda"></a>Python&#x6570;&#x636E;&#x5206;&#x6790;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF1A;Anaconda</h2><p>&#x505A;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x9996;&#x5148;&#x8981;&#x5B89;&#x88C5;<a href="https://www.continuum.io/downloads" target="_blank" rel="external"> Anaconda </a>&#xFF0C;&#x4EE5;&#x4FBF;&#x6109;&#x5FEB;&#x5730;&#x4F7F;&#x7528;Python&#x3002;&#x4E0B;&#x8F7D;&#x5B89;&#x88C5;&#x81EA;&#x4E0D;&#x7528;&#x63D0;&#x3002;&#x5B98;&#x65B9;&#x63D0;&#x4F9B;&#x7684;<a href="http://conda.pydata.org/docs/test-drive.html#managing-conda" target="_blank" rel="external"> Test Drive </a>&#x4F1A;&#x6559;&#x4E00;&#x4E9B;&#x57FA;&#x672C;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;&#x3002;</p>
+<h2 id="Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython-Notebook"><a href="#Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython-Notebook" class="headerlink" title="Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython Notebook"></a>Python&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF1A;IPython Notebook</h2><p>&#x672C;&#x9879;&#x76EE;&#x7528;&#x5230;&#x4E86;IPython Notebook&#x3002;</p>
 <p>&#x8FD9;&#x91CC;<a href="http://mindonmind.github.io/2013/02/08/ipython-notebook-interactive-computing-new-era/" target="_blank" rel="external">&#x5F15;&#x7528;&#x4E00;&#x6BB5;</a>&#x5BF9;IPython Notebook&#x7684;&#x4ECB;&#x7ECD;&#xFF1A;</p>
 <blockquote>
 <p>IPython Notebook &#x65E2;&#x662F;&#x4E00;&#x4E2A;&#x4EA4;&#x4E92;&#x8BA1;&#x7B97;&#x5E73;&#x53F0;&#xFF0C;&#x53C8;&#x662F;&#x4E00;&#x4E2A;&#x8BB0;&#x5F55;&#x8BA1;&#x7B97;&#x8FC7;&#x7A0B;&#x7684;&#x300C;&#x7B14;&#x8BB0;&#x672C;&#x300D;&#x3002;&#x5B83;&#x7531;&#x670D;&#x52A1;&#x7AEF;&#x548C;&#x5BA2;&#x6237;&#x7AEF;&#x4E24;&#x90E8;&#x5206;&#x7EC4;&#x6210;&#xFF0C;&#x5176;&#x4E2D;&#x670D;&#x52A1;&#x7AEF;&#x8D1F;&#x8D23;&#x4EE3;&#x7801;&#x7684;&#x89E3;&#x91CA;&#x4E0E;&#x8BA1;&#x7B97;&#xFF0C;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x8D1F;&#x8D23;&#x4E0E;&#x7528;&#x6237;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#x3002;&#x670D;&#x52A1;&#x7AEF;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x5728;&#x672C;&#x673A;&#x4E5F;&#x53EF;&#x4EE5;&#x8FD0;&#x884C;&#x5728;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5305;&#x542B;&#x8D1F;&#x8D23;&#x8FD0;&#x7B97;&#x7684; IPython kernel (&#x4E0E; QT Console &#x7684; kernel &#x76F8;&#x540C;) &#x4EE5;&#x53CA;&#x4E00;&#x4E2A; HTTP/S &#x670D;&#x52A1;&#x5668; (Tornado)&#x3002;&#x800C;&#x5BA2;&#x6237;&#x7AEF;&#x5219;&#x662F;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x670D;&#x52A1;&#x7AEF;&#x5730;&#x5740;&#x7684;&#x6D4F;&#x89C8;&#x5668;&#x9875;&#x9762;&#xFF0C;&#x8D1F;&#x8D23;&#x63A5;&#x53D7;&#x7528;&#x6237;&#x7684;&#x8F93;&#x5165;&#x5E76;&#x8D1F;&#x8D23;&#x6E32;&#x67D3;&#x8F93;&#x51FA;&#x3002;</p>
@@ -690,12 +697,12 @@
 <p>&#x6839;&#x636E;Udacity&#x7ED9;&#x51FA;&#x7684;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;&#x4E0B;&#x8F7D;ipynb&#x6587;&#x4EF6;&#x540E;&#xFF0C;&#x5728;&#x4FDD;&#x5B58;&#x6587;&#x4EF6;&#x7684;&#x8DEF;&#x5F84;&#x4E0B;&#x8F93;&#x5165;&#xFF1A;</p>
 <p><code>jupyter notebook Data_Analyst_ND_Project0.ipynb</code></p>
 <p>&#x5373;&#x53EF;&#x542F;&#x52A8;&#x672C;&#x5730;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x67E5;&#x770B;&#x548C;&#x7F16;&#x8F91;&#x8BE5;&#x7B14;&#x8BB0;&#x672C;&#x3002;</p>
-<h2 id="Project_0:_Chopsticks!">Project 0: Chopsticks!</h2><h3 id="&#x80CC;&#x666F;">&#x80CC;&#x666F;</h3><p>&#x7814;&#x7A76;&#x8005;&#x60F3;&#x8981;&#x627E;&#x51FA;&#x6210;&#x4EBA;&#x548C;&#x513F;&#x7AE5;&#x4F7F;&#x7528;&#x7B77;&#x5B50;&#x7684;&#x6700;&#x9002;&#x5B9C;&#x957F;&#x5EA6;&#x3002;&#x7B77;&#x5B50;&#x4F7F;&#x7528;&#x7684;&#x8868;&#x73B0;&#x7531;&#x5939;&#x8D77;&#x82B1;&#x751F;&#x653E;&#x5230;&#x676F;&#x5B50;&#x91CC;&#x7684;&#x82B1;&#x751F;&#x4E2A;&#x6570;&#x6765;&#x8BC4;&#x4F30;&#x3002;</p>
+<h2 id="Project-0-Chopsticks"><a href="#Project-0-Chopsticks" class="headerlink" title="Project 0: Chopsticks!"></a>Project 0: Chopsticks!</h2><h3 id="&#x80CC;&#x666F;"><a href="#&#x80CC;&#x666F;" class="headerlink" title="&#x80CC;&#x666F;"></a>&#x80CC;&#x666F;</h3><p>&#x7814;&#x7A76;&#x8005;&#x60F3;&#x8981;&#x627E;&#x51FA;&#x6210;&#x4EBA;&#x548C;&#x513F;&#x7AE5;&#x4F7F;&#x7528;&#x7B77;&#x5B50;&#x7684;&#x6700;&#x9002;&#x5B9C;&#x957F;&#x5EA6;&#x3002;&#x7B77;&#x5B50;&#x4F7F;&#x7528;&#x7684;&#x8868;&#x73B0;&#x7531;&#x5939;&#x8D77;&#x82B1;&#x751F;&#x653E;&#x5230;&#x676F;&#x5B50;&#x91CC;&#x7684;&#x82B1;&#x751F;&#x4E2A;&#x6570;&#x6765;&#x8BC4;&#x4F30;&#x3002;</p>
 <p><a href="http://www.ncbi.nlm.nih.gov/pubmed/15676839" target="_blank" rel="external">&#x8FD9;&#x9879;&#x7814;&#x7A76;</a>&#x53D1;&#x8868;&#x5728;1991&#x5E74;&#x7684;Applied Ergonomics&#x4E0A;&#x3002;</p>
-<h3 id="&#x5B9E;&#x9A8C;">&#x5B9E;&#x9A8C;</h3><p>&#x5B9E;&#x9A8C;&#x8FDB;&#x884C;&#x4E86;&#x4E24;&#x6B21;&#xFF0C;&#x5206;&#x522B;&#x5BF9;31&#x540D;&#x7537;&#x6027;&#x521D;&#x7EA7;&#x5B66;&#x9662;&#xFF08;&#x76F8;&#x5F53;&#x4E8E;&#x5927;&#x5B66;&#x9884;&#x79D1;&#xFF09;&#x5B66;&#x751F;&#x548C;21&#x540D;&#x5C0F;&#x5B66;&#x751F;&#x8FDB;&#x884C;&#x3002;&#x4F7F;&#x7528;&#x4E86;&#x957F;&#x5EA6;&#x5206;&#x522B;&#x4E3A;180, 210, 240, 270, 300 &#x548C;330 mm&#x7684;&#x7B77;&#x5B50;&#x3002;&#x5B9E;&#x9A8C;&#x91C7;&#x7528;randomised complete block design. </p>
-<h3 id="&#x6570;&#x636E;">&#x6570;&#x636E;</h3><p>&#x672C;&#x9879;&#x76EE;&#x53EA;&#x91C7;&#x7528;&#x6210;&#x4EBA;&#x7EC4;&#x7684;&#x6570;&#x636E;&#x3002;&#x6570;&#x636E;&#x5206;&#x4E3A;&#x4E09;&#x5217;&#xFF1A;&#x5939;&#x53D6;&#x6548;&#x7387;&#x3001;&#x5B9E;&#x9A8C;&#x5BF9;&#x8C61;&#x7F16;&#x53F7;&#x3001;&#x7B77;&#x5B50;&#x957F;&#x5EA6;&#x3002;</p>
+<h3 id="&#x5B9E;&#x9A8C;"><a href="#&#x5B9E;&#x9A8C;" class="headerlink" title="&#x5B9E;&#x9A8C;"></a>&#x5B9E;&#x9A8C;</h3><p>&#x5B9E;&#x9A8C;&#x8FDB;&#x884C;&#x4E86;&#x4E24;&#x6B21;&#xFF0C;&#x5206;&#x522B;&#x5BF9;31&#x540D;&#x7537;&#x6027;&#x521D;&#x7EA7;&#x5B66;&#x9662;&#xFF08;&#x76F8;&#x5F53;&#x4E8E;&#x5927;&#x5B66;&#x9884;&#x79D1;&#xFF09;&#x5B66;&#x751F;&#x548C;21&#x540D;&#x5C0F;&#x5B66;&#x751F;&#x8FDB;&#x884C;&#x3002;&#x4F7F;&#x7528;&#x4E86;&#x957F;&#x5EA6;&#x5206;&#x522B;&#x4E3A;180, 210, 240, 270, 300 &#x548C;330 mm&#x7684;&#x7B77;&#x5B50;&#x3002;&#x5B9E;&#x9A8C;&#x91C7;&#x7528;randomised complete block design. </p>
+<h3 id="&#x6570;&#x636E;"><a href="#&#x6570;&#x636E;" class="headerlink" title="&#x6570;&#x636E;"></a>&#x6570;&#x636E;</h3><p>&#x672C;&#x9879;&#x76EE;&#x53EA;&#x91C7;&#x7528;&#x6210;&#x4EBA;&#x7EC4;&#x7684;&#x6570;&#x636E;&#x3002;&#x6570;&#x636E;&#x5206;&#x4E3A;&#x4E09;&#x5217;&#xFF1A;&#x5939;&#x53D6;&#x6548;&#x7387;&#x3001;&#x5B9E;&#x9A8C;&#x5BF9;&#x8C61;&#x7F16;&#x53F7;&#x3001;&#x7B77;&#x5B50;&#x957F;&#x5EA6;&#x3002;</p>
 <p>&#x6BCF;&#x4F4D;&#x6210;&#x4EBA;&#x90FD;&#x4F7F;&#x7528;&#x4E86;&#x4E00;&#x904D;&#x6240;&#x6709;&#x4E0D;&#x540C;&#x957F;&#x5EA6;&#x7684;&#x7B77;&#x5B50;&#x3002;</p>
-<h3 id="&#x95EE;&#x9898;">&#x95EE;&#x9898;</h3><ol>
+<h3 id="&#x95EE;&#x9898;"><a href="#&#x95EE;&#x9898;" class="headerlink" title="&#x95EE;&#x9898;"></a>&#x95EE;&#x9898;</h3><ol>
 <li>Independent Variable in the Experiment?</li>
 <li>Dependent Variable in the Experiment?</li>
 <li>Operational Definition of the Dependent Variable?</li>
@@ -730,7 +737,7 @@
     <content type="html"><![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
 <p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
-<h2 id="Lesson_1">Lesson 1</h2><h3 id="Find_differences_between_two_large_files">Find differences between two large files</h3><p><strong>Commands</strong>:</p>
+<h2 id="Lesson-1"><a href="#Lesson-1" class="headerlink" title="Lesson 1"></a>Lesson 1</h2><h3 id="Find-differences-between-two-large-files"><a href="#Find-differences-between-two-large-files" class="headerlink" title="Find differences between two large files"></a>Find differences between two large files</h3><p><strong>Commands</strong>:</p>
 <ul>
 <li>Windows: FC</li>
 <li>Mac/Linux: Diff</li>
@@ -739,7 +746,7 @@
 <p>Reflect: How did viewing a diff between two versions help you spot the bug?<br>Answer: By looking at the differences between two versions, I know which changes have been made that caused the bug.</p>
 </blockquote>
 <p>Choose a text editor: Notepad++, Sublime, Atom, emacs, vim, etc. </p>
-<h3 id="Versions">Versions</h3><ul>
+<h3 id="Versions"><a href="#Versions" class="headerlink" title="Versions"></a>Versions</h3><ul>
 <li>Saving manual copies</li>
 <li>Dropbox (periodically save versions automatically)</li>
 <li>Google Docs (periodically save versions automatically)</li>
@@ -760,14 +767,14 @@
 <li><strong>When you choose to save a version</strong></li>
 </ul>
 </blockquote>
-<h3 id="Mannual_Commits">Mannual Commits</h3><p>Git requires a message with each commit</p>
+<h3 id="Mannual-Commits"><a href="#Mannual-Commits" class="headerlink" title="Mannual Commits"></a>Mannual Commits</h3><p>Git requires a message with each commit</p>
 <p>Cases that need a new commit:</p>
 <ul>
 <li>fix off-by-one bug</li>
 <li>add cool new feature</li>
 <li>improve user docs</li>
 </ul>
-<h3 id="Use_Git_to_View_History">Use Git to View History</h3><p><strong>[Offline]</strong></p>
+<h3 id="Use-Git-to-View-History"><a href="#Use-Git-to-View-History" class="headerlink" title="Use Git to View History"></a>Use Git to View History</h3><p><strong>[Offline]</strong></p>
 <ul>
 <li>Each commit has an ID, an Autor, Date/Time, and a message</li>
 <li><code>git diff ID1 ID2</code></li>
@@ -777,50 +784,50 @@
 </blockquote>
 </li>
 </ul>
-<h3 id="Commits_with_Multiple_Files">Commits with Multiple Files</h3><ul>
+<h3 id="Commits-with-Multiple-Files"><a href="#Commits-with-Multiple-Files" class="headerlink" title="Commits with Multiple Files"></a>Commits with Multiple Files</h3><ul>
 <li>A repository contains multiple files</li>
 <li>Make changes in different files together and track in one commit<blockquote>
 <p>Reflect: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?<br>Because Git takes a mannual and logical approach, and keeps the records in one git file for each repo. For others, they keep the records as part of the information related to one file.</p>
 </blockquote>
 </li>
 </ul>
-<h3 id="Git_Commands">Git Commands</h3><p><strong>[Online]</strong></p>
+<h3 id="Git-Commands"><a href="#Git-Commands" class="headerlink" title="Git Commands"></a>Git Commands</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>Clone a repo <code>git clone _repo_url_</code><br>(<a href="https://github.com/udacity/asteroids.git" target="_blank" rel="external">https://github.com/udacity/asteroids.git</a>)</li>
 <li><code>git log</code></li>
 <li><code>git diff</code></li>
 <li>Check commit: <code>git checkout _commit ID_</code></li>
 </ul>
-<h3 id="Making_Git_configurations">Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
-<h3 id="Summary">Summary</h3><ul>
+<h3 id="Making-Git-configurations"><a href="#Making-Git-configurations" class="headerlink" title="Making Git configurations"></a>Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
+<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Why use Git</li>
 <li>Git Setup</li>
 <li>Git commands: clone, log, diff, checkout</li>
 </ul>
-<h2 id="Lesson_2">Lesson 2</h2><h3 id="Initialize">Initialize</h3><p><strong>[Offline]</strong></p>
+<h2 id="Lesson-2"><a href="#Lesson-2" class="headerlink" title="Lesson 2"></a>Lesson 2</h2><h3 id="Initialize"><a href="#Initialize" class="headerlink" title="Initialize"></a>Initialize</h3><p><strong>[Offline]</strong></p>
 <ul>
 <li><code>git init</code></li>
 <li>When a git is initialized, no commit is included</li>
 <li>Check git status: <code>git status</code></li>
 </ul>
-<h3 id="Choosing_what_changes_to_commit">Choosing what changes to commit</h3><ul>
+<h3 id="Choosing-what-changes-to-commit"><a href="#Choosing-what-changes-to-commit" class="headerlink" title="Choosing what changes to commit"></a>Choosing what changes to commit</h3><ul>
 <li>working directory -&gt; staging area -&gt; repository</li>
 <li><code>git add _file_to_update_</code> will add named files to staging area</li>
 <li>remove from staging area by using <code>git reset</code></li>
 </ul>
-<h3 id="Write_a_commit_message">Write a commit message</h3><ul>
+<h3 id="Write-a-commit-message"><a href="#Write-a-commit-message" class="headerlink" title="Write a commit message"></a>Write a commit message</h3><ul>
 <li><code>git commit</code> will open the editor</li>
 <li>standard practice: write a message as if it is a command</li>
 <li><code>git commit -m &quot;Commit message&quot;</code></li>
 <li>commit message <a href="http://udacity.github.io/git-styleguide/" target="_blank" rel="external">style guide</a></li>
 </ul>
-<h3 id="Git_diff_revisited">Git diff revisited</h3><ul>
+<h3 id="Git-diff-revisited"><a href="#Git-diff-revisited" class="headerlink" title="Git diff revisited"></a>Git diff revisited</h3><ul>
 <li><code>git diff</code> will compare the <strong>working directory</strong> with the <strong>staging area</strong></li>
 <li><code>git diff --staged</code> will compare the <strong>staging area</strong> with the <strong>repository</strong></li>
-<li>_Be careful! <code>git reset --hard</code> is not reversable_</li>
+<li><em>Be careful! <code>git reset --hard</code> is not reversable</em></li>
 <li>Leave &#x2018;detached HEAD&#x2019; state: <code>git checkout master</code></li>
 </ul>
-<h3 id="Create_and_commit_branches">Create and commit branches</h3><ul>
+<h3 id="Create-and-commit-branches"><a href="#Create-and-commit-branches" class="headerlink" title="Create and commit branches"></a>Create and commit branches</h3><ul>
 <li>One branch is enough: fix bug, new feature, update docs</li>
 <li>More than one branch: experimental feature, Italian version</li>
 <li>Most recent commit of a branch: tip of a branch</li>
@@ -828,13 +835,13 @@
 <li>Create a branch: <code>git branch &quot;branch_name&quot;</code></li>
 <li>Switch to a branch: <code>git checkout &quot;branch_name&quot;</code></li>
 </ul>
-<h3 id="Branches_for_Collaboration">Branches for Collaboration</h3><p><strong>[Online]</strong></p>
+<h3 id="Branches-for-Collaboration"><a href="#Branches-for-Collaboration" class="headerlink" title="Branches for Collaboration"></a>Branches for Collaboration</h3><p><strong>[Online]</strong></p>
 <ul>
 <li>remote branch</li>
 <li>branch has parents &#x201C;reachability&#x201D;</li>
 <li>checkout a commit as a new branch: <code>git checkout -b _new_branch_name_</code></li>
 </ul>
-<h3 id="Combining_Simple_Files">Combining Simple Files</h3><ul>
+<h3 id="Combining-Simple-Files"><a href="#Combining-Simple-Files" class="headerlink" title="Combining Simple Files"></a>Combining Simple Files</h3><ul>
 <li>merged branch has both parents</li>
 <li><code>git merge branch_1 branch_2</code></li>
 <li><code>git show</code> show the diff of a commit with its parent</li>
@@ -843,34 +850,34 @@
 <li>Commit the conflict resolution</li>
 <li><code>git log -n 1</code> show only 1 commit log</li>
 </ul>
-<h3 id="Summary-1">Summary</h3><ul>
+<h3 id="Summary-1"><a href="#Summary-1" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Initialize git</li>
 <li>Create commits</li>
 <li>Create and commit branches</li>
 <li>Merge branches</li>
 </ul>
-<h2 id="Lesson_3">Lesson 3</h2><h3 id="Sync_with_repositories_on_GitHub">Sync with repositories on GitHub</h3><ul>
+<h2 id="Lesson-3"><a href="#Lesson-3" class="headerlink" title="Lesson 3"></a>Lesson 3</h2><h3 id="Sync-with-repositories-on-GitHub"><a href="#Sync-with-repositories-on-GitHub" class="headerlink" title="Sync with repositories on GitHub"></a>Sync with repositories on GitHub</h3><ul>
 <li>Remote repo</li>
 <li>push and pull</li>
 <li>no working directory or staging area on GitHub side</li>
 </ul>
-<h3 id="Forking_a_Repository">Forking a Repository</h3><ul>
+<h3 id="Forking-a-Repository"><a href="#Forking-a-Repository" class="headerlink" title="Forking a Repository"></a>Forking a Repository</h3><ul>
 <li>click fork button</li>
 <li>= create a clone on GitHub instead of on your local computer.</li>
 <li>Can add collaborators</li>
 <li><code>git remote -v</code></li>
 <li>push</li>
 </ul>
-<h3 id="Merge_the_Changes_Together">Merge the Changes Together</h3><ul>
+<h3 id="Merge-the-Changes-Together"><a href="#Merge-the-Changes-Together" class="headerlink" title="Merge the Changes Together"></a>Merge the Changes Together</h3><ul>
 <li>Fast-forward merge</li>
 <li><code>git merge master origin/master</code></li>
 <li>resolve conflict</li>
 </ul>
-<h3 id="Pull_request">Pull request</h3><ul>
+<h3 id="Pull-request"><a href="#Pull-request" class="headerlink" title="Pull request"></a>Pull request</h3><ul>
 <li>Ask for your pull request to be merged</li>
 <li>after merging, delete branch</li>
 </ul>
-<h3 id="Summary-2">Summary</h3><ul>
+<h3 id="Summary-2"><a href="#Summary-2" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Clone and Fork</li>
 <li>Merge and Pull request</li>
 </ul>
@@ -891,39 +898,38 @@
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="Environment_Setup">Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
+<h2 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
-<h2 id="Multivariate_Linear_Regression">Multivariate Linear Regression</h2><h3 id="Multiple_Features">Multiple Features</h3><p>&#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;multiple features? &#x5BF9;&#x4E8E;&#x8BB8;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x5F71;&#x54CD;&#x9884;&#x6D4B;&#x7ED3;&#x679C;&#x7684;&#x5E76;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;&#x56E0;&#x7D20;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#x6765;&#x53CD;&#x6620;&#x4E0D;&#x540C;&#x7684;&#x5F71;&#x54CD;&#x56E0;&#x7D20;&#x3002;</p>
+<h2 id="Multivariate-Linear-Regression"><a href="#Multivariate-Linear-Regression" class="headerlink" title="Multivariate Linear Regression"></a>Multivariate Linear Regression</h2><h3 id="Multiple-Features"><a href="#Multiple-Features" class="headerlink" title="Multiple Features"></a>Multiple Features</h3><p>&#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;multiple features? &#x5BF9;&#x4E8E;&#x8BB8;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x5F71;&#x54CD;&#x9884;&#x6D4B;&#x7ED3;&#x679C;&#x7684;&#x5E76;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;&#x56E0;&#x7D20;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#x6765;&#x53CD;&#x6620;&#x4E0D;&#x540C;&#x7684;&#x5F71;&#x54CD;&#x56E0;&#x7D20;&#x3002;</p>
 <p>Multiple Features&#x5982;&#x4F55;&#x7528;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x5F0F;&#x6765;&#x8868;&#x793A;&#xFF1F;</p>
 <p>$h_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2+&#x2026;+\theta_nx_n = \theta^TX$</p>
-<h3 id="Cost_Function_for_Multiple_Variables">Cost Function for Multiple Variables</h3><p>$\theta$ is an $n+1$ -dimention vector</p>
-<p>$$ J(\theta_0,\theta_1,&#x2026;,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2 $$</p>
-<h3 id="Gradient_Descent_for_Multiple_Variables">Gradient Descent for Multiple Variables</h3><p>Repeat{</p>
-<p>$$\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}$$</p>
-<p>(simutaneously update $\theta_j$ for $j = 0,&#x2026;,n$</p>
+<h3 id="Cost-Function-for-Multiple-Variables"><a href="#Cost-Function-for-Multiple-Variables" class="headerlink" title="Cost Function for Multiple Variables"></a>Cost Function for Multiple Variables</h3><p>$\theta$ is an $n+1$ -dimention vector</p>
+<script type="math/tex; mode=display">J(\theta_0,\theta_1,...,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2</script><h3 id="Gradient-Descent-for-Multiple-Variables"><a href="#Gradient-Descent-for-Multiple-Variables" class="headerlink" title="Gradient Descent for Multiple Variables"></a>Gradient Descent for Multiple Variables</h3><p>Repeat{</p>
+<script type="math/tex; mode=display">\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}</script><p>(simutaneously update $\theta_j$ for $j = 0,&#x2026;,n$</p>
 <p>notice that $x_0 = 1$)</p>
 <p>}</p>
-<h3 id="Feature_Scaling">Feature Scaling</h3><ul>
+<h3 id="Feature-Scaling"><a href="#Feature-Scaling" class="headerlink" title="Feature Scaling"></a>Feature Scaling</h3><ul>
 <li><p>Idea: get every feature into approximately a $-1\leq {x_i}\leq 1$ range</p>
 </li>
 <li><p>Mean normalization: replace $x_i$ with $x_i - \mu_i$ to make features have approximately zero mean (Do not apply to $x_0 = 1$)</p>
 </li>
 </ul>
-<h3 id="Learning_Rate_$\alpha$">Learning Rate $\alpha$</h3><ul>
+<h3 id="Learning-Rate-alpha"><a href="#Learning-Rate-alpha" class="headerlink" title="Learning Rate $\alpha$"></a>Learning Rate $\alpha$</h3><ul>
 <li>If $\alpha$ is too small: slow convergence.</li>
 <li>If $\alpha$ is too large: $J(\theta)$ may not decrease on every iteration; may not converge. (slow converge also possible)</li>
 <li>To choose $\alpha$, try: &#x2026;,0.001, 0.01, 0.1, 1,&#x2026;</li>
 </ul>
-<h3 id="Features_and_Polynomial_Regression">Features and Polynomial Regression</h3><ul>
+<h3 id="Features-and-Polynomial-Regression"><a href="#Features-and-Polynomial-Regression" class="headerlink" title="Features and Polynomial Regression"></a>Features and Polynomial Regression</h3><ul>
 <li><p>Polynomial regression example:    $\theta_0+\theta_1x+\theta_2x^2+\theta_3x^3$; let $x_1 = x, x_2 = x^2, x_3 = x^3$</p>
 </li>
 <li><p>Other possiblities: $\theta_0+\theta_1x+\theta_2\sqrt{x}$, let $x_1 = x, x_2 = \sqrt{x}$</p>
 </li>
 </ul>
-<h2 id="Computing_Parameters_Analytically">Computing Parameters Analytically</h2><p>Suppose there are $m$ examples; $n$ features</p>
+<h2 id="Computing-Parameters-Analytically"><a href="#Computing-Parameters-Analytically" class="headerlink" title="Computing Parameters Analytically"></a>Computing Parameters Analytically</h2><p>Suppose there are $m$ examples; $n$ features</p>
 <p>$\theta = (X^TX)^{-1}X^Ty$<br>$(X^TX)^{-1}$ is inverse of matrix $X^TX$</p>
 <p>if $m &lt; n$,<br>$X^TX$ may be non-inversible. </p>
 <p>Therefore use <code>pinv</code> in Octave:<br><code>pinv(X&apos;*X)*X&apos;*y</code></p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -946,6 +952,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 <p>Therefore, if n is less than 1000, use normal equation. Otherwise, use gradient descent.</p>
 ]]></content>
     <summary type="html">
@@ -970,11 +977,11 @@
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
-<h2 id="Introduction">Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
+<h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><p>Definition of Machine Learning (Tom Mitchell): </p>
 <blockquote>
 <p>A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.</p>
 </blockquote>
-<h3 id="Supervised_Learning">Supervised Learning</h3><ul>
+<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><ul>
 <li>Correct outputs are known. </li>
 <li>Categorized into <strong>regression</strong> and <strong>classification</strong> problems</li>
 <li>Regression problem: predict results within a continuous output</li>
@@ -988,48 +995,51 @@
 </ul>
 </li>
 </ul>
-<h3 id="Unsupervised_Learning">Unsupervised Learning</h3><ul>
+<h3 id="Unsupervised-Learning"><a href="#Unsupervised-Learning" class="headerlink" title="Unsupervised Learning"></a>Unsupervised Learning</h3><ul>
 <li>No known correct output (feedback)</li>
 <li>Derive data structure by clustering the data based on relationships among the variables in the data</li>
 <li>Examples: google story collection; cocktail party (distiguish two voices)</li>
 </ul>
-<h2 id="Linear_Regression_with_One_Variable">Linear Regression with One Variable</h2><h3 id="Model_Representation">Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
+<h2 id="Linear-Regression-with-One-Variable"><a href="#Linear-Regression-with-One-Variable" class="headerlink" title="Linear Regression with One Variable"></a>Linear Regression with One Variable</h2><h3 id="Model-Representation"><a href="#Model-Representation" class="headerlink" title="Model Representation"></a>Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$&#x2019;s = &#x201C;input&#x201D; variable / features<br>$y$&#x2019;s = &#x201C;output&#x201D; variable / &#x201C;target&#x201D; variable</p>
 <p>$(x,y)$ - one training example</p>
 <p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-01.png" alt=""></p>
 <p>How do we represent $h$?</p>
-<p>  $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
-<h3 id="Cost_Function">Cost Function</h3><p><strong>Idea</strong>: </p>
-<p>Choose ${\theta_0}$, ${\theta_1}$ so that $h_{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
-<h3 id="Cost_Function_-_Intuition">Cost Function - Intuition</h3><p>Hypothesis: $$h_{\theta}(x) = \theta_0+\theta_1x$$</p>
+<script type="math/tex; mode=display">h_{\theta}(x) = \theta_0+\theta_1x</script><h3 id="Cost-Function"><a href="#Cost-Function" class="headerlink" title="Cost Function"></a>Cost Function</h3><p><strong>Idea</strong>: </p>
+<p>Choose ${\theta<em>0}$, ${\theta_1}$ so that $h</em>{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
+<h3 id="Cost-Function-Intuition"><a href="#Cost-Function-Intuition" class="headerlink" title="Cost Function - Intuition"></a>Cost Function - Intuition</h3><p>Hypothesis: <script type="math/tex">h_{\theta}(x) = \theta_0+\theta_1x</script></p>
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
-<p>$$J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2} $$</p>
-<p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
+<script type="math/tex; mode=display">J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2}</script><p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
 <p><img src="/2016/03/10/Machine-learning-W1/Coursera-ml-w1-02.png" alt=""></p>
-<h3 id="Gradient_Descent">Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
+<h3 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
 <p>want $\min \ J(\theta_0,\theta_1)$</p>
 <p>Outline:</p>
 <ul>
 <li>start with some $\theta_0,\theta_1$</li>
 <li>keep changing $\theta_0,\theta_1$ to reduce $J(\theta_0,\theta_1)$ until we hopefully end up at a minimum</li>
 </ul>
-<h3 id="Gradient_descent_algorithm">Gradient descent algorithm</h3><p>repeat until convergence {</p>
-<p>$$\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)</p>
-<p>}</p>
-<p><strong>Correct: simultaneous update $\theta_0$ and $\theta_1$</strong></p>
-<p>$\alpha$ is the learning rate. </p>
-<ul>
-<li><p>if $\alpha$ is too small, gradient descent can be slow. </p>
-</li>
-<li><p>if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. </p>
-</li>
-</ul>
-<p>Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. </p>
-<h3 id="Gradient_Descent_for_Linear_Regression">Gradient Descent for Linear Regression</h3><p>repeat until convergence {</p>
-<p>$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right) $$</p>
-<p>$$\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)} $$<br>}</p>
-<h4 id="&#x201C;Batch&#x201D;_Gradient_Descent">&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
+<h3 id="Gradient-descent-algorithm"><a href="#Gradient-descent-algorithm" class="headerlink" title="Gradient descent algorithm"></a>Gradient descent algorithm</h3><p>repeat until convergence {</p>
+<script type="math/tex; mode=display">\theta_j := \theta_j - \alpha \frac{\partial} {\partial \theta_j} J(\theta_0,\theta_1) $$     ( for $j = 0$ and $j =1$)
+
+}
+
+**Correct: simultaneous update $\theta_0$ and $\theta_1$**
+
+$\alpha$ is the learning rate. 
+
+- if $\alpha$ is too small, gradient descent can be slow. 
+
+- if $\alpha$ is too large, gradient descent can overshoot the minimum. It may fail to converge, or even diverge. 
+
+Gradient descent can converge to a local minimum, even with the learning rate $\alpha$ fixed. 
+
+###Gradient Descent for Linear Regression
+
+repeat until convergence {
+
+$$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right)</script><script type="math/tex; mode=display">\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)}</script><p>}</p>
+<h4 id="&#x201C;Batch&#x201D;-Gradient-Descent"><a href="#&#x201C;Batch&#x201D;-Gradient-Descent" class="headerlink" title="&#x201C;Batch&#x201D; Gradient Descent"></a>&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>]]>
@@ -1053,31 +1063,31 @@
     <content type="html"><![CDATA[<p>&#x4ECB;&#x7ECD;&#x4E86;&#x7F16;&#x7A0B;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#xFF0C;Python&#x5B89;&#x88C5;&#xFF0C;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53D8;&#x91CF;&#x7B49;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session.</strong></p>
-<h1 id="Week_1">Week 1</h1><h2 id="Why_Program?">Why Program?</h2><h2 id="Hardware">Hardware</h2><ul>
+<h1 id="Week-1"><a href="#Week-1" class="headerlink" title="Week 1"></a>Week 1</h1><h2 id="Why-Program"><a href="#Why-Program" class="headerlink" title="Why Program?"></a>Why Program?</h2><h2 id="Hardware"><a href="#Hardware" class="headerlink" title="Hardware"></a>Hardware</h2><ul>
 <li>CPU</li>
 <li>I/O</li>
 <li>Main sMemory (RAM)</li>
 <li>Secondary Memory</li>
 </ul>
-<h2 id="Python">Python</h2><ul>
+<h2 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h2><ul>
 <li>Vocabulary/Words - Variables and Reserved words</li>
 <li>Sentence structure - valid syntax patterns</li>
 <li>Story structure - constructing a program for a purpose</li>
 </ul>
-<h1 id="Week_2">Week 2</h1><h2 id="Install_Python">Install Python</h2><ul>
+<h1 id="Week-2"><a href="#Week-2" class="headerlink" title="Week 2"></a>Week 2</h1><h2 id="Install-Python"><a href="#Install-Python" class="headerlink" title="Install Python"></a>Install Python</h2><ul>
 <li>IDLE</li>
 <li>Python Downloads: <a href="https://www.python.org/downloads/" target="_blank" rel="external">https://www.python.org/downloads/</a></li>
 <li>Text Editor</li>
 </ul>
-<h1 id="Week_3">Week 3</h1><h2 id="Simple_program">Simple program</h2><ul>
+<h1 id="Week-3"><a href="#Week-3" class="headerlink" title="Week 3"></a>Week 3</h1><h2 id="Simple-program"><a href="#Simple-program" class="headerlink" title="Simple program"></a>Simple program</h2><ul>
 <li>Sequential steps</li>
 <li>Conditional steps</li>
 <li>Repeated steps</li>
 </ul>
-<h2 id="Think_like_a_program">Think like a program</h2><ul>
+<h2 id="Think-like-a-program"><a href="#Think-like-a-program" class="headerlink" title="Think like a program"></a>Think like a program</h2><ul>
 <li>How to find the largest number?</li>
 </ul>
-<h1 id="Week_4">Week 4</h1><h2 id="Expressions">Expressions</h2><ul>
+<h1 id="Week-4"><a href="#Week-4" class="headerlink" title="Week 4"></a>Week 4</h1><h2 id="Expressions"><a href="#Expressions" class="headerlink" title="Expressions"></a>Expressions</h2><ul>
 <li>Variables and Constants <ul>
 <li>Constants</li>
 <li>Python variable name rules: start with letters, case sensitive</li>
@@ -1092,7 +1102,7 @@
 </ul>
 </li>
 <li>Operator<ul>
-<li>Numeric expressions: +, -, _, /, *_, %</li>
+<li>Numeric expressions: +, -, <em>, /, *</em>, %</li>
 <li>Operator precedence rules: parenthesis, power, multiplication, addition, left to right<ul>
 <li>Reserved words</li>
 </ul>
@@ -1100,7 +1110,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="Variables">Variables</h2><ul>
+<h2 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h2><ul>
 <li>Type<ul>
 <li>Interger</li>
 <li>Float</li>
