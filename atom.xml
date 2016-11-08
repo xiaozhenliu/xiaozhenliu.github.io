@@ -726,7 +726,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
-    <updated>2016-08-21T10:39:23.000Z</updated>
+    <updated>2016-11-08T13:51:13.000Z</updated>
     <content type="html"><![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
 <p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
@@ -738,8 +738,7 @@
 <blockquote>
 <p>Reflect: How did viewing a diff between two versions help you spot the bug?<br>Answer: By looking at the differences between two versions, I know which changes have been made that caused the bug.</p>
 </blockquote>
-<p>Choose a text editor: Notepad++, Sublim, Atom, emacs, vim, etc. </p>
-<p><strong>I picked Atom.</strong></p>
+<p>Choose a text editor: Notepad++, Sublime, Atom, emacs, vim, etc. </p>
 <h3 id="Versions">Versions</h3><ul>
 <li>Saving manual copies</li>
 <li>Dropbox (periodically save versions automatically)</li>
