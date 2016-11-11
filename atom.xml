@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[刘虓震的技术笔记]]></title>
-  <subtitle><![CDATA[Live in the Future, then Build What's Missing]]></subtitle>
+  <title>刘虓震的技术笔记</title>
+  <subtitle>Live in the Future, then Build What&#39;s Missing</subtitle>
   <link href="/atom.xml" rel="self"/>
+  
   <link href="http://tech.liuxiaozhen.com/"/>
   <updated>2016-08-28T08:22:49.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
-    <name><![CDATA[Liu Xiaozhen]]></name>
+    <name>Liu Xiaozhen</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[机器学习工程师之路（1）]]></title>
+    <title>机器学习工程师之路（1）</title>
     <link href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
     <id>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
     <published>2016-07-06T02:48:30.000Z</published>
     <updated>2016-08-28T08:22:49.000Z</updated>
+    
     <content type="html"><![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x7EAA;&#x5F55;&#x53C2;&#x4E0E;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5DE5;&#x7A0B;&#x5E08;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#x7684;&#x7B2C;&#x4E00;&#x7BC7;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/MLND/" target="_blank" rel="external">Tag: MLND</a> &#x3002;</strong></p>
-<p>&#x5173;&#x4E8E;Udacity&#x548C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF08;&#x7B80;&#x79F0;MLND&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x591A;&#x505A;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x524D;&#x7BC7;&#xFF1A;<a href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/" target="_blank" rel="external">&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;1&#xFF09;</a>&#x3002;</p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/MLND/">Tag: MLND</a> &#x3002;</strong></p>
+<p>&#x5173;&#x4E8E;Udacity&#x548C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF08;&#x7B80;&#x79F0;MLND&#xFF09;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x591A;&#x505A;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x524D;&#x7BC7;&#xFF1A;<a href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/">&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x517B;&#x6210;&#x8BA1;&#x5212;&#xFF08;1&#xFF09;</a>&#x3002;</p>
 <h1 id="Welcome-to-the-Nanodegree"><a href="#Welcome-to-the-Nanodegree" class="headerlink" title="Welcome to the Nanodegree"></a>Welcome to the Nanodegree</h1><ul>
 <li>Readiness Questions: statistics, calculus, linear algebra</li>
 <li>Quiz</li>
@@ -133,31 +135,34 @@
 <p>In practice, we will be only given training error.</p>
 <p><img src="/2016/07/06/Udacity-MLND-01/pic07.png" alt="pic07"></p>
 <p><strong>Spam detection</strong><br>Bag of words: represents count of words</p>
-<p>classification/regression</p>
-]]></content>
+<p>classification/regression</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>&#x9879;&#x76EE;&#x7B80;&#x4ECB;&#x548C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5165;&#x95E8;&#x3002;&#x5305;&#x62EC;&#xFF1A;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x9700;&#x89E3;&#x51B3;&#x7684;&#x4E3B;&#x8981;&#x95EE;&#x9898;&#xFF0C;&#x4EBA;&#x5DE5;&#x667A;&#x80FD;&#x7684;&#x51E0;&#x79CD;&#x7C7B;&#x578B;&#xFF0C;&#x6570;&#x636E;&#x79D1;&#x5B66;&#x5BB6;&#x6240;&#x9700;&#x6280;&#x80FD;&#xFF0C;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x7684;&#x4E3B;&#x8981;&#x65B9;&#x6CD5;&#x53CA;&#x5E94;&#x7528;&#x3002;</p>]]>
+    
+      &lt;p&gt;&amp;#x9879;&amp;#x76EE;&amp;#x7B80;&amp;#x4ECB;&amp;#x548C;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x5165;&amp;#x95E8;&amp;#x3002;&amp;#x5305;&amp;#x62EC;&amp;#xFF1A;&amp;#x4EBA;&amp;#x5DE5;&amp;#x667A;&amp;#x80FD;&amp;#x9700;&amp;#x89E3;&amp;#x51B3;&amp;#x7684;&amp;#x4E3B;&amp;#x8981;&amp;#x95EE;&amp;#x9898;&amp;#xFF0C;&amp;#x4EBA;&amp;#x5DE5;&amp;#x667A;&amp;#x80FD;&amp;#x7684;&amp;#x51E0;&amp;#x79CD;&amp;#x7C7B;&amp;#x578B;&amp;#xFF0C;&amp;#x6570;&amp;#x636E;&amp;#x79D1;&amp;#x5B66;&amp;#x5BB6;&amp;#x6240;&amp;#x9700;&amp;#x6280;&amp;#x80FD;&amp;#xFF0C;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x7684;&amp;#x4E3B;&amp;#x8981;&amp;#x65B9;&amp;#x6CD5;&amp;#x53CA;&amp;#x5E94;&amp;#x7528;&amp;#x3002;&lt;/p&gt;
     
     </summary>
     
-      <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
       <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
-      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Machine Learning By Stanford University Week 6]]></title>
+    <title>Machine Learning By Stanford University Week 6</title>
     <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<h1 id="6-Machine-Learning-Application-Advice-and-System-Design"><a href="#6-Machine-Learning-Application-Advice-and-System-Design" class="headerlink" title="6. Machine Learning Application Advice and System Design"></a>6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
@@ -262,18 +267,20 @@
 <li>Winnow</li>
 <li>Memory-based</li>
 <li>Naive Bayes</li>
-</ul>
-]]></content>
+</ul>]]></content>
+    
     <summary type="html">
-    <![CDATA[<h1 id="6-Machine-Learning-Application-Advice-and-System-Design"><a href="#6-Machine-Learning-Application-Advice-and-System-Design" class="headerlink" title="6. Machine Learning Application Advice and System Design"></a>6. Machine Learning Application Advice and System Design</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5E94;&#x7528;&#x4E2D;&#x7684;&#x6CE8;&#x610F;&#x4E8B;&#x9879;&#x4EE5;&#x53CA;&#x7CFB;&#x7EDF;&#x8BBE;&#x8BA1;&#x3002;</p>]]>
+    
+      &lt;h1 id=&quot;6-Machine-Learning-Application-Advice-and-System-Design&quot;&gt;&lt;a href=&quot;#6-Machine-Learning-Application-Advice-and-System-Design&quot; class=&quot;headerlink&quot; title=&quot;6. Machine Learning Application Advice and System Design&quot;&gt;&lt;/a&gt;6. Machine Learning Application Advice and System Design&lt;/h1&gt;&lt;p&gt;&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x5E94;&amp;#x7528;&amp;#x4E2D;&amp;#x7684;&amp;#x6CE8;&amp;#x610F;&amp;#x4E8B;&amp;#x9879;&amp;#x4EE5;&amp;#x53CA;&amp;#x7CFB;&amp;#x7EDF;&amp;#x8BBE;&amp;#x8BA1;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Learning Curves" scheme="http://tech.liuxiaozhen.com/tags/Learning-Curves/"/>
-    
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Model Selection" scheme="http://tech.liuxiaozhen.com/tags/Model-Selection/"/>
     
@@ -286,11 +293,12 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Machine Learning By Stanford University Week 5]]></title>
+    <title>Machine Learning By Stanford University Week 5</title>
     <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
@@ -393,7 +401,7 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 <p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
 <p><strong>b) Parameter vector $\theta$</strong></p>
 <p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-06.png" alt=""></p>
-<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> <span class="built_in">i</span> = <span class="number">1</span>:n,</span><br><span class="line">	thetaPlus = theta;</span><br><span class="line">	thetaPlus(<span class="built_in">i</span>) = thetaPlus(<span class="built_in">i</span>) + EPSILON;</span><br><span class="line">	thetaMinus = theta;</span><br><span class="line">	thetaMinus(<span class="built_in">i</span>) = thetaMinus(<span class="built_in">i</span>) - EPSILON;</span><br><span class="line">	gradApprox(<span class="built_in">i</span>) = (J(thetaPlus) - J(thetaMinus))/(<span class="number">2</span>*EPSILON);</span><br><span class="line"><span class="keyword">end</span>;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for i = 1:n,</div><div class="line">	thetaPlus = theta;</div><div class="line">	thetaPlus(i) = thetaPlus(i) + EPSILON;</div><div class="line">	thetaMinus = theta;</div><div class="line">	thetaMinus(i) = thetaMinus(i) - EPSILON;</div><div class="line">	gradApprox(i) = (J(thetaPlus) - J(thetaMinus))/(2*EPSILON);</div><div class="line">end;</div></pre></td></tr></table></figure>
 <p>Check that <code>gradApprox</code> $\approx$ <code>DVec</code> </p>
 <p><strong>c) Implementation Note:</strong></p>
 <ul>
@@ -432,27 +440,30 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 <li>Implement backprop to compute partial derivatives $\frac{\partial}{\partial\Theta_{jk}^{(l)}}J(\Theta)$</li>
 <li>Use gradient checking to compare $\frac{\partial}{\partial\Theta_{jk}^{(l)}}J(\Theta)$ computed using backpropagation v.s. using numerical estimate of gradient of $J(\Theta)$. Then disable gradient checking code.</li>
 <li>Use gradient descent or advanced optimization method with backpropagation to try to minimize $J(\theta)$ as a function of parameters $\Theta$</li>
-</ol>
-]]></content>
+</ol>]]></content>
+    
     <summary type="html">
-    <![CDATA[<h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>]]>
+    
+      &lt;h1 id=&quot;5-Neural-Networks-Learning&quot;&gt;&lt;a href=&quot;#5-Neural-Networks-Learning&quot; class=&quot;headerlink&quot; title=&quot;5. Neural Networks: Learning&quot;&gt;&lt;/a&gt;5. Neural Networks: Learning&lt;/h1&gt;&lt;p&gt;&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x8BAD;&amp;#x7EC3;&amp;#x8FC7;&amp;#x7A0B;&amp;#x3001;&amp;#x4EE3;&amp;#x4EF7;&amp;#x51FD;&amp;#x6570;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#x3001;&amp;#x68AF;&amp;#x5EA6;&amp;#x4E0B;&amp;#x964D;&amp;#x7B97;&amp;#x6CD5;&amp;#x3001;&amp;#x4EE5;&amp;#x53CA;&amp;#x968F;&amp;#x673A;&amp;#x521D;&amp;#x59CB;&amp;#x5316;&amp;#x3002;&lt;/p&gt;
     
     </summary>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+    
+      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Neural Networks" scheme="http://tech.liuxiaozhen.com/tags/Neural-Networks/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[Machine Learning By Stanford University Week 3]]></title>
+    <title>Machine Learning By Stanford University Week 3</title>
     <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -602,33 +613,36 @@ y = \begin{bmatrix}
 <script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_0^{(i)}</script><p><code>gradient(2)</code> = [code to compute $\frac\partial{\partial\theta_1}J(\theta)$];</p>
 <script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_1^{(i)}＋\frac\lambda m\theta_1</script><p><code>gradient(3)</code> = [code to compute $\frac\partial{\partial\theta_2}J(\theta)$];</p>
 <script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}＋\frac\lambda m\theta_2</script><p>&#x2026;</p>
-<p><code>gradient(n+1)</code> = [code to compute $\frac\partial{\partial\theta_n}J(\theta)$];</p>
-]]></content>
+<p><code>gradient(n+1)</code> = [code to compute $\frac\partial{\partial\theta_n}J(\theta)$];</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>]]>
+    
+      &lt;h1 id=&quot;3-Logistic-Regression-and-Regularization&quot;&gt;&lt;a href=&quot;#3-Logistic-Regression-and-Regularization&quot; class=&quot;headerlink&quot; title=&quot;3. Logistic Regression and Regularization&quot;&gt;&lt;/a&gt;3. Logistic Regression and Regularization&lt;/h1&gt;&lt;p&gt;&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3;&amp;#xFF09;&amp;#x53CA;&amp;#x6B63;&amp;#x5219;&amp;#x5316;&amp;#x65B9;&amp;#x6CD5;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Logistic Regression" scheme="http://tech.liuxiaozhen.com/tags/Logistic-Regression/"/>
-    
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Regularization" scheme="http://tech.liuxiaozhen.com/tags/Regularization/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[数据分析师养成计划（2）]]></title>
+    <title>数据分析师养成计划（2）</title>
     <link href="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</id>
     <published>2016-04-28T08:59:53.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<p>&#x8BB0;&#x5F55;Udacity&#x4E0A;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;Nanodegree&#x7684;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6700;&#x57FA;&#x672C;&#x7684;&#x7EDF;&#x8BA1;&#x5B66;&#x77E5;&#x8BC6;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/">Tag: Data Analyst</a> &#x3002;</strong></p>
 <h1 id="Project-1"><a href="#Project-1" class="headerlink" title="Project 1"></a>Project 1</h1><h2 id="Lesson-1-Intro-to-Research-Methods"><a href="#Lesson-1-Intro-to-Research-Methods" class="headerlink" title="Lesson 1 Intro to Research Methods"></a>Lesson 1 Intro to Research Methods</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x600E;&#x4E48;&#x505A;&#x8C03;&#x67E5;&#x7814;&#x7A76;&#x3002;&#x5B9A;&#x6027;&#x5730;&#x8BB2;&#x4E86;&#x91C7;&#x6837;&#xFF0C;&#x968F;&#x673A;&#x6027;&#x3001;&#x53CC;&#x76F2;&#x5B9E;&#x9A8C;&#x3001;&#x76F8;&#x5173;&#x6027;&#x4E0E;&#x56E0;&#x679C;&#x6027;&#xFF0C;&#x6570;&#x636E;&#x9610;&#x91CA;&#x7B49;&#x3002;</p>
 <p>&#x5173;&#x952E;&#x6982;&#x5FF5;&#xFF1A;</p>
 <ul>
@@ -656,25 +670,28 @@ y = \begin{bmatrix}
 </ul>
 <h2 id="Lesson-3-Central-Tendancy"><a href="#Lesson-3-Central-Tendancy" class="headerlink" title="Lesson 3: Central Tendancy"></a>Lesson 3: Central Tendancy</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x4E3B;&#x8981;&#x8BB2;mode, mean, median&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x4EE5;&#x53CA;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x5206;&#x5E03;&#xFF0C;&#x8FD9;&#x4E9B;&#x7279;&#x5F81;&#x503C;&#x6709;&#x4F55;&#x7279;&#x70B9;&#xFF0C;&#x53CD;&#x6620;&#x4E86;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x6027;&#x8D28;&#x3002;</p>
 <h2 id="Lesson-4-Variability"><a href="#Lesson-4-Variability" class="headerlink" title="Lesson 4: Variability"></a>Lesson 4: Variability</h2><p>&#x8FD9;&#x8282;&#x8BFE;&#x8BB2;&#x4E86;variance&#x548C;standard deviation&#x5982;&#x4F55;&#x8BA1;&#x7B97;&#xFF0C;&#x4EE5;&#x53CA;normal distribution&#x7684;&#x4E00;&#x4E9B;&#x5C5E;&#x6027;&#x3002;</p>
-<p>&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x8BFE;&#x7A0B;&#x90FD;&#x8FD8;&#x5F88;&#x57FA;&#x7840;&#xFF0C;&#x6682;&#x65F6;&#x4E0D;&#x4F1A;&#x6709;&#x4EC0;&#x4E48;&#x5927;&#x620F;&#x3002;&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x6765;&#x770B;&#x770B;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5427;~<br>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>
-]]></content>
+<p>&#x76EE;&#x524D;&#x4E3A;&#x6B62;&#x8BFE;&#x7A0B;&#x90FD;&#x8FD8;&#x5F88;&#x57FA;&#x7840;&#xFF0C;&#x6682;&#x65F6;&#x4E0D;&#x4F1A;&#x6709;&#x4EC0;&#x4E48;&#x5927;&#x620F;&#x3002;&#x6211;&#x4EEC;&#x8FD8;&#x662F;&#x6765;&#x770B;&#x770B;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x5427;~<br>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>&#x8BB0;&#x5F55;Udacity&#x4E0A;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;Nanodegree&#x7684;&#x7B2C;&#x4E00;&#x90E8;&#x5206;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#xFF0C;&#x5305;&#x62EC;&#x6700;&#x57FA;&#x672C;&#x7684;&#x7EDF;&#x8BA1;&#x5B66;&#x77E5;&#x8BC6;&#x3002;</p>]]>
+    
+      &lt;p&gt;&amp;#x8BB0;&amp;#x5F55;Udacity&amp;#x4E0A;&amp;#x7684;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x5E08;Nanodegree&amp;#x7684;&amp;#x7B2C;&amp;#x4E00;&amp;#x90E8;&amp;#x5206;&amp;#x8BFE;&amp;#x7A0B;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x5305;&amp;#x62EC;&amp;#x6700;&amp;#x57FA;&amp;#x672C;&amp;#x7684;&amp;#x7EDF;&amp;#x8BA1;&amp;#x5B66;&amp;#x77E5;&amp;#x8BC6;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
     
   </entry>
   
   <entry>
-    <title><![CDATA[数据分析师养成计划（1）]]></title>
+    <title>数据分析师养成计划（1）</title>
     <link href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
     <published>2016-04-27T09:17:30.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<p>&#x4ECB;&#x7ECD;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#xFF0C;&#x53CA;&#x5176;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x9879;&#x76EE;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x3002;</p>
 <a id="more"></a>
 <p><strong>&#x672C;&#x6587;&#x662F;&#x5B66;&#x4E60;Udacity&#x4E0A;&#x7684;Nanodegree: Data Analyst&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x81EA;2016&#x5E74;4&#x6708;24&#x65E5;&#x59CB;&#x3002;</strong></p>
-<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/" target="_blank" rel="external">Tag: Data Analyst</a> &#x3002;</strong></p>
+<p><strong>&#x672C;&#x7CFB;&#x5217;&#x5168;&#x90E8;&#x6587;&#x7AE0;&#x89C1;<a href="http://tech.liuxiaozhen.com/tags/Data-Analyst/">Tag: Data Analyst</a> &#x3002;</strong></p>
 <h1 id="&#x7B80;&#x4ECB;"><a href="#&#x7B80;&#x4ECB;" class="headerlink" title="&#x7B80;&#x4ECB;"></a>&#x7B80;&#x4ECB;</h1><p>&#x5728;&#x7EBF;&#x5B66;&#x4E60;&#x5E73;&#x53F0;Udacity&#x53BB;&#x5E74;&#x521A;&#x521A;&#x5B8C;&#x6210;D&#x8F6E;&#x878D;&#x8D44;&#xFF0C;&#x4F30;&#x503C;&#x8D85;&#x8FC7;10&#x4EBF;&#x7F8E;&#x5143;&#xFF0C;&#x6210;&#x4E3A;&#x5728;&#x7EBF;&#x6559;&#x80B2;&#x7B2C;&#x4E00;&#x5BB6;&#x72EC;&#x89D2;&#x517D;&#x3002;&#x6211;&#x4ECE;2012&#x5E74;&#x5C31;&#x5F00;&#x59CB;&#x5173;&#x6CE8;&#x548C;&#x5B66;&#x4E60;Udacity&#x7684;&#x8BFE;&#x7A0B;&#x3002;&#x4ECA;&#x5E74;4&#x6708;&#xFF0C;Udacity&#x4EE5;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#x4E3A;&#x540D;&#x5165;&#x534E;&#xFF0C;&#x4E00;&#x8FDB;&#x5165;&#x5C31;&#x8DDF;&#x6EF4;&#x6EF4;&#x3001;&#x4EAC;&#x4E1C;&#x3001;&#x65B0;&#x6D6A;&#x8FBE;&#x6210;&#x5408;&#x4F5C;&#x610F;&#x5411;&#xFF0C;&#x4E3A;&#x8FD9;&#x4E9B;&#x4F01;&#x4E1A;&#x5BFB;&#x627E;&#x548C;&#x57F9;&#x517B;&#x4EBA;&#x624D;&#x3002;</p>
 <p>&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#xFF08;Nanodegreee, ND&#xFF09;&#x662F;Udacity&#x76EE;&#x524D;&#x7684;&#x4E3B;&#x6253;&#x4EA7;&#x54C1;&#xFF0C;&#x610F;&#x56FE;&#x8BA9;&#x5B66;&#x5458;&#x901A;&#x8FC7;9-12&#x4E2A;&#x6708;&#x7684;&#x4E1A;&#x4F59;&#x5B66;&#x4E60;&#xFF08;&#x6BCF;&#x6708;&#x81F3;&#x5C11;10&#x5C0F;&#x65F6;&#x6295;&#x5165;&#xFF09;&#x6210;&#x4E3A;&#x80FD;&#x591F;&#x80DC;&#x4EFB;&#x67D0;&#x4E2A;IT&#x6280;&#x672F;&#x5C97;&#x4F4D;&#x7684;&#x4EBA;&#x624D;&#xFF08;&#x521D;&#x7EA7;&#x4E3A;&#x4E3B;&#xFF09;&#x3002;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x7684;&#x6536;&#x8D39;&#x4EE5;&#x6708;&#x4E3A;&#x5355;&#x4F4D;&#xFF0C;&#x82F1;&#x6587;&#x7F51;&#x7AD9;&#x4E00;&#x822C;&#x662F;$199/&#x6708;&#xFF0C;&#x5728;&#x534E;&#x4EF7;&#x683C;&#x662F;&#xFFE5;980/&#x6708;&#xFF0C;&#x8FD9;&#x4E2A;&#x4EF7;&#x683C;&#x4E3B;&#x8981;&#x7528;&#x4E8E;&#x652F;&#x4ED8;&#x4E00;&#x5BF9;&#x4E00;&#x8F85;&#x5BFC;&#xFF0C;&#x56E0;&#x4E3A;&#x8BFE;&#x7A0B;&#x5185;&#x5BB9;&#x662F;&#x514D;&#x8D39;&#x7684;&#x3002;</p>
 <p>&#x4E0D;&#x8FC7;&#xFF0C;&#x4F60;&#x5E76;&#x4E0D;&#x9700;&#x8981;&#x4E00;&#x4E07;&#x591A;&#x5143;&#x624D;&#x80FD;&#x83B7;&#x5F97;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#xFF0C;&#x56E0;&#x4E3A;Udacity&#x7684;&#x8003;&#x6838;&#x662F;&#x901A;&#x8FC7;&#x8BC4;&#x4F30;&#x4F60;&#x63D0;&#x4EA4;&#x7684;&#x6307;&#x5B9A;&#x9879;&#x76EE;&#x6765;&#x5B8C;&#x6210;&#x3002;&#x4F60;&#x5B8C;&#x5168;&#x53EF;&#x4EE5;&#x5148;&#x81EA;&#x5B66;&#x6240;&#x6709;&#x5185;&#x5BB9;&#xFF0C;&#x505A;&#x597D;&#x9879;&#x76EE;&#xFF0C;&#x518D;&#x4ED8;&#x8D39;&#x5B66;&#x4E60;&#x3002;&#x5229;&#x7528;&#x201C;&#x4E00;&#x5E74;&#x5185;&#x5B8C;&#x6210;&#x8FD4;&#x8FD8;&#x4E00;&#x534A;&#x5B66;&#x8D39;&#x201D;&#x7684;&#x653F;&#x7B56;&#xFF0C;&#x6700;&#x4F4E;&#x53EA;&#x9700;&#x4E00;&#x4E2A;&#x6708;&#x7684;&#x4EF7;&#x683C;&#x5C31;&#x53EF;&#x4EE5;&#x83B7;&#x5F97;&#x201C;&#x5B66;&#x4F4D;&#x8BC1;&#x201D;&#xFF08;&#x8FD4;&#x8FD8;&#x653F;&#x7B56;&#x8981;&#x6C42;&#x81F3;&#x5C11;&#x8BA2;&#x9605;&#x4E24;&#x4E2A;&#x6708;&#xFF09;&#x3002;</p>
@@ -711,29 +728,32 @@ y = \begin{bmatrix}
 <li>Relationship between length and efficiency?</li>
 <li>Do you agree with the claim made by the researchers and why?</li>
 </ol>
-<p>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>
-]]></content>
+<p>&#xFF08;&#x5F85;&#x7EED;&#xFF09;</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>&#x4ECB;&#x7ECD;Udacity&#xFF08;&#x5728;&#x534E;&#x540D;&#x79F0;&#x201C;&#x4F18;&#x8FBE;&#x5B66;&#x57CE;&#x201D;&#xFF09;&#x7684;&#x201C;&#x7EB3;&#x7C73;&#x5B66;&#x4F4D;&#x201D;&#x9879;&#x76EE;&#xFF0C;&#x53CA;&#x5176;&#x6570;&#x636E;&#x5206;&#x6790;&#x5E08;&#x9879;&#x76EE;&#x7684;&#x57FA;&#x672C;&#x60C5;&#x51B5;&#x3002;</p>]]>
+    
+      &lt;p&gt;&amp;#x4ECB;&amp;#x7ECD;Udacity&amp;#xFF08;&amp;#x5728;&amp;#x534E;&amp;#x540D;&amp;#x79F0;&amp;#x201C;&amp;#x4F18;&amp;#x8FBE;&amp;#x5B66;&amp;#x57CE;&amp;#x201D;&amp;#xFF09;&amp;#x7684;&amp;#x201C;&amp;#x7EB3;&amp;#x7C73;&amp;#x5B66;&amp;#x4F4D;&amp;#x201D;&amp;#x9879;&amp;#x76EE;&amp;#xFF0C;&amp;#x53CA;&amp;#x5176;&amp;#x6570;&amp;#x636E;&amp;#x5206;&amp;#x6790;&amp;#x5E08;&amp;#x9879;&amp;#x76EE;&amp;#x7684;&amp;#x57FA;&amp;#x672C;&amp;#x60C5;&amp;#x51B5;&amp;#x3002;&lt;/p&gt;
     
     </summary>
     
-      <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
       <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
-      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
     
   </entry>
   
   <entry>
-    <title><![CDATA[How to Use Git and GitHub]]></title>
+    <title>How to Use Git and GitHub</title>
     <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
     <updated>2016-11-08T13:51:13.000Z</updated>
+    
     <content type="html"><![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>
 <a id="more"></a>
 <p><strong>This note is for the Udacity course &#x201C;How to Use Git and Github&#x201D;.</strong></p>
@@ -798,7 +818,7 @@ y = \begin{bmatrix}
 <li><code>git diff</code></li>
 <li>Check commit: <code>git checkout _commit ID_</code></li>
 </ul>
-<h3 id="Making-Git-configurations"><a href="#Making-Git-configurations" class="headerlink" title="Making Git configurations"></a>Making Git configurations</h3><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git config --global core<span class="class">.editor</span> <span class="string">&quot;atom --wait&quot;</span></span><br><span class="line">git config --global push<span class="class">.default</span> upstream</span><br><span class="line">git config --global merge<span class="class">.conflictstyle</span> diff3</span><br></pre></td></tr></table></figure>
+<h3 id="Making-Git-configurations"><a href="#Making-Git-configurations" class="headerlink" title="Making Git configurations"></a>Making Git configurations</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git config --global core.editor &quot;atom --wait&quot;</div><div class="line">git config --global push.default upstream</div><div class="line">git config --global merge.conflictstyle diff3</div></pre></td></tr></table></figure>
 <h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Why use Git</li>
 <li>Git Setup</li>
@@ -880,21 +900,24 @@ y = \begin{bmatrix}
 <h3 id="Summary-2"><a href="#Summary-2" class="headerlink" title="Summary"></a>Summary</h3><ul>
 <li>Clone and Fork</li>
 <li>Merge and Pull request</li>
-</ul>
-]]></content>
+</ul>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Udacity&#x8BFE;&#x7A0B;&#x4E4B;&#x4E00;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5570;&#x55E6;&#x7684;GitHub&#x6559;&#x7A0B;&#xFF1A;&#xFF09;</p>]]>
+    
+      &lt;p&gt;Udacity&amp;#x8BFE;&amp;#x7A0B;&amp;#x4E4B;&amp;#x4E00;&amp;#xFF0C;&amp;#x53EF;&amp;#x80FD;&amp;#x662F;&amp;#x6700;&amp;#x5570;&amp;#x55E6;&amp;#x7684;GitHub&amp;#x6559;&amp;#x7A0B;&amp;#xFF1A;&amp;#xFF09;&lt;/p&gt;
     
     </summary>
+    
     
   </entry>
   
   <entry>
-    <title><![CDATA[Machine Learning by Stanford University Week 2]]></title>
+    <title>Machine Learning by Stanford University Week 2</title>
     <link href="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
     <id>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
     <published>2016-04-05T07:00:00.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -953,27 +976,30 @@ y = \begin{bmatrix}
 </tbody>
 </table>
 </div>
-<p>Therefore, if n is less than 1000, use normal equation. Otherwise, use gradient descent.</p>
-]]></content>
+<p>Therefore, if n is less than 1000, use normal equation. Otherwise, use gradient descent.</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>]]>
+    
+      &lt;p&gt;Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x591A;&amp;#x5143;&amp;#x7EBF;&amp;#x6027;&amp;#x56DE;&amp;#x5F52;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[Machine Learning by Stanford University Week 1]]></title>
+    <title>Machine Learning by Stanford University Week 1</title>
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
@@ -1039,27 +1065,30 @@ Gradient descent can converge to a local minimum, even with the learning rate $\
 repeat until convergence {
 
 $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)}\right)</script><script type="math/tex; mode=display">\theta_1 := \theta_1 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y^{(i)} \right)\cdot x^{(i)}</script><p>}</p>
-<h4 id="&#x201C;Batch&#x201D;-Gradient-Descent"><a href="#&#x201C;Batch&#x201D;-Gradient-Descent" class="headerlink" title="&#x201C;Batch&#x201D; Gradient Descent"></a>&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>
-]]></content>
+<h4 id="&#x201C;Batch&#x201D;-Gradient-Descent"><a href="#&#x201C;Batch&#x201D;-Gradient-Descent" class="headerlink" title="&#x201C;Batch&#x201D; Gradient Descent"></a>&#x201C;Batch&#x201D; Gradient Descent</h4><p>Each step of gradient descent uses all the training examples</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E00;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x57FA;&#x672C;&#x5B9A;&#x4E49;&#xFF0C;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#x53CA;&#x65E0;&#x76D1;&#x7763;&#x5B66;&#x4E60;&#xFF0C;&#x4EE5;&#x53CA;&#x5355;&#x53D8;&#x91CF;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>]]>
+    
+      &lt;p&gt;Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E00;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x57FA;&amp;#x672C;&amp;#x5B9A;&amp;#x4E49;&amp;#xFF0C;&amp;#x76D1;&amp;#x7763;&amp;#x5B66;&amp;#x4E60;&amp;#x53CA;&amp;#x65E0;&amp;#x76D1;&amp;#x7763;&amp;#x5B66;&amp;#x4E60;&amp;#xFF0C;&amp;#x4EE5;&amp;#x53CA;&amp;#x5355;&amp;#x53D8;&amp;#x91CF;&amp;#x7EBF;&amp;#x6027;&amp;#x56DE;&amp;#x5F52;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
       <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[Python for Everybody by University of Michigan (1)]]></title>
+    <title>Python for Everybody by University of Michigan (1)</title>
     <link href="http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
     <id>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
     <published>2015-12-06T03:51:47.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
+    
     <content type="html"><![CDATA[<p>&#x4ECB;&#x7ECD;&#x4E86;&#x7F16;&#x7A0B;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#xFF0C;Python&#x5B89;&#x88C5;&#xFF0C;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53D8;&#x91CF;&#x7B49;&#x3002;</p>
 <a id="more"></a>
 <p><strong>This note is for the first course of University of Michigan online series &#x201C;Python for Everybody Specialization&#x201D; taught by Professor Charles Severance on Coursera.org, 2015 October session.</strong></p>
@@ -1130,12 +1159,14 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
 </li>
 <li>Comments in Python: anything after <code>#</code></li>
 <li>Variable naming style</li>
-</ul>
-]]></content>
+</ul>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>&#x4ECB;&#x7ECD;&#x4E86;&#x7F16;&#x7A0B;&#x57FA;&#x672C;&#x77E5;&#x8BC6;&#xFF0C;Python&#x5B89;&#x88C5;&#xFF0C;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53D8;&#x91CF;&#x7B49;&#x3002;</p>]]>
+    
+      &lt;p&gt;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x7F16;&amp;#x7A0B;&amp;#x57FA;&amp;#x672C;&amp;#x77E5;&amp;#x8BC6;&amp;#xFF0C;Python&amp;#x5B89;&amp;#x88C5;&amp;#xFF0C;&amp;#x8868;&amp;#x8FBE;&amp;#x5F0F;&amp;#xFF0C;&amp;#x53D8;&amp;#x91CF;&amp;#x7B49;&amp;#x3002;&lt;/p&gt;
     
     </summary>
+    
     
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
     
@@ -1144,23 +1175,27 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
   </entry>
   
   <entry>
-    <title><![CDATA[启]]></title>
+    <title>启</title>
     <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
     <published>2015-04-03T09:17:05.000Z</published>
     <updated>2016-08-21T11:55:35.000Z</updated>
+    
     <content type="html"><![CDATA[<p><img src="/2015/04/03/start/dune.jpeg" alt=""></p>
 <p>&#x4ECE;&#x5C0F;&#x5B66;&#x5C31;&#x5F00;&#x59CB;&#x7F16;&#x7A0B;&#xFF0C;&#x4F46;&#x662F;&#x4EC5;&#x9650;&#x4E8E;&#x597D;&#x73A9;&#xFF1B;&#x5728;&#x5B66;&#x4E60;&#x79D1;&#x7814;&#x4E2D;&#x5076;&#x5C14;&#x6D89;&#x53CA;&#x7F16;&#x7A0B;&#xFF0C;&#x4E5F;&#x4E0D;&#x8FC7;&#x662F;&#x7B80;&#x77ED;&#x7684;&#x51E0;&#x5341;&#x884C;&#x3002;&#x4ECE;2009&#x5E74;&#x5165;&#x624B;iPod Touch&#x81F3;&#x4ECA;&#xFF0C;&#x5173;&#x4E8E;App&#x7684;&#x60F3;&#x6CD5;&#x65E0;&#x6570;&#xFF0C;&#x5374;&#x59CB;&#x7EC8;&#x6CA1;&#x6709;&#x6210;&#x4E3A;&#x4E00;&#x4E2A;&#x771F;&#x6B63;&#x7684;&#x521B;&#x9020;&#x8005;&#x3002;</p>
 <p>tinyfool&#x5728;&#x53BB;&#x5E74;&#x7684;&#x4E00;&#x7BC7;<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">&#x300A;&#x5BFB;&#x627E;&#x548C;&#x7A81;&#x7834;&#x5FC3;&#x969C;&#x300B;</a>&#x4E2D;&#x8BF4;&#xFF1A;</p>
 <blockquote>
 <p>&#x4EBA;&#x751F;&#x4E2D;&#x603B;&#x6709;&#x4E9B;&#x969C;&#x788D;&#x963B;&#x6321;&#x7740;&#x4F60;&#x53BB;&#x505A;&#x4F60;&#x60F3;&#x505A;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x4E9B;&#x969C;&#x788D;&#x91CC;&#x9762;&#x6709;&#x4E00;&#x4E9B;&#x662F;&#x7269;&#x7406;&#x969C;&#x788D;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x771F;&#x7684;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#x548C;&#x91D1;&#x94B1;&#xFF0C;&#x4E0D;&#x53BB;&#x65C5;&#x6E38;&#x4E5F;&#x5C31;&#x4E0D;&#x53BB;&#x65C5;&#x6E38;&#x4E86;&#x3002;&#x5982;&#x679C;&#x4F60;&#x6709;&#x65F6;&#x95F4;&#x3001;&#x6709;&#x91D1;&#x94B1;&#xFF0C;&#x4E5F;&#x6709;&#x4E00;&#x4E2A;&#x8BF4;&#x8D70;&#x5C31;&#x8D70;&#x7684;&#x5FC3;&#xFF0C;&#x4F46;&#x662F;&#x4F60;&#x54EA;&#x91CC;&#x90FD;&#x6CA1;&#x6709;&#x53BB;&#x8FC7;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x5FC3;&#x969C;&#x3002;</p>
 </blockquote>
-<p>&#x5173;&#x4E8E;&#x7F16;&#x7A0B;&#xFF0C;&#x6211;&#x60F3;&#x6211;&#x5E76;&#x975E;&#x771F;&#x7684;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#xFF0C;&#x800C;&#x4EC5;&#x4EC5;&#x51FA;&#x4E8E;&#x5FC3;&#x969C;&#x800C;&#x6CA1;&#x6709;&#x505A;&#x3002;&#x8FD1;&#x5E74;&#x6765;&#xFF0C;&#x5728;&#x6548;&#x7387;&#x548C;&#x5FC3;&#x667A;&#x65B9;&#x9762;&#x6536;&#x83B7;&#x8BB8;&#x591A;&#xFF0C;&#x5BF9;&#x4E8E;&#x5F00;&#x542F;&#x8FD9;&#x6837;&#x4E00;&#x6BB5;&#x65C5;&#x7A0B;&#x6162;&#x6162;&#x6709;&#x4E86;&#x4FE1;&#x5FC3;&#x3002;&#x5199;&#x7B14;&#x8BB0;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x662F;&#x5E0C;&#x671B;&#x9760;&#x8F93;&#x51FA;&#x7684;&#x8FC7;&#x7A0B;&#x6765;&#x52A0;&#x5F3A;&#x5B66;&#x4E60;&#x6548;&#x679C;&#x3002;&#x82E5;&#x80FD;&#x5728;&#x6BD4;&#x7279;&#x4E16;&#x754C;&#xFF0C;&#x65E0;&#x610F;&#x95F4;&#x7ED9;&#x4E00;&#x4E9B;&#x4EBA;&#x5E2E;&#x52A9;&#xFF0C;&#x5219;&#x5E78;&#x751A;&#x81F3;&#x54C9;&#x3002;</p>
-]]></content>
+<p>&#x5173;&#x4E8E;&#x7F16;&#x7A0B;&#xFF0C;&#x6211;&#x60F3;&#x6211;&#x5E76;&#x975E;&#x771F;&#x7684;&#x5B8C;&#x5168;&#x6CA1;&#x6709;&#x65F6;&#x95F4;&#xFF0C;&#x800C;&#x4EC5;&#x4EC5;&#x51FA;&#x4E8E;&#x5FC3;&#x969C;&#x800C;&#x6CA1;&#x6709;&#x505A;&#x3002;&#x8FD1;&#x5E74;&#x6765;&#xFF0C;&#x5728;&#x6548;&#x7387;&#x548C;&#x5FC3;&#x667A;&#x65B9;&#x9762;&#x6536;&#x83B7;&#x8BB8;&#x591A;&#xFF0C;&#x5BF9;&#x4E8E;&#x5F00;&#x542F;&#x8FD9;&#x6837;&#x4E00;&#x6BB5;&#x65C5;&#x7A0B;&#x6162;&#x6162;&#x6709;&#x4E86;&#x4FE1;&#x5FC3;&#x3002;&#x5199;&#x7B14;&#x8BB0;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x662F;&#x5E0C;&#x671B;&#x9760;&#x8F93;&#x51FA;&#x7684;&#x8FC7;&#x7A0B;&#x6765;&#x52A0;&#x5F3A;&#x5B66;&#x4E60;&#x6548;&#x679C;&#x3002;&#x82E5;&#x80FD;&#x5728;&#x6BD4;&#x7279;&#x4E16;&#x754C;&#xFF0C;&#x65E0;&#x610F;&#x95F4;&#x7ED9;&#x4E00;&#x4E9B;&#x4EBA;&#x5E2E;&#x52A9;&#xFF0C;&#x5219;&#x5E78;&#x751A;&#x81F3;&#x54C9;&#x3002;</p>]]></content>
+    
     <summary type="html">
-    <![CDATA[<p><img src="/2015/04/03/start/dune.jpeg" alt=""></p>
-<p>&#x4ECE;&#x5C0F;&#x5B66;&#x5C31;&#x5F00;&#x59CB;&#x7F16;&#x7A0B;&#xFF0C;&#x4F46;&#x]]>
+    
+      &lt;p&gt;&lt;img src=&quot;/2015/04/03/start/dune.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&amp;#x4ECE;&amp;#x5C0F;&amp;#x5B66;&amp;#x5C31;&amp;#x5F00;&amp;#x59CB;&amp;#x7F16;&amp;#x7A0B;&amp;#xFF0C;&amp;#x4F46;&amp;#x
+    
     </summary>
+    
     
   </entry>
   
