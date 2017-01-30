@@ -114,27 +114,6 @@
     
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning by Stanford University Week 2</title>
-        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
-        
-        <tag>Coursera</tag>
-         
-        <tag>Machine Learning</tag>
-         
-        <tag>Linear Regression</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -147,6 +126,25 @@
         <tag>Machine Learning</tag>
          
         <tag>Neural Networks</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python for Everybody by University of Michigan (1)</title>
+        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Coursera</tag>
          
          
            
@@ -194,6 +192,27 @@
 
     
   <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Machine Learning by Stanford University Week 2</title>
+        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
+        
+        <tag>Coursera</tag>
+         
+        <tag>Machine Learning</tag>
+         
+        <tag>Linear Regression</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -229,25 +248,6 @@
         <tag>Logistic Regression</tag>
          
         <tag>Regularization</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python for Everybody by University of Michigan (1)</title>
-        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
-        
-        <tag>Coursera</tag>
-         
-        <tag>Python</tag>
          
          
            
