@@ -142,25 +142,10 @@
         <title>Python for Everybody by University of Michigan (1)</title>
         <pubTime>2015-12-06T03:51:47.000Z</pubTime>
         
-        <tag>Python</tag>
-         
         <tag>Coursera</tag>
          
+        <tag>Python</tag>
          
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>数据分析师养成计划（2）</title>
-        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
-        
          
            
         </display>
@@ -184,6 +169,21 @@
          
         <tag>Data Analyst</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>数据分析师养成计划（2）</title>
+        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
+        
          
            
         </display>

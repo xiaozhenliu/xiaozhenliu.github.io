@@ -1205,9 +1205,9 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     </summary>
     
     
-      <category term="Python" scheme="http://tech.liuxiaozhen.com/tags/Python/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Python" scheme="http://tech.liuxiaozhen.com/tags/Python/"/>
     
   </entry>
   
