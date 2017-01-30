@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</loc>
+    
+    <lastmod>2017-01-30T09:53:20.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</loc>
     
     <lastmod>2016-11-11T03:51:04.000Z</lastmod>
@@ -58,6 +65,20 @@
   </url>
   
   <url>
+    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
+    
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
@@ -72,7 +93,7 @@
   </url>
   
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     
@@ -80,20 +101,6 @@
   
   <url>
     <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
-    
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
-    
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     

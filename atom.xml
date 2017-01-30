@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://tech.liuxiaozhen.com/"/>
-  <updated>2016-08-28T08:22:49.000Z</updated>
+  <updated>2017-01-30T09:53:20.000Z</updated>
   <id>http://tech.liuxiaozhen.com/</id>
   
   <author>
@@ -14,6 +14,43 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Small Things Matter: 更改Jupyter主题</title>
+    <link href="http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/"/>
+    <id>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</id>
+    <published>2017-01-30T09:51:53.000Z</published>
+    <updated>2017-01-30T09:53:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>&#x5F88;&#x957F;&#x65F6;&#x95F4;&#x6CA1;&#x5199;&#x6709;&#x6D3B;&#x4EBA;&#x6C14;&#x606F;&#x7684;&#x535A;&#x5BA2;&#x4E86;&#x3002;&#x4ECA;&#x5E74;&#x60F3;&#x597D;&#x597D;&#x628A;&#x8FD9;&#x91CC;&#x62FE;&#x6387;&#x62FE;&#x6387;&#x3002;&#x4F1A;&#x6162;&#x6162;&#x66F4;&#x65B0;&#x4E00;&#x4E9B;&#x4EE5;&#x524D;&#x505A;&#x7684;&#x7B14;&#x8BB0;&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x8865;&#x5145;&#x4E0A;&#x65B0;&#x7684;&#x5185;&#x5BB9;&#x3002;&#xFF08;Flag&#x5DF2;&#x7ACB;&#xFF09;</p>
+<p>&#x4E0D;&#x8FC7;&#x4ECA;&#x5929;&#x7684;&#x91CD;&#x70B9;&#x662F;&#x66F4;&#x6539;Jupyter&#x4E3B;&#x9898;&#x3002;</p>
+<p>Jupyter Notebook &#x4F5C;&#x4E3A;&#x795E;&#x5668;&#x5DF2;&#x7ECF;&#x65E0;&#x9700;&#x8D58;&#x8A00;&#x3002;&#x7136;&#x800C;&#x559C;&#x6B22;customize&#x4E00;&#x5207;&#x7684;&#x7A0B;&#x5E8F;&#x5458;&#x4EEC;&#x53C8;&#x600E;&#x4F1A;&#x8BA9;&#x5B83;&#x4FDD;&#x6301;&#x6734;&#x7D20;&#x65E0;&#x534E;&#x7684;&#x5916;&#x89C2;&#x3002;Jupyter-themer&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x66F4;&#x6539;&#x5176;&#x98CE;&#x683C;&#x7684;&#x8F6F;&#x4EF6;&#x5305;&#x3002;&#x5B89;&#x88C5;&#x53EA;&#x9700;&#x4E00;&#x6B65;&#xFF1A;</p>
+<p><code>$ pip install jupyter-themer</code></p>
+<p>&#x6216;</p>
+<p><code>$ python setup.py install</code></p>
+<p>Jupyter-themer&#x53EF;&#x4EE5;&#x66F4;&#x6539;&#x4EE3;&#x7801;&#x989C;&#x8272;&#x3001;&#x80CC;&#x666F;&#x98CE;&#x683C;&#x3001;&#x6392;&#x7248;&#x548C;&#x5B57;&#x4F53;&#x3002;&#x4E3E;&#x4F8B;&#xFF1A;</p>
+<p><code>$ jupyter-themer -b dark -c erlang-dark -l wide -t serif</code></p>
+<p><img src="/2017/01/30/jupyter-themer/jupyter-themer-view.png" alt=""></p>
+<p>&#x8BE6;&#x7EC6;&#x4F7F;&#x7528;&#x8BF4;&#x660E;&#x89C1;&#xFF1A;</p>
+<p><a href="https://pypi.python.org/pypi/jupyter-themer" target="_blank" rel="external">Python&#x5B98;&#x7F51;&#x4E0A;&#x7684;&#x9879;&#x76EE;&#x4E3B;&#x9875;</a></p>
+<p><a href="https://github.com/transcranial/jupyter-themer" target="_blank" rel="external">GitHub&#x4E0A;&#x7684;&#x9879;&#x76EE;&#x4E3B;&#x9875;</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;#x5F88;&amp;#x957F;&amp;#x65F6;&amp;#x95F4;&amp;#x6CA1;&amp;#x5199;&amp;#x6709;&amp;#x6D3B;&amp;#x4EBA;&amp;#x6C14;&amp;#x606F;&amp;#x7684;&amp;#x535A;&amp;#x5BA2;&amp;#x4E86;&amp;#x3002;&amp;#x4ECA;&amp;
+    
+    </summary>
+    
+    
+      <category term="jupyter" scheme="http://tech.liuxiaozhen.com/tags/jupyter/"/>
+    
+      <category term="python" scheme="http://tech.liuxiaozhen.com/tags/python/"/>
+    
+      <category term="theme" scheme="http://tech.liuxiaozhen.com/tags/theme/"/>
+    
+      <category term="small things" scheme="http://tech.liuxiaozhen.com/tags/small-things/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习工程师之路（1）</title>
@@ -276,9 +313,9 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Learning Curves" scheme="http://tech.liuxiaozhen.com/tags/Learning-Curves/"/>
     
@@ -449,9 +486,9 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Neural Networks" scheme="http://tech.liuxiaozhen.com/tags/Neural-Networks/"/>
     
@@ -622,9 +659,9 @@ y = \begin{bmatrix}
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Logistic Regression" scheme="http://tech.liuxiaozhen.com/tags/Logistic-Regression/"/>
     
@@ -985,9 +1022,9 @@ y = \begin{bmatrix}
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
@@ -1074,9 +1111,9 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
-    
       <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+    
+      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
       <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
