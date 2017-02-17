@@ -4,6 +4,29 @@
 
     
   <url>
+    <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
+    <lastmod>2017-02-17T13:57:08.000Z</lastmod>
+    <data>
+        <display>
+        <title>”人工智能课程(0)：简介与课程大纲“</title>
+        <pubTime>2017-02-17T13:57:08.000Z</pubTime>
+        
+        <tag>Udacity</tag>
+         
+        <tag>Artificial Intelligence</tag>
+         
+        <tag>Nanodegree</tag>
+         
+        <tag>AIND</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</loc>
     <lastmod>2017-01-30T09:53:20.000Z</lastmod>
     <data>
@@ -34,9 +57,9 @@
         <title>Machine Learning By Stanford University Week 6</title>
         <pubTime>2016-06-25T14:24:12.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
          
         <tag>Learning Curves</tag>
          
@@ -78,13 +101,13 @@
         <title>机器学习工程师之路（1）</title>
         <pubTime>2016-07-06T02:48:30.000Z</pubTime>
         
-        <tag>Machine Learning</tag>
-         
         <tag>Udacity</tag>
          
-        <tag>Statistics</tag>
+        <tag>Machine Learning</tag>
          
         <tag>Nanodegree</tag>
+         
+        <tag>Statistics</tag>
          
         <tag>MLND</tag>
          
@@ -121,9 +144,9 @@
         <title>Machine Learning By Stanford University Week 5</title>
         <pubTime>2016-06-12T14:49:53.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
          
         <tag>Neural Networks</tag>
          
@@ -142,32 +165,9 @@
         <title>Python for Everybody by University of Michigan (1)</title>
         <pubTime>2015-12-06T03:51:47.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Python</tag>
          
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>数据分析师养成计划（1）</title>
-        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
-        
-        <tag>Udacity</tag>
-         
-        <tag>Statistics</tag>
-         
-        <tag>Nanodegree</tag>
-         
-        <tag>Data Analyst</tag>
+        <tag>Coursera</tag>
          
          
            
@@ -192,6 +192,29 @@
 
     
   <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>数据分析师养成计划（1）</title>
+        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
+        
+        <tag>Udacity</tag>
+         
+        <tag>Nanodegree</tag>
+         
+        <tag>Statistics</tag>
+         
+        <tag>Data Analyst</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -199,9 +222,9 @@
         <title>Machine Learning by Stanford University Week 2</title>
         <pubTime>2016-04-05T07:00:00.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
          
         <tag>Linear Regression</tag>
          
@@ -220,9 +243,9 @@
         <title>Machine Learning by Stanford University Week 1</title>
         <pubTime>2016-03-10T12:41:19.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
          
         <tag>Linear Regression</tag>
          
@@ -241,9 +264,9 @@
         <title>Machine Learning By Stanford University Week 3</title>
         <pubTime>2016-05-14T15:22:21.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
          
         <tag>Logistic Regression</tag>
          
