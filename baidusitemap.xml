@@ -5,10 +5,10 @@
     
   <url>
     <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
-    <lastmod>2017-02-17T13:57:08.000Z</lastmod>
+    <lastmod>2017-02-17T13:59:20.000Z</lastmod>
     <data>
         <display>
-        <title>”人工智能课程(0)：简介与课程大纲“</title>
+        <title>人工智能课程(0)：简介与课程大纲</title>
         <pubTime>2017-02-17T13:57:08.000Z</pubTime>
         
         <tag>Udacity</tag>
@@ -158,6 +158,29 @@
 
     
   <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>数据分析师养成计划（1）</title>
+        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
+        
+        <tag>Udacity</tag>
+         
+        <tag>Nanodegree</tag>
+         
+        <tag>Statistics</tag>
+         
+        <tag>Data Analyst</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -184,29 +207,6 @@
         <title>数据分析师养成计划（2）</title>
         <pubTime>2016-04-28T08:59:53.000Z</pubTime>
         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>数据分析师养成计划（1）</title>
-        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
-        
-        <tag>Udacity</tag>
-         
-        <tag>Nanodegree</tag>
-         
-        <tag>Statistics</tag>
-         
-        <tag>Data Analyst</tag>
-         
          
            
         </display>
