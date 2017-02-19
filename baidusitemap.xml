@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
-    <lastmod>2017-02-17T14:00:14.000Z</lastmod>
+    <lastmod>2017-02-19T15:03:56.000Z</lastmod>
     <data>
         <display>
         <title>人工智能课程(0)：简介与课程大纲</title>
@@ -158,6 +158,40 @@
 
     
   <url>
+    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Python for Everybody by University of Michigan (1)</title>
+        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Coursera</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>数据分析师养成计划（2）</title>
+        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -193,40 +227,6 @@
         <tag>Statistics</tag>
          
         <tag>Data Analyst</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>数据分析师养成计划（2）</title>
-        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Python for Everybody by University of Michigan (1)</title>
-        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
-        
-        <tag>Python</tag>
-         
-        <tag>Coursera</tag>
          
          
            
