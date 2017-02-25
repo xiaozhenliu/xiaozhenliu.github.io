@@ -1340,9 +1340,9 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
     <published>2015-04-03T09:17:05.000Z</published>
-    <updated>2016-08-21T11:55:35.000Z</updated>
+    <updated>2017-02-25T07:35:39.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="start/dune.jpeg" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="/dune.jpeg" alt=""></p>
 <p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
 <p>tinyfool在去年的一篇<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">《寻找和突破心障》</a>中说：</p>
 <blockquote>
@@ -1352,9 +1352,9 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;start/dune.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;/dune.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。&lt;/p&gt;
-&lt;
+&lt;p&gt;tin
     
     </summary>
     
