@@ -129,9 +129,9 @@
     
       <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
-    
       <category term="Artificial Intelligence" scheme="http://tech.liuxiaozhen.com/tags/Artificial-Intelligence/"/>
+    
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
     
       <category term="AIND" scheme="http://tech.liuxiaozhen.com/tags/AIND/"/>
     
@@ -142,7 +142,7 @@
     <link href="http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/"/>
     <id>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</id>
     <published>2017-01-30T09:51:53.000Z</published>
-    <updated>2017-02-25T08:01:29.000Z</updated>
+    <updated>2017-02-25T08:51:29.000Z</updated>
     
     <content type="html"><![CDATA[<p>很长时间没写有活人气息的博客了。今年想好好把这里拾掇拾掇。会慢慢更新一些以前做的笔记，同时也补充上新的内容。（Flag已立）</p>
 <p>不过今天的重点是更改Jupyter主题。</p>
@@ -152,7 +152,7 @@
 <p><code>$ python setup.py install</code></p>
 <p>Jupyter-themer可以更改代码颜色、背景风格、排版和字体。举例：</p>
 <p><code>$ jupyter-themer -b dark -c erlang-dark -l wide -t serif</code></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/jupyter-themer/jupyter-themer-view.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/singles/jupyter-themer-view.png" alt=""></p>
 <p>详细使用说明见：</p>
 <p><a href="https://pypi.python.org/pypi/jupyter-themer" target="_blank" rel="external">Python官网上的项目主页</a></p>
 <p><a href="https://github.com/transcranial/jupyter-themer" target="_blank" rel="external">GitHub上的项目主页</a></p>]]></content>
@@ -181,7 +181,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
     <id>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
     <published>2016-07-06T02:48:30.000Z</published>
-    <updated>2017-02-25T07:54:09.000Z</updated>
+    <updated>2017-02-25T08:55:49.000Z</updated>
     
     <content type="html"><![CDATA[<p>项目简介和机器学习入门。包括：人工智能需解决的主要问题，人工智能的几种类型，数据科学家所需技能，机器学习的主要方法及应用。</p>
 <a id="more"></a>
@@ -223,11 +223,11 @@
 <li>Learning</li>
 <li>Memory</li>
 </ul>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic01.png" alt="pic01"></p>
-<h3 id="The-Four-School-of-AI"><a href="#The-Four-School-of-AI" class="headerlink" title="The Four School of AI"></a>The Four School of AI</h3><p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic02.png" alt="pic02"></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic01.png" alt="pic01"></p>
+<h3 id="The-Four-School-of-AI"><a href="#The-Four-School-of-AI" class="headerlink" title="The Four School of AI"></a>The Four School of AI</h3><p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic02.png" alt="pic02"></p>
 <h3 id="Bayes-Rule"><a href="#Bayes-Rule" class="headerlink" title="Bayes Rule"></a>Bayes Rule</h3><script type="math/tex; mode=display">P(A|B) = \frac{P(B|A)*P(A)}{P(B)}</script><p>Posterior = likelihood times prior / probability of the evidence (marginal likelihood)</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic03.png" alt="pic03"></p>
-<h3 id="What-is-a-data-scientist"><a href="#What-is-a-data-scientist" class="headerlink" title="What is a data scientist?"></a>What is a data scientist?</h3><p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic04.png" alt="pic04"></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic03.png" alt="pic03"></p>
+<h3 id="What-is-a-data-scientist"><a href="#What-is-a-data-scientist" class="headerlink" title="What is a data scientist?"></a>What is a data scientist?</h3><p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic04.png" alt="pic04"></p>
 <h3 id="What-does-a-data-scientist-do"><a href="#What-does-a-data-scientist-do" class="headerlink" title="What does a data scientist do?"></a>What does a data scientist do?</h3><ul>
 <li><p>Collect raw data and Process data -&gt; dataset</p>
 </li>
@@ -265,7 +265,7 @@
 <li><p>Abduction: given a rule and an effect, abduce a cause</p>
 </li>
 </ul>
-<h3 id="Unsupervised-learning"><a href="#Unsupervised-learning" class="headerlink" title="Unsupervised learning"></a>Unsupervised learning</h3><p>Description<br><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic05.png" alt="pic05"></p>
+<h3 id="Unsupervised-learning"><a href="#Unsupervised-learning" class="headerlink" title="Unsupervised learning"></a>Unsupervised learning</h3><p>Description<br><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic05.png" alt="pic05"></p>
 <h3 id="Reinforcement-learning"><a href="#Reinforcement-learning" class="headerlink" title="Reinforcement learning"></a>Reinforcement learning</h3><p>delayed feedback</p>
 <h3 id="Applications"><a href="#Applications" class="headerlink" title="Applications"></a>Applications</h3><ul>
 <li>auto-driving cars</li>
@@ -290,11 +290,11 @@
 </ul>
 </li>
 </ul>
-<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic06.png" alt="pic06"></p>
+<h3 id="Supervised-Learning"><a href="#Supervised-Learning" class="headerlink" title="Supervised Learning"></a>Supervised Learning</h3><p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic06.png" alt="pic06"></p>
 <p>Occam’s razor: everything else equal, choose the less complex hypothesis.</p>
 <p>Bayes variance methods: mathematically calculate overfitting error.</p>
 <p>In practice, we will be only given training error.</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/MLND01/pic07.png" alt="pic07"></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/MLND-01/pic07.png" alt="pic07"></p>
 <p><strong>Spam detection</strong><br>Bag of words: represents count of words</p>
 <p>classification/regression</p>]]></content>
     
@@ -309,9 +309,9 @@
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
-    
       <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
       <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
     
@@ -322,7 +322,7 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
-    <updated>2017-02-25T07:59:46.000Z</updated>
+    <updated>2017-02-25T08:54:39.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="6-Machine-Learning-Application-Advice-and-System-Design"><a href="#6-Machine-Learning-Application-Advice-and-System-Design" class="headerlink" title="6. Machine Learning Application Advice and System Design"></a>6. Machine Learning Application Advice and System Design</h1><p>本周课程介绍了机器学习应用中的注意事项以及系统设计。</p>
 <a id="more"></a>
@@ -372,7 +372,7 @@
 <h2 id="6-2-Bias-vs-Variance"><a href="#6-2-Bias-vs-Variance" class="headerlink" title="6.2 Bias vs. Variance"></a>6.2 Bias vs. Variance</h2><h3 id="6-2-1-Diagnosing-Bias-vs-Variance"><a href="#6-2-1-Diagnosing-Bias-vs-Variance" class="headerlink" title="6.2.1 Diagnosing Bias vs. Variance"></a>6.2.1 Diagnosing Bias vs. Variance</h3><p>High bias - Underfit<br>High variance - Overfit</p>
 <p>Training error: </p>
 <script type="math/tex; mode=display">J_{train}(\theta)=\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2</script><p>Cross validation error: </p>
-<script type="math/tex; mode=display">J_{cv}(\theta)=\frac1{2m_{cv}}\sum_{i=1}^{m_{cv}}\left(h_\theta(x_{cv}^{(i)})-y_{cv}^{(i)}\right)^2</script><p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-01.png" alt=""></p>
+<script type="math/tex; mode=display">J_{cv}(\theta)=\frac1{2m_{cv}}\sum_{i=1}^{m_{cv}}\left(h_\theta(x_{cv}^{(i)})-y_{cv}^{(i)}\right)^2</script><p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-01.png" alt=""></p>
 <h3 id="6-2-2-Regularization-and-Bias-Variance"><a href="#6-2-2-Regularization-and-Bias-Variance" class="headerlink" title="6.2.2 Regularization and Bias/Variance"></a>6.2.2 Regularization and Bias/Variance</h3><p><strong>Linear regression with regularization</strong></p>
 <p>Large $\lambda$: high bias, underfit</p>
 <p>Small $\lambda$: high variance, overfit</p>
@@ -387,17 +387,17 @@
 <li><p>Plot $J<em>{train}(\theta)$ and $J</em>{cv}(\theta)$ v.s. $\lambda$</p>
 </li>
 </ul>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-02.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-02.png" alt=""></p>
 <h3 id="6-2-3-Learning-Curves"><a href="#6-2-3-Learning-Curves" class="headerlink" title="6.2.3 Learning Curves"></a>6.2.3 Learning Curves</h3><p>增加样本数是否能减少误差？</p>
 <p>Learning curves: plot error v.s. m (training set size)</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-03.png" alt=""></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-04.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-03.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-04.png" alt=""></p>
 <p>High bias:</p>
 <p>If a learning algorithm is suffering from high bias, getting more training data will not (by itself) help much.</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-05.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-05.png" alt=""></p>
 <p>High variance:</p>
 <p>If a learning algorithm is suffering from high variance, getting more traning data is likely to help.</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-06.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-06.png" alt=""></p>
 <h3 id="6-2-4-Deciding-What-to-Do-Next-Revisited"><a href="#6-2-4-Deciding-What-to-Do-Next-Revisited" class="headerlink" title="6.2.4 Deciding What to Do Next Revisited"></a>6.2.4 Deciding What to Do Next Revisited</h3><p><strong>Debugging a learning algorithm</strong></p>
 <p>Suppose you have implemented regularized linear regression to predict housing prices. </p>
 <p>However, when you test your hypothesis on a new set of hourses, you find that it makes unacceptably large errors in its predictions. What should you try next?</p>
@@ -410,7 +410,7 @@
 <li>Try increasing $\lambda$ -&gt; <em>fixes high variance</em></li>
 </ul>
 <p><strong>Neural networks and overfitting</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w6-06.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w6-06.png" alt=""></p>
 <p>Using a single hidden layer is a reasonable default. But if you want to choose the number of hidden layers, one other thing you can try is find yourself a training cross-validation, and test set split and try training neural networks with one hidden layer or two hidden layers or three hidden layers and see which of those neural networks performs best on the cross-validation sets. </p>
 <h2 id="6-3-Building-a-Spam-Classifier"><a href="#6-3-Building-a-Spam-Classifier" class="headerlink" title="6.3 Building a Spam Classifier"></a>6.3 Building a Spam Classifier</h2><h3 id="6-3-1-Prioritizing-What-to-Work-on"><a href="#6-3-1-Prioritizing-What-to-Work-on" class="headerlink" title="6.3.1 Prioritizing What to Work on"></a>6.3.1 Prioritizing What to Work on</h3><h3 id="6-3-2-Error-Analysis"><a href="#6-3-2-Error-Analysis" class="headerlink" title="6.3.2 Error Analysis"></a>6.3.2 Error Analysis</h3><h2 id="6-4-Handling-Skewed-Data"><a href="#6-4-Handling-Skewed-Data" class="headerlink" title="6.4 Handling Skewed Data"></a>6.4 Handling Skewed Data</h2><p>Cancer classification example<br>1% error on test set (99% correct)</p>
 <h3 id="Error-Metrics-for-Skewed-Classes"><a href="#Error-Metrics-for-Skewed-Classes" class="headerlink" title="Error Metrics for Skewed Classes"></a>Error Metrics for Skewed Classes</h3><h3 id="Trading-Off-Precision-and-Recall"><a href="#Trading-Off-Precision-and-Recall" class="headerlink" title="Trading Off Precision and Recall"></a>Trading Off Precision and Recall</h3><p>Logistic regression:<br>Predict 1 if<br>Predict 0 if<br>Suppose we want to predict y = 1 only if very confident</p>
@@ -458,13 +458,13 @@
     <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
     <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
-    <updated>2017-02-25T07:59:17.000Z</updated>
+    <updated>2017-02-25T08:54:20.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>本课回顾了神经网络的模型描述，并介绍了BP神经网络的训练过程、代价函数表达式、梯度下降算法、以及随机初始化。</p>
 <a id="more"></a>
 <p><strong>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
 <h2 id="5-1-Neural-Networks-Classification"><a href="#5-1-Neural-Networks-Classification" class="headerlink" title="5.1 Neural Networks (Classification)"></a>5.1 Neural Networks (Classification)</h2><p>Training set ${(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),…,(x^{(m)},y^{(m)})}$</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-01.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
@@ -475,7 +475,7 @@
 J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2</script><h3 id="5-1-2-Backpropagation-Algorithm"><a href="#5-1-2-Backpropagation-Algorithm" class="headerlink" title="5.1.2 Backpropagation Algorithm"></a>5.1.2 Backpropagation Algorithm</h3><p>为了最小化误差，需要找到使代价函数 $j(\theta)$ 最小的 $\theta$. 因此，需要在代码中计算 $j(\theta)$ 及其微分式。</p>
 <p><strong>a) Gradient Computation</strong></p>
 <p>考虑最简单情况，仅有一个训练样本：<br>Given one training example ($x,y$):</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-02.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-02.png" alt=""></p>
 <p><strong>b) Forward propagation计算步骤</strong></p>
 <ul>
 <li>$a^{(1)} = x$</li>
@@ -525,13 +525,13 @@ J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))
 <li>代价函数的微分式<br>$D<em>{ij}^{(l)}:=\frac1m\Delta</em>{ij}^{(l)}+\lambda\Delta<em>{ij}^{(l)}$ if $j\neq0$<br>$D</em>{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
 </ul>
 <h3 id="5-1-3-Backpropagation-Intuition"><a href="#5-1-3-Backpropagation-Intuition" class="headerlink" title="5.1.3 Backpropagation Intuition"></a>5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-03.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-03.png" alt=""></p>
 <p><strong>b) What is backpropagation doing</strong></p>
 <p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),</p>
 <script type="math/tex; mode=display">
 cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script><p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
 <p>i.e. how well is the network doing on example i?</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-04.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-04.png" alt=""></p>
 <h2 id="5-2-Backpropagation-Implementation-Notes"><a href="#5-2-Backpropagation-Implementation-Notes" class="headerlink" title="5.2 Backpropagation Implementation Notes"></a>5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1-Unrolling-Parameters"><a href="#5-2-1-Unrolling-Parameters" class="headerlink" title="5.2.1 Unrolling Parameters"></a>5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
 <p><code>function [jVal, gradient] = costFunction(theta)</code><br>…<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
 <p>Neutal Network(L=4):<br>$\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$ - matrices(<code>Theta1, Theta2, Theta3</code>)<br>$D^{(1)},D^{(2)},D^{(3)}$ - matrices (<code>D1, D2, D3</code>)</p>
@@ -558,10 +558,10 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 </ul>
 <h3 id="5-2-2-Gradient-Checking"><a href="#5-2-2-Gradient-Checking" class="headerlink" title="5.2.2 Gradient Checking"></a>5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
 <p><strong>a) Numerial estimation of gradients</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-05.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-05.png" alt=""></p>
 <p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
 <p><strong>b) Parameter vector $\theta$</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w5-06.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w5-06.png" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for i = 1:n,</div><div class="line">	thetaPlus = theta;</div><div class="line">	thetaPlus(i) = thetaPlus(i) + EPSILON;</div><div class="line">	thetaMinus = theta;</div><div class="line">	thetaMinus(i) = thetaMinus(i) - EPSILON;</div><div class="line">	gradApprox(i) = (J(thetaPlus) - J(thetaMinus))/(2*EPSILON);</div><div class="line">end;</div></pre></td></tr></table></figure>
 <p>Check that <code>gradApprox</code> $\approx$ <code>DVec</code> </p>
 <p><strong>c) Implementation Note:</strong></p>
@@ -623,7 +623,7 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
     <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
     <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
-    <updated>2017-02-25T07:59:03.000Z</updated>
+    <updated>2017-02-25T08:54:17.000Z</updated>
     
     <content type="html"><![CDATA[<h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。</p>
 <a id="more"></a>
@@ -687,12 +687,12 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 <li>Medical diagrams: not ill, cold, flu</li>
 <li>Weather: sunny, cloudy, rain, snow</li>
 </ul>
-<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-01.png" alt=""></p>
+<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-01.png" alt=""></p>
 <p>将需要分为N类的数据拆分成 N个0/1（是／否）问题。</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
 <h2 id="3-2-Regularization-正则化"><a href="#3-2-Regularization-正则化" class="headerlink" title="3.2 Regularization 正则化"></a>3.2 Regularization 正则化</h2><h3 id="3-2-1-Overfitting-Problems-过拟合问题"><a href="#3-2-1-Overfitting-Problems-过拟合问题" class="headerlink" title="3.2.1 Overfitting Problems 过拟合问题"></a>3.2.1 Overfitting Problems 过拟合问题</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-02.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-02.png" alt=""></p>
 <p>对于房屋价格的三种拟合曲线与实际数据的符合情况：</p>
 <ul>
 <li>一元线性表达式：underfit, high bias</li>
@@ -700,7 +700,7 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 <li>一元四次表达式：overfit, high variance</li>
 </ul>
 <p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
-<p><strong>b) Example: Logistic Regression</strong><br><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-03.png" alt=""></p>
+<p><strong>b) Example: Logistic Regression</strong><br><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-03.png" alt=""></p>
 <p><strong>Addressing overfitting:</strong></p>
 <ul>
 <li>Reduce number of features:<ul>
@@ -715,7 +715,7 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 </li>
 </ul>
 <h3 id="3-2-2-Cost-Function"><a href="#3-2-2-Cost-Function" class="headerlink" title="3.2.2 Cost Function"></a>3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-04.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-04.png" alt=""></p>
 <p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
 <script type="math/tex; mode=display">\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2</script><p>$\theta_3,\theta_4$ will be very small.</p>
 <p><strong>b) Regularization</strong></p>
@@ -900,9 +900,9 @@ y = \begin{bmatrix}
     
       <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
-    
       <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
       <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
     
@@ -1159,7 +1159,7 @@ y = \begin{bmatrix}
     <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
     <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
-    <updated>2017-02-25T07:58:29.000Z</updated>
+    <updated>2017-02-25T08:52:39.000Z</updated>
     
     <content type="html"><![CDATA[<p>Andrew Ng在Coursera上开设的机器学习课程第一周的内容，介绍了机器学习基本定义，监督学习及无监督学习，以及单变量线性回归。</p>
 <a id="more"></a>
@@ -1190,7 +1190,7 @@ y = \begin{bmatrix}
 <h2 id="Linear-Regression-with-One-Variable"><a href="#Linear-Regression-with-One-Variable" class="headerlink" title="Linear Regression with One Variable"></a>Linear Regression with One Variable</h2><h3 id="Model-Representation"><a href="#Model-Representation" class="headerlink" title="Model Representation"></a>Model Representation</h3><p>Training set of housing prices (Portland, OR)<br>Notation:<br>$m$ = Number of training examples<br>$x$’s = “input” variable / features<br>$y$’s = “output” variable / “target” variable</p>
 <p>$(x,y)$ - one training example</p>
 <p>$(x^{(i)},y^{(i)})$ - $i^{th}$ training example</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w1-01.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w1-01.png" alt=""></p>
 <p>How do we represent $h$?</p>
 <script type="math/tex; mode=display">h_{\theta}(x) = \theta_0+\theta_1x</script><h3 id="Cost-Function"><a href="#Cost-Function" class="headerlink" title="Cost Function"></a>Cost Function</h3><p><strong>Idea</strong>: </p>
 <p>Choose ${\theta<em>0}$, ${\theta_1}$ so that $h</em>{\theta}(x)$ is close to $y$ for our training examples $(x,y)$</p>
@@ -1198,7 +1198,7 @@ y = \begin{bmatrix}
 <p>Parameters: $\theta_0, \theta_1$</p>
 <p>Cost Function:</p>
 <script type="math/tex; mode=display">J (\theta_0,\theta_1) = \frac 1{2m}{\sum_{i=1}^m\left(h_{\theta}(x^{(i)})-y^{(i)}\right)^2}</script><p>Goal:<br> $\text{minimize}\quad J(\theta_0,\theta_1)$</p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w1-02.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w1-02.png" alt=""></p>
 <h3 id="Gradient-Descent"><a href="#Gradient-Descent" class="headerlink" title="Gradient Descent"></a>Gradient Descent</h3><p>Have some function $J(\theta_0,\theta_1)$</p>
 <p>want $\min \ J(\theta_0,\theta_1)$</p>
 <p>Outline:</p>
@@ -1340,9 +1340,9 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
     <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
     <published>2015-04-03T09:17:05.000Z</published>
-    <updated>2017-02-25T07:51:19.000Z</updated>
+    <updated>2017-02-25T08:46:49.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/start/dune.jpeg" alt=""></p>
+    <content type="html"><![CDATA[<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/singles/dune.jpeg" alt=""></p>
 <p>从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod Touch至今，关于App的想法无数，却始终没有成为一个真正的创造者。</p>
 <p>tinyfool在去年的一篇<a href="http://www.jianshu.com/p/c27906bb8061" target="_blank" rel="external">《寻找和突破心障》</a>中说：</p>
 <blockquote>
@@ -1352,8 +1352,8 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;http://olx5kwdzt.bkt.clouddn.com/image/start/dune.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从2009年入手iPod To
+      &lt;p&gt;&lt;img src=&quot;http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/singles/dune.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;从小学就开始编程，但是仅限于好玩；在学习科研中偶尔涉及编程，也不过是简短的几十行。从
     
     </summary>
     

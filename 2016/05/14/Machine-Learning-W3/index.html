@@ -92,15 +92,15 @@
 <meta property="og:url" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/index.html">
 <meta property="og:site_name" content="刘虓震的技术笔记">
 <meta property="og:description" content="3. Logistic Regression and Regularization本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。">
-<meta property="og:image" content="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-01.png">
-<meta property="og:image" content="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-02.png">
-<meta property="og:image" content="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-03.png">
-<meta property="og:image" content="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-04.png">
-<meta property="og:updated_time" content="2017-02-25T07:59:03.000Z">
+<meta property="og:image" content="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-01.png">
+<meta property="og:image" content="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-02.png">
+<meta property="og:image" content="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-03.png">
+<meta property="og:image" content="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-04.png">
+<meta property="og:updated_time" content="2017-02-25T08:54:17.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning By Stanford University Week 3">
 <meta name="twitter:description" content="3. Logistic Regression and Regularization本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。">
-<meta name="twitter:image" content="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-01.png">
+<meta name="twitter:image" content="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-01.png">
 
 
 
@@ -382,12 +382,12 @@
 <li>Medical diagrams: not ill, cold, flu</li>
 <li>Weather: sunny, cloudy, rain, snow</li>
 </ul>
-<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-01.png" alt=""></p>
+<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-01.png" alt=""></p>
 <p>将需要分为N类的数据拆分成 N个0/1（是／否）问题。</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
 <h2 id="3-2-Regularization-正则化"><a href="#3-2-Regularization-正则化" class="headerlink" title="3.2 Regularization 正则化"></a>3.2 Regularization 正则化</h2><h3 id="3-2-1-Overfitting-Problems-过拟合问题"><a href="#3-2-1-Overfitting-Problems-过拟合问题" class="headerlink" title="3.2.1 Overfitting Problems 过拟合问题"></a>3.2.1 Overfitting Problems 过拟合问题</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-02.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-02.png" alt=""></p>
 <p>对于房屋价格的三种拟合曲线与实际数据的符合情况：</p>
 <ul>
 <li>一元线性表达式：underfit, high bias</li>
@@ -395,7 +395,7 @@
 <li>一元四次表达式：overfit, high variance</li>
 </ul>
 <p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
-<p><strong>b) Example: Logistic Regression</strong><br><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-03.png" alt=""></p>
+<p><strong>b) Example: Logistic Regression</strong><br><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-03.png" alt=""></p>
 <p><strong>Addressing overfitting:</strong></p>
 <ul>
 <li>Reduce number of features:<ul>
@@ -410,7 +410,7 @@
 </li>
 </ul>
 <h3 id="3-2-2-Cost-Function"><a href="#3-2-2-Cost-Function" class="headerlink" title="3.2.2 Cost Function"></a>3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
-<p><img src="http://olx5kwdzt.bkt.clouddn.com/image/Coursera-ml/Coursera-ml-w3-04.png" alt=""></p>
+<p><img src="http://tech-lxz.oss-cn-shanghai.aliyuncs.com/image/coursera-ml/Coursera-ml-w3-04.png" alt=""></p>
 <p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
 <script type="math/tex; mode=display">\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2</script><p>$\theta_3,\theta_4$ will be very small.</p>
 <p><strong>b) Regularization</strong></p>
