@@ -4,13 +4,19 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
-    <lastmod>2017-02-24T05:00:28.000Z</lastmod>
+    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
+    <lastmod>2017-02-25T07:25:01.000Z</lastmod>
     <data>
         <display>
-        <title>斯坦福计算机系本科生人工智能方向课程资源</title>
-        <pubTime>2017-02-24T02:25:17.000Z</pubTime>
+        <title>Machine Learning By Stanford University Week 5</title>
+        <pubTime>2016-06-12T14:49:53.000Z</pubTime>
         
+        <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>Neural Networks</tag>
+         
          
            
         </display>
@@ -20,7 +26,7 @@
     
   <url>
     <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
-    <lastmod>2017-02-22T04:20:30.000Z</lastmod>
+    <lastmod>2017-02-25T06:29:51.000Z</lastmod>
     <data>
         <display>
         <title>人工智能课程(0)：简介与课程大纲</title>
@@ -34,6 +40,21 @@
          
         <tag>AIND</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
+    <lastmod>2017-02-24T05:06:46.000Z</lastmod>
+    <data>
+        <display>
+        <title>斯坦福计算机系本科生人工智能方向课程资源</title>
+        <pubTime>2017-02-24T02:25:17.000Z</pubTime>
+        
          
            
         </display>
@@ -152,27 +173,6 @@
     
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning By Stanford University Week 5</title>
-        <pubTime>2016-06-12T14:49:53.000Z</pubTime>
-        
-        <tag>Machine Learning</tag>
-         
-        <tag>Coursera</tag>
-         
-        <tag>Neural Networks</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
@@ -183,6 +183,71 @@
         <tag>Python</tag>
          
         <tag>Coursera</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Machine Learning by Stanford University Week 2</title>
+        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
+        
+        <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>Linear Regression</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Machine Learning By Stanford University Week 3</title>
+        <pubTime>2016-05-14T15:22:21.000Z</pubTime>
+        
+        <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>Logistic Regression</tag>
+         
+        <tag>Regularization</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>Machine Learning by Stanford University Week 1</title>
+        <pubTime>2016-03-10T12:41:19.000Z</pubTime>
+        
+        <tag>Machine Learning</tag>
+         
+        <tag>Coursera</tag>
+         
+        <tag>Linear Regression</tag>
          
          
            
@@ -222,71 +287,6 @@
         <title>数据分析师养成计划（2）</title>
         <pubTime>2016-04-28T08:59:53.000Z</pubTime>
         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning by Stanford University Week 2</title>
-        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
-        
-        <tag>Machine Learning</tag>
-         
-        <tag>Coursera</tag>
-         
-        <tag>Linear Regression</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning by Stanford University Week 1</title>
-        <pubTime>2016-03-10T12:41:19.000Z</pubTime>
-        
-        <tag>Machine Learning</tag>
-         
-        <tag>Coursera</tag>
-         
-        <tag>Linear Regression</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning By Stanford University Week 3</title>
-        <pubTime>2016-05-14T15:22:21.000Z</pubTime>
-        
-        <tag>Machine Learning</tag>
-         
-        <tag>Coursera</tag>
-         
-        <tag>Logistic Regression</tag>
-         
-        <tag>Regularization</tag>
-         
          
            
         </display>

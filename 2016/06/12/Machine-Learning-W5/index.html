@@ -86,23 +86,23 @@
 
 
 
-<meta name="description" content="5. Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#">
+<meta name="description" content="5. Neural Networks: Learning本课回顾了神经网络的模型描述，并介绍了BP神经网络的训练过程、代价函数表达式、梯度下降算法、以及随机初始化。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Machine Learning By Stanford University Week 5">
 <meta property="og:url" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/index.html">
 <meta property="og:site_name" content="刘虓震的技术笔记">
-<meta property="og:description" content="5. Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-06.png">
-<meta property="og:updated_time" content="2016-08-21T10:39:23.000Z">
+<meta property="og:description" content="5. Neural Networks: Learning本课回顾了神经网络的模型描述，并介绍了BP神经网络的训练过程、代价函数表达式、梯度下降算法、以及随机初始化。">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-01.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-02.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-03.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-04.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-05.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-06.png">
+<meta property="og:updated_time" content="2017-02-25T07:25:01.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning By Stanford University Week 5">
-<meta name="twitter:description" content="5. Neural Networks: Learning&amp;#x672C;&amp;#x8BFE;&amp;#x56DE;&amp;#x987E;&amp;#x4E86;&amp;#x795E;&amp;#x7ECF;&amp;#x7F51;&amp;#x7EDC;&amp;#x7684;&amp;#x6A21;&amp;#x578B;&amp;#x63CF;&amp;#x8FF0;&amp;#xFF0C;&amp;#x5E76;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;BP&amp;#x795E;&amp;#x7ECF;&amp;#">
-<meta name="twitter:image" content="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png">
+<meta name="twitter:description" content="5. Neural Networks: Learning本课回顾了神经网络的模型描述，并介绍了BP神经网络的训练过程、代价函数表达式、梯度下降算法、以及随机初始化。">
+<meta name="twitter:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W5/Coursera-ml-w5-01.png">
 
 
 
@@ -322,23 +322,23 @@
       
 
       
-        <h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>&#x672C;&#x8BFE;&#x56DE;&#x987E;&#x4E86;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x6A21;&#x578B;&#x63CF;&#x8FF0;&#xFF0C;&#x5E76;&#x4ECB;&#x7ECD;&#x4E86;BP&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x8BAD;&#x7EC3;&#x8FC7;&#x7A0B;&#x3001;&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x8868;&#x8FBE;&#x5F0F;&#x3001;&#x68AF;&#x5EA6;&#x4E0B;&#x964D;&#x7B97;&#x6CD5;&#x3001;&#x4EE5;&#x53CA;&#x968F;&#x673A;&#x521D;&#x59CB;&#x5316;&#x3002;</p>
+        <h1 id="5-Neural-Networks-Learning"><a href="#5-Neural-Networks-Learning" class="headerlink" title="5. Neural Networks: Learning"></a>5. Neural Networks: Learning</h1><p>本课回顾了神经网络的模型描述，并介绍了BP神经网络的训练过程、代价函数表达式、梯度下降算法、以及随机初始化。</p>
 <a id="more"></a>
-<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
-<h2 id="5-1-Neural-Networks-Classification"><a href="#5-1-Neural-Networks-Classification" class="headerlink" title="5.1 Neural Networks (Classification)"></a>5.1 Neural Networks (Classification)</h2><p>Training set ${(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),&#x2026;,(x^{(m)},y^{(m)})}$</p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
+<p><strong>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 May session.</strong></p>
+<h2 id="5-1-Neural-Networks-Classification"><a href="#5-1-Neural-Networks-Classification" class="headerlink" title="5.1 Neural Networks (Classification)"></a>5.1 Neural Networks (Classification)</h2><p>Training set ${(x^{(1)},y^{(1)}),(x^{(2)},y^{(2)}),…,(x^{(m)},y^{(m)})}$</p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-01.png" alt=""></p>
 <p>L = total no. of layers in network. (Here L = 4)</p>
 <p>$s_l$ = no. of units (not counting bias unit) in layer $l$</p>
 <p>(Here $s_1 = 3$, $s_2 = 5$,$s_4 = s_l =4$)</p>
 <p>For binary classification, there is only 1 output unit; therefore $s_l = 1$. For multi-class classification (K classes), $s_l = K$. ($K\geq3$) </p>
-<h3 id="5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;"><a href="#5-1-1-Cost-functions-&#x4EE3;&#x4EF7;&#x51FD;&#x6570;" class="headerlink" title="5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;"></a>5.1.1 Cost functions &#x4EE3;&#x4EF7;&#x51FD;&#x6570;</h3><p><strong>a) Logistic regression</strong></p>
+<h3 id="5-1-1-Cost-functions-代价函数"><a href="#5-1-1-Cost-functions-代价函数" class="headerlink" title="5.1.1 Cost functions 代价函数"></a>5.1.1 Cost functions 代价函数</h3><p><strong>a) Logistic regression</strong></p>
 <script type="math/tex; mode=display">J(\theta)=-\frac1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta(x^{(i)})+(1-y^{(i)})\log\left(1-h_\theta(x^{(i)})\right)\right] + \frac\lambda{2m}\sum_{j=1}^n\theta_j^2</script><p><strong>b) Neural network</strong></p>
 <script type="math/tex; mode=display">h_\Theta(x)\in \mathbb{R}^K\qquad(h_\Theta(x))_i = i^{th}  \space\mathrm{output}</script><script type="math/tex; mode=display">
-J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2</script><h3 id="5-1-2-Backpropagation-Algorithm"><a href="#5-1-2-Backpropagation-Algorithm" class="headerlink" title="5.1.2 Backpropagation Algorithm"></a>5.1.2 Backpropagation Algorithm</h3><p>&#x4E3A;&#x4E86;&#x6700;&#x5C0F;&#x5316;&#x8BEF;&#x5DEE;&#xFF0C;&#x9700;&#x8981;&#x627E;&#x5230;&#x4F7F;&#x4EE3;&#x4EF7;&#x51FD;&#x6570; $j(\theta)$ &#x6700;&#x5C0F;&#x7684; $\theta$. &#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x8BA1;&#x7B97; $j(\theta)$ &#x53CA;&#x5176;&#x5FAE;&#x5206;&#x5F0F;&#x3002;</p>
+J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))_k+(1-y_k^{(i)})\log(1-(h_\Theta(x^{(i)}))_k)\right]+\frac\lambda{2m}\sum_{l=1}^{L-1}\sum_{i=1}^{s_l}\sum_{j=1}^{s_l+1}(\Theta_{ji}^{(l)})^2</script><h3 id="5-1-2-Backpropagation-Algorithm"><a href="#5-1-2-Backpropagation-Algorithm" class="headerlink" title="5.1.2 Backpropagation Algorithm"></a>5.1.2 Backpropagation Algorithm</h3><p>为了最小化误差，需要找到使代价函数 $j(\theta)$ 最小的 $\theta$. 因此，需要在代码中计算 $j(\theta)$ 及其微分式。</p>
 <p><strong>a) Gradient Computation</strong></p>
-<p>&#x8003;&#x8651;&#x6700;&#x7B80;&#x5355;&#x60C5;&#x51B5;&#xFF0C;&#x4EC5;&#x6709;&#x4E00;&#x4E2A;&#x8BAD;&#x7EC3;&#x6837;&#x672C;&#xFF1A;<br>Given one training example ($x,y$):</p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-02.png" alt=""></p>
-<p><strong>b) Forward propagation&#x8BA1;&#x7B97;&#x6B65;&#x9AA4;</strong></p>
+<p>考虑最简单情况，仅有一个训练样本：<br>Given one training example ($x,y$):</p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-02.png" alt=""></p>
+<p><strong>b) Forward propagation计算步骤</strong></p>
 <ul>
 <li>$a^{(1)} = x$</li>
 <li>$z^{(2)} = \Theta^{(1)}a^{(1)}$</li>
@@ -349,8 +349,8 @@ J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))
 <li>$a^{(4)}=h_\Theta(x)=g(z^{(4)})$</li>
 </ul>
 <p><strong>c) Backpropagation algorithm</strong></p>
-<p>Intuition: $\delta_j^{(l)} = $ &#x201C;error&#x201D; of node $j$ in layer $l$.</p>
-<p>&#x8BBE; $\delta_j^{(l)}$ &#x4E3A;&#x7B2C; $l$ &#x5C42;&#x7B2C; $j$ &#x4E2A;&#x795E;&#x7ECF;&#x5143;&#x7684;&#x8BEF;&#x5DEE;&#x503C;&#x3002;</p>
+<p>Intuition: $\delta_j^{(l)} = $ “error” of node $j$ in layer $l$.</p>
+<p>设 $\delta_j^{(l)}$ 为第 $l$ 层第 $j$ 个神经元的误差值。</p>
 <p>For each output unit (layer L = 4)</p>
 <ul>
 <li>$\delta<em>j^{(4)}=a_j^{(4)}-y_j=(h</em>\Theta(x))_j-y_j$</li>
@@ -359,9 +359,9 @@ J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))
 <ul>
 <li><p>$\delta^{(4)}=a^{(4)}-y$</p>
 </li>
-<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}.<em>g&#x2019;(z^{(3)}),\quad g&#x2019;(z^{(3)})=a^{(3)}.</em>(1-a^{(3)})$</p>
+<li><p>$\delta^{(3)}=(\Theta^{(3)})^T\delta^{(4)}.<em>g’(z^{(3)}),\quad g’(z^{(3)})=a^{(3)}.</em>(1-a^{(3)})$</p>
 </li>
-<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}.<em>g&#x2019;(z^{(2)}),\quad g&#x2019;(z^{(2)})=a^{(2)}.</em>(1-a^{(2)})$</p>
+<li><p>$\delta^{(2)}=(\Theta^{(2)})^T\delta^{(3)}.<em>g’(z^{(2)}),\quad g’(z^{(2)})=a^{(2)}.</em>(1-a^{(2)})$</p>
 </li>
 <li><p>(There is No $\delta^{(1)}$!)</p>
 </li>
@@ -372,10 +372,10 @@ J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))
 </li>
 <li><p>For $i = 1$ to $m$</p>
 <ul>
-<li>&#x8BBE;&#x7F6E;&#x521D;&#x59CB;&#x6FC0;&#x6D3B;&#x503C; Set $a^{(1)}=x^{(i)}$</li>
-<li>&#x6B63;&#x5411;&#x8BA1;&#x7B97;&#x5404;&#x5C42;&#x6FC0;&#x6D3B;&#x503C; Perform forward propagation to compute $a^{(l)}$ for $l=2,3,&#x2026;,L$</li>
-<li>&#x7528;&#x8F93;&#x51FA;&#x7ED3;&#x679C;&#xFF0C;&#x8BA1;&#x7B97;&#x6700;&#x7EC8;&#x5C42;&#x8BEF;&#x5DEE; Using $y^{(i)}$, compute $\delta^{(L)}=a^{(L)}-y^{(i)}$</li>
-<li>&#x53CD;&#x5411;&#x8BA1;&#x7B97;&#x5176;&#x4ED6;&#x5C42;&#x7684;&#x8BEF;&#x5DEE; Compute $\delta^{(L-1)}, \delta^{(L-2)},\delta^{(2)}$</li>
+<li>设置初始激活值 Set $a^{(1)}=x^{(i)}$</li>
+<li>正向计算各层激活值 Perform forward propagation to compute $a^{(l)}$ for $l=2,3,…,L$</li>
+<li>用输出结果，计算最终层误差 Using $y^{(i)}$, compute $\delta^{(L)}=a^{(L)}-y^{(i)}$</li>
+<li>反向计算其他层的误差 Compute $\delta^{(L-1)}, \delta^{(L-2)},\delta^{(2)}$</li>
 <li><p>$\Delta<em>{ij}^{(l)}:=\Delta</em>{ij}^{(l)}+a_j^{(l)}\delta_i^{(l+1)}$   </p>
 <p> Here, vector form: </p>
 <p> $\Delta^{(l)}:=\Delta^{(l)}+\delta^{(l+1)}(a^{(l)})^T$  </p>
@@ -384,20 +384,20 @@ J(\Theta)=-\frac1m\left[\sum_{i=1}^m\sum_{k=1}^Ky_k^{(i)}\log(h_\Theta(x^{(i)}))
 </li>
 </ul>
 <script type="math/tex; mode=display">\frac\partial{\partial\Theta_{ij}^{(l)}}J(\Theta)=D_{ij}^{(l)}</script><ul>
-<li>&#x4EE3;&#x4EF7;&#x51FD;&#x6570;&#x7684;&#x5FAE;&#x5206;&#x5F0F;<br>$D<em>{ij}^{(l)}:=\frac1m\Delta</em>{ij}^{(l)}+\lambda\Delta<em>{ij}^{(l)}$ if $j\neq0$<br>$D</em>{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
+<li>代价函数的微分式<br>$D<em>{ij}^{(l)}:=\frac1m\Delta</em>{ij}^{(l)}+\lambda\Delta<em>{ij}^{(l)}$ if $j\neq0$<br>$D</em>{ij}^{(l)}:= \frac1m\Delta_{ij}^{(l)}\qquad$ if $j=0$</li>
 </ul>
 <h3 id="5-1-3-Backpropagation-Intuition"><a href="#5-1-3-Backpropagation-Intuition" class="headerlink" title="5.1.3 Backpropagation Intuition"></a>5.1.3 Backpropagation Intuition</h3><p><strong>a) Forward Propagation</strong></p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-03.png" alt=""></p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-03.png" alt=""></p>
 <p><strong>b) What is backpropagation doing</strong></p>
 <p>Focosing on a single example $x^{(i)}, y^{(i)}$, the case of 1 output unit, and ignoring regularization ($\lambda=0$),</p>
 <script type="math/tex; mode=display">
 cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script><p>(Think of $cost(i)\approx(h_\Theta(x^{(i)})-y^{(i)})^2$)</p>
 <p>i.e. how well is the network doing on example i?</p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-04.png" alt=""></p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-04.png" alt=""></p>
 <h2 id="5-2-Backpropagation-Implementation-Notes"><a href="#5-2-Backpropagation-Implementation-Notes" class="headerlink" title="5.2 Backpropagation Implementation Notes"></a>5.2 Backpropagation Implementation Notes</h2><h3 id="5-2-1-Unrolling-Parameters"><a href="#5-2-1-Unrolling-Parameters" class="headerlink" title="5.2.1 Unrolling Parameters"></a>5.2.1 Unrolling Parameters</h3><p><strong>a) Advanced Optimization</strong></p>
-<p><code>function [jVal, gradient] = costFunction(theta)</code><br>&#x2026;<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
+<p><code>function [jVal, gradient] = costFunction(theta)</code><br>…<br><code>optTheta = fminunc(@costFunction, initialTheta, options)</code></p>
 <p>Neutal Network(L=4):<br>$\Theta^{(1)},\Theta^{(2)},\Theta^{(3)}$ - matrices(<code>Theta1, Theta2, Theta3</code>)<br>$D^{(1)},D^{(2)},D^{(3)}$ - matrices (<code>D1, D2, D3</code>)</p>
-<p>&#x201C;Unroll&#x201D; into vectors</p>
+<p>“Unroll” into vectors</p>
 <p><strong>b) Example</strong></p>
 <p>$s_1 = 10,s_2 = 10, s_3=1$</p>
 <p>$\Theta^{(1)}\in \mathbb{R}^{10\times11}, \Theta^{(2)}\in \mathbb{R}^{10\times11},\Theta^{(3)}\in \mathbb{R}^{1\times11}$</p>
@@ -420,10 +420,10 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
 </ul>
 <h3 id="5-2-2-Gradient-Checking"><a href="#5-2-2-Gradient-Checking" class="headerlink" title="5.2.2 Gradient Checking"></a>5.2.2 Gradient Checking</h3><p>In order to verify that the neural network algorithm is working properly, one needs to do gradient checking. </p>
 <p><strong>a) Numerial estimation of gradients</strong></p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-05.png" alt=""></p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-05.png" alt=""></p>
 <p>Implement:<br><code>gradApprox = (J(theta + EPASILON) - J(theta - EPSILON))/(2*EPSILON)</code></p>
 <p><strong>b) Parameter vector $\theta$</strong></p>
-<p><img src="/2016/06/12/Machine-Learning-W5/Coursera-ml-w5-06.png" alt=""></p>
+<p><img src="Machine-Learning-W5/Coursera-ml-w5-06.png" alt=""></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for i = 1:n,</div><div class="line">	thetaPlus = theta;</div><div class="line">	thetaPlus(i) = thetaPlus(i) + EPSILON;</div><div class="line">	thetaMinus = theta;</div><div class="line">	thetaMinus(i) = thetaMinus(i) - EPSILON;</div><div class="line">	gradApprox(i) = (J(thetaPlus) - J(thetaMinus))/(2*EPSILON);</div><div class="line">end;</div></pre></td></tr></table></figure>
 <p>Check that <code>gradApprox</code> $\approx$ <code>DVec</code> </p>
 <p><strong>c) Implementation Note:</strong></p>

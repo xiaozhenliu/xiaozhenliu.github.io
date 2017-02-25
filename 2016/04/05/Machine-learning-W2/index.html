@@ -86,16 +86,16 @@
 
 
 
-<meta name="description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x591A;&amp;#x5143">
+<meta name="description" content="Andrew Ng在Coursera上开设的机器学习课程第二周的内容，介绍了多元线性回归。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Machine Learning by Stanford University Week 2">
 <meta property="og:url" content="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/index.html">
 <meta property="og:site_name" content="刘虓震的技术笔记">
-<meta property="og:description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x591A;&amp;#x5143">
+<meta property="og:description" content="Andrew Ng在Coursera上开设的机器学习课程第二周的内容，介绍了多元线性回归。">
 <meta property="og:updated_time" content="2016-08-21T10:39:23.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning by Stanford University Week 2">
-<meta name="twitter:description" content="Andrew Ng&amp;#x5728;Coursera&amp;#x4E0A;&amp;#x5F00;&amp;#x8BBE;&amp;#x7684;&amp;#x673A;&amp;#x5668;&amp;#x5B66;&amp;#x4E60;&amp;#x8BFE;&amp;#x7A0B;&amp;#x7B2C;&amp;#x4E8C;&amp;#x5468;&amp;#x7684;&amp;#x5185;&amp;#x5BB9;&amp;#xFF0C;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x591A;&amp;#x5143">
+<meta name="twitter:description" content="Andrew Ng在Coursera上开设的机器学习课程第二周的内容，介绍了多元线性回归。">
 
 
 
@@ -315,17 +315,17 @@
       
 
       
-        <p>Andrew Ng&#x5728;Coursera&#x4E0A;&#x5F00;&#x8BBE;&#x7684;&#x673A;&#x5668;&#x5B66;&#x4E60;&#x8BFE;&#x7A0B;&#x7B2C;&#x4E8C;&#x5468;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x5143;&#x7EBF;&#x6027;&#x56DE;&#x5F52;&#x3002;</p>
+        <p>Andrew Ng在Coursera上开设的机器学习课程第二周的内容，介绍了多元线性回归。</p>
 <a id="more"></a>
-<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<p><strong>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <h2 id="Environment-Setup"><a href="#Environment-Setup" class="headerlink" title="Environment Setup"></a>Environment Setup</h2><p>Octave and MATLAB are preferred in machine learning. </p>
 <p>For more information about Octave and MATLAB, see:<br><a href="https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources" target="_blank" rel="external">https://www.coursera.org/learn/machine-learning/supplement/Mlf3e/more-octave-matlab-resources</a></p>
-<h2 id="Multivariate-Linear-Regression"><a href="#Multivariate-Linear-Regression" class="headerlink" title="Multivariate Linear Regression"></a>Multivariate Linear Regression</h2><h3 id="Multiple-Features"><a href="#Multiple-Features" class="headerlink" title="Multiple Features"></a>Multiple Features</h3><p>&#x4E3A;&#x4EC0;&#x4E48;&#x9700;&#x8981;multiple features? &#x5BF9;&#x4E8E;&#x8BB8;&#x591A;&#x95EE;&#x9898;&#xFF0C;&#x5F71;&#x54CD;&#x9884;&#x6D4B;&#x7ED3;&#x679C;&#x7684;&#x5E76;&#x4E0D;&#x6B62;&#x4E00;&#x4E2A;&#x56E0;&#x7D20;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x9700;&#x8981;&#x591A;&#x4E2A;&#x53D8;&#x91CF;&#x6765;&#x53CD;&#x6620;&#x4E0D;&#x540C;&#x7684;&#x5F71;&#x54CD;&#x56E0;&#x7D20;&#x3002;</p>
-<p>Multiple Features&#x5982;&#x4F55;&#x7528;&#x7EBF;&#x6027;&#x65B9;&#x7A0B;&#x5F0F;&#x6765;&#x8868;&#x793A;&#xFF1F;</p>
-<p>$h_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2+&#x2026;+\theta_nx_n = \theta^TX$</p>
+<h2 id="Multivariate-Linear-Regression"><a href="#Multivariate-Linear-Regression" class="headerlink" title="Multivariate Linear Regression"></a>Multivariate Linear Regression</h2><h3 id="Multiple-Features"><a href="#Multiple-Features" class="headerlink" title="Multiple Features"></a>Multiple Features</h3><p>为什么需要multiple features? 对于许多问题，影响预测结果的并不止一个因素，因此，需要多个变量来反映不同的影响因素。</p>
+<p>Multiple Features如何用线性方程式来表示？</p>
+<p>$h_\theta(x) = \theta_0 +\theta_1x_1+\theta_2x_2+…+\theta_nx_n = \theta^TX$</p>
 <h3 id="Cost-Function-for-Multiple-Variables"><a href="#Cost-Function-for-Multiple-Variables" class="headerlink" title="Cost Function for Multiple Variables"></a>Cost Function for Multiple Variables</h3><p>$\theta$ is an $n+1$ -dimention vector</p>
 <script type="math/tex; mode=display">J(\theta_0,\theta_1,...,\theta_n)=\frac1{2m}\sum_{i=1}^m(h_\theta(x^{(i)}-y^{(i)})^2</script><h3 id="Gradient-Descent-for-Multiple-Variables"><a href="#Gradient-Descent-for-Multiple-Variables" class="headerlink" title="Gradient Descent for Multiple Variables"></a>Gradient Descent for Multiple Variables</h3><p>Repeat{</p>
-<script type="math/tex; mode=display">\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}</script><p>(simutaneously update $\theta_j$ for $j = 0,&#x2026;,n$</p>
+<script type="math/tex; mode=display">\theta_j := \theta_j - \alpha\frac1m\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)x_j^{(i)}</script><p>(simutaneously update $\theta_j$ for $j = 0,…,n$</p>
 <p>notice that $x_0 = 1$)</p>
 <p>}</p>
 <h3 id="Feature-Scaling"><a href="#Feature-Scaling" class="headerlink" title="Feature Scaling"></a>Feature Scaling</h3><ul>
@@ -337,7 +337,7 @@
 <h3 id="Learning-Rate-alpha"><a href="#Learning-Rate-alpha" class="headerlink" title="Learning Rate $\alpha$"></a>Learning Rate $\alpha$</h3><ul>
 <li>If $\alpha$ is too small: slow convergence.</li>
 <li>If $\alpha$ is too large: $J(\theta)$ may not decrease on every iteration; may not converge. (slow converge also possible)</li>
-<li>To choose $\alpha$, try: &#x2026;,0.001, 0.01, 0.1, 1,&#x2026;</li>
+<li>To choose $\alpha$, try: …,0.001, 0.01, 0.1, 1,…</li>
 </ul>
 <h3 id="Features-and-Polynomial-Regression"><a href="#Features-and-Polynomial-Regression" class="headerlink" title="Features and Polynomial Regression"></a>Features and Polynomial Regression</h3><ul>
 <li><p>Polynomial regression example:    $\theta_0+\theta_1x+\theta_2x^2+\theta_3x^3$; let $x_1 = x, x_2 = x^2, x_3 = x^3$</p>
@@ -348,7 +348,7 @@
 <h2 id="Computing-Parameters-Analytically"><a href="#Computing-Parameters-Analytically" class="headerlink" title="Computing Parameters Analytically"></a>Computing Parameters Analytically</h2><p>Suppose there are $m$ examples; $n$ features</p>
 <p>$\theta = (X^TX)^{-1}X^Ty$<br>$(X^TX)^{-1}$ is inverse of matrix $X^TX$</p>
 <p>if $m &lt; n$,<br>$X^TX$ may be non-inversible. </p>
-<p>Therefore use <code>pinv</code> in Octave:<br><code>pinv(X&apos;*X)*X&apos;*y</code></p>
+<p>Therefore use <code>pinv</code> in Octave:<br><code>pinv(X&#39;*X)*X&#39;*y</code></p>
 <div class="table-container">
 <table>
 <thead>
@@ -364,7 +364,7 @@
 </tr>
 <tr>
 <td>Needs many iterations</td>
-<td>Don&#x2019;t need to iterate</td>
+<td>Don’t need to iterate</td>
 </tr>
 <tr>
 <td>Works well even when $n$ is large</td>

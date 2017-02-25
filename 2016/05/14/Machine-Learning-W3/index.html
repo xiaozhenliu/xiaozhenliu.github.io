@@ -86,21 +86,21 @@
 
 
 
-<meta name="description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
+<meta name="description" content="3. Logistic Regression and Regularization本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Machine Learning By Stanford University Week 3">
 <meta property="og:url" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/index.html">
 <meta property="og:site_name" content="刘虓震的技术笔记">
-<meta property="og:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png">
-<meta property="og:image" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png">
+<meta property="og:description" content="3. Logistic Regression and Regularization本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W3/Coursera-ml-w3-01.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W3/Coursera-ml-w3-02.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W3/Coursera-ml-w3-03.png">
+<meta property="og:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W3/Coursera-ml-w3-04.png">
 <meta property="og:updated_time" content="2016-08-21T10:39:23.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Machine Learning By Stanford University Week 3">
-<meta name="twitter:description" content="3. Logistic Regression and Regularization&amp;#x672C;&amp;#x5468;&amp;#x8BFE;&amp;#x7A0B;&amp;#x4ECB;&amp;#x7ECD;&amp;#x4E86;&amp;#x903B;&amp;#x8F91;&amp;#x56DE;&amp;#x5F52;&amp;#x5206;&amp;#x6790;&amp;#xFF08;&amp;#x5206;&amp;#x7C7B;&amp;#x95EE;&amp;#x9898;&amp;#x6C42;&amp;#x89E3">
-<meta name="twitter:image" content="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png">
+<meta name="twitter:description" content="3. Logistic Regression and Regularization本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。">
+<meta name="twitter:image" content="http://tech.liuxiaozhen.com/Machine-Learning-W3/Coursera-ml-w3-01.png">
 
 
 
@@ -320,24 +320,24 @@
       
 
       
-        <h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>&#x672C;&#x5468;&#x8BFE;&#x7A0B;&#x4ECB;&#x7ECD;&#x4E86;&#x903B;&#x8F91;&#x56DE;&#x5F52;&#x5206;&#x6790;&#xFF08;&#x5206;&#x7C7B;&#x95EE;&#x9898;&#x6C42;&#x89E3;&#xFF09;&#x53CA;&#x6B63;&#x5219;&#x5316;&#x65B9;&#x6CD5;&#x3002;</p>
+        <h1 id="3-Logistic-Regression-and-Regularization"><a href="#3-Logistic-Regression-and-Regularization" class="headerlink" title="3. Logistic Regression and Regularization"></a>3. Logistic Regression and Regularization</h1><p>本周课程介绍了逻辑回归分析（分类问题求解）及正则化方法。</p>
 <a id="more"></a>
-<p><strong>This note is for the Stanford University online course &#x201C;Machine Learning&#x201D; taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
+<p><strong>This note is for the Stanford University online course “Machine Learning” taught by Andrew Ng on Coursera.org, 2016 March session.</strong></p>
 <h2 id="3-1-Logistic-Regression"><a href="#3-1-Logistic-Regression" class="headerlink" title="3.1 Logistic Regression"></a>3.1 Logistic Regression</h2><h3 id="3-1-1-Classification-Problems-and-Logistic-Regression-Model"><a href="#3-1-1-Classification-Problems-and-Logistic-Regression-Model" class="headerlink" title="3.1.1 Classification Problems and Logistic Regression Model"></a>3.1.1 Classification Problems and Logistic Regression Model</h3><p><strong>a) Classification Problems</strong></p>
 <ul>
-<li>Email&#xFF1A; spam/not spam</li>
+<li>Email： spam/not spam</li>
 <li>Online transactions: froudulent or not</li>
 <li>Tumor: malignant/benign</li>
 </ul>
 <p>$y\in{0,1}$</p>
 <ul>
-<li>0: &#x201C;Negative Class&#x201D;</li>
-<li>1: &#x201C;Positive Class&#x201D;</li>
+<li>0: “Negative Class”</li>
+<li>1: “Positive Class”</li>
 </ul>
 <p>Use threshold classifier output $h_\theta(x)$ at 0.5</p>
 <ul>
-<li>If $h_\theta(x) \geq 0.5$, predict &#x201C;y=1&#x201D;</li>
-<li>If $h_\theta(x) &lt; 0.5$, predict &#x201C;y=0&#x201D; </li>
+<li>If $h_\theta(x) \geq 0.5$, predict “y=1”</li>
+<li>If $h_\theta(x) &lt; 0.5$, predict “y=0” </li>
 </ul>
 <p><strong>b) Logistic Regression Model</strong><br>Want $0\leq h_\theta(x) \leq 1$</p>
 <p>$h_\theta(x) = g(\theta^Tx)$<br>The sigmoid function: $g(z) = \frac 1{1+e^{-z}}$</p>
@@ -346,9 +346,9 @@
 <p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2)$</p>
 <p><strong>b) Non-linear decision boundaries</strong></p>
 <p>$h_\theta(x) = g(\theta_0+\theta_1x_1+\theta_2x_2+\theta_3x_1^2+\theta_4x_2^2)$</p>
-<p>Predict &#x201C;y=1&#x201D; if $-1+x_1^2+x_2^2 \geq 0$</p>
+<p>Predict “y=1” if $-1+x_1^2+x_2^2 \geq 0$</p>
 <h2 id="3-1-3-Cost-Function"><a href="#3-1-3-Cost-Function" class="headerlink" title="3.1.3 Cost Function"></a>3.1.3 Cost Function</h2><p>Logistic regression:</p>
-<script type="math/tex; mode=display">\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2</script><p>&#x201C;non-convex&#x201D; v.s. &#x201C;convex&#x201D;</p>
+<script type="math/tex; mode=display">\text{Cost}(h_\theta(x^{(i)}),y^{(i)}) = \frac12\left(h_\theta(x^{(i)})-y^{(i)}\right)^2</script><p>“non-convex” v.s. “convex”</p>
 <script type="math/tex; mode=display">\text{Cost}(h_\theta(x),y)=\begin{cases}\quad-\log(h_\theta(x)) 
 \quad\text{if } y = 1\\
 -\log(1-h_\theta(x))\quad\text{if }y =0
@@ -382,20 +382,20 @@
 <li>Medical diagrams: not ill, cold, flu</li>
 <li>Weather: sunny, cloudy, rain, snow</li>
 </ul>
-<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
-<p>&#x5C06;&#x9700;&#x8981;&#x5206;&#x4E3A;N&#x7C7B;&#x7684;&#x6570;&#x636E;&#x62C6;&#x5206;&#x6210; N&#x4E2A;0/1&#xFF08;&#x662F;&#xFF0F;&#x5426;&#xFF09;&#x95EE;&#x9898;&#x3002;</p>
+<p><strong>b) One-vs-all (one-vs-rest)</strong><br><img src="Machine-Learning-W3/Coursera-ml-w3-01.png" alt=""></p>
+<p>将需要分为N类的数据拆分成 N个0/1（是／否）问题。</p>
 <p>Train a logistic regression classifier $h_\theta^{(i)}(x)$ for each class $i$ to predict the probability that $y=i$.</p>
 <p>On a new input $x$, to make a prediction, pick the class $i$ that maximizes $\max h_\theta^{(i)}(x)$.</p>
-<h2 id="3-2-Regularization-&#x6B63;&#x5219;&#x5316;"><a href="#3-2-Regularization-&#x6B63;&#x5219;&#x5316;" class="headerlink" title="3.2 Regularization &#x6B63;&#x5219;&#x5316;"></a>3.2 Regularization &#x6B63;&#x5219;&#x5316;</h2><h3 id="3-2-1-Overfitting-Problems-&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;"><a href="#3-2-1-Overfitting-Problems-&#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;" class="headerlink" title="3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;"></a>3.2.1 Overfitting Problems &#x8FC7;&#x62DF;&#x5408;&#x95EE;&#x9898;</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
-<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
-<p>&#x5BF9;&#x4E8E;&#x623F;&#x5C4B;&#x4EF7;&#x683C;&#x7684;&#x4E09;&#x79CD;&#x62DF;&#x5408;&#x66F2;&#x7EBF;&#x4E0E;&#x5B9E;&#x9645;&#x6570;&#x636E;&#x7684;&#x7B26;&#x5408;&#x60C5;&#x51B5;&#xFF1A;</p>
+<h2 id="3-2-Regularization-正则化"><a href="#3-2-Regularization-正则化" class="headerlink" title="3.2 Regularization 正则化"></a>3.2 Regularization 正则化</h2><h3 id="3-2-1-Overfitting-Problems-过拟合问题"><a href="#3-2-1-Overfitting-Problems-过拟合问题" class="headerlink" title="3.2.1 Overfitting Problems 过拟合问题"></a>3.2.1 Overfitting Problems 过拟合问题</h3><p><strong>a) Example: Linear Regression (housing prices)</strong></p>
+<p><img src="Machine-Learning-W3/Coursera-ml-w3-02.png" alt=""></p>
+<p>对于房屋价格的三种拟合曲线与实际数据的符合情况：</p>
 <ul>
-<li>&#x4E00;&#x5143;&#x7EBF;&#x6027;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;underfit, high bias</li>
-<li>&#x4E00;&#x5143;&#x4E8C;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;just right</li>
-<li>&#x4E00;&#x5143;&#x56DB;&#x6B21;&#x8868;&#x8FBE;&#x5F0F;&#xFF1A;overfit, high variance</li>
+<li>一元线性表达式：underfit, high bias</li>
+<li>一元二次表达式：just right</li>
+<li>一元四次表达式：overfit, high variance</li>
 </ul>
 <p><strong>Overfitting:</strong> If we have too many features, the learned hypothesis may fit the training set very well, but fail to generalize to new examples (predict prices on new examples).</p>
-<p><strong>b) Example: Logistic Regression</strong><br><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-03.png" alt=""></p>
+<p><strong>b) Example: Logistic Regression</strong><br><img src="Machine-Learning-W3/Coursera-ml-w3-03.png" alt=""></p>
 <p><strong>Addressing overfitting:</strong></p>
 <ul>
 <li>Reduce number of features:<ul>
@@ -410,13 +410,13 @@
 </li>
 </ul>
 <h3 id="3-2-2-Cost-Function"><a href="#3-2-2-Cost-Function" class="headerlink" title="3.2.2 Cost Function"></a>3.2.2 Cost Function</h3><p><strong>a) Intuition</strong></p>
-<p><img src="/2016/05/14/Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
+<p><img src="Machine-Learning-W3/Coursera-ml-w3-04.png" alt=""></p>
 <p>Suppose we penalize and make $\theta_3,\theta_4$ really small.</p>
 <script type="math/tex; mode=display">\min_\theta\frac1{2m}\sum_{i=1}^m\left(h_\theta(x^{(i)})-y^{(i)}\right)^2 +1000\theta_3^2+1000\theta_4^2</script><p>$\theta_3,\theta_4$ will be very small.</p>
 <p><strong>b) Regularization</strong></p>
-<p>Small values for parameters $\theta_0, \theta_1, &#x2026;, \theta_n$</p>
+<p>Small values for parameters $\theta_0, \theta_1, …, \theta_n$</p>
 <ul>
-<li>&#x201C;Simpler&#x201D; hypothesis</li>
+<li>“Simpler” hypothesis</li>
 <li>Less prone to overfitting</li>
 </ul>
 <p><strong>Cost Function</strong></p>
@@ -468,7 +468,7 @@ y = \begin{bmatrix}
 <script type="math/tex; mode=display">J(\theta)= - \frac 1m\left[\sum_{i=1}^m y^{(i)}\log h_\theta\left(x^{(i)}\right)+\left(1-y^{(i)}\right)\log\left(1-h_\theta\left(x^{(i)}\right)\right)\right]+\frac{\lambda}{2m}\sum_{j=1}^n\theta_j^2</script><p><code>gradient(1)</code> = [code to compute $\frac\partial{\partial\theta_0}J(\theta)$];</p>
 <script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_0^{(i)}</script><p><code>gradient(2)</code> = [code to compute $\frac\partial{\partial\theta_1}J(\theta)$];</p>
 <script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_1^{(i)}＋\frac\lambda m\theta_1</script><p><code>gradient(3)</code> = [code to compute $\frac\partial{\partial\theta_2}J(\theta)$];</p>
-<script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}＋\frac\lambda m\theta_2</script><p>&#x2026;</p>
+<script type="math/tex; mode=display">\frac1m \sum_{i=1}^m\left(h_\theta\left(x^{(i)}\right)-y^{(i)}\right)x_2^{(i)}＋\frac\lambda m\theta_2</script><p>…</p>
 <p><code>gradient(n+1)</code> = [code to compute $\frac\partial{\partial\theta_n}J(\theta)$];</p>
       
     </div>

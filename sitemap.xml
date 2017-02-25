@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
     
-    <lastmod>2017-02-24T05:00:28.000Z</lastmod>
+    <lastmod>2017-02-25T07:25:01.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
     
-    <lastmod>2017-02-22T04:20:30.000Z</lastmod>
+    <lastmod>2017-02-25T06:29:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
+    
+    <lastmod>2017-02-24T05:06:46.000Z</lastmod>
     
   </url>
   
@@ -72,14 +79,28 @@
   </url>
   
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
+    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
+    
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
+    
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     
@@ -94,27 +115,6 @@
   
   <url>
     <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
-    
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
-    
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
-    
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
     
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     
