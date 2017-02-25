@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</loc>
-    <lastmod>2017-02-25T12:43:07.000Z</lastmod>
+    <lastmod>2017-02-25T13:58:27.000Z</lastmod>
     <data>
         <display>
         <title>Small Things Matter: 更改Jupyter主题</title>
@@ -128,9 +128,9 @@
         <title>机器学习工程师之路（1）</title>
         <pubTime>2016-07-06T02:48:30.000Z</pubTime>
         
-        <tag>Udacity</tag>
-         
         <tag>Machine Learning</tag>
+         
+        <tag>Udacity</tag>
          
         <tag>Nanodegree</tag>
          
@@ -238,13 +238,17 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
-        <title>数据分析师养成计划（2）</title>
-        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
+        <title>Python for Everybody by University of Michigan (1)</title>
+        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
         
+        <tag>Coursera</tag>
+         
+        <tag>Python</tag>
+         
          
            
         </display>
@@ -253,17 +257,13 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
-        <title>Python for Everybody by University of Michigan (1)</title>
-        <pubTime>2015-12-06T03:51:47.000Z</pubTime>
+        <title>数据分析师养成计划（2）</title>
+        <pubTime>2016-04-28T08:59:53.000Z</pubTime>
         
-        <tag>Python</tag>
-         
-        <tag>Coursera</tag>
-         
          
            
         </display>
