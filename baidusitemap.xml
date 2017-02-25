@@ -4,7 +4,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</loc>
+    <loc>https://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</loc>
     <lastmod>2017-02-25T13:58:27.000Z</lastmod>
     <data>
         <display>
@@ -27,7 +27,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</loc>
     <lastmod>2017-02-25T10:52:17.000Z</lastmod>
     <data>
         <display>
@@ -48,7 +48,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</loc>
     <lastmod>2017-02-25T10:52:00.000Z</lastmod>
     <data>
         <display>
@@ -71,7 +71,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</loc>
     <lastmod>2017-02-25T10:51:54.000Z</lastmod>
     <data>
         <display>
@@ -92,7 +92,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</loc>
     <lastmod>2017-02-25T10:51:44.000Z</lastmod>
     <data>
         <display>
@@ -121,16 +121,16 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</loc>
     <lastmod>2017-02-25T10:51:20.000Z</lastmod>
     <data>
         <display>
         <title>机器学习工程师之路（1）</title>
         <pubTime>2016-07-06T02:48:30.000Z</pubTime>
         
-        <tag>Machine Learning</tag>
-         
         <tag>Udacity</tag>
+         
+        <tag>Machine Learning</tag>
          
         <tag>Nanodegree</tag>
          
@@ -146,7 +146,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2015/04/03/start/</loc>
+    <loc>https://tech.liuxiaozhen.com/2015/04/03/start/</loc>
     <lastmod>2017-02-25T10:49:27.000Z</lastmod>
     <data>
         <display>
@@ -161,7 +161,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
+    <loc>https://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</loc>
     <lastmod>2017-02-25T06:29:51.000Z</lastmod>
     <data>
         <display>
@@ -184,7 +184,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
+    <loc>https://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</loc>
     <lastmod>2017-02-24T05:06:46.000Z</lastmod>
     <data>
         <display>
@@ -199,7 +199,7 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</loc>
     <lastmod>2016-11-08T13:51:13.000Z</lastmod>
     <data>
         <display>
@@ -217,37 +217,16 @@
     
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
-    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
-    <data>
-        <display>
-        <title>Machine Learning by Stanford University Week 2</title>
-        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
-        
-        <tag>Machine Learning</tag>
-         
-        <tag>Coursera</tag>
-         
-        <tag>Linear Regression</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
+    <loc>https://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
         <title>Python for Everybody by University of Michigan (1)</title>
         <pubTime>2015-12-06T03:51:47.000Z</pubTime>
         
-        <tag>Coursera</tag>
-         
         <tag>Python</tag>
+         
+        <tag>Coursera</tag>
          
          
            
@@ -257,7 +236,30 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
+    <lastmod>2016-08-21T10:39:23.000Z</lastmod>
+    <data>
+        <display>
+        <title>数据分析师养成计划（1）</title>
+        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
+        
+        <tag>Udacity</tag>
+         
+        <tag>Nanodegree</tag>
+         
+        <tag>Data Analyst</tag>
+         
+        <tag>Statistics</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
@@ -272,20 +274,18 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
+    <loc>https://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
-        <title>数据分析师养成计划（1）</title>
-        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
+        <title>Machine Learning by Stanford University Week 2</title>
+        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
         
-        <tag>Udacity</tag>
+        <tag>Machine Learning</tag>
          
-        <tag>Nanodegree</tag>
+        <tag>Coursera</tag>
          
-        <tag>Statistics</tag>
-         
-        <tag>Data Analyst</tag>
+        <tag>Linear Regression</tag>
          
          
            

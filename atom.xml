@@ -4,9 +4,9 @@
   <subtitle>Live in the Future, then Build What&#39;s Missing</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://tech.liuxiaozhen.com/"/>
+  <link href="https://tech.liuxiaozhen.com/"/>
   <updated>2017-02-24T05:06:46.000Z</updated>
-  <id>http://tech.liuxiaozhen.com/</id>
+  <id>https://tech.liuxiaozhen.com/</id>
   
   <author>
     <name>Liu Xiaozhen</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>斯坦福计算机系本科生人工智能方向课程资源</title>
-    <link href="http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/"/>
-    <id>http://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</id>
+    <link href="https://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/"/>
+    <id>https://tech.liuxiaozhen.com/2017/02/24/Stanford-AI-Curriculum/</id>
     <published>2017-02-24T02:25:17.000Z</published>
     <updated>2017-02-24T05:06:46.000Z</updated>
     
@@ -81,8 +81,8 @@
   
   <entry>
     <title>人工智能课程(0)：简介与课程大纲</title>
-    <link href="http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/"/>
-    <id>http://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</id>
+    <link href="https://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/"/>
+    <id>https://tech.liuxiaozhen.com/2017/02/17/Udacity-AIND-00/</id>
     <published>2017-02-17T13:57:08.000Z</published>
     <updated>2017-02-25T06:29:51.000Z</updated>
     
@@ -127,20 +127,20 @@
     </summary>
     
     
-      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
+      <category term="Udacity" scheme="https://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Artificial Intelligence" scheme="http://tech.liuxiaozhen.com/tags/Artificial-Intelligence/"/>
+      <category term="Artificial Intelligence" scheme="https://tech.liuxiaozhen.com/tags/Artificial-Intelligence/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+      <category term="Nanodegree" scheme="https://tech.liuxiaozhen.com/tags/Nanodegree/"/>
     
-      <category term="AIND" scheme="http://tech.liuxiaozhen.com/tags/AIND/"/>
+      <category term="AIND" scheme="https://tech.liuxiaozhen.com/tags/AIND/"/>
     
   </entry>
   
   <entry>
     <title>Small Things Matter: 更改Jupyter主题</title>
-    <link href="http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/"/>
-    <id>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</id>
+    <link href="https://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/"/>
+    <id>https://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</id>
     <published>2017-01-30T09:51:53.000Z</published>
     <updated>2017-02-25T13:58:27.000Z</updated>
     
@@ -166,20 +166,20 @@
     </summary>
     
     
-      <category term="jupyter" scheme="http://tech.liuxiaozhen.com/tags/jupyter/"/>
+      <category term="jupyter" scheme="https://tech.liuxiaozhen.com/tags/jupyter/"/>
     
-      <category term="python" scheme="http://tech.liuxiaozhen.com/tags/python/"/>
+      <category term="python" scheme="https://tech.liuxiaozhen.com/tags/python/"/>
     
-      <category term="theme" scheme="http://tech.liuxiaozhen.com/tags/theme/"/>
+      <category term="theme" scheme="https://tech.liuxiaozhen.com/tags/theme/"/>
     
-      <category term="small things" scheme="http://tech.liuxiaozhen.com/tags/small-things/"/>
+      <category term="small things" scheme="https://tech.liuxiaozhen.com/tags/small-things/"/>
     
   </entry>
   
   <entry>
     <title>机器学习工程师之路（1）</title>
-    <link href="http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
-    <id>http://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/"/>
+    <id>https://tech.liuxiaozhen.com/2016/07/06/Udacity-MLND-01/</id>
     <published>2016-07-06T02:48:30.000Z</published>
     <updated>2017-02-25T10:51:20.000Z</updated>
     
@@ -305,22 +305,22 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Udacity" scheme="https://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+      <category term="Nanodegree" scheme="https://tech.liuxiaozhen.com/tags/Nanodegree/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
+      <category term="Statistics" scheme="https://tech.liuxiaozhen.com/tags/Statistics/"/>
     
-      <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
+      <category term="MLND" scheme="https://tech.liuxiaozhen.com/tags/MLND/"/>
     
   </entry>
   
   <entry>
     <title>Machine Learning By Stanford University Week 6</title>
-    <link href="http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
-    <id>http://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/"/>
+    <id>https://tech.liuxiaozhen.com/2016/06/25/Machine-Learning-W6/</id>
     <published>2016-06-25T14:24:12.000Z</published>
     <updated>2017-02-25T10:51:44.000Z</updated>
     
@@ -437,26 +437,26 @@
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
-      <category term="Learning Curves" scheme="http://tech.liuxiaozhen.com/tags/Learning-Curves/"/>
+      <category term="Learning Curves" scheme="https://tech.liuxiaozhen.com/tags/Learning-Curves/"/>
     
-      <category term="Model Selection" scheme="http://tech.liuxiaozhen.com/tags/Model-Selection/"/>
+      <category term="Model Selection" scheme="https://tech.liuxiaozhen.com/tags/Model-Selection/"/>
     
-      <category term="Overfitting" scheme="http://tech.liuxiaozhen.com/tags/Overfitting/"/>
+      <category term="Overfitting" scheme="https://tech.liuxiaozhen.com/tags/Overfitting/"/>
     
-      <category term="Precision" scheme="http://tech.liuxiaozhen.com/tags/Precision/"/>
+      <category term="Precision" scheme="https://tech.liuxiaozhen.com/tags/Precision/"/>
     
-      <category term="Recall" scheme="http://tech.liuxiaozhen.com/tags/Recall/"/>
+      <category term="Recall" scheme="https://tech.liuxiaozhen.com/tags/Recall/"/>
     
   </entry>
   
   <entry>
     <title>Machine Learning By Stanford University Week 5</title>
-    <link href="http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
-    <id>http://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/"/>
+    <id>https://tech.liuxiaozhen.com/2016/06/12/Machine-Learning-W5/</id>
     <published>2016-06-12T14:49:53.000Z</published>
     <updated>2017-02-25T10:51:54.000Z</updated>
     
@@ -610,18 +610,18 @@ cost(i)=y^{(i)}\log h_\Theta(x^{(i)})+(1-y^{(i)})\log h_\Theta(x^{(i)})</script>
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
-      <category term="Neural Networks" scheme="http://tech.liuxiaozhen.com/tags/Neural-Networks/"/>
+      <category term="Neural Networks" scheme="https://tech.liuxiaozhen.com/tags/Neural-Networks/"/>
     
   </entry>
   
   <entry>
     <title>Machine Learning By Stanford University Week 3</title>
-    <link href="http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
-    <id>http://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/"/>
+    <id>https://tech.liuxiaozhen.com/2016/05/14/Machine-Learning-W3/</id>
     <published>2016-05-14T15:22:21.000Z</published>
     <updated>2017-02-25T10:52:00.000Z</updated>
     
@@ -783,20 +783,20 @@ y = \begin{bmatrix}
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
-      <category term="Logistic Regression" scheme="http://tech.liuxiaozhen.com/tags/Logistic-Regression/"/>
+      <category term="Logistic Regression" scheme="https://tech.liuxiaozhen.com/tags/Logistic-Regression/"/>
     
-      <category term="Regularization" scheme="http://tech.liuxiaozhen.com/tags/Regularization/"/>
+      <category term="Regularization" scheme="https://tech.liuxiaozhen.com/tags/Regularization/"/>
     
   </entry>
   
   <entry>
     <title>数据分析师养成计划（2）</title>
-    <link href="http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/"/>
-    <id>http://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/"/>
+    <id>https://tech.liuxiaozhen.com/2016/04/28/udacity-data-analyst-nanodegree-1/</id>
     <published>2016-04-28T08:59:53.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
     
@@ -844,8 +844,8 @@ y = \begin{bmatrix}
   
   <entry>
     <title>数据分析师养成计划（1）</title>
-    <link href="http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
-    <id>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/"/>
+    <id>https://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</id>
     <published>2016-04-27T09:17:30.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
     
@@ -898,20 +898,20 @@ y = \begin{bmatrix}
     </summary>
     
     
-      <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
+      <category term="Udacity" scheme="https://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+      <category term="Nanodegree" scheme="https://tech.liuxiaozhen.com/tags/Nanodegree/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
+      <category term="Data Analyst" scheme="https://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
     
-      <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
+      <category term="Statistics" scheme="https://tech.liuxiaozhen.com/tags/Statistics/"/>
     
   </entry>
   
   <entry>
     <title>How to Use Git and GitHub</title>
-    <link href="http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
-    <id>http://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/"/>
+    <id>https://tech.liuxiaozhen.com/2016/04/06/udacity-GitHub-Notes/</id>
     <published>2016-04-05T17:13:45.000Z</published>
     <updated>2016-11-08T13:51:13.000Z</updated>
     
@@ -1074,8 +1074,8 @@ y = \begin{bmatrix}
   
   <entry>
     <title>Machine Learning by Stanford University Week 2</title>
-    <link href="http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
-    <id>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/"/>
+    <id>https://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</id>
     <published>2016-04-05T07:00:00.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
     
@@ -1146,18 +1146,18 @@ y = \begin{bmatrix}
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
-      <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
+      <category term="Linear Regression" scheme="https://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
   </entry>
   
   <entry>
     <title>Machine Learning by Stanford University Week 1</title>
-    <link href="http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
-    <id>http://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
+    <link href="https://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/"/>
+    <id>https://tech.liuxiaozhen.com/2016/03/10/Machine-learning-W1/</id>
     <published>2016-03-10T12:41:19.000Z</published>
     <updated>2017-02-25T10:52:17.000Z</updated>
     
@@ -1235,18 +1235,18 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     </summary>
     
     
-      <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
+      <category term="Machine Learning" scheme="https://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
-      <category term="Linear Regression" scheme="http://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
+      <category term="Linear Regression" scheme="https://tech.liuxiaozhen.com/tags/Linear-Regression/"/>
     
   </entry>
   
   <entry>
     <title>Python for Everybody by University of Michigan (1)</title>
-    <link href="http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
-    <id>http://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
+    <link href="https://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/"/>
+    <id>https://tech.liuxiaozhen.com/2015/12/06/Python-for-Everybody-1/</id>
     <published>2015-12-06T03:51:47.000Z</published>
     <updated>2016-08-21T10:39:23.000Z</updated>
     
@@ -1329,16 +1329,16 @@ $$\theta_0 := \theta_0 - \alpha \frac1m \sum_{i=1}^m \left( h_\theta (x^{(i)})-y
     </summary>
     
     
-      <category term="Coursera" scheme="http://tech.liuxiaozhen.com/tags/Coursera/"/>
+      <category term="Python" scheme="https://tech.liuxiaozhen.com/tags/Python/"/>
     
-      <category term="Python" scheme="http://tech.liuxiaozhen.com/tags/Python/"/>
+      <category term="Coursera" scheme="https://tech.liuxiaozhen.com/tags/Coursera/"/>
     
   </entry>
   
   <entry>
     <title>启</title>
-    <link href="http://tech.liuxiaozhen.com/2015/04/03/start/"/>
-    <id>http://tech.liuxiaozhen.com/2015/04/03/start/</id>
+    <link href="https://tech.liuxiaozhen.com/2015/04/03/start/"/>
+    <id>https://tech.liuxiaozhen.com/2015/04/03/start/</id>
     <published>2015-04-03T09:17:05.000Z</published>
     <updated>2017-02-25T10:49:27.000Z</updated>
     
