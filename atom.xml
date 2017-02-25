@@ -129,9 +129,9 @@
     
       <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
-    
       <category term="Artificial Intelligence" scheme="http://tech.liuxiaozhen.com/tags/Artificial-Intelligence/"/>
+    
+      <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
     
       <category term="AIND" scheme="http://tech.liuxiaozhen.com/tags/AIND/"/>
     
@@ -142,7 +142,7 @@
     <link href="http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/"/>
     <id>http://tech.liuxiaozhen.com/2017/01/30/jupyter-themer/</id>
     <published>2017-01-30T09:51:53.000Z</published>
-    <updated>2017-02-25T10:52:25.000Z</updated>
+    <updated>2017-02-25T12:43:07.000Z</updated>
     
     <content type="html"><![CDATA[<p>很长时间没写有活人气息的博客了。今年想好好把这里拾掇拾掇。会慢慢更新一些以前做的笔记，同时也补充上新的内容。（Flag已立）</p>
 <p>不过今天的重点是更改Jupyter主题。</p>
@@ -152,7 +152,7 @@
 <p><code>$ python setup.py install</code></p>
 <p>Jupyter-themer可以更改代码颜色、背景风格、排版和字体。举例：</p>
 <p><code>$ jupyter-themer -b dark -c erlang-dark -l wide -t serif</code></p>
-<p><img src="http://techblog-1253396254.cossh.myqcloud.com/image/singles/jupyter-themer-view.png" alt=""></p>
+<p><img src="https://techblog-1253396254.cossh.myqcloud.com/image/singles/jupyter-themer-view.png" alt=""></p>
 <p>详细使用说明见：</p>
 <p><a href="https://pypi.python.org/pypi/jupyter-themer" target="_blank" rel="external">Python官网上的项目主页</a></p>
 <p><a href="https://github.com/transcranial/jupyter-themer" target="_blank" rel="external">GitHub上的项目主页</a></p>]]></content>
@@ -309,9 +309,9 @@
     
       <category term="Machine Learning" scheme="http://tech.liuxiaozhen.com/tags/Machine-Learning/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
-    
       <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
       <category term="MLND" scheme="http://tech.liuxiaozhen.com/tags/MLND/"/>
     
@@ -900,9 +900,9 @@ y = \begin{bmatrix}
     
       <category term="Udacity" scheme="http://tech.liuxiaozhen.com/tags/Udacity/"/>
     
-      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
-    
       <category term="Nanodegree" scheme="http://tech.liuxiaozhen.com/tags/Nanodegree/"/>
+    
+      <category term="Statistics" scheme="http://tech.liuxiaozhen.com/tags/Statistics/"/>
     
       <category term="Data Analyst" scheme="http://tech.liuxiaozhen.com/tags/Data-Analyst/"/>
     
