@@ -132,9 +132,9 @@
          
         <tag>Machine Learning</tag>
          
-        <tag>Nanodegree</tag>
-         
         <tag>Statistics</tag>
+         
+        <tag>Nanodegree</tag>
          
         <tag>MLND</tag>
          
@@ -170,9 +170,9 @@
         
         <tag>Udacity</tag>
          
-        <tag>Artificial Intelligence</tag>
-         
         <tag>Nanodegree</tag>
+         
+        <tag>Artificial Intelligence</tag>
          
         <tag>AIND</tag>
          
@@ -217,18 +217,20 @@
     
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
-        <title>Machine Learning by Stanford University Week 2</title>
-        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
+        <title>数据分析师养成计划（1）</title>
+        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
         
-        <tag>Machine Learning</tag>
+        <tag>Udacity</tag>
          
-        <tag>Coursera</tag>
+        <tag>Statistics</tag>
          
-        <tag>Linear Regression</tag>
+        <tag>Nanodegree</tag>
+         
+        <tag>Data Analyst</tag>
          
          
            
@@ -253,20 +255,18 @@
 
     
   <url>
-    <loc>http://tech.liuxiaozhen.com/2016/04/27/udacity-data-analyst-nanodegree-0/</loc>
+    <loc>http://tech.liuxiaozhen.com/2016/04/05/Machine-learning-W2/</loc>
     <lastmod>2016-08-21T10:39:23.000Z</lastmod>
     <data>
         <display>
-        <title>数据分析师养成计划（1）</title>
-        <pubTime>2016-04-27T09:17:30.000Z</pubTime>
+        <title>Machine Learning by Stanford University Week 2</title>
+        <pubTime>2016-04-05T07:00:00.000Z</pubTime>
         
-        <tag>Udacity</tag>
+        <tag>Machine Learning</tag>
          
-        <tag>Nanodegree</tag>
+        <tag>Coursera</tag>
          
-        <tag>Statistics</tag>
-         
-        <tag>Data Analyst</tag>
+        <tag>Linear Regression</tag>
          
          
            
